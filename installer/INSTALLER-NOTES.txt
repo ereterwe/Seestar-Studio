@@ -1,0 +1,27 @@
+Seestar Studio — lokaler Entwicklungsbuild
+
+Installation nur für den aktuellen Windows-Benutzer, ohne Administratorrechte.
+Vor einem Update Seestar Studio selbst schließen; der Installer beendet keine
+laufenden Teleskopverbindungen automatisch.
+
+Die Anwendung startet standardmäßig im READ-ONLY-Modus. Setup und Diagnose
+arbeiten lokal. Authentifizierungsschlüssel oder Android-Pakete werden nicht
+mitgeliefert. Einrichtungsassistent beim ersten Start ohne vorhandene Konfiguration.
+
+Persönliche Einstellungen, importierte Authentifizierung und Session-Historie
+liegen getrennt im Benutzerprofil. Sie bleiben bei Deinstallation erhalten.
+Keine Veröffentlichung oder Weitergabe dieses Entwicklungsstands freigegeben.
+
+Seestar Studio — local development build
+
+Installs for the current Windows user without administrator privileges.
+Close Seestar Studio yourself before an update; setup never terminates
+running telescope connections automatically.
+
+READ ONLY is the default. Setup and diagnostics work locally. Authentication
+keys and Android packages are not included. First-run setup appears when
+no existing configuration is found.
+
+Personal settings, imported authentication and session history remain in
+the user profile and are preserved during uninstall. Publication or sharing
+of this development build has not been authorized.

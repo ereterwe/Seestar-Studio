@@ -1,0 +1,2962 @@
+{
+  "m0000": {
+    "source": "Seestar Studio läuft bereits. Bitte das vorhandene Fenster verwenden.",
+    "de": "Seestar Studio läuft bereits. Bitte das vorhandene Fenster verwenden.",
+    "en": "Seestar Studio is already running. Please use the existing window."
+  },
+  "m0001": {
+    "source": "Statusabfrage abgelehnt; lokale Authentifizierung prüfen",
+    "de": "Statusabfrage abgelehnt; lokale Authentifizierung prüfen",
+    "en": "Status query rejected; check local authentication"
+  },
+  "m0002": {
+    "source": "VERBINDE …",
+    "de": "VERBINDE …",
+    "en": "CONNECTING …"
+  },
+  "m0003": {
+    "source": "Trennen",
+    "de": "Trennen",
+    "en": "Disconnect"
+  },
+  "m0004": {
+    "source": "Nur diesen Viewer trennen; die Aufnahme läuft weiter",
+    "de": "Nur diesen Viewer trennen; die Aufnahme läuft weiter",
+    "en": "Disconnect this viewer only; recording continues"
+  },
+  "m0005": {
+    "source": "Ziel nicht verfügbar",
+    "de": "Ziel nicht verfügbar",
+    "en": "Target unavailable"
+  },
+  "m0006": {
+    "source": "Nur die Anzeigequelle wechseln; keine Änderung des Gerätemodus.",
+    "de": "Nur die Anzeigequelle wechseln; keine Änderung des Gerätemodus.",
+    "en": "Change the display source only; the device mode stays unchanged."
+  },
+  "m0007": {
+    "source": "NOCH KEIN BILD VERFÜGBAR",
+    "de": "NOCH KEIN BILD VERFÜGBAR",
+    "en": "NO IMAGE AVAILABLE YET"
+  },
+  "m0008": {
+    "source": "Einpassen",
+    "de": "Einpassen",
+    "en": "Fit to window"
+  },
+  "m0009": {
+    "source": "Bild speichern",
+    "de": "Bild speichern",
+    "en": "Save image"
+  },
+  "m0010": {
+    "source": "Maximieren",
+    "de": "Maximieren",
+    "en": "Maximize"
+  },
+  "m0011": {
+    "source": "Näherung: akzeptierte Subframes × aktuelle Einzelbelichtung. Bei wechselnder Belichtungszeit nicht exakt.",
+    "de": "Näherung: akzeptierte Subframes × aktuelle Einzelbelichtung. Bei wechselnder Belichtungszeit nicht exakt.",
+    "en": "Estimate: accepted subframes × current exposure. Not exact if exposure time changed."
+  },
+  "m0012": {
+    "source": "▸ Gerätedetails",
+    "de": "▸ Gerätedetails",
+    "en": "▸ Device details"
+  },
+  "m0013": {
+    "source": "Bitte warten …",
+    "de": "Bitte warten …",
+    "en": "Please wait …"
+  },
+  "m0014": {
+    "source": "Verworfene Subframes: {p0}",
+    "de": "Verworfene Subframes: {p0}",
+    "en": "Rejected subframes: {p0}"
+  },
+  "m0015": {
+    "source": "Gain {p0}    ·    Dithering {p1}    ·    Verworfen {p2}    ·    Status {p3}\nRA {p4}    /    Dec {p5}    ·    Alt {p6}    /    Az {p7}\nMontierung {p8}    ·    Tracking {p9}    ·    Temperatur {p10}\nSpeicher frei {p11}    ·    Firmware {p12}    ·    Transfer {p13}",
+    "de": "Gain {p0}    ·    Dithering {p1}    ·    Verworfen {p2}    ·    Status {p3}\nRA {p4}    /    Dec {p5}    ·    Alt {p6}    /    Az {p7}\nMontierung {p8}    ·    Tracking {p9}    ·    Temperatur {p10}\nSpeicher frei {p11}    ·    Firmware {p12}    ·    Transfer {p13}",
+    "en": "Gain {p0}    ·    Dithering {p1}    ·    Rejected {p2}    ·    Status {p3}\nRA {p4}    /    Dec {p5}    ·    Alt {p6}    /    Az {p7}\nMount {p8}    ·    Tracking {p9}    ·    Temperature {p10}\nFree storage {p11}    ·    Firmware {p12}    ·    Transfer {p13}"
+  },
+  "m0016": {
+    "source": "Gerät nach links verschieben",
+    "de": "Gerät nach links verschieben",
+    "en": "Move device left"
+  },
+  "m0017": {
+    "source": "Gerät nach rechts verschieben",
+    "de": "Gerät nach rechts verschieben",
+    "en": "Move device right"
+  },
+  "m0018": {
+    "source": "▾ Gerätedetails",
+    "de": "▾ Gerätedetails",
+    "en": "▾ Device details"
+  },
+  "m0019": {
+    "source": "VERALTET · ",
+    "de": "VERALTET · ",
+    "en": "STALE · "
+  },
+  "m0020": {
+    "source": "OFFLINE · NEUVERBINDUNG",
+    "de": "OFFLINE · NEUVERBINDUNG",
+    "en": "OFFLINE · RECONNECTING"
+  },
+  "m0021": {
+    "source": "STATUS NICHT VERFÜGBAR",
+    "de": "STATUS NICHT VERFÜGBAR",
+    "en": "STATUS UNAVAILABLE"
+  },
+  "m0022": {
+    "source": "Nur lesende Verbindung",
+    "de": "Nur lesende Verbindung",
+    "en": "Read-only connection"
+  },
+  "m0023": {
+    "source": "Verbinden",
+    "de": "Verbinden",
+    "en": "Connect"
+  },
+  "m0024": {
+    "source": "aktiv",
+    "de": "aktiv",
+    "en": "active"
+  },
+  "m0025": {
+    "source": "aus",
+    "de": "aus",
+    "en": "off"
+  },
+  "m0026": {
+    "source": " · Bildverbindung wird wiederhergestellt",
+    "de": " · Bildverbindung wird wiederhergestellt",
+    "en": " · Image connection is being restored"
+  },
+  "m0027": {
+    "source": "GoTo zum ausgewählten Ziel",
+    "de": "GoTo zum ausgewählten Ziel",
+    "en": "GoTo selected target"
+  },
+  "m0028": {
+    "source": "Tracking einschalten",
+    "de": "Tracking einschalten",
+    "en": "Enable tracking"
+  },
+  "m0029": {
+    "source": "Tracking ausschalten",
+    "de": "Tracking ausschalten",
+    "en": "Disable tracking"
+  },
+  "m0030": {
+    "source": "Stern-Vorschau starten",
+    "de": "Stern-Vorschau starten",
+    "en": "Start star preview"
+  },
+  "m0031": {
+    "source": "Stacking starten / fortsetzen",
+    "de": "Stacking starten / fortsetzen",
+    "en": "Start / resume stacking"
+  },
+  "m0032": {
+    "source": "Stacking stoppen",
+    "de": "Stacking stoppen",
+    "en": "Stop stacking"
+  },
+  "m0033": {
+    "source": "Aufnahme / aktuelle Aktion beenden",
+    "de": "Aufnahme / aktuelle Aktion beenden",
+    "en": "End recording / current action"
+  },
+  "m0034": {
+    "source": "Stack-Belichtung ändern",
+    "de": "Stack-Belichtung ändern",
+    "en": "Change stack exposure"
+  },
+  "m0035": {
+    "source": "Gain ändern",
+    "de": "Gain ändern",
+    "en": "Change gain"
+  },
+  "m0036": {
+    "source": "Filter ändern",
+    "de": "Filter ändern",
+    "en": "Change filter"
+  },
+  "m0037": {
+    "source": "Autofokus starten",
+    "de": "Autofokus starten",
+    "en": "Start autofocus"
+  },
+  "m0038": {
+    "source": "Teleskop parken",
+    "de": "Teleskop parken",
+    "en": "Park telescope"
+  },
+  "m0039": {
+    "source": "Nicht freigegebene Aktion.",
+    "de": "Nicht freigegebene Aktion.",
+    "en": "Action not authorized."
+  },
+  "m0040": {
+    "source": "{p0}\nGerät: {p1} · {p2}\nAktuell: {p3} / {p4}\nParameter: {p5}\n\nDiese Aktion kann eine laufende Aufnahme unterbrechen. Bewegungen und Filterwechsel wirken am Gerät. Belichtung/Gain/Filter können gespeichert bleiben.\nAPI vorhanden; reales Verhalten für diese Firmware noch nicht steuernd getestet. Bei Antwortverlust erfolgt keine automatische Wiederholung.",
+    "de": "{p0}\nGerät: {p1} · {p2}\nAktuell: {p3} / {p4}\nParameter: {p5}\n\nDiese Aktion kann eine laufende Aufnahme unterbrechen. Bewegungen und Filterwechsel wirken am Gerät. Belichtung/Gain/Filter können gespeichert bleiben.\nAPI vorhanden; reales Verhalten für diese Firmware noch nicht steuernd getestet. Bei Antwortverlust erfolgt keine automatische Wiederholung.",
+    "en": "{p0}\nDevice: {p1} · {p2}\nCurrent: {p3} / {p4}\nParameters: {p5}\n\nThis action may interrupt a running capture. Motion and filter changes affect the device. Exposure/gain/filter settings may persist.\nAPI available; actual control behavior on this firmware has not been tested. No automatic retry after a lost response."
+  },
+  "m0041": {
+    "source": "Anfrage läuft …",
+    "de": "Anfrage läuft …",
+    "en": "Request in progress …"
+  },
+  "m0042": {
+    "source": "Anfrage bestätigt. Abschluss der Geräteaktion anhand der Live-Telemetrie prüfen.",
+    "de": "Anfrage bestätigt. Abschluss der Geräteaktion anhand der Live-Telemetrie prüfen.",
+    "en": "Request acknowledged. Check live telemetry to confirm completion of the device action."
+  },
+  "m0043": {
+    "source": "Ungültige Zielkoordinaten.",
+    "de": "Ungültige Zielkoordinaten.",
+    "en": "Invalid target coordinates."
+  },
+  "m0044": {
+    "source": "Vorschau benötigt ausdrücklich gewählten Open- oder LP-Filter.",
+    "de": "Vorschau benötigt ausdrücklich gewählten Open- oder LP-Filter.",
+    "en": "Preview requires an explicitly selected Open or LP filter."
+  },
+  "m0045": {
+    "source": "Belichtungszeit von dieser API nicht vorgesehen.",
+    "de": "Belichtungszeit von dieser API nicht vorgesehen.",
+    "en": "Exposure time not supported by this API."
+  },
+  "m0046": {
+    "source": "Gain außerhalb des Eingabebereichs (0–1000). Gerätegrenzen können enger sein.",
+    "de": "Gain außerhalb des Eingabebereichs (0–1000). Gerätegrenzen können enger sein.",
+    "en": "Gain outside the input range (0–1000). Device limits may be narrower."
+  },
+  "m0047": {
+    "source": "Unbekannte Filterposition.",
+    "de": "Unbekannte Filterposition.",
+    "en": "Unknown filter position."
+  },
+  "m0048": {
+    "source": "Montierungsmodus unbekannt; Parken gesperrt.",
+    "de": "Montierungsmodus unbekannt; Parken gesperrt.",
+    "en": "Mount mode unknown; parking disabled."
+  },
+  "m0049": {
+    "source": "READ ONLY: Steuerung ist gesperrt.",
+    "de": "READ ONLY: Steuerung ist gesperrt.",
+    "en": "READ ONLY: controls are locked."
+  },
+  "m0050": {
+    "source": "Gerät nicht mehr vorhanden.",
+    "de": "Gerät nicht mehr vorhanden.",
+    "en": "Device no longer present."
+  },
+  "m0051": {
+    "source": "Gerätestatus fehlt oder ist veraltet.",
+    "de": "Gerätestatus fehlt oder ist veraltet.",
+    "en": "Device status is missing or stale."
+  },
+  "m0052": {
+    "source": "Nicht gesendet: Geräteidentität an dieser Adresse fehlt oder stimmt nicht überein.",
+    "de": "Nicht gesendet: Geräteidentität an dieser Adresse fehlt oder stimmt nicht überein.",
+    "en": "Not sent: the device identity at this address is missing or does not match."
+  },
+  "m0053": {
+    "source": "Gerät hat die Aktion abgelehnt. Keine automatische Wiederholung.",
+    "de": "Gerät hat die Aktion abgelehnt. Keine automatische Wiederholung.",
+    "en": "Device rejected the action. No automatic retry."
+  },
+  "m0054": {
+    "source": "Nicht gesendet: READ ONLY oder Freigabe geändert.",
+    "de": "Nicht gesendet: READ ONLY oder Freigabe geändert.",
+    "en": "Not sent: READ ONLY or authorization changed."
+  },
+  "m0055": {
+    "source": "Ausgang unklar / Verbindung fehlgeschlagen. Gerätestatus prüfen; nicht automatisch wiederholt.",
+    "de": "Ausgang unklar / Verbindung fehlgeschlagen. Gerätestatus prüfen; nicht automatisch wiederholt.",
+    "en": "Outcome unclear / connection failed. Check device status; not retried automatically."
+  },
+  "m0056": {
+    "source": "Steuerverbindung geschlossen.",
+    "de": "Steuerverbindung geschlossen.",
+    "en": "Control connection closed."
+  },
+  "m0057": {
+    "source": "Erforderliche Gerätefunktion oder Zustand nicht verfügbar.",
+    "de": "Erforderliche Gerätefunktion oder Zustand nicht verfügbar.",
+    "en": "Required device function or state unavailable."
+  },
+  "m0058": {
+    "source": "Für dieses Gerät läuft bereits eine Anfrage.",
+    "de": "Für dieses Gerät läuft bereits eine Anfrage.",
+    "en": "A request is already in progress for this device."
+  },
+  "m0059": {
+    "source": "Bestätigung fehlt oder ist abgelaufen.",
+    "de": "Bestätigung fehlt oder ist abgelaufen.",
+    "en": "Confirmation missing or expired."
+  },
+  "m0060": {
+    "source": "Gerät oder Aufnahmezustand geändert; erneut bestätigen.",
+    "de": "Gerät oder Aufnahmezustand geändert; erneut bestätigen.",
+    "en": "Device or capture state changed; confirm again."
+  },
+  "m0061": {
+    "source": "Gerät ist beschäftigt.",
+    "de": "Gerät ist beschäftigt.",
+    "en": "Device is busy."
+  },
+  "m0062": {
+    "source": "Nicht gesendet: Zustand oder Freigabe geändert.",
+    "de": "Nicht gesendet: Zustand oder Freigabe geändert.",
+    "en": "Not sent: state or authorization changed."
+  },
+  "m0063": {
+    "source": "Steuerverbindung fehlgeschlagen; Ausgang prüfen.",
+    "de": "Steuerverbindung fehlgeschlagen; Ausgang prüfen.",
+    "en": "Control connection failed; check outcome."
+  },
+  "m0064": {
+    "source": "Control Mode für diese Sitzung freischalten",
+    "de": "Control Mode für diese Sitzung freischalten",
+    "en": "Unlock Control Mode for this session"
+  },
+  "m0065": {
+    "source": "READ ONLY ist Standard. Jede Aktion benötigt ein ausdrücklich ausgewähltes Gerät und eine separate Bestätigung.\nS50/S50 Pro: Innenraum-Steuerung geprüft; vollständige automatische Aufnahme unter Sternenhimmel noch offen.\nZurück zu READ ONLY verhindert Folgebefehle; bereits laufende Geräteaktionen können weiterlaufen.",
+    "de": "READ ONLY ist Standard. Jede Aktion benötigt ein ausdrücklich ausgewähltes Gerät und eine separate Bestätigung.\nS50/S50 Pro: Innenraum-Steuerung geprüft; vollständige automatische Aufnahme unter Sternenhimmel noch offen.\nZurück zu READ ONLY verhindert Folgebefehle; bereits laufende Geräteaktionen können weiterlaufen.",
+    "en": "READ ONLY is the default. Every action needs an explicitly selected device and a separate confirmation.\nS50/S50 Pro: indoor controls tested; complete automatic imaging under a starry sky still pending.\nReturning to READ ONLY prevents follow-on commands; existing device actions may continue."
+  },
+  "m0066": {
+    "source": "GoTo-Ziel im Sky Explorer auswählen.",
+    "de": "GoTo-Ziel im Sky Explorer auswählen.",
+    "en": "Select a GoTo target in Sky Explorer."
+  },
+  "m0067": {
+    "source": "Kein Gerät ausgewählt.",
+    "de": "Kein Gerät ausgewählt.",
+    "en": "No device selected."
+  },
+  "m0068": {
+    "source": "Bitte Filter ausdrücklich wählen",
+    "de": "Bitte Filter ausdrücklich wählen",
+    "en": "Please explicitly choose a filter"
+  },
+  "m0069": {
+    "source": "Dark / geschlossen (0)",
+    "de": "Dark / geschlossen (0)",
+    "en": "Dark / closed (0)"
+  },
+  "m0070": {
+    "source": "Stack-Belichtung",
+    "de": "Stack-Belichtung",
+    "en": "Stack exposure"
+  },
+  "m0071": {
+    "source": "Gain (Gerätegrenzen können enger sein)",
+    "de": "Gain (Gerätegrenzen können enger sein)",
+    "en": "Gain (device limits may be narrower)"
+  },
+  "m0072": {
+    "source": "Filter für Filterwechsel / Vorschau",
+    "de": "Filter für Filterwechsel / Vorschau",
+    "en": "Filter for filter change / preview"
+  },
+  "m0073": {
+    "source": "{p0} Sekunden",
+    "de": "{p0} Sekunden",
+    "en": "{p0} seconds"
+  },
+  "m0074": {
+    "source": "Teleskop ausdrücklich auswählen",
+    "de": "Teleskop ausdrücklich auswählen",
+    "en": "Explicitly select a telescope"
+  },
+  "m0075": {
+    "source": "Gerät: {p0} · Ziel: {p1} · Status: {p2}\nNicht gemeldete Voraussetzungen bleiben gesperrt; API-Verfügbarkeit ist kein Hardwaretest.",
+    "de": "Gerät: {p0} · Ziel: {p1} · Status: {p2}\nNicht gemeldete Voraussetzungen bleiben gesperrt; API-Verfügbarkeit ist kein Hardwaretest.",
+    "en": "Device: {p0} · Target: {p1} · Status: {p2}\nUnreported prerequisites stay locked; API availability is not a hardware test."
+  },
+  "m0076": {
+    "source": "Konkrete Geräteaktion bestätigen",
+    "de": "Konkrete Geräteaktion bestätigen",
+    "en": "Confirm specific device action"
+  },
+  "m0077": {
+    "source": "Aktion nicht gesendet",
+    "de": "Aktion nicht gesendet",
+    "en": "Action not sent"
+  },
+  "m0078": {
+    "source": "Lokale Diagnose",
+    "de": "Lokale Diagnose",
+    "en": "Local diagnostics"
+  },
+  "m0079": {
+    "source": "Diese Vorschau wird ausschließlich lokal erstellt. Speichern überträgt nichts ins Internet.\nKeine Seriennummern, IP-Adressen, Schlüssel, Dateipfade, Beobachtungsstandorte oder Bilder enthalten.",
+    "de": "Diese Vorschau wird ausschließlich lokal erstellt. Speichern überträgt nichts ins Internet.\nKeine Seriennummern, IP-Adressen, Schlüssel, Dateipfade, Beobachtungsstandorte oder Bilder enthalten.",
+    "en": "This preview is created locally only. Saving uploads nothing to the internet.\nNo serial numbers, IP addresses, keys, file paths, observing locations or images are included."
+  },
+  "m0080": {
+    "source": "Diagnose speichern",
+    "de": "Diagnose speichern",
+    "en": "Save diagnostics"
+  },
+  "m0081": {
+    "source": "Diagnose lokal speichern …",
+    "de": "Diagnose lokal speichern …",
+    "en": "Save diagnostics locally …"
+  },
+  "m0082": {
+    "source": "Schließen",
+    "de": "Schließen",
+    "en": "Close"
+  },
+  "m0083": {
+    "source": "Diagnose",
+    "de": "Diagnose",
+    "en": "Diagnostics"
+  },
+  "m0084": {
+    "source": "Datei konnte nicht geöffnet werden.",
+    "de": "Datei konnte nicht geöffnet werden.",
+    "en": "Could not open file."
+  },
+  "m0085": {
+    "source": "Datei konnte nicht gespeichert werden.",
+    "de": "Datei konnte nicht gespeichert werden.",
+    "en": "Could not save file."
+  },
+  "m0086": {
+    "source": "Historie nicht verfügbar ({p0}). Livebetrieb bleibt aktiv.",
+    "de": "Historie nicht verfügbar ({p0}). Livebetrieb bleibt aktiv.",
+    "en": "History unavailable ({p0}). Live operation remains active."
+  },
+  "m0087": {
+    "source": "Historie konnte nicht vollständig abgeschlossen werden.",
+    "de": "Historie konnte nicht vollständig abgeschlossen werden.",
+    "en": "History could not be finalized completely."
+  },
+  "m0088": {
+    "source": "Noch keine Session ausgewählt.",
+    "de": "Noch keine Session ausgewählt.",
+    "en": "No session selected yet."
+  },
+  "m0089": {
+    "source": "Temperatur (°C)",
+    "de": "Temperatur (°C)",
+    "en": "Temperature (°C)"
+  },
+  "m0090": {
+    "source": "Akku (%)",
+    "de": "Akku (%)",
+    "en": "Battery (%)"
+  },
+  "m0091": {
+    "source": "Historie wird lokal geladen …",
+    "de": "Historie wird lokal geladen …",
+    "en": "Loading local history …"
+  },
+  "m0092": {
+    "source": "Lokale Historie · Beobachtungsbeginn = erste Studio-Messung, nicht tatsächlicher Aufnahmestart.\nBis zu vier Sessions auswählen und vergleichen. Kurven zeigen historische Messwerte; keine Live-Telemetrie.",
+    "de": "Lokale Historie · Beobachtungsbeginn = erste Studio-Messung, nicht tatsächlicher Aufnahmestart.\nBis zu vier Sessions auswählen und vergleichen. Kurven zeigen historische Messwerte; keine Live-Telemetrie.",
+    "en": "Local history · Observing start = first Studio measurement, not the actual capture start.\nSelect and compare up to four sessions. Curves show historical measurements, not live telemetry."
+  },
+  "m0093": {
+    "source": "Historie aktualisieren",
+    "de": "Historie aktualisieren",
+    "en": "Refresh history"
+  },
+  "m0094": {
+    "source": "Gerät",
+    "de": "Gerät",
+    "en": "Device"
+  },
+  "m0095": {
+    "source": "Ziel",
+    "de": "Ziel",
+    "en": "Target"
+  },
+  "m0096": {
+    "source": "Erste Beobachtung UTC",
+    "de": "Erste Beobachtung UTC",
+    "en": "First observation UTC"
+  },
+  "m0097": {
+    "source": "Letzte Beobachtung UTC",
+    "de": "Letzte Beobachtung UTC",
+    "en": "Last observation UTC"
+  },
+  "m0098": {
+    "source": "Temperatur",
+    "de": "Temperatur",
+    "en": "Temperature"
+  },
+  "m0099": {
+    "source": "Studio-Verbindung beendet",
+    "de": "Studio-Verbindung beendet",
+    "en": "Studio connection ended"
+  },
+  "m0100": {
+    "source": "Studio-Lauf unterbrochen",
+    "de": "Studio-Lauf unterbrochen",
+    "en": "Studio run interrupted"
+  },
+  "m0101": {
+    "source": "Stack-Zähler zurückgesetzt",
+    "de": "Stack-Zähler zurückgesetzt",
+    "en": "Stack counter reset"
+  },
+  "m0102": {
+    "source": "Stack beendet",
+    "de": "Stack beendet",
+    "en": "Stack ended"
+  },
+  "m0103": {
+    "source": "Beobachtungslücke >5 Minuten",
+    "de": "Beobachtungslücke >5 Minuten",
+    "en": "Observation gap >5 minutes"
+  },
+  "m0104": {
+    "source": "noch offen",
+    "de": "noch offen",
+    "en": "still open"
+  },
+  "m0105": {
+    "source": "{p0}. {p1}: {p2} / {p3} · beobachteter Zeitraum {p4} · letzter Gerätezähler {p5} akzeptiert / {p6} verworfen ({p7})\n    Integration laut Zähler×aktueller Belichtung: ≈{p8}; in beobachteten stabilen Intervallen: ≈{p9} · {p10} unbewertete Intervalle · {p11} Messpunkte",
+    "de": "{p0}. {p1}: {p2} / {p3} · beobachteter Zeitraum {p4} · letzter Gerätezähler {p5} akzeptiert / {p6} verworfen ({p7})\n    Integration laut Zähler×aktueller Belichtung: ≈{p8}; in beobachteten stabilen Intervallen: ≈{p9} · {p10} unbewertete Intervalle · {p11} Messpunkte",
+    "en": "{p0}. {p1}: {p2} / {p3} · observed period {p4} · last device counter {p5} accepted / {p6} rejected ({p7})\n    Integration from counter×current exposure: ≈{p8}; in observed stable intervals: ≈{p9} · {p10} unassessed intervals · {p11} samples"
+  },
+  "m0106": {
+    "source": "Sessions auswählen, um Messwerte zu vergleichen.",
+    "de": "Sessions auswählen, um Messwerte zu vergleichen.",
+    "en": "Select sessions to compare measurements."
+  },
+  "m0107": {
+    "source": "Sessionende (relative Zeit)",
+    "de": "Sessionende (relative Zeit)",
+    "en": "Session end (relative time)"
+  },
+  "m0108": {
+    "source": "{p0} neueste Sessions · 15-Sekunden-Messraster · {p1} verworfene Schreibpakete · Daten bleiben im lokalen Benutzerprofil.",
+    "de": "{p0} neueste Sessions · 15-Sekunden-Messraster · {p1} verworfene Schreibpakete · Daten bleiben im lokalen Benutzerprofil.",
+    "en": "{p0} latest sessions · 15-second sample grid · {p1} dropped write packets · Data stays in the local user profile."
+  },
+  "m0109": {
+    "source": "Historie momentan nicht lesbar. Livebetrieb bleibt aktiv.",
+    "de": "Historie momentan nicht lesbar. Livebetrieb bleibt aktiv.",
+    "en": "History currently unreadable. Live operation remains active."
+  },
+  "m0110": {
+    "source": "Aufzeichnung läuft",
+    "de": "Aufzeichnung läuft",
+    "en": "Recording in progress"
+  },
+  "m0111": {
+    "source": "Grün",
+    "de": "Grün",
+    "en": "Green"
+  },
+  "m0112": {
+    "source": "Netzwerk wird durchsucht …",
+    "de": "Netzwerk wird durchsucht …",
+    "en": "Scanning network …"
+  },
+  "m0113": {
+    "source": "Backend konnte nicht starten. Installation / SeestarPy-Version prüfen.",
+    "de": "Backend konnte nicht starten. Installation / SeestarPy-Version prüfen.",
+    "en": "Backend could not start. Check installation / SeestarPy version."
+  },
+  "m0114": {
+    "source": "Automatische Gerätesuche …",
+    "de": "Automatische Gerätesuche …",
+    "en": "Automatic device discovery …"
+  },
+  "m0115": {
+    "source": "Gerätesuche abgeschlossen",
+    "de": "Gerätesuche abgeschlossen",
+    "en": "Device search complete"
+  },
+  "m0116": {
+    "source": "Keine Geräte gefunden · nächste Suche in 60 s",
+    "de": "Keine Geräte gefunden · nächste Suche in 60 s",
+    "en": "No devices found · next search in 60 s"
+  },
+  "m0117": {
+    "source": "Gerätesuche fehlgeschlagen · automatischer Neuversuch",
+    "de": "Gerätesuche fehlgeschlagen · automatischer Neuversuch",
+    "en": "Device search failed · automatic retry"
+  },
+  "m0118": {
+    "source": "Geräteverbindung konnte nicht geändert werden.",
+    "de": "Geräteverbindung konnte nicht geändert werden.",
+    "en": "Could not change the device connection."
+  },
+  "m0119": {
+    "source": "Ungültige Telemetrie",
+    "de": "Ungültige Telemetrie",
+    "en": "Invalid telemetry"
+  },
+  "m0120": {
+    "source": "Zeit benötigt einen UTC-Offset, z. B. +01:00 oder Z.",
+    "de": "Zeit benötigt einen UTC-Offset, z. B. +01:00 oder Z.",
+    "en": "Time requires a UTC offset, e.g. +01:00 or Z."
+  },
+  "m0121": {
+    "source": "Plan konnte nicht geöffnet werden.",
+    "de": "Plan konnte nicht geöffnet werden.",
+    "en": "Could not open plan."
+  },
+  "m0122": {
+    "source": "Plan konnte nicht gespeichert werden.",
+    "de": "Plan konnte nicht gespeichert werden.",
+    "en": "Could not save plan."
+  },
+  "m0123": {
+    "source": "Maximal 100 Einträge mit eindeutigen IDs.",
+    "de": "Maximal 100 Einträge mit eindeutigen IDs.",
+    "en": "At most 100 entries with unique IDs."
+  },
+  "m0124": {
+    "source": "Ungültige Wechselzeit.",
+    "de": "Ungültige Wechselzeit.",
+    "en": "Invalid transition time."
+  },
+  "m0125": {
+    "source": "Plandatei zu groß.",
+    "de": "Plandatei zu groß.",
+    "en": "Plan file too large."
+  },
+  "m0126": {
+    "source": "Nicht unterstütztes Planformat.",
+    "de": "Nicht unterstütztes Planformat.",
+    "en": "Unsupported plan format."
+  },
+  "m0127": {
+    "source": "Ungültige Gerätezuordnung.",
+    "de": "Ungültige Gerätezuordnung.",
+    "en": "Invalid device assignment."
+  },
+  "m0128": {
+    "source": "Ungültiges Ziel oder Dauer (1–720 Minuten).",
+    "de": "Ungültiges Ziel oder Dauer (1–720 Minuten).",
+    "en": "Invalid target or duration (1–720 minutes)."
+  },
+  "m0129": {
+    "source": "Zielkoordinaten nicht verfügbar",
+    "de": "Zielkoordinaten nicht verfügbar",
+    "en": "Target coordinates unavailable"
+  },
+  "m0130": {
+    "source": "Sichtbarkeit ungeprüft: Standort fehlt",
+    "de": "Sichtbarkeit ungeprüft: Standort fehlt",
+    "en": "Visibility not checked: location missing"
+  },
+  "m0131": {
+    "source": "Nicht vollständig im Beobachtungsfenster (≥30°, astronomisch dunkel)",
+    "de": "Nicht vollständig im Beobachtungsfenster (≥30°, astronomisch dunkel)",
+    "en": "Not entirely within the observing window (≥30°, astronomical darkness)"
+  },
+  "m0132": {
+    "source": "Zeitkonflikt / Wechselzeit unterschritten",
+    "de": "Zeitkonflikt / Wechselzeit unterschritten",
+    "en": "Time conflict / insufficient transition time"
+  },
+  "m0133": {
+    "source": "Beobachtung planen",
+    "de": "Beobachtung planen",
+    "en": "Plan observation"
+  },
+  "m0134": {
+    "source": "Bei doppelter Ortszeit ausdrücklich auswählen",
+    "de": "Bei doppelter Ortszeit ausdrücklich auswählen",
+    "en": "Explicitly select when local time occurs twice"
+  },
+  "m0135": {
+    "source": "Erstes Vorkommen",
+    "de": "Erstes Vorkommen",
+    "en": "First occurrence"
+  },
+  "m0136": {
+    "source": "Zweites Vorkommen",
+    "de": "Zweites Vorkommen",
+    "en": "Second occurrence"
+  },
+  "m0137": {
+    "source": "Teleskop / Offline-Planungsplatz",
+    "de": "Teleskop / Offline-Planungsplatz",
+    "en": "Telescope / offline planning slot"
+  },
+  "m0138": {
+    "source": "Dauer (Minuten)",
+    "de": "Dauer (Minuten)",
+    "en": "Duration (minutes)"
+  },
+  "m0139": {
+    "source": "Lokaler Beginn",
+    "de": "Lokaler Beginn",
+    "en": "Local start"
+  },
+  "m0140": {
+    "source": "Frühere Lücken verwenden",
+    "de": "Frühere Lücken verwenden",
+    "en": "Use earlier gaps"
+  },
+  "m0141": {
+    "source": "Zuerst ein Teleskop und ein Ziel auswählen.",
+    "de": "Zuerst ein Teleskop und ein Ziel auswählen.",
+    "en": "First select a telescope and a target."
+  },
+  "m0142": {
+    "source": "Plan lokal gespeichert; Sichtbarkeit wird geprüft.",
+    "de": "Plan lokal gespeichert; Sichtbarkeit wird geprüft.",
+    "en": "Plan saved locally; checking visibility."
+  },
+  "m0143": {
+    "source": "Prüfe Plan lokal …",
+    "de": "Prüfe Plan lokal …",
+    "en": "Checking plan locally …"
+  },
+  "m0144": {
+    "source": "Beobachtungsplan speichern",
+    "de": "Beobachtungsplan speichern",
+    "en": "Save observation plan"
+  },
+  "m0145": {
+    "source": "Beobachtungsplan laden",
+    "de": "Beobachtungsplan laden",
+    "en": "Load observation plan"
+  },
+  "m0146": {
+    "source": "Lokale Planung · Keine automatische Ausführung · Sichtbarkeit benötigt den bestätigten Standort",
+    "de": "Lokale Planung · Keine automatische Ausführung · Sichtbarkeit benötigt den bestätigten Standort",
+    "en": "Local planning · No automatic execution · Visibility requires a confirmed location"
+  },
+  "m0147": {
+    "source": "Neue Nacht",
+    "de": "Neue Nacht",
+    "en": "New night"
+  },
+  "m0148": {
+    "source": "Plan duplizieren",
+    "de": "Plan duplizieren",
+    "en": "Duplicate plan"
+  },
+  "m0149": {
+    "source": "Plan löschen",
+    "de": "Plan löschen",
+    "en": "Delete plan"
+  },
+  "m0150": {
+    "source": "Exportieren …",
+    "de": "Exportieren …",
+    "en": "Export …"
+  },
+  "m0151": {
+    "source": "Importieren …",
+    "de": "Importieren …",
+    "en": "Import …"
+  },
+  "m0152": {
+    "source": "Nacht",
+    "de": "Nacht",
+    "en": "Night"
+  },
+  "m0153": {
+    "source": "Zeitzone",
+    "de": "Zeitzone",
+    "en": "Time zone"
+  },
+  "m0154": {
+    "source": "Teleskop",
+    "de": "Teleskop",
+    "en": "Telescope"
+  },
+  "m0155": {
+    "source": "Wechselzeit",
+    "de": "Wechselzeit",
+    "en": "Transition time"
+  },
+  "m0156": {
+    "source": "Sky-Explorer-Ziel hinzufügen …",
+    "de": "Sky-Explorer-Ziel hinzufügen …",
+    "en": "Add Sky Explorer target …"
+  },
+  "m0157": {
+    "source": "Bearbeiten …",
+    "de": "Bearbeiten …",
+    "en": "Edit …"
+  },
+  "m0158": {
+    "source": "Nächster freier Zeitraum",
+    "de": "Nächster freier Zeitraum",
+    "en": "Next available slot"
+  },
+  "m0159": {
+    "source": "Prüfen",
+    "de": "Prüfen",
+    "en": "Check"
+  },
+  "m0160": {
+    "source": "Ziehen: Zeit verschieben · Rechter Balkenrand: Dauer · Doppelklick: Bearbeiten · Rechtsklick: Duplizieren/Löschen · Strg+Mausrad: Zoom",
+    "de": "Ziehen: Zeit verschieben · Rechter Balkenrand: Dauer · Doppelklick: Bearbeiten · Rechtsklick: Duplizieren/Löschen · Strg+Mausrad: Zoom",
+    "en": "Drag: move time · Right edge: duration · Double-click: edit · Right-click: duplicate/delete · Ctrl+wheel: zoom"
+  },
+  "m0161": {
+    "source": "Grün: geprüft · Orange: astronomisch ungünstig · Rot: Zeitkonflikt · Blau: ungeprüft · Grau: Wechselzeit",
+    "de": "Grün: geprüft · Orange: astronomisch ungünstig · Rot: Zeitkonflikt · Blau: ungeprüft · Grau: Wechselzeit",
+    "en": "Green: checked · Orange: unfavorable astronomy · Red: time conflict · Blue: unchecked · Gray: transition"
+  },
+  "m0162": {
+    "source": "Zuerst ein gültiges Objekt im Sky Explorer wählen.",
+    "de": "Zuerst ein gültiges Objekt im Sky Explorer wählen.",
+    "en": "First select a valid object in Sky Explorer."
+  },
+  "m0163": {
+    "source": "Maximal 100 Ziele pro Plan.",
+    "de": "Maximal 100 Ziele pro Plan.",
+    "en": "At most 100 targets per plan."
+  },
+  "m0164": {
+    "source": "Zuerst einen Zeitbalken auswählen.",
+    "de": "Zuerst einen Zeitbalken auswählen.",
+    "en": "First select an observation block."
+  },
+  "m0165": {
+    "source": "Diesen lokalen Plan löschen?",
+    "de": "Diesen lokalen Plan löschen?",
+    "en": "Delete this local plan?"
+  },
+  "m0166": {
+    "source": "Automatisches Speichern fehlgeschlagen. Plan bitte exportieren.",
+    "de": "Automatisches Speichern fehlgeschlagen. Plan bitte exportieren.",
+    "en": "Autosave failed. Please export the plan."
+  },
+  "m0167": {
+    "source": "Ungültiger Planbeginn.",
+    "de": "Ungültiger Planbeginn.",
+    "en": "Invalid plan start."
+  },
+  "m0168": {
+    "source": "{p0} Ziele · {p1} mit Hinweis/Konflikt. Keine Ausführung.",
+    "de": "{p0} Ziele · {p1} mit Hinweis/Konflikt. Keine Ausführung.",
+    "en": "{p0} targets · {p1} with notice/conflict. No execution."
+  },
+  "m0169": {
+    "source": "Ungültige Plandatei; bestehender Plan bleibt erhalten.",
+    "de": "Ungültige Plandatei; bestehender Plan bleibt erhalten.",
+    "en": "Invalid plan file; existing plan retained."
+  },
+  "m0170": {
+    "source": "Planprüfung fehlgeschlagen. Datum, Standort und Ziele prüfen.",
+    "de": "Planprüfung fehlgeschlagen. Datum, Standort und Ziele prüfen.",
+    "en": "Plan validation failed. Check date, location and targets."
+  },
+  "m0171": {
+    "source": "Warte auf ein neues Bild nach Wiederverbindung",
+    "de": "Warte auf ein neues Bild nach Wiederverbindung",
+    "en": "Waiting for a new image after reconnection"
+  },
+  "m0172": {
+    "source": "Einstellungen können nicht gespeichert werden",
+    "de": "Einstellungen können nicht gespeichert werden",
+    "en": "Cannot save settings"
+  },
+  "m0173": {
+    "source": "Einstellungen konnten nicht gespeichert werden",
+    "de": "Einstellungen konnten nicht gespeichert werden",
+    "en": "Could not save settings"
+  },
+  "m0174": {
+    "source": "Vorhandene Umgebungsvariable",
+    "de": "Vorhandene Umgebungsvariable",
+    "en": "Existing environment variable"
+  },
+  "m0175": {
+    "source": "Vorhandene SeestarPy-Datei im Arbeitsordner",
+    "de": "Vorhandene SeestarPy-Datei im Arbeitsordner",
+    "en": "Existing SeestarPy file in working directory"
+  },
+  "m0176": {
+    "source": "Vorhandene SeestarPy-Benutzerkonfiguration",
+    "de": "Vorhandene SeestarPy-Benutzerkonfiguration",
+    "en": "Existing SeestarPy user configuration"
+  },
+  "m0177": {
+    "source": "PEM-Datei hat eine unerwartete Größe.",
+    "de": "PEM-Datei hat eine unerwartete Größe.",
+    "en": "PEM file has an unexpected size."
+  },
+  "m0178": {
+    "source": "Die SeestarPy-Authentifizierung benötigt einen kompatiblen RSA-Schlüssel.",
+    "de": "Die SeestarPy-Authentifizierung benötigt einen kompatiblen RSA-Schlüssel.",
+    "en": "SeestarPy authentication requires a compatible RSA key."
+  },
+  "m0179": {
+    "source": "Verbindung und Geräteidentität erfolgreich lesend geprüft. Keine Steueraktion gesendet.",
+    "de": "Verbindung und Geräteidentität erfolgreich lesend geprüft. Keine Steueraktion gesendet.",
+    "en": "Connection and device identity verified successfully using read-only access. No control action sent."
+  },
+  "m0180": {
+    "source": "Keine lesbare unverschlüsselte private PEM-Datei. Passwortgeschützte Dateien werden nicht importiert.",
+    "de": "Keine lesbare unverschlüsselte private PEM-Datei. Passwortgeschützte Dateien werden nicht importiert.",
+    "en": "No readable unencrypted private PEM file. Password-protected files are not imported."
+  },
+  "m0181": {
+    "source": "APK enthält zu viele Einträge.",
+    "de": "APK enthält zu viele Einträge.",
+    "en": "APK contains too many entries."
+  },
+  "m0182": {
+    "source": "Mehrdeutige Bibliothekseinträge im APK.",
+    "de": "Mehrdeutige Bibliothekseinträge im APK.",
+    "en": "Ambiguous library entries in APK."
+  },
+  "m0183": {
+    "source": "APK-Bibliothek ist zu groß oder verschlüsselt.",
+    "de": "APK-Bibliothek ist zu groß oder verschlüsselt.",
+    "en": "APK library too large or encrypted."
+  },
+  "m0184": {
+    "source": "Datei fehlt oder überschreitet 2 GiB.",
+    "de": "Datei fehlt oder überschreitet 2 GiB.",
+    "en": "File missing or exceeds 2 GiB."
+  },
+  "m0185": {
+    "source": "Neuer lokaler Import, noch nicht aktiviert",
+    "de": "Neuer lokaler Import, noch nicht aktiviert",
+    "en": "New local import, not activated yet"
+  },
+  "m0186": {
+    "source": "Vorhandene Konfiguration wird nur nach ausdrücklicher Bestätigung umgestellt.",
+    "de": "Vorhandene Konfiguration wird nur nach ausdrücklicher Bestätigung umgestellt.",
+    "en": "Switching an existing configuration requires explicit confirmation."
+  },
+  "m0187": {
+    "source": "Nur ein eigener geprüfter Import kann aktiviert werden.",
+    "de": "Nur ein eigener geprüfter Import kann aktiviert werden.",
+    "en": "Only a validated Studio import can be activated."
+  },
+  "m0188": {
+    "source": "Konfiguration konnte nicht gespeichert werden.",
+    "de": "Konfiguration konnte nicht gespeichert werden.",
+    "en": "Could not save configuration."
+  },
+  "m0189": {
+    "source": "Keine lokale Authentifizierung ausgewählt.",
+    "de": "Keine lokale Authentifizierung ausgewählt.",
+    "en": "No local authentication selected."
+  },
+  "m0190": {
+    "source": "In Studio ausdrücklich aktivierter Import",
+    "de": "In Studio ausdrücklich aktivierter Import",
+    "en": "Import explicitly activated in Studio"
+  },
+  "m0191": {
+    "source": "Import abgebrochen.",
+    "de": "Import abgebrochen.",
+    "en": "Import canceled."
+  },
+  "m0192": {
+    "source": "Keine passende Schlüsselinformation gefunden. Format oder App-Version möglicherweise nicht unterstützt.",
+    "de": "Keine passende Schlüsselinformation gefunden. Format oder App-Version möglicherweise nicht unterstützt.",
+    "en": "No matching key information found. Format or app version may not be supported."
+  },
+  "m0193": {
+    "source": "Zu viele Schlüssel gefunden; Import zur manuellen Prüfung abgebrochen.",
+    "de": "Zu viele Schlüssel gefunden; Import zur manuellen Prüfung abgebrochen.",
+    "en": "Too many keys found; import canceled for manual review."
+  },
+  "m0194": {
+    "source": "Import fehlgeschlagen. Archivformat, Leserechte und lokalen Speicher prüfen. Vorhandene Konfiguration bleibt unverändert.",
+    "de": "Import fehlgeschlagen. Archivformat, Leserechte und lokalen Speicher prüfen. Vorhandene Konfiguration bleibt unverändert.",
+    "en": "Import failed. Check archive format, read permissions and local storage. Existing configuration stays unchanged."
+  },
+  "m0195": {
+    "source": "XAPK-Struktur nicht unterstützt oder zu groß.",
+    "de": "XAPK-Struktur nicht unterstützt oder zu groß.",
+    "en": "XAPK structure unsupported or too large."
+  },
+  "m0196": {
+    "source": "Lesezugriff oder Geräteidentität konnte nicht bestätigt werden.",
+    "de": "Lesezugriff oder Geräteidentität konnte nicht bestätigt werden.",
+    "en": "Read access or device identity could not be confirmed."
+  },
+  "m0197": {
+    "source": "Verbindungsprüfung fehlgeschlagen. Erreichbarkeit, Gerätezustand und passende lokale Authentifizierung prüfen.",
+    "de": "Verbindungsprüfung fehlgeschlagen. Erreichbarkeit, Gerätezustand und passende lokale Authentifizierung prüfen.",
+    "en": "Connection check failed. Check reachability, device state and matching local authentication."
+  },
+  "m0198": {
+    "source": "PEM-Datei ist zu groß.",
+    "de": "PEM-Datei ist zu groß.",
+    "en": "PEM file too large."
+  },
+  "m0199": {
+    "source": "Enthaltene APK ist zu groß oder verschlüsselt.",
+    "de": "Enthaltene APK ist zu groß oder verschlüsselt.",
+    "en": "Nested APK too large or encrypted."
+  },
+  "m0200": {
+    "source": "Zu viele Schlüssel im XAPK.",
+    "de": "Zu viele Schlüssel im XAPK.",
+    "en": "Too many keys in XAPK."
+  },
+  "m0201": {
+    "source": "Bitte eine PEM-, APK- oder XAPK-Datei auswählen.",
+    "de": "Bitte eine PEM-, APK- oder XAPK-Datei auswählen.",
+    "en": "Please select a PEM, APK or XAPK file."
+  },
+  "m0202": {
+    "source": "Unvollständiges XAPK.",
+    "de": "Unvollständiges XAPK.",
+    "en": "Incomplete XAPK."
+  },
+  "m0203": {
+    "source": "Seestar Studio · Lokale Einrichtung",
+    "de": "Seestar Studio · Lokale Einrichtung",
+    "en": "Seestar Studio · Local setup"
+  },
+  "m0204": {
+    "source": "Weiter",
+    "de": "Weiter",
+    "en": "Next"
+  },
+  "m0205": {
+    "source": "Zurück",
+    "de": "Zurück",
+    "en": "Back"
+  },
+  "m0206": {
+    "source": "Einrichtung abschließen",
+    "de": "Einrichtung abschließen",
+    "en": "Complete setup"
+  },
+  "m0207": {
+    "source": "Abbrechen",
+    "de": "Abbrechen",
+    "en": "Cancel"
+  },
+  "m0208": {
+    "source": "1 · Bestehende lokale Einrichtung",
+    "de": "1 · Bestehende lokale Einrichtung",
+    "en": "1 · Existing local setup"
+  },
+  "m0209": {
+    "source": "Noch keine lokale SeestarPy-Authentifizierung gefunden.",
+    "de": "Noch keine lokale SeestarPy-Authentifizierung gefunden.",
+    "en": "No local SeestarPy authentication found yet."
+  },
+  "m0210": {
+    "source": "Vorhandene Konfiguration unverändert weiterverwenden",
+    "de": "Vorhandene Konfiguration unverändert weiterverwenden",
+    "en": "Continue using the existing configuration unchanged"
+  },
+  "m0211": {
+    "source": "2 · Optional lokal importieren",
+    "de": "2 · Optional lokal importieren",
+    "en": "2 · Optional local import"
+  },
+  "m0212": {
+    "source": "PEM: vorhandene unverschlüsselte RSA-Datei auswählen.\nAPK/XAPK: nur eine rechtmäßig bezogene Seestar-Datei verwenden. Die Verarbeitung bleibt vollständig auf diesem PC.\nStudio verwendet die vorhandenen SeestarPy-Extraktionsfunktionen. Rechtliche Fragen zur öffentlichen Weitergabe bleiben offen.",
+    "de": "PEM: vorhandene unverschlüsselte RSA-Datei auswählen.\nAPK/XAPK: nur eine rechtmäßig bezogene Seestar-Datei verwenden. Die Verarbeitung bleibt vollständig auf diesem PC.\nStudio verwendet die vorhandenen SeestarPy-Extraktionsfunktionen. Rechtliche Fragen zur öffentlichen Weitergabe bleiben offen.",
+    "en": "PEM: select an existing unencrypted RSA file.\nAPK/XAPK: use only a lawfully obtained Seestar file. Processing remains entirely on this PC.\nStudio uses the existing SeestarPy extraction functions. Legal questions about public distribution remain open."
+  },
+  "m0213": {
+    "source": "Ich bin berechtigt, die ausgewählte APK/XAPK lokal zu verwenden und auszuwerten.",
+    "de": "Ich bin berechtigt, die ausgewählte APK/XAPK lokal zu verwenden und auszuwerten.",
+    "en": "I am authorized to use and analyze the selected APK/XAPK locally."
+  },
+  "m0214": {
+    "source": "PEM / APK / XAPK auswählen …",
+    "de": "PEM / APK / XAPK auswählen …",
+    "en": "Select PEM / APK / XAPK …"
+  },
+  "m0215": {
+    "source": "Bei vorhandener Konfiguration ist kein Import erforderlich.",
+    "de": "Bei vorhandener Konfiguration ist kein Import erforderlich.",
+    "en": "No import is needed if a configuration already exists."
+  },
+  "m0216": {
+    "source": "3 · Ausschließlich lesend prüfen",
+    "de": "3 · Ausschließlich lesend prüfen",
+    "en": "3 · Read-only verification"
+  },
+  "m0217": {
+    "source": "Ein eingeschaltetes Gerät auswählen. Die Prüfung authentifiziert eine separate Verbindung und liest die Geräteidentität.\nKeine Bewegung, kein Autofokus, kein Start/Stopp einer Aufnahme, keine Änderung von Geräteeinstellungen.",
+    "de": "Ein eingeschaltetes Gerät auswählen. Die Prüfung authentifiziert eine separate Verbindung und liest die Geräteidentität.\nKeine Bewegung, kein Autofokus, kein Start/Stopp einer Aufnahme, keine Änderung von Geräteeinstellungen.",
+    "en": "Select a powered-on device. The check authenticates a separate connection and reads its identity.\nNo motion, no autofocus, no capture start/stop, no device setting changes."
+  },
+  "m0218": {
+    "source": "Verbindung lesend prüfen",
+    "de": "Verbindung lesend prüfen",
+    "en": "Check connection read-only"
+  },
+  "m0219": {
+    "source": "Noch nicht geprüft. Ohne erreichbares Gerät kann die Einrichtung unbestätigt abgeschlossen werden.",
+    "de": "Noch nicht geprüft. Ohne erreichbares Gerät kann die Einrichtung unbestätigt abgeschlossen werden.",
+    "en": "Not checked yet. Setup can be completed unverified without a reachable device."
+  },
+  "m0220": {
+    "source": "Auswahl noch nicht lesend geprüft.",
+    "de": "Auswahl noch nicht lesend geprüft.",
+    "en": "Selection not yet verified using read-only access."
+  },
+  "m0221": {
+    "source": "Lokale Authentifizierungsquelle auswählen",
+    "de": "Lokale Authentifizierungsquelle auswählen",
+    "en": "Select local authentication source"
+  },
+  "m0222": {
+    "source": "PEM / Android-Paket (*.pem *.apk *.xapk)",
+    "de": "PEM / Android-Paket (*.pem *.apk *.xapk)",
+    "en": "PEM / Android package (*.pem *.apk *.xapk)"
+  },
+  "m0223": {
+    "source": "Datei wird ausschließlich lokal geprüft und verarbeitet …",
+    "de": "Datei wird ausschließlich lokal geprüft und verarbeitet …",
+    "en": "Checking and processing file locally only …"
+  },
+  "m0224": {
+    "source": "Lesende Verbindungsprüfung läuft …",
+    "de": "Lesende Verbindungsprüfung läuft …",
+    "en": "Read-only connection check in progress …"
+  },
+  "m0225": {
+    "source": "Diesen ausdrücklich ausgewählten Import künftig lokal verwenden?\n\nRSA {p0} · öffentlicher Fingerabdruck {p1}…\nVorhandene Schlüsseldateien bleiben unverändert. Bereits offene Geräteverbindungen werden nicht unterbrochen.",
+    "de": "Diesen ausdrücklich ausgewählten Import künftig lokal verwenden?\n\nRSA {p0} · öffentlicher Fingerabdruck {p1}…\nVorhandene Schlüsseldateien bleiben unverändert. Bereits offene Geräteverbindungen werden nicht unterbrochen.",
+    "en": "Use this explicitly selected import locally from now on?\n\nRSA {p0} · public fingerprint {p1}…\nExisting key files stay unchanged. Already open device connections are not interrupted."
+  },
+  "m0226": {
+    "source": "Seestar Studio arbeitet lokal. Kein Konto, kein Cloud-Login, kein Upload.\nVorhandene Authentifizierung wird wiederverwendet. Schlüssel werden weder angezeigt noch protokolliert.",
+    "de": "Seestar Studio arbeitet lokal. Kein Konto, kein Cloud-Login, kein Upload.\nVorhandene Authentifizierung wird wiederverwendet. Schlüssel werden weder angezeigt noch protokolliert.",
+    "en": "Seestar Studio works locally. No account, no cloud login, no upload.\nExisting authentication is reused. Keys are neither displayed nor logged."
+  },
+  "m0227": {
+    "source": "„Gefunden“ bedeutet noch keinen erfolgreichen Verbindungstest.\nDeine vorhandenen Schlüsseldateien werden nicht geändert oder kopiert.",
+    "de": "„Gefunden“ bedeutet noch keinen erfolgreichen Verbindungstest.\nDeine vorhandenen Schlüsseldateien werden nicht geändert oder kopiert.",
+    "en": "“Found” does not mean a successful connection check.\nYour existing key files are not changed or copied."
+  },
+  "m0228": {
+    "source": "Gerät ausdrücklich auswählen",
+    "de": "Gerät ausdrücklich auswählen",
+    "en": "Explicitly select a device"
+  },
+  "m0229": {
+    "source": "Lokale APK/XAPK-Verarbeitung",
+    "de": "Lokale APK/XAPK-Verarbeitung",
+    "en": "Local APK/XAPK processing"
+  },
+  "m0230": {
+    "source": "Bitte zuerst bestätigen, dass du zur lokalen Verwendung und Auswertung dieser Datei berechtigt bist.",
+    "de": "Bitte zuerst bestätigen, dass du zur lokalen Verwendung und Auswertung dieser Datei berechtigt bist.",
+    "en": "Please first confirm that you are authorized to use and analyze this file locally."
+  },
+  "m0231": {
+    "source": "Bitte ein konkretes Gerät und eine lokale Konfiguration auswählen.",
+    "de": "Bitte ein konkretes Gerät und eine lokale Konfiguration auswählen.",
+    "en": "Please select a specific device and a local configuration."
+  },
+  "m0232": {
+    "source": "\n\nDieser Import wurde noch nicht erfolgreich am Gerät geprüft.",
+    "de": "\n\nDieser Import wurde noch nicht erfolgreich am Gerät geprüft.",
+    "en": "\n\nThis import has not yet been successfully verified on the device."
+  },
+  "m0233": {
+    "source": "\n\nDie bisher aktive Konfigurationsauswahl wird umgestellt.",
+    "de": "\n\nDie bisher aktive Konfigurationsauswahl wird umgestellt.",
+    "en": "\n\nThe previously active configuration selection will be changed."
+  },
+  "m0234": {
+    "source": "{p0} gültige RSA-Datei(en) lokal geschützt vorbereitet. Noch keine Konfiguration umgestellt.",
+    "de": "{p0} gültige RSA-Datei(en) lokal geschützt vorbereitet. Noch keine Konfiguration umgestellt.",
+    "en": "{p0} valid RSA file(s) prepared with local protection. No configuration switched yet."
+  },
+  "m0235": {
+    "source": "Lokale Verarbeitung fehlgeschlagen. Bestehende Konfiguration bleibt unverändert.",
+    "de": "Lokale Verarbeitung fehlgeschlagen. Bestehende Konfiguration bleibt unverändert.",
+    "en": "Local processing failed. Existing configuration stays unchanged."
+  },
+  "m0236": {
+    "source": "Lokale Konfiguration aktivieren",
+    "de": "Lokale Konfiguration aktivieren",
+    "en": "Activate local configuration"
+  },
+  "m0237": {
+    "source": "Gefunden: ",
+    "de": "Gefunden: ",
+    "en": "Found: "
+  },
+  "m0238": {
+    "source": "RSA {p0} · öffentlicher Fingerabdruck {p1}…",
+    "de": "RSA {p0} · öffentlicher Fingerabdruck {p1}…",
+    "en": "RSA {p0} · public fingerprint {p1}…"
+  },
+  "m0239": {
+    "source": "Einrichtung",
+    "de": "Einrichtung",
+    "en": "Setup"
+  },
+  "m0240": {
+    "source": "Duplizieren",
+    "de": "Duplizieren",
+    "en": "Duplicate"
+  },
+  "m0241": {
+    "source": "Entfernen",
+    "de": "Entfernen",
+    "en": "Remove"
+  },
+  "m0242": {
+    "source": "Im berechneten Fenster",
+    "de": "Im berechneten Fenster",
+    "en": "Within calculated window"
+  },
+  "m0243": {
+    "source": "ungeprüft",
+    "de": "ungeprüft",
+    "en": "unchecked"
+  },
+  "m0244": {
+    "source": "nicht verfügbar",
+    "de": "nicht verfügbar",
+    "en": "unavailable"
+  },
+  "m0245": {
+    "source": "Diese Ortszeit existiert wegen der Zeitumstellung nicht.",
+    "de": "Diese Ortszeit existiert wegen der Zeitumstellung nicht.",
+    "en": "This local time does not exist because of the clock change."
+  },
+  "m0246": {
+    "source": "Diese Ortszeit kommt zweimal vor. Erstes oder zweites Vorkommen auswählen.",
+    "de": "Diese Ortszeit kommt zweimal vor. Erstes oder zweites Vorkommen auswählen.",
+    "en": "This local time occurs twice. Select the first or second occurrence."
+  },
+  "m0247": {
+    "source": "Videostream nicht lesbar oder unterbrochen; erneuter Versuch folgt.",
+    "de": "Videostream nicht lesbar oder unterbrochen; erneuter Versuch folgt.",
+    "en": "Video stream unreadable or interrupted; retry follows."
+  },
+  "m0248": {
+    "source": "Noch kein Video verfügbar",
+    "de": "Noch kein Video verfügbar",
+    "en": "No video available yet"
+  },
+  "m0249": {
+    "source": "Videostream wird geprüft …",
+    "de": "Videostream wird geprüft …",
+    "en": "Checking video stream …"
+  },
+  "m0250": {
+    "source": "Kein RTSP-Video verfügbar. Gerätemodus bleibt unverändert; Live Stack bleibt nutzbar.",
+    "de": "Kein RTSP-Video verfügbar. Gerätemodus bleibt unverändert; Live Stack bleibt nutzbar.",
+    "en": "No RTSP video available. Device mode stays unchanged; Live Stack remains usable."
+  },
+  "m0251": {
+    "source": "Videostream verbindet …",
+    "de": "Videostream verbindet …",
+    "en": "Connecting video stream …"
+  },
+  "m0252": {
+    "source": "Videoformat überschreitet die unterstützte Bildgröße.",
+    "de": "Videoformat überschreitet die unterstützte Bildgröße.",
+    "en": "Video format exceeds the supported image size."
+  },
+  "m0253": {
+    "source": "Keine neuen Videobilder; Verbindung wird erneuert.",
+    "de": "Keine neuen Videobilder; Verbindung wird erneuert.",
+    "en": "No new video frames; reconnecting."
+  },
+  "m0254": {
+    "source": "Videostream angehalten",
+    "de": "Videostream angehalten",
+    "en": "Video stream paused"
+  },
+  "m0255": {
+    "source": "Mausrad: Zoom · Ziehen: Verschieben · Doppelklick: Ansicht maximieren",
+    "de": "Mausrad: Zoom · Ziehen: Verschieben · Doppelklick: Ansicht maximieren",
+    "en": "Mouse wheel: zoom · Drag: pan · Double-click: maximize view"
+  },
+  "m0256": {
+    "source": "GERÄTESUCHE …",
+    "de": "GERÄTESUCHE …",
+    "en": "FINDING DEVICES …"
+  },
+  "m0257": {
+    "source": "Geräte suchen",
+    "de": "Geräte suchen",
+    "en": "Find devices"
+  },
+  "m0258": {
+    "source": "Automatische Netzwerk-Discovery erneut ausführen",
+    "de": "Automatische Netzwerk-Discovery erneut ausführen",
+    "en": "Run automatic network discovery again"
+  },
+  "m0259": {
+    "source": "Suche nach Seestar-Teleskopen im lokalen Netzwerk …\n\nDie Geräte erscheinen automatisch, sobald sie erreichbar sind.\nStatus- und Bildzugriffe erfolgen ausschließlich lesend.",
+    "de": "Suche nach Seestar-Teleskopen im lokalen Netzwerk …\n\nDie Geräte erscheinen automatisch, sobald sie erreichbar sind.\nStatus- und Bildzugriffe erfolgen ausschließlich lesend.",
+    "en": "Searching for Seestar telescopes on the local network …\n\nDevices appear automatically when reachable.\nStatus and image access is read-only."
+  },
+  "m0260": {
+    "source": "READ ONLY   ·   Lokale Authentifizierung   ·   — = nicht verfügbar",
+    "de": "READ ONLY   ·   Lokale Authentifizierung   ·   — = nicht verfügbar",
+    "en": "READ ONLY   ·   Local authentication   ·   — = unavailable"
+  },
+  "m0261": {
+    "source": "Über Seestar Studio",
+    "de": "Über Seestar Studio",
+    "en": "About Seestar Studio"
+  },
+  "m0262": {
+    "source": "Seestar Studio {p0}\nNative Windows-Anwendung · READ ONLY als Standard\n\nStudio und SeestarPy 0.8.0: GPLv3, ohne Gewährleistung.\nDiese Anwendung verwendet Qt / PySide6 6.12.0 unter Open-Source-Lizenzen einschließlich LGPLv3.\n\nQuellcode, Lizenztexte und Hinweise zur Weitergabe:\nSeestarStudio-source.zip · LICENSE · THIRD_PARTY_NOTICES.md\nim Anwendungsordner.",
+    "de": "Seestar Studio {p0}\nNative Windows-Anwendung · READ ONLY als Standard\n\nStudio und SeestarPy 0.8.0: GPLv3, ohne Gewährleistung.\nDiese Anwendung verwendet Qt / PySide6 6.12.0 unter Open-Source-Lizenzen einschließlich LGPLv3.\n\nQuellcode, Lizenztexte und Hinweise zur Weitergabe:\nSeestarStudio-source.zip · LICENSE · THIRD_PARTY_NOTICES.md\nim Anwendungsordner.",
+    "en": "Seestar Studio {p0}\nNative Windows application · READ ONLY by default\n\nStudio and SeestarPy 0.8.0: GPLv3, without warranty.\nThis application uses Qt / PySide6 6.12.0 under open-source licenses including LGPLv3.\n\nSource code, license texts and redistribution notices:\nSeestarStudio-source.zip · LICENSE · THIRD_PARTY_NOTICES.md\nin the application folder."
+  },
+  "m0263": {
+    "source": "Aktuelles Anzeigebild speichern",
+    "de": "Aktuelles Anzeigebild speichern",
+    "en": "Save current display image"
+  },
+  "m0264": {
+    "source": "Vollbild  F11",
+    "de": "Vollbild  F11",
+    "en": "Full screen  F11"
+  },
+  "m0265": {
+    "source": "Verbindungen werden geschlossen …",
+    "de": "Verbindungen werden geschlossen …",
+    "en": "Closing connections …"
+  },
+  "m0266": {
+    "source": "Steuerverbindungen schließen",
+    "de": "Steuerverbindungen schließen",
+    "en": "Close control connections"
+  },
+  "m0267": {
+    "source": "Es wurden Steuerverbindungen geöffnet. Ihr Schließen kann eine noch laufende Geräteaktion unterbrechen.\n\nSeestar Studio jetzt schließen?",
+    "de": "Es wurden Steuerverbindungen geöffnet. Ihr Schließen kann eine noch laufende Geräteaktion unterbrechen.\n\nSeestar Studio jetzt schließen?",
+    "en": "Control connections were opened. Closing them may interrupt a device action still in progress.\n\nClose Seestar Studio now?"
+  },
+  "m0268": {
+    "source": "   ·   Lokale Authentifizierung",
+    "de": "   ·   Lokale Authentifizierung",
+    "en": "   ·   Local authentication"
+  },
+  "m0269": {
+    "source": "Zurück zum Raster",
+    "de": "Zurück zum Raster",
+    "en": "Return to grid"
+  },
+  "m0270": {
+    "source": "Das Bild konnte nicht gespeichert werden.",
+    "de": "Das Bild konnte nicht gespeichert werden.",
+    "en": "Could not save the image."
+  },
+  "m0271": {
+    "source": "Gespeichert: {p0}",
+    "de": "Gespeichert: {p0}",
+    "en": "Saved: {p0}"
+  },
+  "m0272": {
+    "source": "CONTROL MODE · Jede Aktion bestätigen",
+    "de": "CONTROL MODE · Jede Aktion bestätigen",
+    "en": "CONTROL MODE · Confirm every action"
+  },
+  "m0273": {
+    "source": "Vorschau nur für JPEG/PNG; FITS zuerst lokal herunterladen",
+    "de": "Vorschau nur für JPEG/PNG; FITS zuerst lokal herunterladen",
+    "en": "Preview only for JPEG/PNG; download FITS locally first"
+  },
+  "m0274": {
+    "source": "Vorschaulimit 8 MiB; Datei zunächst herunterladen",
+    "de": "Vorschaulimit 8 MiB; Datei zunächst herunterladen",
+    "en": "Preview limit 8 MiB; download file first"
+  },
+  "m0275": {
+    "source": "Bild kann nicht dekodiert werden",
+    "de": "Bild kann nicht dekodiert werden",
+    "en": "Cannot decode image"
+  },
+  "m0276": {
+    "source": "Unvollständige Vorschau",
+    "de": "Unvollständige Vorschau",
+    "en": "Incomplete preview"
+  },
+  "m0277": {
+    "source": "Datei wurde auf dem Gerät verändert; Verzeichnis aktualisieren",
+    "de": "Datei wurde auf dem Gerät verändert; Verzeichnis aktualisieren",
+    "en": "File changed on device; refresh directory"
+  },
+  "m0278": {
+    "source": "Zieldatei existiert ohne passenden Prüfnachweis; nichts überschrieben",
+    "de": "Zieldatei existiert ohne passenden Prüfnachweis; nichts überschrieben",
+    "en": "Destination exists without matching verification; nothing overwritten"
+  },
+  "m0279": {
+    "source": "Datei änderte sich während des Transfers; kein fertiger Download freigegeben",
+    "de": "Datei änderte sich während des Transfers; kein fertiger Download freigegeben",
+    "en": "File changed during transfer; no completed download released"
+  },
+  "m0280": {
+    "source": "Dateigröße stimmt nicht überein",
+    "de": "Dateigröße stimmt nicht überein",
+    "en": "File size mismatch"
+  },
+  "m0281": {
+    "source": "Teiltransfer-Prüfung fehlgeschlagen; anderen Zielordner wählen",
+    "de": "Teiltransfer-Prüfung fehlgeschlagen; anderen Zielordner wählen",
+    "en": "Partial transfer verification failed; select another destination"
+  },
+  "m0282": {
+    "source": "Unvollständiger oder übergroßer Transfer",
+    "de": "Unvollständiger oder übergroßer Transfer",
+    "en": "Incomplete or oversized transfer"
+  },
+  "m0283": {
+    "source": "Downloadwarteschlange ist voll",
+    "de": "Downloadwarteschlange ist voll",
+    "en": "Download queue is full"
+  },
+  "m0284": {
+    "source": "Verzeichnislimit erreicht; kleinere Auswahl verwenden",
+    "de": "Verzeichnislimit erreicht; kleinere Auswahl verwenden",
+    "en": "Directory limit reached; select fewer items"
+  },
+  "m0285": {
+    "source": "Verzeichnisse lesen",
+    "de": "Verzeichnisse lesen",
+    "en": "Reading directories"
+  },
+  "m0286": {
+    "source": "Lädt",
+    "de": "Lädt",
+    "en": "Downloading"
+  },
+  "m0287": {
+    "source": "Fertig",
+    "de": "Fertig",
+    "en": "Complete"
+  },
+  "m0288": {
+    "source": "Abgebrochen · fortsetzbar",
+    "de": "Abgebrochen · fortsetzbar",
+    "en": "Canceled · resumable"
+  },
+  "m0289": {
+    "source": "Fehler · erneut versuchen",
+    "de": "Fehler · erneut versuchen",
+    "en": "Error · retry"
+  },
+  "m0290": {
+    "source": "Ordner / Beobachtung",
+    "de": "Ordner / Beobachtung",
+    "en": "Folder / observation"
+  },
+  "m0291": {
+    "source": "Ungültiger Gerätepfad",
+    "de": "Ungültiger Gerätepfad",
+    "en": "Invalid device path"
+  },
+  "m0292": {
+    "source": "Ungültiger Dateiname",
+    "de": "Ungültiger Dateiname",
+    "en": "Invalid file name"
+  },
+  "m0293": {
+    "source": "Zielpfad liegt außerhalb des Downloadordners",
+    "de": "Zielpfad liegt außerhalb des Downloadordners",
+    "en": "Destination is outside download folder"
+  },
+  "m0294": {
+    "source": "Kein Dateipfad",
+    "de": "Kein Dateipfad",
+    "en": "Not a file path"
+  },
+  "m0295": {
+    "source": "Verknüpfungen werden nicht verfolgt",
+    "de": "Verknüpfungen werden nicht verfolgt",
+    "en": "Links are not followed"
+  },
+  "m0296": {
+    "source": "Ungültiger Lesebereich",
+    "de": "Ungültiger Lesebereich",
+    "en": "Invalid read range"
+  },
+  "m0297": {
+    "source": "Dateifreigabe nicht erreichbar",
+    "de": "Dateifreigabe nicht erreichbar",
+    "en": "File share unreachable"
+  },
+  "m0298": {
+    "source": "Lokalen Downloadordner auswählen …",
+    "de": "Lokalen Downloadordner auswählen …",
+    "en": "Select local download folder …"
+  },
+  "m0299": {
+    "source": "Dateiname / Typ filtern …",
+    "de": "Dateiname / Typ filtern …",
+    "en": "Filter file name / type …"
+  },
+  "m0300": {
+    "source": "Teleskope / Ziele / Verzeichnisse",
+    "de": "Teleskope / Ziele / Verzeichnisse",
+    "en": "Telescopes / targets / directories"
+  },
+  "m0301": {
+    "source": "Gerät auswählen",
+    "de": "Gerät auswählen",
+    "en": "Select device"
+  },
+  "m0302": {
+    "source": "JPEG/PNG auswählen.\nFITS/RAW werden nicht für Vorschauen geladen.",
+    "de": "JPEG/PNG auswählen.\nFITS/RAW werden nicht für Vorschauen geladen.",
+    "en": "Select JPEG/PNG.\nFITS/RAW are not loaded for previews."
+  },
+  "m0303": {
+    "source": "Dateifreigaben werden für erkannte Geräte automatisch geprüft.",
+    "de": "Dateifreigaben werden für erkannte Geräte automatisch geprüft.",
+    "en": "File shares are checked automatically for discovered devices."
+  },
+  "m0304": {
+    "source": "Downloadordner auswählen",
+    "de": "Downloadordner auswählen",
+    "en": "Select download folder"
+  },
+  "m0305": {
+    "source": "Verzeichnis wird gelesen …",
+    "de": "Verzeichnis wird gelesen …",
+    "en": "Reading directory …"
+  },
+  "m0306": {
+    "source": "Vorschau wird geladen …",
+    "de": "Vorschau wird geladen …",
+    "en": "Loading preview …"
+  },
+  "m0307": {
+    "source": "FILE MANAGER  /  LOKALE DOWNLOADS",
+    "de": "FILE MANAGER  /  LOKALE DOWNLOADS",
+    "en": "FILE MANAGER  /  LOCAL DOWNLOADS"
+  },
+  "m0308": {
+    "source": "Zielordner wählen",
+    "de": "Zielordner wählen",
+    "en": "Choose destination"
+  },
+  "m0309": {
+    "source": "2 MiB/s · empfohlen",
+    "de": "2 MiB/s · empfohlen",
+    "en": "2 MiB/s · recommended"
+  },
+  "m0310": {
+    "source": "Ohne Limit",
+    "de": "Ohne Limit",
+    "en": "Unlimited"
+  },
+  "m0311": {
+    "source": "Auswahl herunterladen",
+    "de": "Auswahl herunterladen",
+    "en": "Download selection"
+  },
+  "m0312": {
+    "source": "Ganzen Ordner herunterladen",
+    "de": "Ganzen Ordner herunterladen",
+    "en": "Download entire folder"
+  },
+  "m0313": {
+    "source": "Datei / Beobachtung",
+    "de": "Datei / Beobachtung",
+    "en": "File / observation"
+  },
+  "m0314": {
+    "source": "Typ",
+    "de": "Typ",
+    "en": "Type"
+  },
+  "m0315": {
+    "source": "Größe",
+    "de": "Größe",
+    "en": "Size"
+  },
+  "m0316": {
+    "source": "Geändert",
+    "de": "Geändert",
+    "en": "Modified"
+  },
+  "m0317": {
+    "source": "DOWNLOADS  /  1 ÜBERTRAGUNG GLEICHZEITIG  /  REMOTE NUR LESEND",
+    "de": "DOWNLOADS  /  1 ÜBERTRAGUNG GLEICHZEITIG  /  REMOTE NUR LESEND",
+    "en": "DOWNLOADS  /  1 TRANSFER AT A TIME  /  REMOTE READ ONLY"
+  },
+  "m0318": {
+    "source": "Gerät / Auswahl",
+    "de": "Gerät / Auswahl",
+    "en": "Device / selection"
+  },
+  "m0319": {
+    "source": "Status",
+    "de": "Status",
+    "en": "Status"
+  },
+  "m0320": {
+    "source": "Fortschritt",
+    "de": "Fortschritt",
+    "en": "Progress"
+  },
+  "m0321": {
+    "source": "Dateien",
+    "de": "Dateien",
+    "en": "Files"
+  },
+  "m0322": {
+    "source": "Erneut starten / Fortsetzen",
+    "de": "Erneut starten / Fortsetzen",
+    "en": "Restart / resume"
+  },
+  "m0323": {
+    "source": "Keine Netzwerk-Vorschau für diesen Dateityp.",
+    "de": "Keine Netzwerk-Vorschau für diesen Dateityp.",
+    "en": "No network preview for this file type."
+  },
+  "m0324": {
+    "source": "Bitte Dateien oder einen Ordner auswählen.",
+    "de": "Bitte Dateien oder einen Ordner auswählen.",
+    "en": "Please select files or a folder."
+  },
+  "m0325": {
+    "source": "Download eingereiht. Größen-/Zeitstempelprüfung und lokaler SHA256-Nachweis.",
+    "de": "Download eingereiht. Größen-/Zeitstempelprüfung und lokaler SHA256-Nachweis.",
+    "en": "Download queued. Size/timestamp verification and local SHA256 receipt."
+  },
+  "m0326": {
+    "source": "SMB-Größe/Zeitstempel + lokaler SHA256; kein serverseitiger Hash verfügbar.",
+    "de": "SMB-Größe/Zeitstempel + lokaler SHA256; kein serverseitiger Hash verfügbar.",
+    "en": "SMB size/timestamp + local SHA256; no server-side hash available."
+  },
+  "m0327": {
+    "source": "{p0} Einträge · Mehrfachauswahl mit Strg/Shift · Ordner gruppieren Beobachtungen nach Ziel.",
+    "de": "{p0} Einträge · Mehrfachauswahl mit Strg/Shift · Ordner gruppieren Beobachtungen nach Ziel.",
+    "en": "{p0} entries · Multi-select with Ctrl/Shift · Folders group observations by target."
+  },
+  "m0328": {
+    "source": "Dateifreigabe nicht erreichbar: {p0}. Aktualisieren für Neuversuch.",
+    "de": "Dateifreigabe nicht erreichbar: {p0}. Aktualisieren für Neuversuch.",
+    "en": "File share unreachable: {p0}. Refresh to retry."
+  },
+  "m0329": {
+    "source": "Dateizugriff fehlgeschlagen: ",
+    "de": "Dateizugriff fehlgeschlagen: ",
+    "en": "File access failed: "
+  },
+  "m0330": {
+    "source": "Näherung: 5-Minuten-Raster, geometrischer Horizont, keine Refraktion/Hindernisse.",
+    "de": "Näherung: 5-Minuten-Raster, geometrischer Horizont, keine Refraktion/Hindernisse.",
+    "en": "Approximation: 5-minute grid, geometric horizon, no refraction/obstructions."
+  },
+  "m0331": {
+    "source": " Zeit-/Erdrotationsdaten außerhalb des verlässlichen Bereichs; Genauigkeit eingeschränkt.",
+    "de": " Zeit-/Erdrotationsdaten außerhalb des verlässlichen Bereichs; Genauigkeit eingeschränkt.",
+    "en": " Time/Earth rotation data outside reliable range; accuracy limited."
+  },
+  "m0332": {
+    "source": "S50 · Hauptkamera",
+    "de": "S50 · Hauptkamera",
+    "en": "S50 · Main camera"
+  },
+  "m0333": {
+    "source": "S50 Pro · Hauptkamera",
+    "de": "S50 Pro · Hauptkamera",
+    "en": "S50 Pro · Main camera"
+  },
+  "m0334": {
+    "source": "S50 Pro · Weitwinkel",
+    "de": "S50 Pro · Weitwinkel",
+    "en": "S50 Pro · Wide-angle camera"
+  },
+  "m0335": {
+    "source": "Keine verwendbaren Zielkoordinaten.",
+    "de": "Keine verwendbaren Zielkoordinaten.",
+    "en": "No usable target coordinates."
+  },
+  "m0336": {
+    "source": "Ungültige Mindesthöhe.",
+    "de": "Ungültige Mindesthöhe.",
+    "en": "Invalid minimum altitude."
+  },
+  "m0337": {
+    "source": "Zeitpunkt benötigt Zeitzone.",
+    "de": "Zeitpunkt benötigt Zeitzone.",
+    "en": "Time requires a time zone."
+  },
+  "m0338": {
+    "source": "Standortwerte müssen endlich sein.",
+    "de": "Standortwerte müssen endlich sein.",
+    "en": "Location values must be finite."
+  },
+  "m0339": {
+    "source": "Ungültige Standortkoordinaten.",
+    "de": "Ungültige Standortkoordinaten.",
+    "en": "Invalid location coordinates."
+  },
+  "m0340": {
+    "source": "Offener Sternhaufen",
+    "de": "Offener Sternhaufen",
+    "en": "Open cluster"
+  },
+  "m0341": {
+    "source": "Sternhaufen mit Nebel",
+    "de": "Sternhaufen mit Nebel",
+    "en": "Cluster with nebula"
+  },
+  "m0342": {
+    "source": "Planetarischer Nebel",
+    "de": "Planetarischer Nebel",
+    "en": "Planetary nebula"
+  },
+  "m0343": {
+    "source": "Supernovaüberrest",
+    "de": "Supernovaüberrest",
+    "en": "Supernova remnant"
+  },
+  "m0344": {
+    "source": "Doppelter Katalogeintrag",
+    "de": "Doppelter Katalogeintrag",
+    "en": "Duplicate catalog entry"
+  },
+  "m0345": {
+    "source": "Nicht existentes Objekt",
+    "de": "Nicht existentes Objekt",
+    "en": "Nonexistent object"
+  },
+  "m0346": {
+    "source": "Alle",
+    "de": "Alle",
+    "en": "All"
+  },
+  "m0347": {
+    "source": "Keine verlässlich nutzbare Zielposition.",
+    "de": "Keine verlässlich nutzbare Zielposition.",
+    "en": "No reliably usable target position."
+  },
+  "m0348": {
+    "source": "Fotografische Einschätzung offen: keine Größenangabe.",
+    "de": "Fotografische Einschätzung offen: keine Größenangabe.",
+    "en": "Photographic assessment unknown: no size specified."
+  },
+  "m0349": {
+    "source": "Großflächig: Bildfeld bzw. Mosaik prüfen.",
+    "de": "Großflächig: Bildfeld bzw. Mosaik prüfen.",
+    "en": "Large object: check field of view or mosaic."
+  },
+  "m0350": {
+    "source": " Heuristik; Himmel, Filter und Flächenhelligkeit sind nicht bewertet.",
+    "de": " Heuristik; Himmel, Filter und Flächenhelligkeit sind nicht bewertet.",
+    "en": " Heuristic; sky, filter and surface brightness not assessed."
+  },
+  "m0351": {
+    "source": "{p0} im Sternbild {p1}. {p2}",
+    "de": "{p0} im Sternbild {p1}. {p2}",
+    "en": "{p0} in {p1}. {p2}"
+  },
+  "m0352": {
+    "source": "Kleines Ziel: Detailauflösung beachten.",
+    "de": "Kleines Ziel: Detailauflösung beachten.",
+    "en": "Small target: consider detail resolution."
+  },
+  "m0353": {
+    "source": "Größe für ein einzelnes Bildfeld prüfen.",
+    "de": "Größe für ein einzelnes Bildfeld prüfen.",
+    "en": "Check size against a single field of view."
+  },
+  "m0354": {
+    "source": "M102: historische Identifikation umstritten; hier NGC 5866 als Kandidat.",
+    "de": "M102: historische Identifikation umstritten; hier NGC 5866 als Kandidat.",
+    "en": "M102: historical identification disputed; NGC 5866 used as candidate here."
+  },
+  "m0355": {
+    "source": "Beobachtungsstandort bestätigen",
+    "de": "Beobachtungsstandort bestätigen",
+    "en": "Confirm observing location"
+  },
+  "m0356": {
+    "source": "IANA-Zeitzone, z. B. Europe/Berlin",
+    "de": "IANA-Zeitzone, z. B. Europe/Berlin",
+    "en": "IANA time zone, e.g. Europe/Berlin"
+  },
+  "m0357": {
+    "source": "Diesen Standort bestätigen",
+    "de": "Diesen Standort bestätigen",
+    "en": "Confirm this location"
+  },
+  "m0358": {
+    "source": "Objekt suchen · M31, Andromeda, NGC 7000, M45 …",
+    "de": "Objekt suchen · M31, Andromeda, NGC 7000, M45 …",
+    "en": "Search objects · M31, Andromeda, NGC 7000, M45 …"
+  },
+  "m0359": {
+    "source": "Lokalen Katalog laden …",
+    "de": "Lokalen Katalog laden …",
+    "en": "Loading local catalog …"
+  },
+  "m0360": {
+    "source": "Ein Objekt auswählen",
+    "de": "Ein Objekt auswählen",
+    "en": "Select an object"
+  },
+  "m0361": {
+    "source": "Standort für Sichtbarkeit bestätigen.",
+    "de": "Standort für Sichtbarkeit bestätigen.",
+    "en": "Confirm location for visibility."
+  },
+  "m0362": {
+    "source": "Ziel mit Teleskop beobachten …",
+    "de": "Ziel mit Teleskop beobachten …",
+    "en": "Observe target with telescope …"
+  },
+  "m0363": {
+    "source": "Zum Beobachtungsplan …",
+    "de": "Zum Beobachtungsplan …",
+    "en": "Add to observation plan …"
+  },
+  "m0364": {
+    "source": "{p0} lokale Einträge · {p1} Treffer (max. 300)",
+    "de": "{p0} lokale Einträge · {p1} Treffer (max. 300)",
+    "en": "{p0} local entries · {p1} matches (max. 300)"
+  },
+  "m0365": {
+    "source": "{p0}\nRA (ICRS/J2000): {p1} · Dec: {p2}\nGröße: {p3} × {p4} · Helligkeit: {p5} ({p6})\n{p7}\nAliase: {p8}",
+    "de": "{p0}\nRA (ICRS/J2000): {p1} · Dec: {p2}\nGröße: {p3} × {p4} · Helligkeit: {p5} ({p6})\n{p7}\nAliase: {p8}",
+    "en": "{p0}\nRA (ICRS/J2000): {p1} · Dec: {p2}\nSize: {p3} × {p4} · Magnitude: {p5} ({p6})\n{p7}\nAliases: {p8}"
+  },
+  "m0366": {
+    "source": "Nominales Bildfeld: {p0}° × {p1}° (grün). Kataloggröße orange.\nSchematischer Größenvergleich, frei ausgerichtet; keine Live-Kamerarotation oder Sternkarte. Drizzle verändert das Bildfeld nicht.",
+    "de": "Nominales Bildfeld: {p0}° × {p1}° (grün). Kataloggröße orange.\nSchematischer Größenvergleich, frei ausgerichtet; keine Live-Kamerarotation oder Sternkarte. Drizzle verändert das Bildfeld nicht.",
+    "en": "Nominal field of view: {p0}° × {p1}° (green). Catalog size in orange.\nSchematic size comparison, freely oriented; no live camera rotation or star chart. Drizzle does not change the field of view."
+  },
+  "m0367": {
+    "source": "Jetzt: Höhe {p0}° · Azimut {p1}° · Mondabstand {p2}°\nAufgang: {p3}\nUntergang: {p4}\nHöchster Stand im Zeitfenster: {p5}\nAstronomisch dunkel: {p6}\nBeobachtungsfenster (≥30°, Sonne ≤−18°): {p7}\n{p8}",
+    "de": "Jetzt: Höhe {p0}° · Azimut {p1}° · Mondabstand {p2}°\nAufgang: {p3}\nUntergang: {p4}\nHöchster Stand im Zeitfenster: {p5}\nAstronomisch dunkel: {p6}\nBeobachtungsfenster (≥30°, Sonne ≤−18°): {p7}\n{p8}",
+    "en": "Now: altitude {p0}° · azimuth {p1}° · Moon separation {p2}°\nRise: {p3}\nSet: {p4}\nHighest point in window: {p5}\nAstronomical darkness: {p6}\nObserving window (≥30°, Sun ≤−18°): {p7}\n{p8}"
+  },
+  "m0368": {
+    "source": "Nur lokal gespeichert. Keine Standortermittlung oder Übertragung.\nKoordinaten: Nord/Ost positiv; Süd/West negativ.",
+    "de": "Nur lokal gespeichert. Keine Standortermittlung oder Übertragung.\nKoordinaten: Nord/Ost positiv; Süd/West negativ.",
+    "en": "Saved locally only. No location detection or transmission.\nCoordinates: north/east positive; south/west negative."
+  },
+  "m0369": {
+    "source": "Breite (°)",
+    "de": "Breite (°)",
+    "en": "Latitude (°)"
+  },
+  "m0370": {
+    "source": "Länge (°)",
+    "de": "Länge (°)",
+    "en": "Longitude (°)"
+  },
+  "m0371": {
+    "source": "Höhe (m)",
+    "de": "Höhe (m)",
+    "en": "Elevation (m)"
+  },
+  "m0372": {
+    "source": "Standort …",
+    "de": "Standort …",
+    "en": "Location …"
+  },
+  "m0373": {
+    "source": "Standort löschen",
+    "de": "Standort löschen",
+    "en": "Clear location"
+  },
+  "m0374": {
+    "source": "Neu berechnen",
+    "de": "Neu berechnen",
+    "en": "Recalculate"
+  },
+  "m0375": {
+    "source": "Objekt",
+    "de": "Objekt",
+    "en": "Object"
+  },
+  "m0376": {
+    "source": "Sternbild",
+    "de": "Sternbild",
+    "en": "Constellation"
+  },
+  "m0377": {
+    "source": "NACHTVERLAUF · Ziel grün / Sonne orange · Höhe in Grad",
+    "de": "NACHTVERLAUF · Ziel grün / Sonne orange · Höhe in Grad",
+    "en": "NIGHT CURVE · Target green / Sun orange · Altitude in degrees"
+  },
+  "m0378": {
+    "source": "Offline · OpenNGC / Mattia Verga & Mitwirkende · CC BY-SA 4.0 · Keine Onlineabfragen",
+    "de": "Offline · OpenNGC / Mattia Verga & Mitwirkende · CC BY-SA 4.0 · Keine Onlineabfragen",
+    "en": "Offline · OpenNGC / Mattia Verga & contributors · CC BY-SA 4.0 · No online queries"
+  },
+  "m0379": {
+    "source": "Berechne lokal …",
+    "de": "Berechne lokal …",
+    "en": "Calculating locally …"
+  },
+  "m0380": {
+    "source": "Für Sichtbarkeit bitte gültiges Objekt und bestätigten Standort wählen.",
+    "de": "Für Sichtbarkeit bitte gültiges Objekt und bestätigten Standort wählen.",
+    "en": "Select a valid object and confirmed location for visibility."
+  },
+  "m0381": {
+    "source": "Keines in dieser Nacht",
+    "de": "Keines in dieser Nacht",
+    "en": "None during this night"
+  },
+  "m0382": {
+    "source": "Bitte gültige Koordinaten und eine IANA-Zeitzone eingeben.",
+    "de": "Bitte gültige Koordinaten und eine IANA-Zeitzone eingeben.",
+    "en": "Please enter valid coordinates and an IANA time zone."
+  },
+  "m0383": {
+    "source": "Änderung gilt nur für diese Sitzung; Speichern fehlgeschlagen.",
+    "de": "Änderung gilt nur für diese Sitzung; Speichern fehlgeschlagen.",
+    "en": "Change applies to this session only; saving failed."
+  },
+  "m0384": {
+    "source": "Lokaler Katalog konnte nicht geladen werden. Installation prüfen.",
+    "de": "Lokaler Katalog konnte nicht geladen werden. Installation prüfen.",
+    "en": "Could not load local catalog. Check installation."
+  },
+  "m0385": {
+    "source": "Berechnung nicht verfügbar. Koordinaten, Datum und Zeitzone prüfen.",
+    "de": "Berechnung nicht verfügbar. Koordinaten, Datum und Zeitzone prüfen.",
+    "en": "Calculation unavailable. Check coordinates, date and time zone."
+  },
+  "m0386": {
+    "source": "BELICHTUNG",
+    "de": "BELICHTUNG",
+    "en": "EXPOSURE"
+  },
+  "m0387": {
+    "source": "GESTACKT",
+    "de": "GESTACKT",
+    "en": "STACKED"
+  },
+  "m0388": {
+    "source": "VERWORFEN",
+    "de": "VERWORFEN",
+    "en": "REJECTED"
+  },
+  "m0389": {
+    "source": "AKKU",
+    "de": "AKKU",
+    "en": "BATTERY"
+  },
+  "m0390": {
+    "source": "MODUS",
+    "de": "MODUS",
+    "en": "MODE"
+  },
+  "m0391": {
+    "source": "AUFNAHME",
+    "de": "AUFNAHME",
+    "en": "CAPTURE"
+  },
+  "m0392": {
+    "source": "VERBUNDEN",
+    "de": "VERBUNDEN",
+    "en": "CONNECTED"
+  },
+  "m0393": {
+    "source": "GETRENNT",
+    "de": "GETRENNT",
+    "en": "DISCONNECTED"
+  },
+  "m0394": {
+    "source": "Hauptkamera",
+    "de": "Hauptkamera",
+    "en": "Main camera"
+  },
+  "m0395": {
+    "source": "Weitwinkelkamera",
+    "de": "Weitwinkelkamera",
+    "en": "Wide-angle camera"
+  },
+  "m0396": {
+    "source": "SESSION-ANALYSE",
+    "de": "SESSION-ANALYSE",
+    "en": "SESSION ANALYSIS"
+  },
+  "m0397": {
+    "source": "Session-Analyse",
+    "de": "Session-Analyse",
+    "en": "Session Analysis"
+  },
+  "m0398": {
+    "source": "Teleskopsteuerung",
+    "de": "Teleskopsteuerung",
+    "en": "Telescope Control"
+  },
+  "m0399": {
+    "source": "Abschluss",
+    "de": "Abschluss",
+    "en": "End reason"
+  },
+  "m0400": {
+    "source": "Verbindungsverluste",
+    "de": "Verbindungsverluste",
+    "en": "Connection losses"
+  },
+  "m0401": {
+    "source": "Gelb",
+    "de": "Gelb",
+    "en": "Yellow"
+  },
+  "m0402": {
+    "source": "Orange",
+    "de": "Orange",
+    "en": "Orange"
+  },
+  "m0403": {
+    "source": "Blau",
+    "de": "Blau",
+    "en": "Blue"
+  },
+  "m0404": {
+    "source": "Rot",
+    "de": "Rot",
+    "en": "Red"
+  },
+  "m0405": {
+    "source": "Galaxie",
+    "de": "Galaxie",
+    "en": "Galaxy"
+  },
+  "m0406": {
+    "source": "Galaxienpaar",
+    "de": "Galaxienpaar",
+    "en": "Galaxy pair"
+  },
+  "m0407": {
+    "source": "Galaxientripel",
+    "de": "Galaxientripel",
+    "en": "Galaxy triplet"
+  },
+  "m0408": {
+    "source": "Stern",
+    "de": "Stern",
+    "en": "Star"
+  },
+  "m0409": {
+    "source": "Doppelstern",
+    "de": "Doppelstern",
+    "en": "Double star"
+  },
+  "m0410": {
+    "source": "Sternverband",
+    "de": "Sternverband",
+    "en": "Association of stars"
+  },
+  "m0411": {
+    "source": "Kugelsternhaufen",
+    "de": "Kugelsternhaufen",
+    "en": "Globular cluster"
+  },
+  "m0412": {
+    "source": "Nebel",
+    "de": "Nebel",
+    "en": "Nebula"
+  },
+  "m0413": {
+    "source": "Reflexionsnebel",
+    "de": "Reflexionsnebel",
+    "en": "Reflection nebula"
+  },
+  "m0414": {
+    "source": "Emissionsnebel",
+    "de": "Emissionsnebel",
+    "en": "Emission nebula"
+  },
+  "m0415": {
+    "source": "Unbekannt",
+    "de": "Unbekannt",
+    "en": "Unknown"
+  },
+  "m0416": {
+    "source": "Aktualisieren",
+    "de": "Aktualisieren",
+    "en": "Refresh"
+  },
+  "m0417": {
+    "source": "Standort",
+    "de": "Standort",
+    "en": "Location"
+  },
+  "m0418": {
+    "source": "Geschwindigkeit",
+    "de": "Geschwindigkeit",
+    "en": "Speed"
+  },
+  "m0419": {
+    "source": "Einstellungen",
+    "de": "Einstellungen",
+    "en": "Settings"
+  },
+  "m0420": {
+    "source": "Sprache",
+    "de": "Sprache",
+    "en": "Language"
+  },
+  "m0421": {
+    "source": "Automatisch (Windows-Systemsprache)",
+    "de": "Automatisch (Windows-Systemsprache)",
+    "en": "Automatic (Windows system language)"
+  },
+  "m0422": {
+    "source": "Deutsch",
+    "de": "Deutsch",
+    "en": "Deutsch"
+  },
+  "m0423": {
+    "source": "English",
+    "de": "English",
+    "en": "English"
+  },
+  "m0424": {
+    "source": "Sprache und Planungszeitzone sind unabhängig. Alle Daten bleiben lokal.",
+    "de": "Sprache und Planungszeitzone sind unabhängig. Alle Daten bleiben lokal.",
+    "en": "Language and planning time zone are independent. All data stays local."
+  },
+  "m0425": {
+    "source": "Aufgang",
+    "de": "Aufgang",
+    "en": "Rise"
+  },
+  "m0426": {
+    "source": "Untergang",
+    "de": "Untergang",
+    "en": "Set"
+  },
+  "m0427": {
+    "source": "Zeitkonflikt",
+    "de": "Zeitkonflikt",
+    "en": "Time conflict"
+  },
+  "m0428": {
+    "source": "Live Stack",
+    "de": "Gestacktes Bild",
+    "en": "Live Stack"
+  },
+  "m0429": {
+    "source": "Live View",
+    "de": "Livebild",
+    "en": "Live View"
+  },
+  "m0430": {
+    "source": "STACKED IMAGE",
+    "de": "GESTACKTES BILD",
+    "en": "STACKED IMAGE"
+  },
+  "m0431": {
+    "source": "PREVIEW IMAGE",
+    "de": "VORSCHAUBILD",
+    "en": "PREVIEW IMAGE"
+  },
+  "m0432": {
+    "source": "Live Dashboard",
+    "de": "Live-Dashboard",
+    "en": "Live Dashboard"
+  },
+  "m0433": {
+    "source": "File Manager",
+    "de": "Dateimanager",
+    "en": "File Manager"
+  },
+  "m0434": {
+    "source": "Sky Explorer",
+    "de": "Himmelsatlas",
+    "en": "Sky Explorer"
+  },
+  "m0435": {
+    "source": "Observation Planner",
+    "de": "Beobachtungsplaner",
+    "en": "Observation Planner"
+  },
+  "m0436": {
+    "source": "OBSERVATION PLANNER",
+    "de": "BEOBACHTUNGSPLANER",
+    "en": "OBSERVATION PLANNER"
+  },
+  "m0437": {
+    "source": "READ ONLY",
+    "de": "NUR LESEN",
+    "en": "READ ONLY"
+  },
+  "m0438": {
+    "source": "Live View · RTSP",
+    "de": "Livebild · RTSP",
+    "en": "Live View · RTSP"
+  },
+  "m0439": {
+    "source": "LIVE OBSERVATORY   /   LOCAL WORKSPACE",
+    "de": "LIVE-OBSERVATORIUM   /   LOKALER ARBEITSPLATZ",
+    "en": "LIVE OBSERVATORY   /   LOCAL WORKSPACE"
+  },
+  "settings.title": {
+    "source": "Einstellungen",
+    "de": "Einstellungen",
+    "en": "Settings"
+  },
+  "settings.auto": {
+    "source": "Automatisch (Windows-Systemsprache)",
+    "de": "Automatisch (Windows-Systemsprache)",
+    "en": "Automatic (Windows system language)"
+  },
+  "settings.language": {
+    "source": "Sprache",
+    "de": "Sprache",
+    "en": "Language"
+  },
+  "settings.note": {
+    "source": "Sprache und Planungszeitzone sind unabhängig. Alle Daten bleiben lokal.",
+    "de": "Sprache und Planungszeitzone sind unabhängig. Alle Daten bleiben lokal.",
+    "en": "Language and planning time zone are independent. All data stays local."
+  },
+  "settings.close": {
+    "source": "Schließen",
+    "de": "Schließen",
+    "en": "Close"
+  },
+  "settings.save_error": {
+    "source": "Änderung gilt nur für diese Sitzung; Speichern fehlgeschlagen.",
+    "de": "Änderung gilt nur für diese Sitzung; Speichern fehlgeschlagen.",
+    "en": "Change applies to this session only; saving failed."
+  },
+  "catalog.group": {
+    "source": "Galaxiengruppe",
+    "de": "Galaxiengruppe",
+    "en": "Galaxy group"
+  },
+  "catalog.association": {
+    "source": "Sternassoziation",
+    "de": "Sternassoziation",
+    "en": "Association of stars"
+  },
+  "sky.no_crossing": {
+    "source": "Kein Horizontdurchgang",
+    "de": "Kein Horizontdurchgang",
+    "en": "No horizon crossing"
+  },
+  "card.frame_age": {
+    "source": "{p0}   ·   {p1}   ·   {p2} × {p3}   ·   Bild vor {p4}",
+    "de": "{p0}   ·   {p1}   ·   {p2} × {p3}   ·   Bild vor {p4}",
+    "en": "{p0}   ·   {p1}   ·   {p2} × {p3}   ·   Image age {p4}"
+  },
+  "window.connected": {
+    "source": "{p0} / {p1} VERBUNDEN",
+    "de": "{p0} / {p1} VERBUNDEN",
+    "en": "{p0} / {p1} CONNECTED"
+  },
+  "catalog.dark": {
+    "source": "Dunkelnebel",
+    "de": "Dunkelnebel",
+    "en": "Dark nebula"
+  },
+  "catalog.other": {
+    "source": "Sonstiges",
+    "de": "Sonstiges",
+    "en": "Other"
+  },
+  "timeline.checked": {
+    "source": "geprüft",
+    "de": "geprüft",
+    "en": "checked"
+  },
+  "timeline.conflict": {
+    "source": "Konflikt",
+    "de": "Konflikt",
+    "en": "conflict"
+  },
+  "timeline.unknown": {
+    "source": "ungeprüft",
+    "de": "ungeprüft",
+    "en": "unchecked"
+  },
+  "timeline.unfavorable": {
+    "source": "ungünstig",
+    "de": "ungünstig",
+    "en": "unfavorable"
+  },
+  "planner.optimize": {
+    "source": "Optimierung vorschlagen …",
+    "de": "Optimierung vorschlagen …",
+    "en": "Suggest optimization …"
+  },
+  "planner.review": {
+    "source": "Optimierung vor Übernahme prüfen",
+    "de": "Optimierung vor Übernahme prüfen",
+    "en": "Review optimization before applying"
+  },
+  "planner.review_note": {
+    "source": "Dieser Vorschlag darf Startzeiten und Reihenfolge ändern. Erst OK übernimmt die gezeigten lokalen Änderungen. Keine Ausführung am Teleskop.",
+    "de": "Dieser Vorschlag darf Startzeiten und Reihenfolge ändern. Erst OK übernimmt die gezeigten lokalen Änderungen. Keine Ausführung am Teleskop.",
+    "en": "This proposal may change start times and order. Only OK applies the displayed local changes. Nothing is executed on a telescope."
+  },
+  "extra.0": {
+    "source": "Sessionbeginn",
+    "de": "Sessionbeginn",
+    "en": "Session start"
+  },
+  "extra.1": {
+    "source": "Violett",
+    "de": "Violett",
+    "en": "Violet"
+  },
+  "extra.2": {
+    "source": "Zielwechsel",
+    "de": "Zielwechsel",
+    "en": "Target changed"
+  },
+  "extra.3": {
+    "source": "Planeintrag",
+    "de": "Planeintrag",
+    "en": "Plan entry"
+  },
+  "extra.4": {
+    "source": "Wartet",
+    "de": "Wartet",
+    "en": "Waiting"
+  },
+  "extra.5": {
+    "source": "Datei",
+    "de": "Datei",
+    "en": "File"
+  },
+  "extra.6": {
+    "source": "Rest",
+    "de": "Rest",
+    "en": "Remaining"
+  },
+  "extra.7": {
+    "source": "Tempo",
+    "de": "Tempo",
+    "en": "Speed"
+  },
+  "timeline.rise": {
+    "source": "Aufgang",
+    "de": "Aufgang",
+    "en": "Rise"
+  },
+  "timeline.set": {
+    "source": "Untergang",
+    "de": "Untergang",
+    "en": "Set"
+  },
+  "location.windows": {
+    "source": "Windows-Standort verwenden",
+    "de": "Windows-Standort verwenden",
+    "en": "Use Windows location"
+  },
+  "location.seestar": {
+    "source": "Standort vom Seestar übernehmen",
+    "de": "Standort vom Seestar übernehmen",
+    "en": "Use Seestar location"
+  },
+  "location.manual": {
+    "source": "Manuell eingeben",
+    "de": "Manuell eingeben",
+    "en": "Enter manually"
+  },
+  "location.consent_title": {
+    "source": "Windows-Standortabfrage erlauben?",
+    "de": "Windows-Standortabfrage erlauben?",
+    "en": "Allow Windows location request?"
+  },
+  "location.consent": {
+    "source": "Windows darf jetzt einmalig Ihren Standort ermitteln. Der Windows-Standortdienst kann Microsoft-Dienste und Netzwerkdaten verwenden. Seestar Studio sendet keine eigene Geolocation-Anfrage an Drittanbieter. Die Werte werden nur vorgeschlagen und erst mit „Standort bestätigen“ gespeichert. Fortfahren?",
+    "de": "Windows darf jetzt einmalig Ihren Standort ermitteln. Der Windows-Standortdienst kann Microsoft-Dienste und Netzwerkdaten verwenden. Seestar Studio sendet keine eigene Geolocation-Anfrage an Drittanbieter. Die Werte werden nur vorgeschlagen und erst mit „Standort bestätigen“ gespeichert. Fortfahren?",
+    "en": "Allow Windows to obtain your location once? Windows Location may use Microsoft services and network data. Seestar Studio makes no separate third-party geolocation request. Values are suggestions and are saved only with Confirm location. Continue?"
+  },
+  "location.waiting": {
+    "source": "Standort wird abgefragt … Manuelle Eingabe bleibt möglich.",
+    "de": "Standort wird abgefragt … Manuelle Eingabe bleibt möglich.",
+    "en": "Requesting location … Manual entry remains available."
+  },
+  "location.denied": {
+    "source": "Standortberechtigung verweigert. Prüfen Sie die Windows-Standorteinstellungen oder geben Sie die Koordinaten manuell ein.",
+    "de": "Standortberechtigung verweigert. Prüfen Sie die Windows-Standorteinstellungen oder geben Sie die Koordinaten manuell ein.",
+    "en": "Location permission denied. Check Windows Location Settings or enter coordinates manually."
+  },
+  "location.unavailable": {
+    "source": "Windows-Standortdienst nicht verfügbar. Bitte manuell eingeben.",
+    "de": "Windows-Standortdienst nicht verfügbar. Bitte manuell eingeben.",
+    "en": "Windows location service unavailable. Please enter coordinates manually."
+  },
+  "location.failed": {
+    "source": "Die Standortabfrage ist fehlgeschlagen. Versuchen Sie es erneut oder geben Sie die Koordinaten manuell ein.",
+    "de": "Die Standortabfrage ist fehlgeschlagen. Versuchen Sie es erneut oder geben Sie die Koordinaten manuell ein.",
+    "en": "The location request failed. Try again or enter coordinates manually."
+  },
+  "location.invalid": {
+    "source": "Keine gültigen Standortdaten empfangen. Bestehende Eingaben bleiben erhalten.",
+    "de": "Keine gültigen Standortdaten empfangen. Bestehende Eingaben bleiben erhalten.",
+    "en": "No valid location received. Existing entries are preserved."
+  },
+  "location.scope_failed": {
+    "source": "Seestar-Standort nicht verfügbar oder Geräteidentität nicht bestätigt. Bitte manuell eingeben.",
+    "de": "Seestar-Standort nicht verfügbar oder Geräteidentität nicht bestätigt. Bitte manuell eingeben.",
+    "en": "Seestar location unavailable or device identity not confirmed. Please enter coordinates manually."
+  },
+  "location.source_windows": {
+    "source": "Vorschlag: Windows-Standortdienst",
+    "de": "Vorschlag: Windows-Standortdienst",
+    "en": "Suggestion: Windows location service"
+  },
+  "location.source_scope": {
+    "source": "Vorschlag: gespeicherter Seestar-Standort; kann veraltet sein.",
+    "de": "Vorschlag: gespeicherter Seestar-Standort; kann veraltet sein.",
+    "en": "Suggestion: saved Seestar location; may be outdated."
+  },
+  "location.accuracy": {
+    "source": "Gemeldete Genauigkeit: {p0}.",
+    "de": "Gemeldete Genauigkeit: {p0}.",
+    "en": "Reported accuracy: {p0}."
+  },
+  "location.unknown_accuracy": {
+    "source": "Genauigkeit unbekannt.",
+    "de": "Genauigkeit unbekannt.",
+    "en": "Accuracy unknown."
+  },
+  "location.approximate": {
+    "source": "Grobe Näherung – Koordinaten vor dem Bestätigen sorgfältig prüfen.",
+    "de": "Grobe Näherung – Koordinaten vor dem Bestätigen sorgfältig prüfen.",
+    "en": "Approximate position — check coordinates carefully before confirming."
+  },
+  "location.no_height": {
+    "source": "Keine verlässliche Höhe über Meereshöhe gemeldet; Höhenfeld manuell prüfen.",
+    "de": "Keine verlässliche Höhe über Meereshöhe gemeldet; Höhenfeld manuell prüfen.",
+    "en": "No reliable elevation above sea level reported; check elevation manually."
+  },
+  "location.suggestion": {
+    "source": "Vorschlag prüfen oder korrigieren. Noch nicht gespeichert.",
+    "de": "Vorschlag prüfen oder korrigieren. Noch nicht gespeichert.",
+    "en": "Review or correct the suggestion. Not saved yet."
+  },
+  "location.manual_note": {
+    "source": "Manuelle Eingabe. Erst „Standort bestätigen“ speichert die Werte.",
+    "de": "Manuelle Eingabe. Erst „Standort bestätigen“ speichert die Werte.",
+    "en": "Manual entry. Values are saved only with Confirm location."
+  },
+  "location.edited": {
+    "source": "Manuell korrigiert. Gemeldete Genauigkeit gilt für den ursprünglichen Vorschlag.",
+    "de": "Manuell korrigiert. Gemeldete Genauigkeit gilt für den ursprünglichen Vorschlag.",
+    "en": "Manually corrected. Reported accuracy applies to the original suggestion."
+  },
+  "about.title": {
+    "source": "Über Seestar Studio",
+    "de": "Über Seestar Studio",
+    "en": "About Seestar Studio"
+  },
+  "about.description": {
+    "source": "Native Windows-Anwendung zur Beobachtung und Steuerung von ZWO-Seestar-Teleskopen. READ ONLY als Standard – lokale Steuerung ohne verpflichtende Cloud-Anbindung.",
+    "de": "Native Windows-Anwendung zur Beobachtung und Steuerung von ZWO-Seestar-Teleskopen. READ ONLY als Standard – lokale Steuerung ohne verpflichtende Cloud-Anbindung.",
+    "en": "Native Windows application for observing with and controlling ZWO Seestar telescopes. READ ONLY by default — local control without mandatory cloud services."
+  },
+  "about.project": {
+    "source": "Projekt & Entwicklung",
+    "de": "Projekt & Entwicklung",
+    "en": "Project & development"
+  },
+  "about.mark": {
+    "source": "Idee, Konzept & Projektleitung: Mark",
+    "de": "Idee, Konzept & Projektleitung: Mark",
+    "en": "Idea, concept & project lead: Mark"
+  },
+  "about.codex": {
+    "source": "Softwareentwicklung & Programmierung: OpenAI Codex (KI-gestützt)",
+    "de": "Softwareentwicklung & Programmierung: OpenAI Codex (KI-gestützt)",
+    "en": "Software development & programming: OpenAI Codex (AI-assisted)"
+  },
+  "about.origin": {
+    "source": "Seestar Studio entstand aus der Idee, mehrere Seestar-Teleskope unabhängig voneinander über eine gemeinsame Windows-Oberfläche zu überwachen, zu verwalten und zu steuern. Diese Credits dokumentieren die Arbeitsweise; sie behaupten keine Partnerschaft, Unterstützung oder rechtliche Urheberschaft von OpenAI.",
+    "de": "Seestar Studio entstand aus der Idee, mehrere Seestar-Teleskope unabhängig voneinander über eine gemeinsame Windows-Oberfläche zu überwachen, zu verwalten und zu steuern. Diese Credits dokumentieren die Arbeitsweise; sie behaupten keine Partnerschaft, Unterstützung oder rechtliche Urheberschaft von OpenAI.",
+    "en": "Seestar Studio began with the idea of monitoring, managing and controlling multiple Seestar telescopes independently through a shared Windows interface. These credits describe the development process; they do not claim OpenAI partnership, endorsement or legal authorship."
+  },
+  "about.licenses": {
+    "source": "Open Source & Lizenzen",
+    "de": "Open Source & Lizenzen",
+    "en": "Open source & licenses"
+  },
+  "about.license_text": {
+    "source": "Projektlizenz: GPL-3.0-only. SeestarPy: GPLv3 laut installierter Lizenz. Qt/PySide6: anwendbare Open-Source-Lizenzen, einschließlich LGPLv3 und GPLv3 je Komponente. FFmpeg: LGPL 2.1 oder später laut verwendetem Build. Ohne Gewährleistung. Die abschließende Prüfung des vollständigen Quellcode- und Lizenzpakets vor einer Weitergabe bleibt erforderlich. Einzelheiten in LICENSING.md und den Drittanbieterhinweisen.",
+    "de": "Projektlizenz: GPL-3.0-only. SeestarPy: GPLv3 laut installierter Lizenz. Qt/PySide6: anwendbare Open-Source-Lizenzen, einschließlich LGPLv3 und GPLv3 je Komponente. FFmpeg: LGPL 2.1 oder später laut verwendetem Build. Ohne Gewährleistung. Die abschließende Prüfung des vollständigen Quellcode- und Lizenzpakets vor einer Weitergabe bleibt erforderlich. Einzelheiten in LICENSING.md und den Drittanbieterhinweisen.",
+    "en": "Project license: GPL-3.0-only. SeestarPy: GPLv3 according to the installed license. Qt/PySide6: applicable open-source licenses, including LGPLv3 and GPLv3 depending on the component. FFmpeg: LGPL 2.1 or later according to the bundled build. Provided without warranty. The complete source and licensing package still requires final review before redistribution. See LICENSING.md and third-party notices."
+  },
+  "about.independent": {
+    "source": "Unabhängiges Open-Source-Projekt. Keine offizielle Verbindung zu ZWO; weder von ZWO entwickelt noch offiziell unterstützt.",
+    "de": "Unabhängiges Open-Source-Projekt. Keine offizielle Verbindung zu ZWO; weder von ZWO entwickelt noch offiziell unterstützt.",
+    "en": "Independent open-source project. No official affiliation with ZWO; neither developed nor officially supported by ZWO."
+  },
+  "about.private": {
+    "source": "Offizielles Repository (derzeit privat):",
+    "de": "Offizielles Repository (derzeit privat):",
+    "en": "Official repository (currently private):"
+  },
+  "about.private_note": {
+    "source": "Der Quellcode ist dort noch nicht öffentlich freigegeben. Keine Veröffentlichung oder Weitergabe dieses Builds ohne manuelle Freigabe.",
+    "de": "Der Quellcode ist dort noch nicht öffentlich freigegeben. Keine Veröffentlichung oder Weitergabe dieses Builds ohne manuelle Freigabe.",
+    "en": "Source code has not been publicly released there. Do not publish or redistribute this build without manual approval."
+  },
+  "about.local": {
+    "source": "Vorhandene lokale Dateien:",
+    "de": "Vorhandene lokale Dateien:",
+    "en": "Available local files:"
+  },
+  "about.license": {
+    "source": "Lizenz anzeigen",
+    "de": "Lizenz anzeigen",
+    "en": "View license"
+  },
+  "about.notices": {
+    "source": "Drittanbieterhinweise öffnen",
+    "de": "Drittanbieterhinweise öffnen",
+    "en": "Open third-party notices"
+  },
+  "about.review": {
+    "source": "Lizenzprüfung öffnen",
+    "de": "Lizenzprüfung öffnen",
+    "en": "Open licensing review"
+  },
+  "about.source": {
+    "source": "Quellcodeverzeichnis öffnen",
+    "de": "Quellcodeverzeichnis öffnen",
+    "en": "Open source directory"
+  },
+  "about.repository": {
+    "source": "Privates GitHub-Repository öffnen",
+    "de": "Privates GitHub-Repository öffnen",
+    "en": "Open private GitHub repository"
+  },
+  "about.copy": {
+    "source": "Versionsinformationen kopieren",
+    "de": "Versionsinformationen kopieren",
+    "en": "Copy version information"
+  },
+  "about.open_failed": {
+    "source": "Die Datei oder der Link konnte nicht geöffnet werden.",
+    "de": "Die Datei oder der Link konnte nicht geöffnet werden.",
+    "en": "The file or link could not be opened."
+  },
+  "about.copied": {
+    "source": "Versionsinformationen kopiert.",
+    "de": "Versionsinformationen kopiert.",
+    "en": "Version information copied."
+  },
+  "diagnostics.feature": {
+    "source": "Betroffene Funktion",
+    "de": "Betroffene Funktion",
+    "en": "Affected feature"
+  },
+  "diagnostics.privacy": {
+    "source": "Vor der Weitergabe prüfen. Keine Rohlogs, Schlüssel, Standorte oder Gerätekennungen im Export. Fehler werden als technische Kategorien erfasst.",
+    "de": "Vor der Weitergabe prüfen. Keine Rohlogs, Schlüssel, Standorte oder Gerätekennungen im Export. Fehler werden als technische Kategorien erfasst.",
+    "en": "Review before sharing. Export excludes raw logs, keys, locations and device identifiers. Errors are recorded as technical categories."
+  },
+  "location.intro": {
+    "source": "Nur bestätigte Werte werden lokal gespeichert. Automatische Abfragen erfolgen ausschließlich auf Ihre Anforderung. Koordinaten: Nord/Ost positiv, Süd/West negativ.",
+    "de": "Nur bestätigte Werte werden lokal gespeichert. Automatische Abfragen erfolgen ausschließlich auf Ihre Anforderung. Koordinaten: Nord/Ost positiv, Süd/West negativ.",
+    "en": "Only confirmed values are saved locally. Automatic requests run only when you choose them. Coordinates: north/east positive, south/west negative."
+  },
+  "solar.enabled": {
+    "source": "Tag-Nacht-Hintergrund anzeigen",
+    "de": "Tag-Nacht-Hintergrund anzeigen",
+    "en": "Show Day/Night Background"
+  },
+  "solar.missing": {
+    "source": "Für den Tag-Nacht-Verlauf bitte zuerst einen Beobachtungsstandort bestätigen.",
+    "de": "Für den Tag-Nacht-Verlauf bitte zuerst einen Beobachtungsstandort bestätigen.",
+    "en": "Confirm an observing location first to show the day/night background."
+  },
+  "solar.off": {
+    "source": "Neutraler Timeline-Hintergrund.",
+    "de": "Neutraler Timeline-Hintergrund.",
+    "en": "Neutral timeline background."
+  },
+  "solar.loading": {
+    "source": "Sonnenverlauf wird offline berechnet …",
+    "de": "Sonnenverlauf wird offline berechnet …",
+    "en": "Calculating solar altitude offline …"
+  },
+  "solar.error": {
+    "source": "Sonnenverlauf nicht verfügbar. Neutraler Hintergrund; maximal 366 Tage darstellbar.",
+    "de": "Sonnenverlauf nicht verfügbar. Neutraler Hintergrund; maximal 366 Tage darstellbar.",
+    "en": "Solar background unavailable. Neutral background; maximum supported span is 366 days."
+  },
+  "solar.duration": {
+    "source": "Astronomische Dunkelheit im Zeitraum: {p0}",
+    "de": "Astronomische Dunkelheit im Zeitraum: {p0}",
+    "en": "Astronomical darkness in displayed range: {p0}"
+  },
+  "solar.polar_day": {
+    "source": "Sonne durchgehend über dem Horizont",
+    "de": "Sonne durchgehend über dem Horizont",
+    "en": "Sun above the horizon throughout"
+  },
+  "solar.polar_night": {
+    "source": "Kein Sonnenaufgang im Zeitraum",
+    "de": "Kein Sonnenaufgang im Zeitraum",
+    "en": "No sunrise in displayed range"
+  },
+  "solar.no_dark": {
+    "source": "Keine vollständige astronomische Nacht",
+    "de": "Keine vollständige astronomische Nacht",
+    "en": "No full astronomical night"
+  },
+  "solar.approximate": {
+    "source": "Zeitdaten außerhalb der Präzisionsgrundlage; Näherung",
+    "de": "Zeitdaten außerhalb der Präzisionsgrundlage; Näherung",
+    "en": "Time data outside precision coverage; approximate"
+  },
+  "solar.sunset": {
+    "source": "Sonnenuntergang",
+    "de": "Sonnenuntergang",
+    "en": "Sunset"
+  },
+  "solar.sunrise": {
+    "source": "Sonnenaufgang",
+    "de": "Sonnenaufgang",
+    "en": "Sunrise"
+  },
+  "solar.night_start": {
+    "source": "Nachtbeginn",
+    "de": "Nachtbeginn",
+    "en": "Night begins"
+  },
+  "solar.night_end": {
+    "source": "Nachtende",
+    "de": "Nachtende",
+    "en": "Night ends"
+  },
+  "solar.explanation": {
+    "source": "Farbe nach geometrischer Sonnenhöhe: Tag über 0°; bürgerliche Dämmerung bis −6°, nautische bis −12°, astronomische bis −18°; darunter Nacht. Sonnenauf-/untergang bei −0,8333° (Standardrefraktion und Sonnenradius). Idealisierter Horizont ohne Berge, Bäume oder Gebäude. Keine physikalische Simulation der Himmelshelligkeit.",
+    "de": "Farbe nach geometrischer Sonnenhöhe: Tag über 0°; bürgerliche Dämmerung bis −6°, nautische bis −12°, astronomische bis −18°; darunter Nacht. Sonnenauf-/untergang bei −0,8333° (Standardrefraktion und Sonnenradius). Idealisierter Horizont ohne Berge, Bäume oder Gebäude. Keine physikalische Simulation der Himmelshelligkeit.",
+    "en": "Colour follows geometric solar altitude: day above 0°; civil twilight down to −6°, nautical to −12°, astronomical to −18°; night below. Sunrise/set at −0.8333° (standard refraction and solar radius). Ideal horizon without terrain, trees or buildings. Not a physical simulation of sky brightness."
+  },
+  "location.open_settings": {
+    "source": "Windows-Standorteinstellungen öffnen",
+    "de": "Windows-Standorteinstellungen öffnen",
+    "en": "Open Windows Location Settings"
+  },
+  "location.disabled": {
+    "source": "Windows meldet den Standortzugriff als deaktiviert. Prüfen Sie bei Bedarf selbst die Windows-Standorteinstellungen. Die manuelle Eingabe bleibt möglich.",
+    "de": "Windows meldet den Standortzugriff als deaktiviert. Prüfen Sie bei Bedarf selbst die Windows-Standorteinstellungen. Die manuelle Eingabe bleibt möglich.",
+    "en": "Windows reports location access as disabled. You can check Windows Location Settings yourself if you wish. Manual entry remains available."
+  },
+  "location.no_data": {
+    "source": "Der Standort ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut oder geben Sie die Koordinaten manuell ein.",
+    "de": "Der Standort ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut oder geben Sie die Koordinaten manuell ein.",
+    "en": "Location is temporarily unavailable. Try again later or enter coordinates manually."
+  },
+  "location.timeout": {
+    "source": "Die Standortabfrage hat zu lange gedauert. Versuchen Sie es erneut oder geben Sie die Koordinaten manuell ein.",
+    "de": "Die Standortabfrage hat zu lange gedauert. Versuchen Sie es erneut oder geben Sie die Koordinaten manuell ein.",
+    "en": "The location request timed out. Try again or enter coordinates manually."
+  },
+  "location.unsupported": {
+    "source": "Die Windows-Geolocation-Schnittstelle ist auf diesem System nicht verfügbar. Bitte geben Sie die Koordinaten manuell ein.",
+    "de": "Die Windows-Geolocation-Schnittstelle ist auf diesem System nicht verfügbar. Bitte geben Sie die Koordinaten manuell ein.",
+    "en": "The Windows Geolocation API is unavailable on this system. Please enter coordinates manually."
+  },
+  "location.settings_failed": {
+    "source": "Die Windows-Standorteinstellungen konnten nicht geöffnet werden. Öffnen Sie sie manuell: Windows-Einstellungen → Datenschutz & Sicherheit → Standort (Windows 10: Datenschutz → Standort).",
+    "de": "Die Windows-Standorteinstellungen konnten nicht geöffnet werden. Öffnen Sie sie manuell: Windows-Einstellungen → Datenschutz & Sicherheit → Standort (Windows 10: Datenschutz → Standort).",
+    "en": "Windows Location Settings could not be opened. Open them manually: Windows Settings → Privacy & Security → Location (Windows 10: Privacy → Location)."
+  },
+  "ctl_observe": {
+    "source": "Ziel anfahren & Aufnahme starten",
+    "de": "Ziel anfahren & Aufnahme starten",
+    "en": "GoTo & Start Imaging"
+  },
+  "ctl_goto_only": {
+    "source": "Nur GoTo (ohne Aufnahme)",
+    "de": "Nur GoTo (ohne Aufnahme)",
+    "en": "GoTo Only (no imaging)"
+  },
+  "ctl_unpark": {
+    "source": "Teleskop entparken",
+    "de": "Teleskop entparken",
+    "en": "Unpark Telescope"
+  },
+  "ctl_idle": {
+    "source": "Bereit",
+    "de": "Bereit",
+    "en": "Idle"
+  },
+  "ctl_selected": {
+    "source": "Ziel ausgewählt",
+    "de": "Ziel ausgewählt",
+    "en": "Target selected"
+  },
+  "ctl_requested": {
+    "source": "GoTo angefordert",
+    "de": "GoTo angefordert",
+    "en": "GoTo requested"
+  },
+  "ctl_slewing": {
+    "source": "Montierung bewegt sich",
+    "de": "Montierung bewegt sich",
+    "en": "Slewing"
+  },
+  "ctl_solving": {
+    "source": "Plate Solving läuft",
+    "de": "Plate Solving läuft",
+    "en": "Plate solving"
+  },
+  "ctl_acquired": {
+    "source": "Ziel astronomisch erfasst",
+    "de": "Ziel astronomisch erfasst",
+    "en": "Target acquired"
+  },
+  "ctl_focusing": {
+    "source": "Autofokus läuft",
+    "de": "Autofokus läuft",
+    "en": "Autofocusing"
+  },
+  "ctl_ready": {
+    "source": "Bereit für Stacking",
+    "de": "Bereit für Stacking",
+    "en": "Ready to stack"
+  },
+  "ctl_start_stack": {
+    "source": "Stacking angefordert",
+    "de": "Stacking angefordert",
+    "en": "Starting stack"
+  },
+  "ctl_stacking": {
+    "source": "Stacking vom Gerät gemeldet – aktuellen Zustand im Dashboard prüfen",
+    "de": "Stacking vom Gerät gemeldet – aktuellen Zustand im Dashboard prüfen",
+    "en": "Device reported stacking – check current state in dashboard"
+  },
+  "ctl_completed": {
+    "source": "Aktion abgeschlossen",
+    "de": "Aktion abgeschlossen",
+    "en": "Operation completed"
+  },
+  "ctl_failed": {
+    "source": "Aktion fehlgeschlagen",
+    "de": "Aktion fehlgeschlagen",
+    "en": "Operation failed"
+  },
+  "ctl_cancelled": {
+    "source": "Ablauf abgebrochen",
+    "de": "Ablauf abgebrochen",
+    "en": "Sequence cancelled"
+  },
+  "ctl_unknown": {
+    "source": "Abschluss nicht verifiziert",
+    "de": "Abschluss nicht verifiziert",
+    "en": "Completion not verified"
+  },
+  "ctl_sent": {
+    "source": "Befehl übertragen",
+    "de": "Befehl übertragen",
+    "en": "Command sent"
+  },
+  "ctl_accepted": {
+    "source": "Befehl angenommen – noch kein Abschlussnachweis",
+    "de": "Befehl angenommen – noch kein Abschlussnachweis",
+    "en": "Command accepted – completion not yet verified"
+  },
+  "ctl_started": {
+    "source": "Aktion gestartet",
+    "de": "Aktion gestartet",
+    "en": "Operation started"
+  },
+  "ctl_no_stars": {
+    "source": "Keine Sterne erkannt (279). Unter freiem Sternenhimmel erneut prüfen.",
+    "de": "Keine Sterne erkannt (279). Unter freiem Sternenhimmel erneut prüfen.",
+    "en": "No stars detected (279). Verify again under an open starry sky."
+  },
+  "ctl_solve_failed": {
+    "source": "Plate Solving fehlgeschlagen. Keine Folgeaufnahme; Sternensicht prüfen.",
+    "de": "Plate Solving fehlgeschlagen. Keine Folgeaufnahme; Sternensicht prüfen.",
+    "en": "Plate solving failed. No follow-on imaging; check visibility of stars."
+  },
+  "ctl_operation_failed": {
+    "source": "{p0} fehlgeschlagen (Code {p1}). Keine automatische Wiederholung.",
+    "de": "{p0} fehlgeschlagen (Code {p1}). Keine automatische Wiederholung.",
+    "en": "{p0} failed (code {p1}). No automatic retry."
+  },
+  "ctl_rejected": {
+    "source": "Befehl vom Gerät abgelehnt. Keine automatische Wiederholung.",
+    "de": "Befehl vom Gerät abgelehnt. Keine automatische Wiederholung.",
+    "en": "Device rejected the command. No automatic retry."
+  },
+  "ctl_flags_unknown": {
+    "source": "Automatischer Autofokus/Stacking-Einstellung unbekannt. Status abwarten.",
+    "de": "Automatischer Autofokus/Stacking-Einstellung unbekannt. Status abwarten.",
+    "en": "Automatic focus/stack settings unknown. Wait for device status."
+  },
+  "ctl_flags_conflict": {
+    "source": "Firmware startet Stacking ohne Autofokus. Für diesen Ablauf muss Autofokus in der Geräte-App aktiviert sein; Studio ändert diese Einstellung nicht.",
+    "de": "Firmware startet Stacking ohne Autofokus. Für diesen Ablauf muss Autofokus in der Geräte-App aktiviert sein; Studio ändert diese Einstellung nicht.",
+    "en": "Firmware starts stacking without autofocus. Enable autofocus in the device app for this sequence; Studio does not change this setting."
+  },
+  "ctl_cancel_note": {
+    "source": "Keine weiteren automatischen Schritte. Gerätestatus prüfen; eine laufende Bewegung oder Aufnahme ist nicht automatisch beendet.",
+    "de": "Keine weiteren automatischen Schritte. Gerätestatus prüfen; eine laufende Bewegung oder Aufnahme ist nicht automatisch beendet.",
+    "en": "No further automatic steps. Check device status; existing movement or imaging may continue."
+  },
+  "ctl_unverified_stack": {
+    "source": "Gerät meldet Stacking, aber erfolgreicher Autofokus/Zielerfassung ist nicht vollständig belegt. Keine weiteren Befehle.",
+    "de": "Gerät meldet Stacking, aber erfolgreicher Autofokus/Zielerfassung ist nicht vollständig belegt. Keine weiteren Befehle.",
+    "en": "Device reports stacking, but successful focus/target acquisition is not fully verified. No further commands."
+  },
+  "ctl_timeout": {
+    "source": "Zeitlimit erreicht. Kein erfolgreicher Abschluss belegt; aktuellen Gerätestatus prüfen.",
+    "de": "Zeitlimit erreicht. Kein erfolgreicher Abschluss belegt; aktuellen Gerätestatus prüfen.",
+    "en": "Time limit reached. Successful completion not verified; check current device status."
+  },
+  "ctl_no_view": {
+    "source": "Keine aktive astronomische Vorschau oder Aufnahme",
+    "de": "Keine aktive astronomische Vorschau oder Aufnahme",
+    "en": "No active astronomical preview or imaging"
+  },
+  "ctl_no_stack": {
+    "source": "Kein aktives Stacking",
+    "de": "Kein aktives Stacking",
+    "en": "No active stacking"
+  },
+  "ctl_operation_busy": {
+    "source": "Geräteaktion läuft – auf Abschluss warten oder Ablauf abbrechen",
+    "de": "Geräteaktion läuft – auf Abschluss warten oder Ablauf abbrechen",
+    "en": "Device operation running – wait for completion or cancel sequence"
+  },
+  "ctl_already_stack": {
+    "source": "Stacking bereits aktiv. Zuerst ausdrücklich beenden.",
+    "de": "Stacking bereits aktiv. Zuerst ausdrücklich beenden.",
+    "en": "Stacking already active. Explicitly stop it first."
+  },
+  "ctl_existing_view": {
+    "source": "Vorschau/Aufnahme bereits aktiv. Zuerst ausdrücklich beenden.",
+    "de": "Vorschau/Aufnahme bereits aktiv. Zuerst ausdrücklich beenden.",
+    "en": "Preview/imaging already active. Explicitly stop it first."
+  },
+  "ctl_not_parked": {
+    "source": "Gerät ist nicht als geparkt bestätigt",
+    "de": "Gerät ist nicht als geparkt bestätigt",
+    "en": "Device is not confirmed parked"
+  },
+  "ctl_mount_unknown": {
+    "source": "Montierung bereits geparkt oder Zustand unbekannt",
+    "de": "Montierung bereits geparkt oder Zustand unbekannt",
+    "en": "Mount already parked or state unknown"
+  },
+  "ctl_parked": {
+    "source": "Gerät geparkt oder Parkzustand unbekannt. Erst entparken.",
+    "de": "Gerät geparkt oder Parkzustand unbekannt. Erst entparken.",
+    "en": "Device parked or park state unknown. Unpark first."
+  },
+  "ctl_camera_unknown": {
+    "source": "Kamera noch nicht bestätigt bereit",
+    "de": "Kamera noch nicht bestätigt bereit",
+    "en": "Camera readiness not yet confirmed"
+  },
+  "ctl_focuser_unknown": {
+    "source": "Kein bestätigter Autofokus verfügbar",
+    "de": "Kein bestätigter Autofokus verfügbar",
+    "en": "No confirmed autofocus capability"
+  },
+  "ctl_no_preview": {
+    "source": "Keine aktive astronomische Sternenvorschau. Live View allein reicht nicht.",
+    "de": "Keine aktive astronomische Sternenvorschau. Live View allein reicht nicht.",
+    "en": "No active astronomical star preview. Live View alone is insufficient."
+  },
+  "ctl_confirm_space": {
+    "source": "Mit Ja bestätigst du freien Bewegungsraum und die Aktion für genau dieses Gerät.",
+    "de": "Mit Ja bestätigst du freien Bewegungsraum und die Aktion für genau dieses Gerät.",
+    "en": "By choosing Yes you confirm clear movement space and this action for this device."
+  },
+  "ctl_confirm_sequence": {
+    "source": "Zielerfassung → Plate Solving → Autofokus → Stacking. Bestehender Filter bleibt erhalten. Bei Fehlern keine Folgeaufnahme.",
+    "de": "Zielerfassung → Plate Solving → Autofokus → Stacking. Bestehender Filter bleibt erhalten. Bei Fehlern keine Folgeaufnahme.",
+    "en": "Target acquisition → plate solving → autofocus → stacking. Current filter is preserved. No follow-on imaging after failures."
+  },
+  "ctl_filter_unknown": {
+    "source": "Aktueller Aufnahmefilter unbekannt; kein automatischer Filterwechsel.",
+    "de": "Aktueller Aufnahmefilter unbekannt; kein automatischer Filterwechsel.",
+    "en": "Current imaging filter unknown; no automatic filter change."
+  },
+  "ctl_revoked": {
+    "source": "Nicht gesendet / keine weiteren Schritte: Control Mode deaktiviert. Gerätestatus prüfen.",
+    "de": "Nicht gesendet / keine weiteren Schritte: Control Mode deaktiviert. Gerätestatus prüfen.",
+    "en": "Not sent / no further steps: Control Mode disabled. Check device status."
+  },
+  "ctl_connection_unknown": {
+    "source": "Verbindung/Antwort unklar. Keine Wiederholung. Gerätezustand nach Wiederverbindung erneut lesen; laufende Aufnahme kann fortbestehen.",
+    "de": "Verbindung/Antwort unklar. Keine Wiederholung. Gerätezustand nach Wiederverbindung erneut lesen; laufende Aufnahme kann fortbestehen.",
+    "en": "Connection/response uncertain. No retry. Read actual state after reconnect; imaging may still be running."
+  },
+  "ctl_keep_filter": {
+    "source": "Aktuellen Filter beibehalten (Vorschau)",
+    "de": "Aktuellen Filter beibehalten (Vorschau)",
+    "en": "Keep current filter (preview)"
+  },
+  "ctl_cancel": {
+    "source": "Eigenen Ablauf abbrechen …",
+    "de": "Eigenen Ablauf abbrechen …",
+    "en": "Cancel own sequence …"
+  },
+  "ctl_target_required": {
+    "source": "Kein Ziel ausgewählt – zuerst Sky Explorer öffnen",
+    "de": "Kein Ziel ausgewählt – zuerst Sky Explorer öffnen",
+    "en": "No target selected – open Sky Explorer first"
+  },
+  "ctl_filter_required": {
+    "source": "Für einen Filterwechsel Position ausdrücklich auswählen",
+    "de": "Für einen Filterwechsel Position ausdrücklich auswählen",
+    "en": "Explicitly select a position to change the filter"
+  },
+  "ctl_full_help": {
+    "source": "Vollständiger bestätigter Ablauf. Erfolg nur anhand echter Geräteereignisse.",
+    "de": "Vollständiger bestätigter Ablauf. Erfolg nur anhand echter Geräteereignisse.",
+    "en": "Full confirmed sequence. Success requires actual device events."
+  },
+  "ctl_preview_help": {
+    "source": "Astronomische Sternenvorschau; unabhängig vom allgemeinen Live View.",
+    "de": "Astronomische Sternenvorschau; unabhängig vom allgemeinen Live View.",
+    "en": "Astronomical star preview; separate from general Live View."
+  },
+  "ctl_stack_help": {
+    "source": "Stacking aus aktiver Sternenvorschau starten; vorhandenen Stack nicht zurücksetzen.",
+    "de": "Stacking aus aktiver Sternenvorschau starten; vorhandenen Stack nicht zurücksetzen.",
+    "en": "Start stacking from active star preview; do not reset an existing stack."
+  },
+  "ctl_cancel_confirm": {
+    "source": "Diesen eigenen Ablauf abbrechen? Keine Folgebefehle. Eigene Zielerfassung/Autofokus wird, soweit eindeutig aktiv, gezielt gestoppt. Andere laufende Aktionen werden nicht blind beendet.",
+    "de": "Diesen eigenen Ablauf abbrechen? Keine Folgebefehle. Eigene Zielerfassung/Autofokus wird, soweit eindeutig aktiv, gezielt gestoppt. Andere laufende Aktionen werden nicht blind beendet.",
+    "en": "Cancel this own sequence? No follow-on commands. Its target acquisition/autofocus is stopped if clearly active. Other ongoing operations are not stopped blindly."
+  },
+  "ctl_reconnected": {
+    "source": "Gerätezustand erneut gelesen: {p0} / {p1} / {p2}. Ablauf wird nicht automatisch fortgesetzt.",
+    "de": "Gerätezustand erneut gelesen: {p0} / {p1} / {p2}. Ablauf wird nicht automatisch fortgesetzt.",
+    "en": "Device state read again: {p0} / {p1} / {p2}. Sequence is not resumed automatically."
+  },
+  "ctl_observe_button": {
+    "source": "Ziel anfahren && Aufnahme starten",
+    "de": "Ziel anfahren && Aufnahme starten",
+    "en": "GoTo && Start Imaging"
+  },
+  "ctl_connected": {
+    "source": "verbunden",
+    "de": "verbunden",
+    "en": "connected"
+  },
+  "ctl_disconnected": {
+    "source": "getrennt",
+    "de": "getrennt",
+    "en": "disconnected"
+  },
+  "ctl_last_result": {
+    "source": "Letzte angeforderte Aktion: {p0}",
+    "de": "Letzte angeforderte Aktion: {p0}",
+    "en": "Last requested action: {p0}"
+  }
+}

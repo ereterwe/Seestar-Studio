@@ -1,0 +1,1226 @@
+[
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/LICENSE.rst",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-f526da1f84b1.txt",
+    "sha256": "97d28d33c40cadc630cddfca53969fdd9dc44ede20faa2d892ba730933e9a20e"
+  },
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/cextern/cfitsio/licenses/License.txt",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-5b330d72c03a.txt",
+    "sha256": "7d4fff8fb7a2044eb6b33df24515f68bda852aa1a1e85a15397187b86e098658"
+  },
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/cextern/expat/COPYING",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-f6a8744c4c20.txt",
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+  },
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/cextern/wcslib/COPYING",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-d8092b6a0554.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/cextern/wcslib/COPYING.LESSER",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-042f17f65128.txt",
+    "sha256": "9ccf26cfe845e0eb8bb58053e47366e7ab6b697ae010f7650978d4b71b7d1fc1"
+  },
+  {
+    "archive": "astropy-8.0.2.tar.gz",
+    "original_member": "astropy-8.0.2/docs/license.rst",
+    "notice_file": "upstream/astropy-8.0.2.tar.gz-09b4f29622f9.txt",
+    "sha256": "760c9d6fbb9952abeab833928af4e30d7f915f7c2d9ae68921e9dc4146f9a381"
+  },
+  {
+    "archive": "astropy_iers_data-0.2026.11.2.0.34.55.tar.gz",
+    "original_member": "astropy_iers_data-0.2026.11.2.0.34.55/LICENSE.rst",
+    "notice_file": "upstream/astropy_iers_data-0.2026.11.2.0.34.55.tar.gz-cbee0e4a5be2.txt",
+    "sha256": "05d8ec3643773431cb5447b10711f119d79955470cdfbb8ca2e670a4432a153c"
+  },
+  {
+    "archive": "certifi-2026.10.23.tar.gz",
+    "original_member": "certifi-2026.10.23/LICENSE",
+    "notice_file": "upstream/certifi-2026.10.23.tar.gz-1a3107da3819.txt",
+    "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+  },
+  {
+    "archive": "cffi-2.1.1.tar.gz",
+    "original_member": "cffi-2.1.1/LICENSE",
+    "notice_file": "upstream/cffi-2.1.1.tar.gz-fd7990a26178.txt",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "archive": "charset_normalizer-3.5.2.tar.gz",
+    "original_member": "charset_normalizer-3.5.2/LICENSE",
+    "notice_file": "upstream/charset_normalizer-3.5.2.tar.gz-aa239bc3afef.txt",
+    "sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+  },
+  {
+    "archive": "charset_normalizer-3.5.2.tar.gz",
+    "original_member": "charset_normalizer-3.5.2/data/NOTICE.md",
+    "notice_file": "upstream/charset_normalizer-3.5.2.tar.gz-2f08f5e6a737.txt",
+    "sha256": "0cb3efcfd8f7a02a337e98dc3de4b0b57424d7208a332b26e7deb8cb94c13922"
+  },
+  {
+    "archive": "cryptography-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE",
+    "notice_file": "upstream/cryptography-50.0.2.tar.gz-19a7a778f2c7.txt",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "archive": "cryptography-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE.APACHE",
+    "notice_file": "upstream/cryptography-50.0.2.tar.gz-462a325afa8b.txt",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "archive": "cryptography-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE.BSD",
+    "notice_file": "upstream/cryptography-50.0.2.tar.gz-c3ba3d0f9ea9.txt",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/COPYING.GPLv2",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-c4e98a74bfa9.txt",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/COPYING.GPLv3",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-893dc7a9a682.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/COPYING.LGPLv2.1",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-f1f035ae7923.txt",
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/COPYING.LGPLv3",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-093f5ba46ba4.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/LICENSE.md",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-20c8c9c6a10f.txt",
+    "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/tests/checkasm/ext/LICENSE",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-4948890f56fe.txt",
+    "sha256": "a2dc8194271e5989c0622531c645a7b41af5da92eeb2531e4f2a3ec31023bc52"
+  },
+  {
+    "archive": "FFmpeg-n9.0.1.tar.gz",
+    "original_member": "FFmpeg-n9.0.1/tests/checkasm/ext/src/html_data/LICENSE",
+    "notice_file": "upstream/FFmpeg-n9.0.1.tar.gz-c9760cbfdea6.txt",
+    "sha256": "0fd2c601fb2ead2add56807b7e32664da8d973b9835a422464f210bfea997a52"
+  },
+  {
+    "archive": "idna-3.20.tar.gz",
+    "original_member": "idna-3.20/LICENSE.md",
+    "notice_file": "upstream/idna-3.20.tar.gz-d3f3407ca52b.txt",
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/.spin/LICENSE",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-1b9abfbea39d.txt",
+    "sha256": "990e6a6dbaee82e655163c3d2a51d1002471e5c0964da4881bc193eaa6a8ee3b"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/LICENSE.txt",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-4650af41fee4.txt",
+    "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/doc/source/_static/scipy-mathjax/LICENSE",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-bb265a0a0d73.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/doc/source/license.rst",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-49ee23a06954.txt",
+    "sha256": "563953e4bf6aba42f430420da7494dce2747f60d56e82ca165e24dfaf766d256"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_build_utils/tempita/LICENSE.txt",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-e02a6dbee030.txt",
+    "sha256": "743b0f4a0087fe3607167113fffab6f2ca069c8da321763697ab5d0d8411634a"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-b249b9741016.txt",
+    "sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/src/common/pythoncapi-compat/COPYING",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-0c8da6ce58e2.txt",
+    "sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/src/highway/LICENSE",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-50b7c02fffd1.txt",
+    "sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/src/highway/debian/copyright",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-e7c9bb361fda.txt",
+    "sha256": "6e4ecf1cae052b678ea3178dd4b3652d581ee66a82d58db8800dd7d80dd6de76"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-58c0e2849f55.txt",
+    "sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/_core/src/umath/svml/LICENSE",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-1c9c4aa17d05.txt",
+    "sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/fft/pocketfft/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-3666c201b89d.txt",
+    "sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/linalg/lapack_lite/LICENSE.txt",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-85c6efba9bd3.txt",
+    "sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/ma/LICENSE",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-f420213b4760.txt",
+    "sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-8affc8751f62.txt",
+    "sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/distributions/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-85146d126bc3.txt",
+    "sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/mt19937/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-fbc76d8e56a0.txt",
+    "sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/pcg64/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-09a5f738c89a.txt",
+    "sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/philox/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-60c7c6273b97.txt",
+    "sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/sfc64/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-eff2119985a0.txt",
+    "sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/numpy/random/src/splitmix64/LICENSE.md",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-53b868c178c2.txt",
+    "sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/vendored-meson/meson/COPYING",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-a53309df1980.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/vendored-meson/meson/docs/theme/extra/templates/license.html",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-1bae2b172238.txt",
+    "sha256": "15fcbcade0003df4b37350f12bea7dfeb25d4d2ac9e99d12d893773c4d5359fd"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/vendored-meson/meson/packaging/License.rtf",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-2dbb2d45b480.txt",
+    "sha256": "e3e8d7b15b2021c994047314ad0ac5e367561f64771a60a85a9c0952d8cd4c3a"
+  },
+  {
+    "archive": "numpy-2.5.4.tar.gz",
+    "original_member": "numpy-2.5.4/vendored-meson/meson/packaging/macpages/English.lproj/license.html",
+    "notice_file": "upstream/numpy-2.5.4.tar.gz-491c822ed1ba.txt",
+    "sha256": "bca11d525505d21cdfb021e634b0f1d48ece827f9bedcf8cd41356c48a09be24"
+  },
+  {
+    "archive": "packaging-26.3.tar.gz",
+    "original_member": "packaging-26.3/LICENSE",
+    "notice_file": "upstream/packaging-26.3.tar.gz-663c5c12aafa.txt",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "archive": "packaging-26.3.tar.gz",
+    "original_member": "packaging-26.3/LICENSE.APACHE",
+    "notice_file": "upstream/packaging-26.3.tar.gz-8269f1c77bcb.txt",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "archive": "packaging-26.3.tar.gz",
+    "original_member": "packaging-26.3/LICENSE.BSD",
+    "notice_file": "upstream/packaging-26.3.tar.gz-92bfecfbb02b.txt",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/LICENSE",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-3a173c813adc.txt",
+    "sha256": "15181e7363dca9aed78b79bebebc7fde7f1814b8bd311ea3b87ae8ccadfc185b"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/Tests/fonts/DejaVuSans/LICENSE.txt",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-5ffbc5e46b64.txt",
+    "sha256": "ba4aee7ef5b2ebc285e76df2497953d8a6e7480bc249f4e0a55f1199a3396622"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/Tests/fonts/LICENSE.txt",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-b6572185d2fe.txt",
+    "sha256": "b79f6f6a2fc060b2e0a6e7a6946c446ae199bec07b92a3df1295975e25c4d96b"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/Tests/icc/LICENSE.txt",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-f53b020760af.txt",
+    "sha256": "09e62757edb34e284bc11c54e3429b438d9db37f46c9cb36bd57b1b25ae36184"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/docs/COPYING",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-5b1dcc62d07c.txt",
+    "sha256": "d44ce2bbf81806be0eb34ec0ecb0cb013ccd56a94057daf214fb7381adde8f0c"
+  },
+  {
+    "archive": "pillow-13.0.0.tar.gz",
+    "original_member": "pillow-13.0.0/src/thirdparty/raqm/COPYING",
+    "notice_file": "upstream/pillow-13.0.0.tar.gz-9f71803d70b0.txt",
+    "sha256": "f6baa5c872ed0c35cde377735f930d97a23e08065d87cf34d766b3aad5beed1e"
+  },
+  {
+    "archive": "pyasn1-0.6.5.tar.gz",
+    "original_member": "pyasn1-0.6.5/LICENSE.rst",
+    "notice_file": "upstream/pyasn1-0.6.5.tar.gz-fb4489420679.txt",
+    "sha256": "2aad5fc00f705c4a1addb83eed10a6a75d286a3779f0cf8519d87e62bc4735fd"
+  },
+  {
+    "archive": "pyasn1-0.6.5.tar.gz",
+    "original_member": "pyasn1-0.6.5/docs/source/license.rst",
+    "notice_file": "upstream/pyasn1-0.6.5.tar.gz-1102b32b23f5.txt",
+    "sha256": "2fd7257410c4d7d9c8d8d85cb7f9f4ef9eee34126a96a993245c71577997c345"
+  },
+  {
+    "archive": "pycparser-3.12.tar.gz",
+    "original_member": "pycparser-3.12/LICENSE",
+    "notice_file": "upstream/pycparser-3.12.tar.gz-5db6301ba6a8.txt",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "archive": "pyerfa-2.0.1.5.tar.gz",
+    "original_member": "pyerfa-2.0.1.5/LICENSE.rst",
+    "notice_file": "upstream/pyerfa-2.0.1.5.tar.gz-4eefc1a7d884.txt",
+    "sha256": "0d404371a5d7d1478307ab142962091ec258b92a71f8cab3736fdb46b03cc716"
+  },
+  {
+    "archive": "pyerfa-2.0.1.5.tar.gz",
+    "original_member": "pyerfa-2.0.1.5/docs/license.rst",
+    "notice_file": "upstream/pyerfa-2.0.1.5.tar.gz-d39828d487eb.txt",
+    "sha256": "fabe78849323cf62507a1d2f50f16bcd8fb75ed7b5af042cb350df33d4f2309e"
+  },
+  {
+    "archive": "pyerfa-2.0.1.5.tar.gz",
+    "original_member": "pyerfa-2.0.1.5/liberfa/erfa/LICENSE",
+    "notice_file": "upstream/pyerfa-2.0.1.5.tar.gz-f56c7602b8e9.txt",
+    "sha256": "b1858f9a263f22c438a455a32945da51a31a0ae25a21055da13bb7ed57cc3b51"
+  },
+  {
+    "archive": "pyinstaller-6.22.3.tar.gz",
+    "original_member": "pyinstaller-6.22.3/bootloader/waflib/LICENSE",
+    "notice_file": "upstream/pyinstaller-6.22.3.tar.gz-11206aeb892f.txt",
+    "sha256": "f1a08e9a6ef535799105fca437e0fb38dc64acb0f224b115ab38fdc458cede53"
+  },
+  {
+    "archive": "pyinstaller-6.22.3.tar.gz",
+    "original_member": "pyinstaller-6.22.3/bootloader/zlib/LICENSE",
+    "notice_file": "upstream/pyinstaller-6.22.3.tar.gz-fef942ede62e.txt",
+    "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+  },
+  {
+    "archive": "pyinstaller-6.22.3.tar.gz",
+    "original_member": "pyinstaller-6.22.3/doc/license.rst",
+    "notice_file": "upstream/pyinstaller-6.22.3.tar.gz-8af4d39e644d.txt",
+    "sha256": "98be0224c3df051092249a1b1387ef3f6fd01d6d87eb263266244a2237bb7ce3"
+  },
+  {
+    "archive": "pyinstaller-6.22.3.tar.gz",
+    "original_member": "pyinstaller-6.22.3/COPYING.txt",
+    "notice_file": "upstream/pyinstaller-6.22.3.tar.gz-87df3e7f0183.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/examples/datavisualization/graphgallery/data/license.txt",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-ae86b9a25304.txt",
+    "sha256": "fb5cbaf2315c9d953bd067b53c8359c6b0e420c05622f85bdb8802872bdf1d72"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/examples/graphs/3d/widgetgraphgallery/data/license.txt",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-8edd8bdccabb.txt",
+    "sha256": "fb5cbaf2315c9d953bd067b53c8359c6b0e420c05622f85bdb8802872bdf1d72"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/examples/webenginequick/nanobrowser/icons/3rdparty/COPYING",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-757575a5baba.txt",
+    "sha256": "4f740497cf8ad0e564de90d3416a06c3d6b1d69d6883fe539925e3353d68a466"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/examples/webenginewidgets/simplebrowser/data/3rdparty/COPYING",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-702091a1f42d.txt",
+    "sha256": "4f740497cf8ad0e564de90d3416a06c3d6b1d69d6883fe539925e3353d68a466"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/sources/pyside6/COPYING",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-09bc73c74ef1.txt",
+    "sha256": "3700b1c56fae3813dfaaef1cba101b6ec108167f36b19f4b2cc8824cc829aa2b"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/sources/shiboken6/COPYING",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-e39170f4a1aa.txt",
+    "sha256": "9bf82b3636570e28118ee558ddab479b8f183d3e20327b7685a7479df52d6493"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/sources/shiboken6/COPYING.libsample",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-3f89972c52ea.txt",
+    "sha256": "902847d35abac99283b01c6bdd6f358d361de6bb1473c931756af8d68b890b2b"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/sources/shiboken6/COPYING.libshiboken",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-f7c4c45e9933.txt",
+    "sha256": "902847d35abac99283b01c6bdd6f358d361de6bb1473c931756af8d68b890b2b"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/sources/shiboken6_generator/ApiExtractor/COPYING",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-92ae1f6582ce.txt",
+    "sha256": "9bf82b3636570e28118ee558ddab479b8f183d3e20327b7685a7479df52d6493"
+  },
+  {
+    "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+    "original_member": "pyside-setup-everywhere-src-6.12.0/tools/license_check.py",
+    "notice_file": "upstream/pyside-setup-everywhere-src-6.12.0.tar.xz-cbcb87a246dd.txt",
+    "sha256": "60a8f466a365c20acaf3e5947f3db596956e4a8ccac951d3143b09c385228fbb"
+  },
+  {
+    "archive": "pysmb-1.2.15.tar.gz",
+    "original_member": "pysmb-1.2.15/LICENSE",
+    "notice_file": "upstream/pysmb-1.2.15.tar.gz-8348e144f66d.txt",
+    "sha256": "d2ffe0ee7a0160534d80e21a8e531d78e67d9c29ca83b0c41ded5f7f6b50b551"
+  },
+  {
+    "archive": "pyyaml-6.0.3.tar.gz",
+    "original_member": "pyyaml-6.0.3/LICENSE",
+    "notice_file": "upstream/pyyaml-6.0.3.tar.gz-20bf988f8434.txt",
+    "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-a2e26a80b2f3.txt",
+    "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-413a5363f72d.txt",
+    "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-60ada7aac73a.txt",
+    "sha256": "5478a2f36b736e13dd3250b9c71a4ab521bc327fb9d112a92c647bf3e69ddb68"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-c74cf9dbd24f.txt",
+    "sha256": "846d97c8b74ccaa92b9ad031140a04363b3b3985f318094552f297b8bda1c68e"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/android/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-c69908a372e5.txt",
+    "sha256": "4a51cf7f724f51bedb5fa4f9583a2762f1db8d05e43a577e2487c7aab2fdce18"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/blake2/COPYING",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-288eee40f145.txt",
+    "sha256": "4103f471877ed0bae500752c5fcd7ecca409d4a4a8dc2ad40437daba60f1a2bc"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/double-conversion/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-5a017fa8f24d.txt",
+    "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/easing/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-0f41b0dbfe50.txt",
+    "sha256": "92fac99458f1754b73edf50f9c9983e0efaa06ad96e2afd5e538c79f45b4b191"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/forkfd/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-6b276966668e.txt",
+    "sha256": "d0d683ae18e78fbef90eb41168fb781920da2d12bf80704490f0882915c18ae0"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/freetype/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-cbc2d8052e6f.txt",
+    "sha256": "bf543cdda11864477b8d2ca2aa9afc2aaa8f9133461b4d962ed6ec73646256a1"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/gradle/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-2eac2eed72b3.txt",
+    "sha256": "cf234c4188d773406f640bf89be680d9288f40ff96901c70d643fcea96ad46df"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/harfbuzz-ng/COPYING",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-0f5c174e0426.txt",
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/icc/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-c22fe93d634c.txt",
+    "sha256": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/libjpeg/COPYRIGHT.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-0930f072f931.txt",
+    "sha256": "e5b349c6a98d997a8d0f5fcfe5cc900b1f76bbc32743674c52a70981498748c0"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/libjpeg/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-d2c0ebe07e2e.txt",
+    "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/libpng/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-127febaf9206.txt",
+    "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/libpsl/src/LICENSE.chromium",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-942d0d74ba7e.txt",
+    "sha256": "1d7f52747a9169751cdf2641a8299c0098e9ecdf9429296ffd55bdb14c9ed5b3"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/md4c/LICENSE.md",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-44a22533e725.txt",
+    "sha256": "d30937367d5413e7eaa218b1640b8946ff76fd34d97152f6979fd96169d5d0fc"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/pcre2/LICENSE-SLJIT",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-b45a401b4435.txt",
+    "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/pixman/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-efd9048093aa.txt",
+    "sha256": "942c4f2a80394d3f53599b8382e9f27349b95c45d92b69b84f26d404f4dd74a5"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/rfc6234/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-017f0db1adb3.txt",
+    "sha256": "7ccebd514aaabc86192f957d773cebf06577c12fe9f25ecd419c6cac5da7a14c"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/tinycbor/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-a567cfac116c.txt",
+    "sha256": "3c6ba0b5bfa7830505301ffb336a17b0748e0d61c4d34216e9dc98f10e40395e"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/xcb/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-9a5e0927c621.txt",
+    "sha256": "82775191bc05f85b40404d77bb69b1edeaeb4033f48387e9e5eab4dd67f5d6f1"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/3rdparty/zlib/LICENSE",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-112da35d870e.txt",
+    "sha256": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/corelib/kernel/LICENSE.QEVENTDISPATCHER_CF.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-80e7b8832be4.txt",
+    "sha256": "e9e5b9f66d21c0e88a4179525ab39cd8d7eac9af78a8404f322c32b0874783d5"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/dbus/LICENSE.LIBDBUS-1.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-31816d80b5a6.txt",
+    "sha256": "ad90aa08bb1a9b7056aa51e2e215b36630855457cde5dffd36aa0faa7b169f24"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/opengl/LICENSE.KHRONOS.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-29df47d778ef.txt",
+    "sha256": "2e484f3c26ff5008c704a3ca9dd809d43f24a004a1abb6c202660fbff0d19715"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/painting/LICENSE.QIMAGETRANSFORM.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-c02712b2436e.txt",
+    "sha256": "46b3cbfa2f2946b93291506351e9be1dd0a28d2a53260f5aa488abd36fbeca9d"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/painting/LICENSE.XCONSORTIUM.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-ce04ff11fef6.txt",
+    "sha256": "a216b01291eb38fc1af93cfccf1fc67b48d9923612e517c2a695e95b3f03c22c"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/rhi/LICENSE.MiniEngine.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-fb096e293cc6.txt",
+    "sha256": "cf248820bf1178370bb4f1670a59f8748d46bc96d0f64080cd631511c6046409"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/text/LICENSE.AGLFN.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-1aa7d391d2e8.txt",
+    "sha256": "40818155548ff41c67d3a40edf355e9658992b292c227f4c1147425cedc746c6"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/util/LICENSE.XSVG.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-94c27eb0d001.txt",
+    "sha256": "3a946598a9f674d44df764279ca0b85b5d6faba08f3bc75d8e0fcf6cd729a9bd"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/gui/vulkan/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-72d22d38a4bf.txt",
+    "sha256": "5f618873b0cdd1e84c611c5529212c2524bfc887bdfd7d1f3b568bad3c649612"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/plugins/platforms/cocoa/LICENSE.COCOA.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-6913ca0cb2d4.txt",
+    "sha256": "e9e5b9f66d21c0e88a4179525ab39cd8d7eac9af78a8404f322c32b0874783d5"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/testinternal/3rdparty/cmake/Copyright.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-1f94b3462746.txt",
+    "sha256": "0676e30827684487aa0ea8f72f01e9460a6320fa34a2888df0ad1dd3e8a06eb8"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/testlib/3rdparty/catch2/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-9e1492885f4a.txt",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/testlib/3rdparty/cycle/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-51cac8cda7d7.txt",
+    "sha256": "cb5aedb296c5246d1f22e9099f925a65146f9f0d6b4eebba97fd27a6cdbbab2d"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/testlib/3rdparty/linux/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-40c04138003e.txt",
+    "sha256": "ed71cfca021790f74094e9810f42e31288e7f43cf00c8d9ac8d6f904124bd815"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/src/testlib/3rdparty/valgrind/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-3a14c15b75e2.txt",
+    "sha256": "ec72eebd6326165156787da828caaa18386489387aefaa073c9bd40b8b2a400e"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/tests/auto/corelib/serialization/qxmlstream/LICENSE.XML-Test-Suite.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-4f27260a939b.txt",
+    "sha256": "b2ace830c68a486d548834b9a93806d064a3eb041f603ec6368034d060fdf46a"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/tests/manual/rhi/shared/imgui/fonts/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-22f52f529637.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/tests/manual/rhi/shared/imgui/imgui/LICENSE.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-c18dd5de74b2.txt",
+    "sha256": "1b64b23b817e547982a86984685f5e9337695caa542753fb6f08d502d5208e38"
+  },
+  {
+    "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtbase-everywhere-src-6.12.0/util/gradientgen/LICENSE.WEBGRADIENTS.txt",
+    "notice_file": "upstream/qtbase-everywhere-src-6.12.0.tar.xz-ff98909d46ab.txt",
+    "sha256": "9be732e45b638c74f9c0e5248541dd54dc7e8e9a5545df96b5c4b7c9ac0c68ba"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/src/3rdparty/masm/LICENSE",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-d123d7074d41.txt",
+    "sha256": "9ba0c20a2972274f27e975d79ed3582e322d6891338266a52e2d3a9417fc0a72"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/src/3rdparty/yoga/LICENSE",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-2168b93fe8ec.txt",
+    "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/src/quickcontrols/material/LICENSE.ANGULARJS.txt",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-dc133f6ca597.txt",
+    "sha256": "a1c1daa9eec4db907907c0ccc42a4843bb996410f888b972a39fe152e829bc3d"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/LICENSE",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-be1b4068e399.txt",
+    "sha256": "f9215fd81c507c12df8732c7450b1e09f8a5cbf5daa14cd7081f8aec70012c7f"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/lib/checks/license.py",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-8e89a7a6ede9.txt",
+    "sha256": "248999e80e164687cfac0eec81a90219fbe4d1b9734591ffad93e78a1c4921a9"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_alternate_1.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-34895b7978aa.txt",
+    "sha256": "f4b7221aae5134f1c49632613db250301e0d7271ab12895928199dfe73e02f09"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_alternate_2.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-d7992453ba3a.txt",
+    "sha256": "af4f46725cfe6cee6972f8c8d4ba4d84252080c42a64ed66fa860eb40a0813f8"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_alternate_3.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-2f6e4dacdf6a.txt",
+    "sha256": "c7b176ba691589cea57f3d9a545ccfdd3387d5617b328f44bb2e61ec787f3442"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_alternate_4,js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-c73d11b31a8f.txt",
+    "sha256": "a5c82b67ba59e65b8a85a2579cdf3102f0f051c3d99c9cd76472546198d3a624"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_alternate_5.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-d13ccab07571.txt",
+    "sha256": "93d76f5deee3747c0988eaa6be85aa61534420f2c9959b29137bf6feec7e3e0c"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_generated.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-a1df90cc09dd.txt",
+    "sha256": "022a0c4f83a6183c81e40428489ca89b8bd65b07b44d4efa0a9fe83bf1cf4e29"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_invalid_year.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-a5495571deb0.txt",
+    "sha256": "2154ddc1ae2e3aecfb5a00247194223fcfd82dc6edab0677bf7a9e7607be08f5"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/auto/qml/ecmascripttests/test262/tools/lint/test/fixtures/license_missing.js",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-f81ace2eec70.txt",
+    "sha256": "414897f2daa1eb14a05da2d5282ca85b526712ec5ae06070afb9524ba83fb510"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/manual/painterpathquickshape/LICENSE.OFL.txt",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-390c1ba09da9.txt",
+    "sha256": "2d70f3c8e67111788366fa85b4c0bf42de29ea6653198ba65f4fe0fd22f5dcad"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/manual/quickcontrols/swipetoremove/fonts/LICENSE.txt",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-00eb790b7834.txt",
+    "sha256": "92a70e3777d010b863fb4519a7d474a9b29383de58e7898d7b77c1e3295acb7c"
+  },
+  {
+    "archive": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtdeclarative-everywhere-src-6.12.0/tests/manual/quickcontrols/testbench/fonts/LICENSE.txt",
+    "notice_file": "upstream/qtdeclarative-everywhere-src-6.12.0.tar.xz-cca4348d98eb.txt",
+    "sha256": "e882ddf66dd8808b5dc6b8e4eebd80696b3f7064ff2edeae2ea7db2fedffeb7f"
+  },
+  {
+    "archive": "qtimageformats-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtimageformats-everywhere-src-6.12.0/src/3rdparty/libtiff/COPYRIGHT",
+    "notice_file": "upstream/qtimageformats-everywhere-src-6.12.0.tar.xz-7bc1b86299c3.txt",
+    "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+  },
+  {
+    "archive": "qtimageformats-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtimageformats-everywhere-src-6.12.0/src/3rdparty/libwebp/COPYING",
+    "notice_file": "upstream/qtimageformats-everywhere-src-6.12.0.tar.xz-8b2c08012b1e.txt",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/examples/multimedia/audiosource/3rdparty/dr_libs/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-5246c916e233.txt",
+    "sha256": "dd1c647e6f767f8ff4b2dfae0fed314726600a01e0cf1ef556afddd5fa96ff15"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/dr_libs/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-4d6e24ff102b.txt",
+    "sha256": "dd1c647e6f767f8ff4b2dfae0fed314726600a01e0cf1ef556afddd5fa96ff15"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/COPYING.APACHE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-296070436269.txt",
+    "sha256": "03379001a7b12a2ec997a25554247d985270b353c10d5bafee9ac8d6519820b7"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/COPYING.BSD",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-142712a47744.txt",
+    "sha256": "51928dce36213c5333ba3172e847d735d4c6e9b7ff2722a326c49067155b82eb"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/COPYING.MINPACK",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-9ddbdb024c28.txt",
+    "sha256": "c87b7f8ee88f6195e91743820c00354833583aef091b72e2d4a49c8e28e798a0"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/COPYING.MPL2",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-9fad3107c245.txt",
+    "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/COPYING.README",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-a12972393441.txt",
+    "sha256": "db640ff2bd90c6abd6a4d3fbb351e0ee4d555417cf840492054d1cbb2ea85644"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/eigen/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-5593b0b42f57.txt",
+    "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.BSD-2-Clause.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-abc44b99fcc5.txt",
+    "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.BSD-Source-Code.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-a772b7e56149.txt",
+    "sha256": "1f1b677d26ab73e159a55c3a914cf12d888e18a9d0d469fedab4aa6e5a48b1c0"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.BSL-1.0.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-a487b9516e76.txt",
+    "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.IJG.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-d1516ff5c10e.txt",
+    "sha256": "7658542977bfdced9e1059a6c934ce4281de76d103b831007b825917dc62511a"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.ISC.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-41d4965a3cda.txt",
+    "sha256": "f2ec607f67bb0dd3053b49835b02110d5cd0f8eb6da3aac4dc0b142a6b299be9"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.LGPL-2.1-or-later.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-7cade17667e2.txt",
+    "sha256": "1ccf09bf2f598308df4bed9cd8e9657dc5cd0973d2800318f2e241486e2edf3f"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.MIT.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-599c187d9c4e.txt",
+    "sha256": "b85dcd3e453d05982552c52b5fc9e0bdd6d23c6f8e844b984a88af32570b0cc0"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/ffmpeg/LICENSE.Zlib.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-f654220631de.txt",
+    "sha256": "bfb1112d49db5b1daecdfef24bd7e2f3ea0bafb33aa67aa0ab51e2bf8407c03d"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/pffft/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-3b6a63cb23a0.txt",
+    "sha256": "a46200592eb193853527250da098e6bb0c75424e7a2c7db8da526c4f301c3d88"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/resonance-audio/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-0df619a51419.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/resonance-audio/third_party/SADIE_hrtf_database/LICENSE",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-30b0204e86c5.txt",
+    "sha256": "48b2d5072817ba4cf7c2ee7af788434d001f43d36ef05e0ce5b76d7cf7262b50"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/signalsmith-stretch/LICENSE.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-d973e00e3c63.txt",
+    "sha256": "ee2ef82481ffb445ecdd4b3a4c1f82c0cddb2da8fe39d8e8dc384fffb3e7f06f"
+  },
+  {
+    "archive": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtmultimedia-everywhere-src-6.12.0/src/3rdparty/signalsmith-stretch/dsp/LICENSE.txt",
+    "notice_file": "upstream/qtmultimedia-everywhere-src-6.12.0.tar.xz-d6bb9e4b0e49.txt",
+    "sha256": "8b7cb3437bcbe89c4bd5c51da3c1a67f71fa7e9026a89670e9e499189225aff8"
+  },
+  {
+    "archive": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtshadertools-everywhere-src-6.12.0/src/3rdparty/SPIRV-Cross/COPYRIGHT.txt",
+    "notice_file": "upstream/qtshadertools-everywhere-src-6.12.0.tar.xz-91f4dbab2ca4.txt",
+    "sha256": "afe3458e2431963def8b2c1520d342566725a07b46344aa34c5d327531bf2873"
+  },
+  {
+    "archive": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtshadertools-everywhere-src-6.12.0/src/3rdparty/SPIRV-Cross/LICENSE",
+    "notice_file": "upstream/qtshadertools-everywhere-src-6.12.0.tar.xz-fa1c43cfbd9c.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtshadertools-everywhere-src-6.12.0/src/3rdparty/glslang/COPYRIGHT.txt",
+    "notice_file": "upstream/qtshadertools-everywhere-src-6.12.0.tar.xz-02eb452021e6.txt",
+    "sha256": "7a0986b241205c038dcea76b343dd9b7030a424b644a7d59585200824831dae8"
+  },
+  {
+    "archive": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtshadertools-everywhere-src-6.12.0/src/3rdparty/glslang/LICENSE.txt",
+    "notice_file": "upstream/qtshadertools-everywhere-src-6.12.0.tar.xz-75c03f5543cc.txt",
+    "sha256": "adb783e734e906d1f46db5df29991dbde84bdb0ceab502ac2febb44fe3c2b5f4"
+  },
+  {
+    "archive": "qtsvg-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtsvg-everywhere-src-6.12.0/tests/baseline/data/svg_12_testsuite/LICENSE.txt",
+    "notice_file": "upstream/qtsvg-everywhere-src-6.12.0.tar.xz-66e352b03e02.txt",
+    "sha256": "635f33fbb460f1731dad45d79dbf2301255f63296d77a064c000f92e2cc79173"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/src/assistant/qlitehtml/src/3rdparty/litehtml/LICENSE",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-a331220f6508.txt",
+    "sha256": "71bd488e77ee821bf38d89e2b8a9c5ebe687553fcae9cefa00a96499792a3e23"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/src/assistant/qlitehtml/src/3rdparty/litehtml/src/gumbo/LICENSE",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-08bb67d4cc62.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/src/qdoc/catch/LICENSE.CATCH.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-0849f99c8336.txt",
+    "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/src/qdoc/qdoc/src/qdoc/clang/AST/LICENSE.LLVM.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-ea79ba26ed5e.txt",
+    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/auto/qtattributionsscanner/testdata/good/local_license/LICENSE.Id1.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-cfbbd4be385c.txt",
+    "sha256": "3827f47858e3fca4ef1326e509513918fa46a9526eb72a5d697f9b0bf9c0fcdc"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/auto/qtattributionsscanner/testdata/good/local_license/LICENSE.Id2.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-980b91762a43.txt",
+    "sha256": "3522b9b81a52287f015f0d35573b3f4cdf926ef1febeb0d93ba8d639a252edd2"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/auto/qtattributionsscanner/testdata/good/variants/COPYRIGHT.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-9afa8c4d4fb2.txt",
+    "sha256": "ff23a4aa54d3eb5d95cced9d96199baff7449dd4198699a08d5690b82300e0e0"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/auto/qtattributionsscanner/testdata/good/variants/LICENSE.1.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-09032b92a872.txt",
+    "sha256": "3827f47858e3fca4ef1326e509513918fa46a9526eb72a5d697f9b0bf9c0fcdc"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/auto/qtattributionsscanner/testdata/good/variants/LICENSE.2.txt",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-4883e2255c4a.txt",
+    "sha256": "3522b9b81a52287f015f0d35573b3f4cdf926ef1febeb0d93ba8d639a252edd2"
+  },
+  {
+    "archive": "qttools-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qttools-everywhere-src-6.12.0/tests/manual/qtattributionsscanner/data/LICENSE",
+    "notice_file": "upstream/qttools-everywhere-src-6.12.0.tar.xz-fac41444f629.txt",
+    "sha256": "3417a56f1be5140321a9ba5885434f92417d671e65e28966974947163e5cff0e"
+  },
+  {
+    "archive": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtvirtualkeyboard-everywhere-src-6.12.0/src/plugins/openwnn/3rdparty/openwnn/NOTICE",
+    "notice_file": "upstream/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz-e58076d6e6d1.txt",
+    "sha256": "05cc719deafd0ab083b03296bb2911de10d116953b626a7629b9ca59938038b1"
+  },
+  {
+    "archive": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtvirtualkeyboard-everywhere-src-6.12.0/src/plugins/pinyin/3rdparty/pinyin/NOTICE",
+    "notice_file": "upstream/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz-f9a6cff4d14c.txt",
+    "sha256": "554aa1a1047c04056ad6206ce942a43f11c2b2daa0c01cb029f2b165072342d8"
+  },
+  {
+    "archive": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+    "original_member": "qtvirtualkeyboard-everywhere-src-6.12.0/src/plugins/tcime/3rdparty/tcime/COPYING",
+    "notice_file": "upstream/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz-9d1b919b3baa.txt",
+    "sha256": "9400a6128693d2f25653698e695f554660c71efccc8c21af28bf143e35199db6"
+  },
+  {
+    "archive": "requests-2.34.2.tar.gz",
+    "original_member": "requests-2.34.2/LICENSE",
+    "notice_file": "upstream/requests-2.34.2.tar.gz-85803e3ee969.txt",
+    "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+  },
+  {
+    "archive": "requests-2.34.2.tar.gz",
+    "original_member": "requests-2.34.2/NOTICE",
+    "notice_file": "upstream/requests-2.34.2.tar.gz-bed17f5749d7.txt",
+    "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc"
+  },
+  {
+    "archive": "seestarpy-0.8.0.tar.gz",
+    "original_member": "seestarpy-0.8.0/LICENSE",
+    "notice_file": "upstream/seestarpy-0.8.0.tar.gz-440628291a33.txt",
+    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-b59a9f3aea87.txt",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/docs/userguide/license_migration.rst",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-f0262f395bca.txt",
+    "sha256": "49e725dd64d57ea335ba61af755273ad03dbe39b8a689882c49e1c820b295944"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-b767e576be4b.txt",
+    "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-4136e7a44508.txt",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-a7d6571d57f2.txt",
+    "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-e0b0ece725eb.txt",
+    "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-38cfe3aa892c.txt",
+    "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-6fe672846aea.txt",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-dfce6195a192.txt",
+    "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-8140b6549dfc.txt",
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-fd2c46d01fff.txt",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE.BSD",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-6193eda204fd.txt",
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-059adb5e5d9b.txt",
+    "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-e35bee02833c.txt",
+    "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-a4258b5e346c.txt",
+    "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-280d9e82ec57.txt",
+    "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/config/NOTICE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-3c5b6ac06ee3.txt",
+    "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+  },
+  {
+    "archive": "setuptools-84.2.1.tar.gz",
+    "original_member": "setuptools-84.2.1/setuptools/config/_validate_pyproject/NOTICE",
+    "notice_file": "upstream/setuptools-84.2.1.tar.gz-7027e8d95bf4.txt",
+    "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+  },
+  {
+    "archive": "typing_extensions-4.16.0.tar.gz",
+    "original_member": "typing_extensions-4.16.0/LICENSE",
+    "notice_file": "upstream/typing_extensions-4.16.0.tar.gz-e27db418628a.txt",
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "archive": "tzdata-2026.6.tar.gz",
+    "original_member": "tzdata-2026.6/LICENSE",
+    "notice_file": "upstream/tzdata-2026.6.tar.gz-a6d99a09fb38.txt",
+    "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46"
+  },
+  {
+    "archive": "tzdata-2026.6.tar.gz",
+    "original_member": "tzdata-2026.6/licenses/LICENSE_APACHE",
+    "notice_file": "upstream/tzdata-2026.6.tar.gz-5f719a54e95e.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "archive": "tzlocal-5.4.5.tar.gz",
+    "original_member": "tzlocal-5.4.5/LICENSE.txt",
+    "notice_file": "upstream/tzlocal-5.4.5.tar.gz-2666290f4b0e.txt",
+    "sha256": "d99ab209aeb16aad2c25c90ffd83c1a981e290ffff76a420a2ab03e03f041b8c"
+  },
+  {
+    "archive": "urllib3-2.8.0.tar.gz",
+    "original_member": "urllib3-2.8.0/LICENSE.txt",
+    "notice_file": "upstream/urllib3-2.8.0.tar.gz-eba3292f3e86.txt",
+    "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+  }
+]

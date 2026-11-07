@@ -1,0 +1,32 @@
+{
+  "source": "https://github.com/mattiaverga/OpenNGC",
+  "revision": "be3cd6c5498806a2fbb2f7e0452ef802dbb02be0",
+  "retrieved": "2026-11-06",
+  "license": "CC-BY-SA-4.0",
+  "files": {
+    "NGC.csv": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/database_files/NGC.csv",
+      "sha256": "54abea0b57b0a103831bfc7a8e3a99a23acfbf4bb581fcf3d8af539cbb826c84"
+    },
+    "addendum.csv": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/database_files/addendum.csv",
+      "sha256": "c93f983dda6780b76b7b2e9271a856a892627710148a982ee98101a54c642fdd"
+    },
+    "OpenNGC-README.md": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/README.md",
+      "sha256": "30222bfdea3df904f5de464663e81141eea4bd53c94c87d4fcce6f7b039e3f00"
+    },
+    "OpenNGC-AUTHORS.txt": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/AUTHORS",
+      "sha256": "57ad4fb09da7d94e90c66aea92af23f6493b29c9953ba0e85d3360b16531c011"
+    },
+    "NGC_guide.txt": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/NGC_guide.txt",
+      "sha256": "b7fca022985daa0f41a8bc8dd7028513e4db9ca96a2cfc380b68ff4c2e812810"
+    },
+    "CC-BY-SA-4.0.txt": {
+      "url": "https://raw.githubusercontent.com/mattiaverga/OpenNGC/be3cd6c5498806a2fbb2f7e0452ef802dbb02be0/LICENSES/CC-BY-SA-4.0.txt",
+      "sha256": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966"
+    }
+  }
+}

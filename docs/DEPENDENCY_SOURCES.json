@@ -1,0 +1,416 @@
+{
+  "sources": [
+    {
+      "component": "seestarpy",
+      "version": "0.8.0",
+      "status": "downloaded",
+      "file": "seestarpy-0.8.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/51/ac/29b9d22e0dbf417f9ae0bc841dce5e42e6dbd97ac7063c75fab5c95c73b9/seestarpy-0.8.0.tar.gz",
+      "sha256": "7857a1b95d6b9fea775c8fb59018f0f1523e698004652bdc42a566add672a968",
+      "bytes": 827249,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "PySide6",
+      "version": "6.12.0",
+      "status": "no PyPI sdist; obtain publisher sources separately"
+    },
+    {
+      "component": "PySide6_Essentials",
+      "version": "6.12.0",
+      "status": "no PyPI sdist; obtain publisher sources separately"
+    },
+    {
+      "component": "PySide6_Addons",
+      "version": "6.12.0",
+      "status": "no PyPI sdist; obtain publisher sources separately"
+    },
+    {
+      "component": "shiboken6",
+      "version": "6.12.0",
+      "status": "no PyPI sdist; obtain publisher sources separately"
+    },
+    {
+      "component": "numpy",
+      "version": "2.5.4",
+      "status": "downloaded",
+      "file": "numpy-2.5.4.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz",
+      "sha256": "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a",
+      "bytes": 20866315,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "Pillow",
+      "version": "13.0.0",
+      "status": "downloaded",
+      "file": "pillow-13.0.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz",
+      "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510",
+      "bytes": 47058631,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "cryptography",
+      "version": "50.0.2",
+      "status": "downloaded",
+      "file": "cryptography-50.0.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz",
+      "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5",
+      "bytes": 880623,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "cffi",
+      "version": "2.1.1",
+      "status": "downloaded",
+      "file": "cffi-2.1.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz",
+      "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+      "bytes": 530807,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pysmb",
+      "version": "1.2.15",
+      "status": "downloaded",
+      "file": "pysmb-1.2.15.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/9d/84/f5158ec04fdd813aa4f8df229a5f6319f20c6a555adb3967a33d69e24347/pysmb-1.2.15.tar.gz",
+      "sha256": "1c12eb0e251152e80b4bde5d816b33cab14d04b261b5f790cb4a5d9fd9653881",
+      "bytes": 1182126,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pyasn1",
+      "version": "0.6.5",
+      "status": "downloaded",
+      "file": "pyasn1-0.6.5.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/88/7e/3c0da41061a2021cac7cd524fd57092adbe5b515e8bf9005702e366802e2/pyasn1-0.6.5.tar.gz",
+      "sha256": "6b11616a6bcf3a40e635f082bb232fa57b5e0dd7f517bd7ddd69ec3794508a47",
+      "bytes": 155152,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "requests",
+      "version": "2.34.2",
+      "status": "downloaded",
+      "file": "requests-2.34.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz",
+      "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+      "bytes": 142856,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "charset-normalizer",
+      "version": "3.5.2",
+      "status": "downloaded",
+      "file": "charset_normalizer-3.5.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz",
+      "sha256": "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef",
+      "bytes": 172659,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "idna",
+      "version": "3.20",
+      "status": "downloaded",
+      "file": "idna-3.20.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz",
+      "sha256": "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44",
+      "bytes": 216463,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "urllib3",
+      "version": "2.8.0",
+      "status": "downloaded",
+      "file": "urllib3-2.8.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz",
+      "sha256": "63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63",
+      "bytes": 458972,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "certifi",
+      "version": "2026.10.23",
+      "status": "downloaded",
+      "file": "certifi-2026.10.23.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz",
+      "sha256": "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd",
+      "bytes": 136225,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "tzlocal",
+      "version": "5.4.5",
+      "status": "downloaded",
+      "file": "tzlocal-5.4.5.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d8/89/2bd035df331499589fc92e59375c17c6cea6a500453b2c5f6a6ec9572825/tzlocal-5.4.5.tar.gz",
+      "sha256": "ba976898bad27945178c9ca25c222c19e322b30c10342b9f40b46714f70d2d5f",
+      "bytes": 31483,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "tzdata",
+      "version": "2026.6",
+      "status": "downloaded",
+      "file": "tzdata-2026.6.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/7a/29/6a1391d31cd00ff9e927215a224a880e1e84e826b64ba80a499e51c074d8/tzdata-2026.6.tar.gz",
+      "sha256": "85d2cd9c09f81f0bb29db27759fc83af4f1e620efb814f8c5bf8b4cc4feece6d",
+      "bytes": 201017,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "tqdm",
+      "version": "4.70.1",
+      "status": "downloaded",
+      "file": "tqdm-4.70.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz",
+      "sha256": "cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4",
+      "bytes": 171846,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pycparser",
+      "version": "3.12",
+      "status": "downloaded",
+      "file": "pycparser-3.12.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz",
+      "sha256": "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6",
+      "bytes": 158785,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "setuptools",
+      "version": "84.2.1",
+      "status": "downloaded",
+      "file": "setuptools-84.2.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/70/b3/c19426f783614d625699a4b247faf628ea9ab1db228674491767b417f9e1/setuptools-84.2.1.tar.gz",
+      "sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc",
+      "bytes": 1230289,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "packaging",
+      "version": "26.3",
+      "status": "downloaded",
+      "file": "packaging-26.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz",
+      "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+      "bytes": 313412,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pyinstaller",
+      "version": "6.22.3",
+      "status": "downloaded",
+      "file": "pyinstaller-6.22.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/63/41/f90302845945abd4ed647933ff5ee7c6ac93983187be67f897b6cb613331/pyinstaller-6.22.3.tar.gz",
+      "sha256": "05eb2f5615503e72939a7224d68b4aff572c6b0438ee4a17d0a4b481f399362d",
+      "bytes": 4437180,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "astropy",
+      "version": "8.0.2",
+      "status": "downloaded",
+      "file": "astropy-8.0.2.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/95/57/02089e6da0fc00846d309034ad74e13ebcadc67b1c5cef397ae0597473fa/astropy-8.0.2.tar.gz",
+      "sha256": "e6af35823099ad6a40b57dbe5ff845f577374ea131925c9fa4b49eeab06c5310",
+      "bytes": 7178167,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "astropy-iers-data",
+      "version": "0.2026.11.2.0.34.55",
+      "status": "downloaded",
+      "file": "astropy_iers_data-0.2026.11.2.0.34.55.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/c3/e6/0f9740a39dbae6614444f4f29f71aa5fb977a75368e7bc74f998037fc496/astropy_iers_data-0.2026.11.2.0.34.55.tar.gz",
+      "sha256": "20827b7431096723bbfac3f42eddc45df1bf35ea9bc6f3978837f65d8443cf6b",
+      "bytes": 2009267,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pyerfa",
+      "version": "2.0.1.5",
+      "status": "downloaded",
+      "file": "pyerfa-2.0.1.5.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/71/39/63cc8291b0cf324ae710df41527faf7d331bce573899199d926b3e492260/pyerfa-2.0.1.5.tar.gz",
+      "sha256": "17d6b24fe4846c65d5e7d8c362dcb08199dc63b30a236aedd73875cc83e1f6c0",
+      "bytes": 818430,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "PyYAML",
+      "version": "6.0.3",
+      "status": "downloaded",
+      "file": "pyyaml-6.0.3.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz",
+      "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f",
+      "bytes": 130960,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "winrt-runtime",
+      "version": "3.2.1",
+      "status": "downloaded",
+      "file": "winrt_runtime-3.2.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/16/dd/acdd527c1d890c8f852cc2af644aa6c160974e66631289420aa871b05e65/winrt_runtime-3.2.1.tar.gz",
+      "sha256": "c8dca19e12b234ae6c3dadf1a4d0761b51e708457492c13beb666556958801ea",
+      "bytes": 21721,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "winrt-Windows.Devices.Geolocation",
+      "version": "3.2.1",
+      "status": "downloaded",
+      "file": "winrt_windows_devices_geolocation-3.2.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/1b/cf/57b6b42d3feb8f7942ea976610c92088d1582e39e5bf360ce6ae9b8f4972/winrt_windows_devices_geolocation-3.2.1.tar.gz",
+      "sha256": "3a15d8b0007a8192cc45dc1e1e71032b0d2b1186ac42bfa26a8dc1f3070c39e1",
+      "bytes": 17641,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "winrt-Windows.Foundation",
+      "version": "3.2.1",
+      "status": "downloaded",
+      "file": "winrt_windows_foundation-3.2.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/0c/55/098ce7ea0679efcc1298b269c48768f010b6c68f90c588f654ec874c8a74/winrt_windows_foundation-3.2.1.tar.gz",
+      "sha256": "ad2f1fcaa6c34672df45527d7c533731fdf65b67c4638c2b4aca949f6eec0656",
+      "bytes": 30485,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "winrt-Windows.Foundation.Collections",
+      "version": "3.2.1",
+      "status": "downloaded",
+      "file": "winrt_windows_foundation_collections-3.2.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/ef/62/d21e3f1eeb8d47077887bbf0c3882c49277a84d8f98f7c12bda64d498a07/winrt_windows_foundation_collections-3.2.1.tar.gz",
+      "sha256": "0eff1ad0d8d763ad17e9e7bbd0c26a62b27215016393c05b09b046d6503ae6d5",
+      "bytes": 16043,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "typing_extensions",
+      "version": "4.16.0",
+      "status": "downloaded",
+      "file": "typing_extensions-4.16.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz",
+      "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+      "bytes": 113555,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "pyside-setup",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.12.0-src/pyside-setup-everywhere-src-6.12.0.tar.xz",
+      "sha256": "099c1a597cf33c1b000e11cf68a0b82d216fb802bf81726efc720394f10c7751",
+      "bytes": 18211772,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtbase",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtbase-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz",
+      "sha256": "a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307",
+      "bytes": 51220268,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtdeclarative",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtdeclarative-everywhere-src-6.12.0.tar.xz",
+      "sha256": "311f3a2603e1973bb59baef9dfa740a376de713157d4782ee043681e889c9260",
+      "bytes": 39221652,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtmultimedia",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtmultimedia-everywhere-src-6.12.0.tar.xz",
+      "sha256": "3143f53b64257ba2a0685c940f5dce476c75871ff86b516de45cfd54ea93a62d",
+      "bytes": 10544184,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtsvg",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtsvg-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz",
+      "sha256": "e4ab39534ec97987b1b9b60ef7f4d3253d5912a69f8c713a01753174a4029331",
+      "bytes": 2341876,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtvirtualkeyboard",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+      "sha256": "2aae3628f4648f86959d7853e7e1f50ee96a7f1bb5497afb62b7deff6c350170",
+      "bytes": 3281984,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtshadertools",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtshadertools-everywhere-src-6.12.0.tar.xz",
+      "sha256": "c7d84f436e1aaef39fdcadebf2bd71bdf24dc69497e13f2e0198873cbbfea2ab",
+      "bytes": 1244684,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qtimageformats",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qtimageformats-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtimageformats-everywhere-src-6.12.0.tar.xz",
+      "sha256": "0943132b5db8de6b6a7f1d162682173e8763c7ed94e80fd39113292845f67762",
+      "bytes": 1848620,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qttranslations",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qttranslations-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttranslations-everywhere-src-6.12.0.tar.xz",
+      "sha256": "85929c0c30d6f273f23bd879bb69803ea17b010ab73cab2f8abf95357f6f6bbb",
+      "bytes": 1745884,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "qttools",
+      "version": "6.12.0",
+      "status": "downloaded",
+      "file": "qttools-everywhere-src-6.12.0.tar.xz",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttools-everywhere-src-6.12.0.tar.xz",
+      "sha256": "8dab8f3611496486a470ad5f115ceea584f36bc22a2b8b6f6ebdbafbb8160693",
+      "bytes": 10819720,
+      "publisher_digest_verified": true
+    },
+    {
+      "component": "FFmpeg",
+      "version": "9.0.1",
+      "status": "downloaded",
+      "file": "FFmpeg-n9.0.1.tar.gz",
+      "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/refs/tags/n9.0.1",
+      "sha256": "195d54bebe1a27f84d77f4b989d193466f305b355da92292766a69f16880b18a",
+      "bytes": 17306989,
+      "publisher_digest_verified": false
+    }
+  ],
+  "source_build_correspondence_verified": false,
+  "note": "Unmodified public source archives. Native binary patches, build recipes and embedded dependencies still require review."
+}

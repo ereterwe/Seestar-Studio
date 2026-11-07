@@ -1,0 +1,14 @@
+Seestar Studio uses the FFmpeg libraries distributed with PySide6 / Qt Multimedia.
+FFmpeg 9.0.1, Copyright (c) the FFmpeg developers and individual file authors.
+https://ffmpeg.org/
+https://github.com/FFmpeg/FFmpeg/tree/n9.0.1
+
+The installed avcodec-63.dll reports LGPL version 2.1 or later.
+Its build configuration enables shared libraries and does not enable GPL or nonfree.
+COPYING.LGPLv2.1 is included as FFMPEG-LGPL-2.1.txt, retrieved unchanged from
+https://raw.githubusercontent.com/FFmpeg/FFmpeg/n9.0.1/COPYING.LGPLv2.1
+
+Qt's Windows binaries remain separate and replaceable. No separate FFmpeg executable
+is bundled. Exact native corresponding sources, build recipes and all per-file
+third-party notices must be completed before any public redistribution. This local
+development artifact is not a public release. Codec patent questions remain open.

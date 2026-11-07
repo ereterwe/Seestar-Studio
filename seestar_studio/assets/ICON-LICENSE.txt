@@ -1,0 +1,10 @@
+Seestar Studio icon — original project graphic
+Copyright (C) 2026 Seestar Studio contributors.
+Licensed under GNU General Public License version 3 only (GPL-3.0-only).
+See the project LICENSE for the complete text.
+
+Original geometric observatory dome and star, authored for this project with
+OpenAI Codex assistance from Mark's design brief. No external artwork, fonts,
+brand logos or image-generation service used. Master: SeestarStudio.svg.
+Rendered with Qt SVG; PNG/ICO assembled with Pillow by tools/build_icon.py.
+This provenance is not a claim of OpenAI ownership or endorsement.
