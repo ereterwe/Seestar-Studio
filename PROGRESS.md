@@ -8,7 +8,7 @@ Legacy profiles are reused in place; no keys copied. Initial rebuilt payload has
 FFmpeg remains unchanged (183 encoders / 498 decoders).
 
 Completed: 172 tests, final native build, portable/installed clean exit, installer
-lifecycle and 1,666-file SBOM coverage. New hardware regression, clean external PC,
+lifecycle and 1,670-file SBOM coverage. New hardware regression, clean external PC,
 software-only graphics and workflow execution remain unverified. Exact embedded
 component/source completeness and further FFmpeg minimization remain OPEN.
 See docs/compliance/MINIMIZATION_REPORT.md for measurements and release gates.

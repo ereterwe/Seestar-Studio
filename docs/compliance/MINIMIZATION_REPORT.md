@@ -10,16 +10,16 @@ b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59. No push or public release performed.
 
 | Metric | Seestar Studio baseline | Telescope Desk |
 |---|---:|---:|
-| Portable ZIP bytes | 88442773 | 84704737 |
-| Installer bytes | 62775719 | 61073827 |
-| Payload files | 1642 | 1666 |
+| Portable ZIP bytes | 88442773 | 84706875 |
+| Installer bytes | 62775719 | 61082404 |
+| Payload files | 1642 | 1670 |
 | DLLs | 57 | 56 |
 | Native files including EXE/PYD | 130 | 127 |
 | FFmpeg encoder implementations | 183 | 183 |
 | FFmpeg decoder implementations | 498 | 498 |
 
-ZIP reduction: 3,738,036 bytes (4.23%).
-Installer reduction: 1,701,892 bytes (2.71%).
+ZIP reduction: 3,735,898 bytes (4.22%).
+Installer reduction: 1,693,315 bytes (2.70%).
 Files increased because of retained historical evidence and new documentation.
 Installed distributions inspected: 44, including build/test tools; this is not a
 claim of 44 required runtime packages. Exact inferred runtime ownership and
@@ -41,7 +41,7 @@ remaining ambiguities are recorded in the SBOM/audit.
 172 tests passed (32.60 s); targeted SBOM recheck passed after adding version checks.
 Portable and installed native EXE: exit 0, clean shutdown, all six tabs available,
 14,034 catalog entries, synthetic sky calculations, control disabled.
-Installation/reinstallation/uninstallation: exit 0; all 1,666 installed files matched;
+Installation/reinstallation/uninstallation: exit 0; all 1,670 installed files matched;
 shortcuts/registration removed; both old/new profile configuration hashes unchanged.
 Initial restricted installer invocation failed resolving LocalAppData before installation;
 normal user-access run of the identical installer passed. No administrator install.
@@ -110,3 +110,10 @@ Before a public beta: renewed safe Live View regression, external clean-PC test,
 resolve the component/source completeness gaps, review legal issues, then explicit
 owner authorization for publication. This is a usable local candidate, not a report
 that every master-order acceptance criterion is finished.
+
+Final packaging revision: caee8335bc25d4a5e875ffa009c91e8f38b1bf24 (clean tree).
+The application build revision remains e02ceeb; runtime source hash is unchanged.
+Final post-build reports/checksums are external evidence; documentation inside the
+immutable ZIP is a packaging-time snapshot and can refer to the preceding local QA.
+Further optional Pillow plugin/native pruning (including Tk-related helpers) is not
+claimed completed; these remain conservatively retained pending targeted graph/tests.

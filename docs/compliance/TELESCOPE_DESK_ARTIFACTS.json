@@ -4,23 +4,24 @@
   "artifacts": [
     {
       "file": "TelescopeDesk-2.3.0b3-setup-win64.exe",
-      "bytes": 61073827,
-      "sha256": "f25d123ec227d275ce380eb78a9facec408d983bb6ce4a007ff3c0978ce2a8be"
+      "bytes": 61082404,
+      "sha256": "948b0e726b3632df8e7a9986feca169ce1cdb204c60857482cec2bbf76023a62"
     },
     {
       "file": "TelescopeDesk-2.3.0b3-win64.zip",
-      "bytes": 84704737,
-      "sha256": "24689c770cab4705505dd6aaf578d962d0a787d80846fdba4c2e78c1a132710e"
+      "bytes": 84706875,
+      "sha256": "88033f093c147d9e63bc97380d0074231a5cf8068beb96b2251ba5b2b05bcc5c"
     },
     {
       "file": "TelescopeDesk-2.3.0b3-corresponding-source.zip",
-      "bytes": 619655716,
-      "sha256": "3fe5034c00446fe48196449d839bb71d6bdc97e8e35f1d9743515424f827e526"
+      "bytes": 619657935,
+      "sha256": "7016a633f550a4ef2383a9957adc19cc106dba013c8411c3414b3fa4da927c62"
     },
     {
       "file": "TelescopeDesk-2.3.0b3-SBOM.json",
-      "bytes": 1050004,
-      "sha256": "393b551da83d1950c46f802e1a7ceb9bd582ae07e1cb09ea872d36abe175e2d5"
+      "bytes": 1051924,
+      "sha256": "a479030f438b03e49ce127275cab90395f504bc17e4ea6dbeaa48d3336baabab"
     }
-  ]
+  ],
+  "packaging_commit": "caee8335bc25d4a5e875ffa009c91e8f38b1bf24"
 }
