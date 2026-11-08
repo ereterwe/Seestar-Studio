@@ -95,7 +95,7 @@ def main(argv=None):
             for file in (ROOT / directory).rglob("*"):
                 if file.is_file() and not file.is_symlink() and "__pycache__" not in file.parts and (file.suffix in {".py", ".md", ".txt", ".iss", ".ps1"} or (file.parent.name in {'catalog_data','translations','docs','third_party_licenses'} and file.suffix in {'.csv', '.json'} or directory == 'docs' and file.suffix == '.json' or file.name=='build_info.json' or file.parent.name=='assets' and file.suffix in {'.ico','.svg','.png'})):
                     archive.write(file, str(file.relative_to(ROOT)))
-        for name in ["launcher.py", "pyproject.toml", "requirements.txt", "requirements-lock.txt", "start.ps1", "build.ps1", "SeestarStudio.spec", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSING.md", "COMPATIBILITY.md", "DEVELOPMENT_PLAN.md", "PROGRESS.md", "NEXT_STEPS.md", "CONTRIBUTING.md", "CHANGELOG.md", "BUILDING.md", "INSTALLATION.md", "BETA_RELEASE_CHECKLIST.md", ".gitignore", "Start Seestar Studio.bat"]:
+        for name in ["launcher.py", "pyproject.toml", "requirements.txt", "requirements-lock.txt", "start.ps1", "build.ps1", "SeestarStudio.spec", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSING.md", "COMPATIBILITY.md", "DEVELOPMENT_PLAN.md", "PROGRESS.md", "NEXT_STEPS.md", "CONTRIBUTING.md", "CHANGELOG.md", "BUILDING.md", "INSTALLATION.md", "BETA_RELEASE_CHECKLIST.md", ".gitignore", ".gitattributes", "Start Seestar Studio.bat"]:
             archive.write(ROOT / name, name)
         # Include the exact reused SeestarPy source (unmodified), not auth data.
         dist = metadata.distribution("seestarpy")
