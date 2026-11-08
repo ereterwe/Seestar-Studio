@@ -1,3 +1,5 @@
+> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/CONTRIBUTING.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+
 # Entwicklungsregeln
 
 Projekt noch nicht öffentlich freigegeben. Änderungen lokal prüfen und in

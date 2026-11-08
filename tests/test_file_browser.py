@@ -2,12 +2,12 @@ from concurrent.futures import Future
 import io
 from pathlib import Path
 from PIL import Image
-from seestar_studio.files.browser import FileBrowserService
-from seestar_studio.files.models import RemoteEntry
-from seestar_studio.files.widget import FileManagerWidget
-from seestar_studio.files.downloads import DownloadService
-from seestar_studio.models import DeviceInfo, Telemetry
-from seestar_studio.settings import SettingsService
+from telescope_desk.files.browser import FileBrowserService
+from telescope_desk.files.models import RemoteEntry
+from telescope_desk.files.widget import FileManagerWidget
+from telescope_desk.files.downloads import DownloadService
+from telescope_desk.models import DeviceInfo, Telemetry
+from telescope_desk.settings import SettingsService
 from tests.test_files import MemoryClient
 
 

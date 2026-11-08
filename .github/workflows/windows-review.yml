@@ -1,0 +1,43 @@
+name: Local Windows review artifacts
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    # Trusted manually selected commits only. The runner must have Python 3.12,
+    # Inno Setup 7.1.1 and the documented verified upstream source cache.
+    runs-on: [self-hosted, Windows, X64]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          clean: false
+      - name: Prepare Python
+        shell: pwsh
+        run: |
+          py -3.12 -m venv .venv
+          .\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Dependencies failed' }
+      - name: Test and build
+        shell: pwsh
+        run: |
+          .\build.ps1
+          .\build-installer.ps1
+          .\.venv\Scripts\python.exe -m tools.verify_release
+          if ($LASTEXITCODE -ne 0) { throw 'Package verification failed' }
+      - name: Evidence and sources
+        shell: pwsh
+        run: |
+          $version = .\.venv\Scripts\python.exe -c 'from telescope_desk import __version__; print(__version__)'
+          $target = "dist/$version/TelescopeDesk"
+          .\.venv\Scripts\python.exe -m tools.release_compliance --target $target --expected-version $version --output reports/ci-compliance
+          # OPEN/BLOCKER legal/source findings are preserved; never interpreted as release permission.
+          if (-not (Test-Path reports/ci-compliance/compliance.json)) { throw 'Audit missing' }
+          .\.venv\Scripts\python.exe -m tools.runtime_sbom --target $target --audit reports/ci-compliance/compliance.json --output "release/TelescopeDesk-$version-SBOM.json"
+          if ($LASTEXITCODE -ne 0) { throw 'SBOM coverage failed' }
+          .\.venv\Scripts\python.exe -m tools.source_candidate --target $target --output "release/TelescopeDesk-$version-corresponding-source.zip"
+          if ($LASTEXITCODE -ne 0) { throw 'Source candidate incomplete or already exists' }
+          .\.venv\Scripts\python.exe -m tools.security_audit
+          if ($LASTEXITCODE -ne 0) { throw 'Sensitive source patterns found' }
+          Get-ChildItem release -File | Where-Object { $_.Extension -in '.exe','.zip','.json' } | Get-FileHash -Algorithm SHA256 | Format-Table -AutoSize
+    # Intentionally no artifact upload, release action or write token.

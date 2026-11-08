@@ -1,3 +1,5 @@
+> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/BETA_RELEASE_CHECKLIST.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+
 > B3-Prüfung abgeschlossen: 166 Tests; portable und installierte EXE starten und
 > beenden sich sauber; Installation/Neuinstallation/Deinstallation erfolgreich,
 > 1.443 Dateien ohne Abweichung und persönliche Einstellungen unverändert.
@@ -37,9 +39,9 @@ Neue öffentliche Binär-Releases sind nicht durch den Quellcode-Push freigegebe
 > und Grenzen: [GITHUB_DELIVERY.md](docs/GITHUB_DELIVERY.md). Frühere Aussagen
 > „kein Git/kein Upload freigegeben“ beschreiben den Stand vor diesem Auftrag.
 
-# Seestar Studio Beta — 2.3.0b2
+# Telescope Desk Beta — 2.3.0b2
 
-**Seestar Studio Beta – noch nicht freigabereif**
+**Telescope Desk Beta – noch nicht freigabereif**
 
 Stand: 7. November 2026. Lokaler Kandidat, keine Veröffentlichung/Weitergabe.
 Umfang: Tag-Nacht-Hintergrund, Windows-Standorteinstellungen und der ausdrücklich

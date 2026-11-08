@@ -1,0 +1,37 @@
+{
+  "baseline_commit": "b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59",
+  "before_files": 1642,
+  "after_files": 1663,
+  "before_dlls": 57,
+  "after_dlls": 56,
+  "before_native": 130,
+  "after_native": 127,
+  "removed_native": [
+    {
+      "file": "_internal/PIL/_avif.cp312-win_amd64.pyd",
+      "bytes": 7893504,
+      "sha256": "3c31d65c8b3b4c91ac2838d5c843a6b2479d775b6904fe654d60b56d41772411"
+    },
+    {
+      "file": "_internal/PySide6/Qt6MultimediaWidgets.dll",
+      "bytes": 62264,
+      "sha256": "b43e76d5d6b99e0134a8bd6bd581a7935a8b9bae45b1c39cd93d0ca7a46cce85"
+    },
+    {
+      "file": "_internal/PySide6/QtMultimediaWidgets.pyd",
+      "bytes": 144184,
+      "sha256": "5488b5a10b83b47d2a3ed5285ff38499e834c09758e68d504e1eb3d9b336dac7"
+    }
+  ],
+  "unchanged_retained_native": true,
+  "ffmpeg_encoders_before_after": [
+    183,
+    183
+  ],
+  "ffmpeg_decoders_before_after": [
+    498,
+    498
+  ],
+  "new_hardware_regression": "NOT PERFORMED",
+  "live_view_baseline": "Real Seestar success confirmed by developer; exact model/firmware/codec not supplied for that test; no new hardware test performed."
+}

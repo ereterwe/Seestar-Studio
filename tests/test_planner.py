@@ -1,9 +1,9 @@
 from datetime import timedelta
 from types import SimpleNamespace
 import pytest
-from seestar_studio.planner import PlanEntry, instant, schedule, save_plan, load_plan
-from seestar_studio.sky.astronomy import Site
-from seestar_studio.sky.catalog import Catalog
+from telescope_desk.planner import PlanEntry, instant, schedule, save_plan, load_plan
+from telescope_desk.sky.astronomy import Site
+from telescope_desk.sky.catalog import Catalog
 
 
 @pytest.fixture(scope='module')

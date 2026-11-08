@@ -2,9 +2,9 @@ import json
 import os
 import uuid
 import pytest
-from seestar_studio.diagnostics import diagnostic_snapshot
-from seestar_studio.models import DeviceInfo, Telemetry
-from seestar_studio.instance import InstanceLock
+from telescope_desk.diagnostics import diagnostic_snapshot
+from telescope_desk.models import DeviceInfo, Telemetry
+from telescope_desk.instance import InstanceLock
 
 
 def test_diagnostics_excludes_private_fields_and_error_contents():
@@ -21,7 +21,7 @@ def test_diagnostics_excludes_private_fields_and_error_contents():
 
 @pytest.mark.skipif(os.name != 'nt', reason='Windows mutex')
 def test_instance_marker_releases_after_close():
-    name = 'Local\\SeestarStudio.Test.' + uuid.uuid4().hex
+    name = 'Local\\TelescopeDesk.Test.' + uuid.uuid4().hex
     first = InstanceLock(name); second = InstanceLock(name)
     try:
         assert not first.already_running and second.already_running

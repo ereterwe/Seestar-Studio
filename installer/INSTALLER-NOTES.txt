@@ -1,7 +1,7 @@
-Seestar Studio — lokaler Entwicklungsbuild
+Telescope Desk — lokaler Entwicklungsbuild
 
 Installation nur für den aktuellen Windows-Benutzer, ohne Administratorrechte.
-Vor einem Update Seestar Studio selbst schließen; der Installer beendet keine
+Vor einem Update Telescope Desk selbst schließen; der Installer beendet keine
 laufenden Teleskopverbindungen automatisch.
 
 Die Anwendung startet standardmäßig im READ-ONLY-Modus. Setup und Diagnose
@@ -12,10 +12,10 @@ Persönliche Einstellungen, importierte Authentifizierung und Session-Historie
 liegen getrennt im Benutzerprofil. Sie bleiben bei Deinstallation erhalten.
 Keine Veröffentlichung oder Weitergabe dieses Entwicklungsstands freigegeben.
 
-Seestar Studio — local development build
+Telescope Desk — local development build
 
 Installs for the current Windows user without administrator privileges.
-Close Seestar Studio yourself before an update; setup never terminates
+Close Telescope Desk yourself before an update; setup never terminates
 running telescope connections automatically.
 
 READ ONLY is the default. Setup and diagnostics work locally. Authentication

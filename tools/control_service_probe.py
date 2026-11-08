@@ -18,12 +18,12 @@ def main():
     args = p.parse_args()
     if not args.execute or not args.movement_confirmed: p.error('Explicit hardware authorization required')
     with contextlib.redirect_stdout(io.StringIO()):
-        from seestar_studio.backend import discover
+        from telescope_desk.backend import discover
         devices = [d for d in discover() if d.model == args.model]
     if len(devices) != 1: raise RuntimeError('Expected one discovered model')
-    from seestar_studio.control import ControlService, create_transport, available
-    from seestar_studio.observation import read_state
-    from seestar_studio.models import Telemetry
+    from telescope_desk.control import ControlService, create_transport, available
+    from telescope_desk.observation import read_state
+    from telescope_desk.models import Telemetry
     from tools.control_hardware_probe import clean
     info = devices[0]
     report = dict(model=info.model, action=args.action, utc=datetime.now(timezone.utc).isoformat(),
@@ -54,7 +54,7 @@ def main():
         report['availability_before'] = {a: available(a, tel) for a in ('preview','stack','autofocus','observe','park')}
         params = {}
         if args.action == 'observe':
-            from seestar_studio.sky.catalog import Catalog
+            from telescope_desk.sky.catalog import Catalog
             from astropy.coordinates import SkyCoord, get_sun
             from astropy.time import Time
             from astropy import units as u

@@ -38,7 +38,7 @@ plans/
 # All QA output may contain private local telemetry or screenshots.
 reports/
 third_party_sources/
-seestar_studio/build_info.json
+telescope_desk/build_info.json
 
 # Local agent/cloud credentials and generated or personal artifacts.
 .codex/

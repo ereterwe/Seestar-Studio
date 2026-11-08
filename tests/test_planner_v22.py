@@ -5,13 +5,13 @@ import json
 import pytest
 from PySide6.QtCore import Qt, QPoint
 from PySide6.QtTest import QTest
-from seestar_studio.planner import PlanEntry, next_slot, schedule, instant, save_plan, save_document, load_document
-from seestar_studio.timezones import resolve_local, local_candidates, local_text
+from telescope_desk.planner import PlanEntry, next_slot, schedule, instant, save_plan, save_document, load_document
+from telescope_desk.timezones import resolve_local, local_candidates, local_text
 
 
 def test_native_entry_editor_preserves_wall_time_and_rejects_dst_gap(app):
     from PySide6.QtCore import QDateTime, QDate, QTime, QTimeZone
-    from seestar_studio.planner_widget import EntryDialog
+    from telescope_desk.planner_widget import EntryDialog
     target = SimpleNamespace(id='M31', title='M31')
     dialog = EntryDialog(target, {'A':'A'}, zone='Europe/Berlin',
                          suggestion=instant('2026-11-06T19:00:00Z'))
@@ -70,8 +70,8 @@ def test_migration_preserves_midnight_and_utc_on_roundtrip(app,tmp_path):
 
 
 def test_planner_autosave_offline_devices_and_drag(app,tmp_path):
-    from seestar_studio.settings import SettingsService
-    from seestar_studio.planner_widget import PlannerWidget
+    from telescope_desk.settings import SettingsService
+    from telescope_desk.planner_widget import PlannerWidget
     settings=SettingsService(tmp_path/'settings.json');settings.values['known_devices']={'A':'S50','B':'S50 Pro'}
     sky=SimpleNamespace(catalog=SimpleNamespace(by_id={}),site=None,target=None)
     widget=PlannerWidget(sky,settings);widget.resize(1600,800);widget.show()
@@ -92,7 +92,7 @@ def test_planner_autosave_offline_devices_and_drag(app,tmp_path):
 
 
 def test_timeline_dst_span_resize_snap_and_no_move_on_click(app):
-    from seestar_studio.timeline import Timeline
+    from telescope_desk.timeline import Timeline
     timeline=Timeline()
     for day,hours in [('2026-03-28T20:00:00+01:00',23),('2026-10-24T20:00:00+02:00',25)]:
         timeline.set_rows([],{'A':'Offline S50'},'Europe/Berlin',instant(day),5)
@@ -109,8 +109,8 @@ def test_timeline_dst_span_resize_snap_and_no_move_on_click(app):
 
 def test_optimization_requires_review_and_preserves_existing_on_cancel(app,tmp_path,monkeypatch):
     import time
-    from seestar_studio.planner_widget import PlannerWidget
-    from seestar_studio.settings import SettingsService
+    from telescope_desk.planner_widget import PlannerWidget
+    from telescope_desk.settings import SettingsService
     sky=SimpleNamespace(catalog=SimpleNamespace(by_id={}),site=None,target=None)
     widget=PlannerWidget(sky,SettingsService(tmp_path/'settings.json'))
     widget.start.setText('2026-11-06T20:00:00Z')

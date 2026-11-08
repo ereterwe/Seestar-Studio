@@ -1,8 +1,8 @@
 import time
 from PySide6.QtGui import QImage
 from PySide6.QtMultimedia import QVideoFrame
-from seestar_studio.video import Mailbox, VideoWorker, VideoSession, probe_rtsp
-from seestar_studio.models import DeviceInfo, Telemetry, ImageFrame
+from telescope_desk.video import Mailbox, VideoWorker, VideoSession, probe_rtsp
+from telescope_desk.models import DeviceInfo, Telemetry, ImageFrame
 
 
 def test_video_frame_mailbox_format_and_decoder_errors(app):
@@ -31,8 +31,8 @@ def test_unavailable_camera_reconnect_bounded_and_release(app):
 
 
 def test_two_cards_modes_preserve_stack_and_stop_workers(app, monkeypatch):
-    from seestar_studio import video
-    from seestar_studio.card import TelescopeCard
+    from telescope_desk import video
+    from telescope_desk.card import TelescopeCard
     monkeypatch.setattr(video, 'VideoSession', lambda parent: VideoSession(parent,
         worker_factory=lambda box: VideoWorker(box, probe=lambda url: False)))
     cards = [TelescopeCard(DeviceInfo(str(i), '192.0.2.1')) for i in range(2)]

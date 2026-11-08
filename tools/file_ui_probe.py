@@ -4,15 +4,15 @@ from pathlib import Path
 import sys
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import QTimer
-from seestar_studio.manager import TelescopeManager
-from seestar_studio.settings import SettingsService
-from seestar_studio.window import DashboardWindow
-from seestar_studio.theme import STYLE
+from telescope_desk.manager import TelescopeManager
+from telescope_desk.settings import SettingsService
+from telescope_desk.window import DashboardWindow
+from telescope_desk.theme import STYLE
 
 
 def main():
     app = QApplication(sys.argv[:1])
-    app.setApplicationName('Seestar Studio'); app.setOrganizationName('SeestarStudio')
+    app.setApplicationName('Telescope Desk'); app.setOrganizationName('TelescopeDesk')
     app.setStyle('Fusion'); app.setStyleSheet(STYLE)
     manager = TelescopeManager()
     window = DashboardWindow(manager, SettingsService())

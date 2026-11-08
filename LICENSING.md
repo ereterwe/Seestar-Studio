@@ -1,3 +1,5 @@
+> Telescope Desk 2.3.0b3: current runtime changes are recorded in docs/compliance/MINIMIZATION_REPORT.md. The following Seestar Studio baseline notices are retained, including components now excluded; inclusion here does not imply current runtime presence. No legal clearance.
+
 # Lizenzprüfung — Stand 8. November 2026
 
 Projektlizenz: **GPL-3.0-only** (`LICENSE`). Das Repository ist öffentlich;

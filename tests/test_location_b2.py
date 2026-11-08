@@ -1,7 +1,7 @@
 import time
 import pytest
-from seestar_studio.location import WindowsLocationRequest
-from seestar_studio.sky.site import SiteDialog
+from telescope_desk.location import WindowsLocationRequest
+from telescope_desk.sky.site import SiteDialog
 from tests.test_location import api, Operation, position
 
 
@@ -36,7 +36,7 @@ def test_timeout_and_hresult_classification(app):
 
 @pytest.mark.parametrize('raises', [False, True])
 def test_settings_uri_explicit_only_retry_and_failed_open(app,monkeypatch,raises):
-    from seestar_studio.sky import site
+    from telescope_desk.sky import site
     backend=api(2);calls=[]
     dialog=SiteDialog({},windows_factory=lambda parent:WindowsLocationRequest(parent,api=backend))
     dialog.show();app.processEvents()
@@ -67,7 +67,7 @@ def test_settings_uri_explicit_only_retry_and_failed_open(app,monkeypatch,raises
 
 
 def test_error_messages_language_switch_and_manual_fallback(app,monkeypatch):
-    from seestar_studio import i18n
+    from telescope_desk import i18n
     controller=i18n.TranslationController(app,'de');dialog=SiteDialog({});dialog.show()
     try:
         for code in ('denied','disabled','no_data','failed','timeout','unsupported'):

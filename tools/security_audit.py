@@ -2,12 +2,12 @@
 import json
 from pathlib import Path
 import re
-from seestar_studio import __version__
+from telescope_desk import __version__
 
 
 def main():
     root=Path(__file__).resolve().parents[1]
-    candidates=[p for folder in ['seestar_studio','tools','tests','docs','installer'] for p in (root/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
+    candidates=[p for folder in ['telescope_desk','tools','tests','docs','installer'] for p in (root/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     candidates += [p for p in root.iterdir() if p.is_file()]
     findings=[];checked=0
     patterns={

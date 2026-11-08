@@ -27,7 +27,7 @@ TLS.load_verify_locations(cafile=certifi.where())
 
 
 def get(url, limit=8 * 1024**2):
-    with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'SeestarStudio-SourceAudit'}), timeout=35, context=TLS) as response:
+    with urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': 'TelescopeDesk-SourceAudit'}), timeout=35, context=TLS) as response:
         data = response.read(limit + 1)
         if len(data) > limit:
             raise ValueError('Evidence download size limit')

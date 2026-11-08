@@ -6,8 +6,8 @@ import zipfile
 import pytest
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
-from seestar_studio.setup_service import SetupService, SetupError, existing_reference, validate_pem
-from seestar_studio.secure_storage import write_new_private
+from telescope_desk.setup_service import SetupService, SetupError, existing_reference, validate_pem
+from telescope_desk.secure_storage import write_new_private
 
 
 @pytest.fixture(scope='module')
@@ -89,7 +89,7 @@ def test_windows_private_acl_is_protected_and_has_two_entries(tmp_path):
 
 
 def test_wizard_existing_config_never_imports_or_activates(app, tmp_path, monkeypatch):
-    from seestar_studio.setup_wizard import SetupWizard
+    from telescope_desk.setup_wizard import SetupWizard
     key = tmp_path / 'existing.pem'; key.write_text('unread')
     ref = existing_reference({'SEESTAR_KEY_PATH': str(key)}, tmp_path, tmp_path)
     service = SetupService(tmp_path / 'profile', detector=lambda: ref)
@@ -104,9 +104,9 @@ def test_wizard_existing_config_never_imports_or_activates(app, tmp_path, monkey
 def test_connection_check_reads_identity_with_explicit_key_only(tmp_path, monkeypatch):
     import socket
     from seestarpy import auth
-    from seestar_studio.models import DeviceInfo
-    from seestar_studio.setup_service import KeyReference
-    from seestar_studio import backend
+    from telescope_desk.models import DeviceInfo
+    from telescope_desk.setup_service import KeyReference
+    from telescope_desk import backend
     calls = []
     class FakeSocket:
         def settimeout(self, value): pass
@@ -132,7 +132,7 @@ def test_connection_check_reads_identity_with_explicit_key_only(tmp_path, monkey
 
 def test_cancelled_wizard_consumes_pending_import_and_cleans_candidates(app, tmp_path, synthetic_pem):
     from concurrent.futures import Future
-    from seestar_studio.setup_wizard import SetupWizard
+    from telescope_desk.setup_wizard import SetupWizard
     source = tmp_path / 'synthetic.pem'; source.write_bytes(synthetic_pem)
     service = SetupService(tmp_path / 'profile', detector=lambda: None)
     wizard = SetupWizard(service.profile, lambda: {}, service=service)

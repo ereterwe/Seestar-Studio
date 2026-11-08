@@ -1,11 +1,11 @@
 import time
 from PySide6.QtCore import Qt, QPointF
 from PySide6.QtGui import QImage
-from seestar_studio.viewer import ImageViewer
-from seestar_studio.settings import SettingsService
-from seestar_studio.window import DashboardWindow
-from seestar_studio.models import DeviceInfo, ImageFrame, Telemetry
-from seestar_studio.theme import STYLE
+from telescope_desk.viewer import ImageViewer
+from telescope_desk.settings import SettingsService
+from telescope_desk.window import DashboardWindow
+from telescope_desk.models import DeviceInfo, ImageFrame, Telemetry
+from telescope_desk.theme import STYLE
 
 
 def test_zoom_position_and_fit(app):
@@ -42,8 +42,8 @@ class FakeManager:
 
 
 def test_layout_reorder_maximize_unknowns_and_settings(app, tmp_path):
-    from seestar_studio.files.browser import FileBrowserService
-    from seestar_studio.files.downloads import DownloadService
+    from telescope_desk.files.browser import FileBrowserService
+    from telescope_desk.files.downloads import DownloadService
     class NoNetworkClient:
         def __init__(self, info): pass
         def list(self, path): return []
@@ -71,7 +71,7 @@ def test_layout_reorder_maximize_unknowns_and_settings(app, tmp_path):
 
 
 def test_stale_image_is_preserved(app):
-    from seestar_studio.card import TelescopeCard
+    from telescope_desk.card import TelescopeCard
     info = DeviceInfo("test", "127.0.0.1")
     card = TelescopeCard(info)
     image = QImage(100, 100, QImage.Format.Format_RGB888)

@@ -6,6 +6,7 @@ not a generic Qt minimizer: multimedia, image codecs and accessibility stay.
 from pathlib import Path
 
 EXCLUDED_NAMES = frozenset(name.lower() for name in (
+    'Qt6MultimediaWidgets.dll', 'QtMultimediaWidgets.pyd',
     'qtvirtualkeyboardplugin.dll', 'Qt6VirtualKeyboard.dll',
     'Qt6Qml.dll', 'Qt6QmlMeta.dll', 'Qt6QmlModels.dll',
     'Qt6QmlWorkerScript.dll', 'Qt6Quick.dll', 'qpdf.dll', 'Qt6Pdf.dll',

@@ -2,8 +2,8 @@ from dataclasses import replace
 import threading
 import time
 import pytest
-from seestar_studio.control import ControlService, payload, available
-from seestar_studio.models import DeviceInfo, Telemetry
+from telescope_desk.control import ControlService, payload, available
+from telescope_desk.models import DeviceInfo, Telemetry
 
 
 def fleet():
@@ -112,7 +112,7 @@ def test_payload_bounds_preserve_mount_and_no_implicit_restart():
 
 
 def test_control_ui_starts_locked_and_selection_is_explicit(app):
-    from seestar_studio.control_widget import ControlWidget
+    from telescope_desk.control_widget import ControlWidget
     widget = ControlWidget(ControlService(lambda ip: pytest.fail('No UI action authorized')))
     widget.sync_devices(fleet())
     assert widget.devices.currentData() is None
@@ -125,7 +125,7 @@ def test_actual_transport_does_not_replay_on_lost_response(monkeypatch):
     import socket
     import json
     from seestarpy import auth
-    from seestar_studio.control import create_transport
+    from telescope_desk.control import create_transport
     sent = []
     class Socket:
         def settimeout(self, value): pass

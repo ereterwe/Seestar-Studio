@@ -3,10 +3,10 @@ from pathlib import Path
 from PIL import Image
 from PySide6.QtCore import QUrl
 from PySide6.QtWidgets import QApplication, QDialog, QPlainTextEdit
-from seestar_studio.about import AboutDialog
-from seestar_studio.metadata import public_versions, REPOSITORY
-from seestar_studio.branding import app_icon, icon_path
-from seestar_studio import __version__
+from telescope_desk.about import AboutDialog
+from telescope_desk.metadata import public_versions, REPOSITORY
+from telescope_desk.branding import app_icon, icon_path
+from telescope_desk import __version__
 
 
 def test_original_icon_has_windows_sizes_and_transparency(app):
@@ -22,13 +22,13 @@ def test_original_icon_has_windows_sizes_and_transparency(app):
 def test_about_real_versions_links_and_private_repository(app,tmp_path,monkeypatch):
     (tmp_path/'LICENSE').write_text('test license',encoding='utf-8')
     dialog=AboutDialog(root=tmp_path)
-    assert dialog.versions['Seestar Studio']==__version__
+    assert dialog.versions['Telescope Desk']==__version__
     assert dialog.versions['Qt'] and dialog.versions['PySide6']
     assert dialog.actions_by_file['LICENSE'].isEnabled()
     assert not dialog.actions_by_file['LICENSING.md'].isEnabled()
     dialog.copy_versions()
     assert json.loads(QApplication.clipboard().text())==public_versions()
-    from seestar_studio import about
+    from telescope_desk import about
     opened=[]
     monkeypatch.setattr(about.QDesktopServices,'openUrl',lambda url:opened.append(url) or True)
     dialog.open_repository();assert opened[0].toString()==REPOSITORY

@@ -4,8 +4,8 @@ import time
 from pathlib import Path
 from PySide6.QtCore import QTimer
 from PySide6.QtWidgets import QApplication
-from seestar_studio.manager import TelescopeManager
-from seestar_studio.video import VideoSession
+from telescope_desk.manager import TelescopeManager
+from telescope_desk.video import VideoSession
 
 
 def main():

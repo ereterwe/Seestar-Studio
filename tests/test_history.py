@@ -1,8 +1,8 @@
 from dataclasses import replace
 import sqlite3
 import time
-from seestar_studio.history import Sample, HistoryStore, HistoryService, read_history, sample_from, summarize
-from seestar_studio.models import DeviceInfo, Telemetry
+from telescope_desk.history import Sample, HistoryStore, HistoryService, read_history, sample_from, summarize
+from telescope_desk.models import DeviceInfo, Telemetry
 
 
 def sample(ts=1000, serial='SIM-A', target='M31', accepted=100, **kwargs):

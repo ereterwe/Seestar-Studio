@@ -4,11 +4,11 @@ from pathlib import Path
 from dataclasses import replace
 from PySide6.QtCore import QTimer
 from PySide6.QtWidgets import QApplication
-from seestar_studio.control_widget import ControlWidget
-from seestar_studio.control import ControlService
-from seestar_studio.i18n import TranslationController
-from seestar_studio.sky.catalog import Catalog
-from seestar_studio.theme import STYLE
+from telescope_desk.control_widget import ControlWidget
+from telescope_desk.control import ControlService
+from telescope_desk.i18n import TranslationController
+from telescope_desk.sky.catalog import Catalog
+from telescope_desk.theme import STYLE
 from tests.test_control import fleet
 
 

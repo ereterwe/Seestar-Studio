@@ -3,10 +3,10 @@ from pathlib import Path
 import threading
 import time
 import pytest
-from seestar_studio.models import DeviceInfo
-from seestar_studio.files.models import RemoteEntry, TransferCancelled, RemoteChangedError
-from seestar_studio.files.paths import remote_path, windows_name, destination
-from seestar_studio.files.downloads import download_one, DownloadService
+from telescope_desk.models import DeviceInfo
+from telescope_desk.files.models import RemoteEntry, TransferCancelled, RemoteChangedError
+from telescope_desk.files.paths import remote_path, windows_name, destination
+from telescope_desk.files.downloads import download_one, DownloadService
 
 
 INFO = DeviceInfo('test-device', '127.0.0.1', 'Seestar test')

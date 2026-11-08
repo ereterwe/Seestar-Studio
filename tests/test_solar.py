@@ -5,10 +5,10 @@ import threading
 import time
 import pytest
 from PySide6.QtWidgets import QScrollArea
-from seestar_studio.solar import calculate_solar, sun_altitudes, solar_colors, SolarService
-from seestar_studio.sky.astronomy import Site
-from seestar_studio.planner import PlanEntry, schedule, instant
-from seestar_studio.timeline import Timeline
+from telescope_desk.solar import calculate_solar, sun_altitudes, solar_colors, SolarService
+from telescope_desk.sky.astronomy import Site
+from telescope_desk.planner import PlanEntry, schedule, instant
+from telescope_desk.timeline import Timeline
 
 UTC = timezone.utc
 
@@ -153,8 +153,8 @@ def test_service_latest_only_cache_failure_and_shutdown():
 
 
 def test_background_preference_and_confirmed_location_only(app,tmp_path):
-    from seestar_studio.settings import SettingsService
-    from seestar_studio.planner_widget import PlannerWidget
+    from telescope_desk.settings import SettingsService
+    from telescope_desk.planner_widget import PlannerWidget
     sky=SimpleNamespace(catalog=SimpleNamespace(by_id={}),site=None,target=None)
     settings=SettingsService(tmp_path/'settings.json')
     widget=PlannerWidget(sky,settings)

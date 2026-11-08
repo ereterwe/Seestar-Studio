@@ -4,20 +4,20 @@ import json
 from pathlib import Path
 import struct
 import pefile
-from seestar_studio import __version__
+from telescope_desk import __version__
 
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    ico = (root / 'seestar_studio/assets/SeestarStudio.ico').read_bytes()
+    ico = (root / 'telescope_desk/assets/TelescopeDesk.ico').read_bytes()
     count = struct.unpack_from('<H', ico, 4)[0]
     expected = {}
     for index in range(count):
         w, h, _, _, _, _, size, offset = struct.unpack_from('<BBBBHHII', ico, 6 + index * 16)
         expected[(w or 256, h or 256)] = hashlib.sha256(ico[offset:offset + size]).hexdigest()
     results = []
-    for path in [root / 'dist' / __version__ / 'SeestarStudio/SeestarStudio.exe',
-                 root / 'release' / f'SeestarStudio-{__version__}-setup-win64.exe']:
+    for path in [root / 'dist' / __version__ / 'TelescopeDesk/TelescopeDesk.exe',
+                 root / 'release' / f'TelescopeDesk-{__version__}-setup-win64.exe']:
         with pefile.PE(str(path)) as pe:
             icons, groups = {}, []
             for kind in pe.DIRECTORY_ENTRY_RESOURCE.entries:

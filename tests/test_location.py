@@ -1,7 +1,7 @@
 from types import SimpleNamespace as NS
 import pytest
-from seestar_studio.location import LocationProposal, WindowsLocationRequest, windows_proposal
-from seestar_studio.sky.site import SiteDialog
+from telescope_desk.location import LocationProposal, WindowsLocationRequest, windows_proposal
+from telescope_desk.sky.site import SiteDialog
 
 
 def position(accuracy=20, reference=3, altitude_accuracy=5):
@@ -55,7 +55,7 @@ def test_windows_request_denied_missing_success_and_cancellation(app):
 
 
 def test_location_dialog_does_not_query_without_consent_or_save_proposal(app,monkeypatch):
-    from seestar_studio.sky import site
+    from telescope_desk.sky import site
     backend=api()
     values={'latitude':50,'longitude':10,'elevation':123,'timezone':'Europe/Berlin'}
     dialog=SiteDialog(values,windows_factory=lambda parent:WindowsLocationRequest(parent,api=backend))
@@ -78,7 +78,7 @@ def test_cancel_preserves_existing_location_and_discards_late_result(app):
 
 
 def test_manual_entries_use_windows_timezone_proposal(app,monkeypatch):
-    from seestar_studio.sky import site
+    from telescope_desk.sky import site
     monkeypatch.setattr(site,'system_timezone',lambda:'America/New_York')
     dialog=SiteDialog({})
     assert dialog.zone.text()=='America/New_York'
@@ -88,7 +88,7 @@ def test_manual_entries_use_windows_timezone_proposal(app,monkeypatch):
 
 
 def test_seestar_location_uses_only_audited_read_and_checks_identity(monkeypatch):
-    from seestar_studio.location import read_seestar_location
+    from telescope_desk.location import read_seestar_location
     from seestarpy import auth
     import socket
     calls=[]

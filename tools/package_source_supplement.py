@@ -8,7 +8,7 @@ import zipfile
 def main():
     root = Path(__file__).resolve().parents[1]
     manifest = json.loads((root / 'docs/DEPENDENCY_SOURCES.json').read_text(encoding='utf-8'))
-    target = root / 'release/SeestarStudio-2.3.0b3-compliance-sources-review.zip'
+    target = root / 'release/TelescopeDesk-2.3.0b3-compliance-sources-review.zip'
     if target.exists():
         raise FileExistsError('Review source bundle exists; choose a new name instead of overwriting')
     sources = {}

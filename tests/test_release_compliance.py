@@ -48,18 +48,18 @@ def test_source_archive_hash_never_proves_binary_correspondence(tmp_path):
 
 
 def test_source_build_hash_order_and_tamper(tmp_path):
-    files = {'seestar_studio/assets/Icon.txt': b'icon', 'seestar_studio/assets.py': b'code',
-             'seestar_studio/Hello.py': b'upper', 'seestar_studio/alpha.py': b'lower'}
+    files = {'telescope_desk/assets/Icon.txt': b'icon', 'telescope_desk/assets.py': b'code',
+             'telescope_desk/Hello.py': b'upper', 'telescope_desk/alpha.py': b'lower'}
     digest = hashlib.sha256()
     for path in sorted(map(Path, files)):
         digest.update(path.as_posix().encode())
         digest.update(files[path.as_posix()])
     build = {'version': 'test', 'source_sha256': digest.hexdigest()}
-    files['seestar_studio/build_info.json'] = json.dumps(build).encode()
-    path = tmp_path / 'SeestarStudio-source.zip'
+    files['telescope_desk/build_info.json'] = json.dumps(build).encode()
+    path = tmp_path / 'TelescopeDesk-source.zip'
     path.write_bytes(archive_bytes(files))
     assert source_hash_check(tmp_path, build)[0] == 'PASS'
-    files['seestar_studio/alpha.py'] = b'modified'
+    files['telescope_desk/alpha.py'] = b'modified'
     path.write_bytes(archive_bytes(files))
     assert source_hash_check(tmp_path, build)[0] == 'BLOCKER'
 

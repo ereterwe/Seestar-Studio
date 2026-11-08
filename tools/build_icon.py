@@ -11,17 +11,17 @@ from PIL import Image
 
 def main():
     app = QGuiApplication.instance() or QGuiApplication([])
-    root = Path(__file__).resolve().parents[1] / 'seestar_studio/assets'
-    renderer = QSvgRenderer(str(root / 'SeestarStudio.svg'))
+    root = Path(__file__).resolve().parents[1] / 'telescope_desk/assets'
+    renderer = QSvgRenderer(str(root / 'TelescopeDesk.svg'))
     assert renderer.isValid()
     image = QImage(1024,1024,QImage.Format.Format_ARGB32_Premultiplied)
     image.fill(Qt.GlobalColor.transparent)
     painter=QPainter(image);renderer.render(painter);painter.end()
     buffer=QBuffer();buffer.open(QIODevice.OpenModeFlag.WriteOnly);image.save(buffer,'PNG')
     master=Image.open(io.BytesIO(bytes(buffer.data()))).convert('RGBA')
-    master.save(root/'SeestarStudio.png')
-    master.save(root/'SeestarStudio.ico',sizes=[(n,n) for n in (16,24,32,48,64,128,256)])
-    sizes=Image.open(root/'SeestarStudio.ico').ico.sizes()
+    master.save(root/'TelescopeDesk.png')
+    master.save(root/'TelescopeDesk.ico',sizes=[(n,n) for n in (16,24,32,48,64,128,256)])
+    sizes=Image.open(root/'TelescopeDesk.ico').ico.sizes()
     assert sizes=={(n,n) for n in (16,24,32,48,64,128,256)}
     print('Generated original icon:', sorted(sizes))
 

@@ -6,13 +6,13 @@ import json
 from pathlib import Path
 import platform
 import sys
-from seestar_studio import __version__
+from telescope_desk import __version__
 
 
 def main(argv=None):
     root=Path(__file__).resolve().parents[1]
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--target',type=Path,default=root/'dist'/__version__/'SeestarStudio')
+    parser.add_argument('--target',type=Path,default=root/'dist'/__version__/'TelescopeDesk')
     parser.add_argument('--output',type=Path,default=root/'reports/beta-license-inventory.json')
     parser.add_argument('--docs-output',type=Path,default=root/'docs/DEPENDENCIES.md')
     args=parser.parse_args(argv)

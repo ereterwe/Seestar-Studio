@@ -6,9 +6,9 @@ from dataclasses import replace
 import threading
 import time
 import pytest
-from seestar_studio.observation import Observation, Runner, read_state
-from seestar_studio.control import ControlService, payload, available, unavailable_reason
-from seestar_studio.models import Telemetry
+from telescope_desk.observation import Observation, Runner, read_state
+from telescope_desk.control import ControlService, payload, available, unavailable_reason
+from telescope_desk.models import Telemetry
 from tests.test_control import FakeTransport, fleet
 
 
@@ -266,7 +266,7 @@ def test_active_capture_cannot_be_interrupted_or_missing_capability_faked():
 
 
 def test_double_click_two_independent_sequences_and_selection_change(app):
-    from seestar_studio.control_widget import ControlWidget
+    from telescope_desk.control_widget import ControlWidget
     release = threading.Event(); entered = threading.Event(); transports = {}
     class Paused(Scripted):
         def send(self, command):
@@ -327,8 +327,8 @@ def test_reconnect_reads_actual_state_never_restarts():
 
 
 def test_ui_reasons_languages_readonly_and_preserve_current_filter(app):
-    from seestar_studio.control_widget import ControlWidget
-    from seestar_studio import i18n
+    from telescope_desk.control_widget import ControlWidget
+    from telescope_desk import i18n
     w = ControlWidget(); w.sync_devices(fleet())
     controller = i18n.TranslationController(app, 'de')
     try:

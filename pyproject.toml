@@ -3,7 +3,7 @@ requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "seestar-studio"
+name = "telescope-desk"
 dynamic = ["version"]
 description = "Native Windows multi-Seestar monitoring"
 requires-python = ">=3.12,<3.13"
@@ -14,16 +14,16 @@ dependencies = ["seestarpy[dashboard]==0.8.0", "PySide6==6.12.0", "numpy==2.5.4"
 dev = ["pytest==9.2.0", "pyinstaller==6.22.3"]
 
 [project.gui-scripts]
-seestar-studio = "seestar_studio.app:main"
+telescope-desk = "telescope_desk.app:main"
 
 [tool.setuptools.packages.find]
-include = ["seestar_studio*"]
+include = ["telescope_desk*"]
 
 [tool.setuptools.package-data]
-seestar_studio = ["catalog_data/*", "translations/*.json", "assets/*", "build_info.json"]
+telescope_desk = ["catalog_data/*", "translations/*.json", "assets/*", "build_info.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
 [tool.setuptools.dynamic]
-version = {attr = "seestar_studio.__version__"}
+version = {attr = "telescope_desk.__version__"}

@@ -107,7 +107,7 @@ def main():
     core = root / 'PySide6/Qt6Core.dll'
     before = digest(core)
     with core.open('ab') as stream:
-        stream.write(b'\nSeestar Studio isolated DLL replacement probe; code unchanged.\n')
+        stream.write(b'\nTelescope Desk isolated DLL replacement probe; code unchanged.\n')
     after = digest(core)
     assert before != after
     process = subprocess.run([sys.executable, str(Path(__file__).resolve()), '--child', str(root)],

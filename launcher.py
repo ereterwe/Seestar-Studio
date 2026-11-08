@@ -8,7 +8,7 @@ diagnostics = '--startup-diagnostics' in sys.argv
 if diagnostics:
     sys.argv.remove('--startup-diagnostics')
 try:
-    from seestar_studio.app import main
+    from telescope_desk.app import main
 except Exception as exc:
     if diagnostics:
         # Stack locations only: no source lines, values, key material or RPCs.

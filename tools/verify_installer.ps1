@@ -4,11 +4,11 @@ $workspace = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $testDirectory = [IO.Path]::GetFullPath((Join-Path $workspace "reports\installer-qa-$Version"))
 if (-not $testDirectory.StartsWith($workspace + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Unsafe QA target' }
 $registration = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A8B6B872-6710-44A3-94A6-1C953E3B8D87}_is1'
-$shortcut = Join-Path ([Environment]::GetFolderPath('Programs')) 'Seestar Studio.lnk'
+$shortcut = Join-Path ([Environment]::GetFolderPath('Programs')) 'Telescope Desk.lnk'
 if ((Test-Path -LiteralPath $registration) -or (Test-Path -LiteralPath $testDirectory) -or (Test-Path -LiteralPath $shortcut)) {
     throw 'Existing installation, shortcut or QA folder detected; nothing changed'
 }
-$profile = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'SeestarStudio\Seestar Studio'
+$profile = Join-Path ([Environment]::GetFolderPath('LocalApplicationData')) 'TelescopeDesk\Telescope Desk'
 function Get-ProfileState {
     $state = @{}
     # Never read key files. Hash only configuration and session database files.
@@ -19,12 +19,12 @@ function Get-ProfileState {
     return ($state | ConvertTo-Json -Compress)
 }
 $before = Get-ProfileState
-$installer = Join-Path $workspace "release\SeestarStudio-$Version-setup-win64.exe"
+$installer = Join-Path $workspace "release\TelescopeDesk-$Version-setup-win64.exe"
 $arguments = "/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER /DIR=`"$testDirectory`""
 $first = Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru
 if ($first.ExitCode -ne 0) { throw "Install exit $($first.ExitCode)" }
-$installedExe = Join-Path $testDirectory 'SeestarStudio.exe'
-$expected = (Get-FileHash -LiteralPath (Join-Path $workspace "dist\$Version\SeestarStudio\SeestarStudio.exe")).Hash
+$installedExe = Join-Path $testDirectory 'TelescopeDesk.exe'
+$expected = (Get-FileHash -LiteralPath (Join-Path $workspace "dist\$Version\TelescopeDesk\TelescopeDesk.exe")).Hash
 $matches = (Get-FileHash -LiteralPath $installedExe).Hash -eq $expected
 $shortcutCreated = Test-Path -LiteralPath $shortcut
 $second = Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru

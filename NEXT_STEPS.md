@@ -1,61 +1,17 @@
-# Lizenzklärung — aktueller Ergänzungsstand
+# Telescope Desk: current work state
 
-Native Originalherkunft und Lieferanten-SBOMs geprüft; Originalquellen/Patches/
-Buildrezepte ergänzt. Kontrollierter zlib-Neuaufbau mit Test erfolgreich.
-APK-Eigenbeschaffung und Verantwortungsabgrenzung auf Deutsch/Englisch ergänzt.
-Codec- und Microsoft-Bedingungen für die rechtliche Prüfung zusammengestellt.
-Aktueller Status: [TECHNICAL_LICENSE_RESOLUTION.md](docs/TECHNICAL_LICENSE_RESOLUTION.md).
-Ergänzter Prüfstand: 169 Tests bestanden; portable/installierte EXE sauber beendet;
-Installation/Neuinstallation/Deinstallation erfolgreich, 1.642 Dateien ohne Abweichung.
-Keine neuen Hardwaretests. Original-b3-Pakete anhand ihrer Hashes unverändert geprüft.
-Noch offen bleiben die dort konkret bezeichneten Hersteller-Buildnachweise und
-rechtlichen Entscheidungen. Neue öffentliche Binärdateien bleiben bis zur Klärung
-zurückgestellt; alte b3-Dateien und ihre Hashes bleiben unverändert.
+Branch: refactor/telescope-desk-minimal-runtime. Version remains 2.3.0b3.
+Baseline preserved at b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59.
+Native namespace, executable, UI, installer and developer tools renamed.
+Legacy profiles are reused in place; no keys copied. Initial rebuilt payload has
+127 native files versus 130, removing Qt Multimedia Widgets and Pillow AVIF.
+FFmpeg remains unchanged (183 encoders / 498 decoders).
 
-> B3-Prüfung abgeschlossen: 166 Tests; portable und installierte EXE starten und
-> beenden sich sauber; Installation/Neuinstallation/Deinstallation erfolgreich,
-> 1.443 Dateien ohne Abweichung und persönliche Einstellungen unverändert.
-> ZIP, Installer, App-Quellen und 40 Upstream-Archive liegen lokal vor.
-> Quellcode-Push beauftragt; native Quellen-/Lizenzblocker bleiben dokumentiert.
+Remaining validation: final clean build tied to a local commit, native UI/installer
+lifecycle and payload/SBOM checks. Renewed real-device Live View, clean external
+Windows and software-only graphics tests remain unverified. Complete embedded
+static-component SBOM/source reconstruction and legal decisions remain OPEN.
+No main push, merge, public release, binary upload or repository rename.
 
-# 2.3.0b3 — lokale Compliance-Korrektur
-
-8. November 2026: Der Projektverantwortliche hat klargestellt, dass b3 neu lokal
-zu erstellen und der Quellcode auf GitHub zu aktualisieren ist. Kein b3-Link wird
-benötigt. B2 bleibt als Vergleichsbasis unverändert. Keine neuen Funktionen.
-
-Korrekturen: Colorama-Quellen/Lizenz, kollisionsfreie Vendor-Notices, neun unbenutzte
-Qt-Dateien ausgeschlossen, öffentliche Projektangaben berichtigt, vollständiger
-PASS/OPEN/BLOCKER-Prüfer und dokumentierte native/rechtliche Quellenlücken.
-166 automatisierte Tests bestanden; b3-Build und Prüfstatus siehe
-[Compliance-Bericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md).
-Native Quellen-/Buildnachweise und Rechtsfragen sind keine geschlossenen Punkte.
-Neue öffentliche Binär-Releases sind nicht durch den Quellcode-Push freigegeben.
-
-## Historischer Entwicklungsstand bis 7. November 2026
-
-> GitHub-Auftrag vom 7. November 2026: Die Übertragung des aktuellen Standes
-> in das bestehende private Repository ist ausdrücklich freigegeben. Details
-> und Grenzen: [GITHUB_DELIVERY.md](docs/GITHUB_DELIVERY.md). Frühere Aussagen
-> „kein Git/kein Upload freigegeben“ beschreiben den Stand vor diesem Auftrag.
-
-# 2.3.0b2 — Feature Freeze
-
-Lokale Implementierung, 154 Tests, EXE/ZIP/Installer und Installationslebenszyklus
-abgeschlossen. Keine weiteren Funktionen oder Hardwarebewegungen ohne Auftrag.
-Sicherung: backups/beta-2.3.0b2; frühere Builds bleiben erhalten.
-
-Ausstehende separate Abnahmen:
-1. Vollständige automatische Beobachtung unter freiem Sternenhimmel: erfolgreiches
-   Plate Solving, Autofokus, akzeptierte Subframes und paralleler Langzeitbetrieb.
-2. Erneute Discovery des S50 prüfen, sobald es wieder erreichbar ist. Es bestand
-   die Indoor-Tests; im letzten EXE-/Discovery-Lauf erschien nur noch der S50 Pro.
-   Ursache nicht festgestellt, kein weiterer Bewegungs-/Aufnahmeversuch nötig.
-3. Externer Windows-PC ohne Python, fremdes S50, tatsächliche Windows-11-/DPI-/
-   Shell-Icon-Abnahme und optionale echte Standortabfrage.
-4. Offene GPL/LGPL-/native Quellen-/Build-/Microsoft-/Codec-/Extraktionsfragen.
-5. Veröffentlichung oder Weitergabe ausschließlich nach ausdrücklicher Freigabe.
-
-Der Installer-Test wurde sauber deinstalliert; persönliche Einstellungen und
-Session-Daten blieben erhalten. Anwendung über die lokale EXE oder den Installer
-starten. Keine automatische Installation/Veröffentlichung im Anschluss.
+Current evidence: docs/compliance/MINIMIZATION_REPORT.md. Prior Seestar Studio
+records are preserved under docs/history/seestar-studio-b3 and compliance/baseline.

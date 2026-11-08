@@ -1,0 +1,5455 @@
+{
+  "dll_sha256": "fd6b08a07310d34a6be4349172557f5a234bd66420e28934b625b669a763ba2f",
+  "scope": "Compiled codec registry, not a claim all codecs are used by the application",
+  "codecs": [
+    {
+      "name": "a64multi",
+      "description": "Multicolor charset for Commodore 64",
+      "media_type": 0,
+      "codec_id": 142,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "a64multi5",
+      "description": "Multicolor charset for Commodore 64, extended with 5th color (colram)",
+      "media_type": 0,
+      "codec_id": 143,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "alias_pix",
+      "description": "Alias/Wavefront PIX image",
+      "media_type": 0,
+      "codec_id": 174,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "amv",
+      "description": "AMV Video",
+      "media_type": 0,
+      "codec_id": 107,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "apng",
+      "description": "APNG (Animated Portable Network Graphics) image",
+      "media_type": 0,
+      "codec_id": 207,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "asv1",
+      "description": "ASUS V1",
+      "media_type": 0,
+      "codec_id": 31,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "asv2",
+      "description": "ASUS V2",
+      "media_type": 0,
+      "codec_id": 32,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "avrp",
+      "description": "Avid 1:1 10-bit RGB Packer",
+      "media_type": 0,
+      "codec_id": 197,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "avui",
+      "description": "Avid Meridien Uncompressed",
+      "media_type": 0,
+      "codec_id": 199,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "bitpacked",
+      "description": "Bitpacked",
+      "media_type": 0,
+      "codec_id": 223,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "bmp",
+      "description": "BMP (Windows and OS/2 bitmap)",
+      "media_type": 0,
+      "codec_id": 78,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "cfhd",
+      "description": "GoPro CineForm HD",
+      "media_type": 0,
+      "codec_id": 209,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "cinepak",
+      "description": "Cinepak",
+      "media_type": 0,
+      "codec_id": 43,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "cljr",
+      "description": "Cirrus Logic AccuPak",
+      "media_type": 0,
+      "codec_id": 36,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "comfortnoise",
+      "description": "RFC 3389 comfort noise generator",
+      "media_type": 1,
+      "codec_id": 86077,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dnxhd",
+      "description": "VC3/DNxHD",
+      "media_type": 0,
+      "codec_id": 99,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dpx",
+      "description": "DPX (Digital Picture Exchange) image",
+      "media_type": 0,
+      "codec_id": 128,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dvvideo",
+      "description": "DV (Digital Video)",
+      "media_type": 0,
+      "codec_id": 24,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dxv",
+      "description": "Resolume DXV",
+      "media_type": 0,
+      "codec_id": 188,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "exr",
+      "description": "OpenEXR image",
+      "media_type": 0,
+      "codec_id": 177,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ffv1",
+      "description": "FFmpeg video codec #1",
+      "media_type": 0,
+      "codec_id": 33,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ffvhuff",
+      "description": "Huffyuv FFmpeg variant",
+      "media_type": 0,
+      "codec_id": 67,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "fits",
+      "description": "Flexible Image Transport System",
+      "media_type": 0,
+      "codec_id": 228,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "flashsv",
+      "description": "Flash Screen Video",
+      "media_type": 0,
+      "codec_id": 86,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "flashsv2",
+      "description": "Flash Screen Video Version 2",
+      "media_type": 0,
+      "codec_id": 131,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "flv",
+      "description": "FLV / Sorenson Spark / Sorenson H.263 (Flash Video)",
+      "media_type": 0,
+      "codec_id": 21,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "gif",
+      "description": "GIF (Graphics Interchange Format)",
+      "media_type": 0,
+      "codec_id": 97,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "h261",
+      "description": "H.261",
+      "media_type": 0,
+      "codec_id": 3,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "h263",
+      "description": "H.263 / H.263-1996",
+      "media_type": 0,
+      "codec_id": 4,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "h263p",
+      "description": "H.263+ / H.263-1998 / H.263 version 2",
+      "media_type": 0,
+      "codec_id": 19,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "huffyuv",
+      "description": "Huffyuv / HuffYUV",
+      "media_type": 0,
+      "codec_id": 25,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "jpeg2000",
+      "description": "JPEG 2000",
+      "media_type": 0,
+      "codec_id": 88,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "jpegls",
+      "description": "JPEG-LS",
+      "media_type": 0,
+      "codec_id": 11,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ljpeg",
+      "description": "Lossless JPEG",
+      "media_type": 0,
+      "codec_id": 9,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "magicyuv",
+      "description": "MagicYUV video",
+      "media_type": 0,
+      "codec_id": 212,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mjpeg",
+      "description": "MJPEG (Motion JPEG)",
+      "media_type": 0,
+      "codec_id": 7,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mpeg1video",
+      "description": "MPEG-1 video",
+      "media_type": 0,
+      "codec_id": 1,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mpeg2video",
+      "description": "MPEG-2 video",
+      "media_type": 0,
+      "codec_id": 2,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mpeg4",
+      "description": "MPEG-4 part 2",
+      "media_type": 0,
+      "codec_id": 12,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "msmpeg4v2",
+      "description": "MPEG-4 part 2 Microsoft variant version 2",
+      "media_type": 0,
+      "codec_id": 15,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "msmpeg4",
+      "description": "MPEG-4 part 2 Microsoft variant version 3",
+      "media_type": 0,
+      "codec_id": 16,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "msrle",
+      "description": "Microsoft RLE",
+      "media_type": 0,
+      "codec_id": 45,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "msvideo1",
+      "description": "Microsoft Video-1",
+      "media_type": 0,
+      "codec_id": 46,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pam",
+      "description": "PAM (Portable AnyMap) image",
+      "media_type": 0,
+      "codec_id": 66,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pbm",
+      "description": "PBM (Portable BitMap) image",
+      "media_type": 0,
+      "codec_id": 63,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcx",
+      "description": "PC Paintbrush PCX image",
+      "media_type": 0,
+      "codec_id": 109,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pdv",
+      "description": "PDV (PlayDate Video)",
+      "media_type": 0,
+      "codec_id": 262,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pfm",
+      "description": "PFM (Portable FloatMap) image",
+      "media_type": 0,
+      "codec_id": 245,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pgm",
+      "description": "PGM (Portable GrayMap) image",
+      "media_type": 0,
+      "codec_id": 64,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pgmyuv",
+      "description": "PGMYUV (Portable GrayMap YUV) image",
+      "media_type": 0,
+      "codec_id": 65,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "phm",
+      "description": "PHM (Portable HalfFloatMap) image",
+      "media_type": 0,
+      "codec_id": 257,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "png",
+      "description": "PNG (Portable Network Graphics) image",
+      "media_type": 0,
+      "codec_id": 61,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ppm",
+      "description": "PPM (Portable PixelMap) image",
+      "media_type": 0,
+      "codec_id": 62,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "prores",
+      "description": "Apple ProRes",
+      "media_type": 0,
+      "codec_id": 147,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "prores_aw",
+      "description": "Apple ProRes",
+      "media_type": 0,
+      "codec_id": 147,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "prores_ks",
+      "description": "Apple ProRes (iCodec Pro)",
+      "media_type": 0,
+      "codec_id": 147,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "qoi",
+      "description": "QOI (Quite OK Image format) image",
+      "media_type": 0,
+      "codec_id": 256,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "qtrle",
+      "description": "QuickTime Animation (RLE) video",
+      "media_type": 0,
+      "codec_id": 55,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "r10k",
+      "description": "AJA Kona 10-bit RGB Codec",
+      "media_type": 0,
+      "codec_id": 144,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "r210",
+      "description": "Uncompressed RGB 10-bit",
+      "media_type": 0,
+      "codec_id": 133,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "rawvideo",
+      "description": "raw video",
+      "media_type": 0,
+      "codec_id": 13,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "roqvideo",
+      "description": "id RoQ video",
+      "media_type": 0,
+      "codec_id": 38,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "rpza",
+      "description": "QuickTime video (RPZA)",
+      "media_type": 0,
+      "codec_id": 42,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "rv10",
+      "description": "RealVideo 1.0",
+      "media_type": 0,
+      "codec_id": 5,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "rv20",
+      "description": "RealVideo 2.0",
+      "media_type": 0,
+      "codec_id": 6,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "s302m",
+      "description": "SMPTE 302M",
+      "media_type": 1,
+      "codec_id": 65562,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "sgi",
+      "description": "SGI image",
+      "media_type": 0,
+      "codec_id": 101,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "smc",
+      "description": "QuickTime Graphics (SMC)",
+      "media_type": 0,
+      "codec_id": 49,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "snow",
+      "description": "Snow",
+      "media_type": 0,
+      "codec_id": 205,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "speedhq",
+      "description": "NewTek SpeedHQ",
+      "media_type": 0,
+      "codec_id": 217,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "sunrast",
+      "description": "Sun Rasterfile image",
+      "media_type": 0,
+      "codec_id": 110,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "svq1",
+      "description": "Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1",
+      "media_type": 0,
+      "codec_id": 22,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "targa",
+      "description": "Truevision Targa image",
+      "media_type": 0,
+      "codec_id": 93,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "tiff",
+      "description": "TIFF image",
+      "media_type": 0,
+      "codec_id": 96,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "utvideo",
+      "description": "Ut Video",
+      "media_type": 0,
+      "codec_id": 152,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "v210",
+      "description": "Uncompressed 4:2:2 10-bit",
+      "media_type": 0,
+      "codec_id": 127,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "vbn",
+      "description": "Vizrt Binary Image",
+      "media_type": 0,
+      "codec_id": 254,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "vc2",
+      "description": "SMPTE VC-2",
+      "media_type": 0,
+      "codec_id": 116,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wbmp",
+      "description": "WBMP (Wireless Application Protocol Bitmap) image",
+      "media_type": 0,
+      "codec_id": 259,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wrapped_avframe",
+      "description": "AVFrame to AVPacket passthrough",
+      "media_type": 0,
+      "codec_id": 135169,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wmv1",
+      "description": "Windows Media Video 7",
+      "media_type": 0,
+      "codec_id": 17,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wmv2",
+      "description": "Windows Media Video 8",
+      "media_type": 0,
+      "codec_id": 18,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "xbm",
+      "description": "XBM (X BitMap) image",
+      "media_type": 0,
+      "codec_id": 158,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "xface",
+      "description": "X-face image",
+      "media_type": 0,
+      "codec_id": 204,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "xwd",
+      "description": "XWD (X Window Dump) image",
+      "media_type": 0,
+      "codec_id": 156,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "y41p",
+      "description": "Uncompressed YUV 4:1:1 12-bit",
+      "media_type": 0,
+      "codec_id": 196,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "yuv4",
+      "description": "Uncompressed packed 4:2:0",
+      "media_type": 0,
+      "codec_id": 201,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "zlib",
+      "description": "LCL (LossLess Codec Library) ZLIB",
+      "media_type": 0,
+      "codec_id": 54,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "zmbv",
+      "description": "Zip Motion Blocks Video",
+      "media_type": 0,
+      "codec_id": 81,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "aac",
+      "description": "AAC (Advanced Audio Coding)",
+      "media_type": 1,
+      "codec_id": 86018,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ac3",
+      "description": "ATSC A/52A (AC-3)",
+      "media_type": 1,
+      "codec_id": 86019,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ac3_fixed",
+      "description": "ATSC A/52A (AC-3)",
+      "media_type": 1,
+      "codec_id": 86019,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "alac",
+      "description": "ALAC (Apple Lossless Audio Codec)",
+      "media_type": 1,
+      "codec_id": 86032,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "aptx",
+      "description": "aptX (Audio Processing Technology for Bluetooth)",
+      "media_type": 1,
+      "codec_id": 86101,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "aptx_hd",
+      "description": "aptX HD (Audio Processing Technology for Bluetooth)",
+      "media_type": 1,
+      "codec_id": 86102,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dca",
+      "description": "DCA (DTS Coherent Acoustics)",
+      "media_type": 1,
+      "codec_id": 86020,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dfpwm",
+      "description": "DFPWM1a audio",
+      "media_type": 1,
+      "codec_id": 86112,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "eac3",
+      "description": "ATSC A/52 E-AC-3",
+      "media_type": 1,
+      "codec_id": 86056,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "flac",
+      "description": "FLAC (Free Lossless Audio Codec)",
+      "media_type": 1,
+      "codec_id": 86028,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "g723_1",
+      "description": "G.723.1",
+      "media_type": 1,
+      "codec_id": 86068,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "hdr",
+      "description": "HDR (Radiance RGBE format) image",
+      "media_type": 0,
+      "codec_id": 258,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mlp",
+      "description": "MLP (Meridian Lossless Packing)",
+      "media_type": 1,
+      "codec_id": 86045,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mp2",
+      "description": "MP2 (MPEG audio layer 2)",
+      "media_type": 1,
+      "codec_id": 86016,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mp2fixed",
+      "description": "MP2 fixed point (MPEG audio layer 2)",
+      "media_type": 1,
+      "codec_id": 86016,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "nellymoser",
+      "description": "Nellymoser Asao",
+      "media_type": 1,
+      "codec_id": 86049,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "opus",
+      "description": "Opus",
+      "media_type": 1,
+      "codec_id": 86076,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "real_144",
+      "description": "RealAudio 1.0 (14.4K)",
+      "media_type": 1,
+      "codec_id": 77824,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "sbc",
+      "description": "SBC (low-complexity subband codec)",
+      "media_type": 1,
+      "codec_id": 86103,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "truehd",
+      "description": "TrueHD",
+      "media_type": 1,
+      "codec_id": 86060,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "tta",
+      "description": "TTA (True Audio)",
+      "media_type": 1,
+      "codec_id": 86038,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "vorbis",
+      "description": "Vorbis",
+      "media_type": 1,
+      "codec_id": 86021,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wavpack",
+      "description": "WavPack",
+      "media_type": 1,
+      "codec_id": 86041,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wmav1",
+      "description": "Windows Media Audio 1",
+      "media_type": 1,
+      "codec_id": 86023,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "wmav2",
+      "description": "Windows Media Audio 2",
+      "media_type": 1,
+      "codec_id": 86024,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_alaw",
+      "description": "PCM A-law / G.711 A-law",
+      "media_type": 1,
+      "codec_id": 65543,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_bluray",
+      "description": "PCM signed 16|20|24-bit big-endian for Blu-ray media",
+      "media_type": 1,
+      "codec_id": 65560,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_dvd",
+      "description": "PCM signed 16|20|24-bit big-endian for DVD media",
+      "media_type": 1,
+      "codec_id": 65555,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_f32be",
+      "description": "PCM 32-bit floating point big-endian",
+      "media_type": 1,
+      "codec_id": 65556,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_f32le",
+      "description": "PCM 32-bit floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65557,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_f64be",
+      "description": "PCM 64-bit floating point big-endian",
+      "media_type": 1,
+      "codec_id": 65558,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_f64le",
+      "description": "PCM 64-bit floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65559,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_mulaw",
+      "description": "PCM mu-law / G.711 mu-law",
+      "media_type": 1,
+      "codec_id": 65542,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s8",
+      "description": "PCM signed 8-bit",
+      "media_type": 1,
+      "codec_id": 65540,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s8_planar",
+      "description": "PCM signed 8-bit planar",
+      "media_type": 1,
+      "codec_id": 65563,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s16be",
+      "description": "PCM signed 16-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65537,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s16be_planar",
+      "description": "PCM signed 16-bit big-endian planar",
+      "media_type": 1,
+      "codec_id": 65566,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s16le",
+      "description": "PCM signed 16-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65536,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s16le_planar",
+      "description": "PCM signed 16-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65554,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s24be",
+      "description": "PCM signed 24-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65549,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s24daud",
+      "description": "PCM D-Cinema audio signed 24-bit",
+      "media_type": 1,
+      "codec_id": 65552,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s24le",
+      "description": "PCM signed 24-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65548,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s24le_planar",
+      "description": "PCM signed 24-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65564,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s32be",
+      "description": "PCM signed 32-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65545,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s32le",
+      "description": "PCM signed 32-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65544,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s32le_planar",
+      "description": "PCM signed 32-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65565,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s64be",
+      "description": "PCM signed 64-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65568,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_s64le",
+      "description": "PCM signed 64-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65567,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u8",
+      "description": "PCM unsigned 8-bit",
+      "media_type": 1,
+      "codec_id": 65541,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u16be",
+      "description": "PCM unsigned 16-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65539,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u16le",
+      "description": "PCM unsigned 16-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65538,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u24be",
+      "description": "PCM unsigned 24-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65551,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u24le",
+      "description": "PCM unsigned 24-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65550,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u32be",
+      "description": "PCM unsigned 32-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65547,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_u32le",
+      "description": "PCM unsigned 32-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65546,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "pcm_vidc",
+      "description": "PCM Archimedes VIDC",
+      "media_type": 1,
+      "codec_id": 65571,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "roq_dpcm",
+      "description": "id RoQ DPCM",
+      "media_type": 1,
+      "codec_id": 81920,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_adx",
+      "description": "SEGA CRI ADX ADPCM",
+      "media_type": 1,
+      "codec_id": 69641,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_argo",
+      "description": "ADPCM Argonaut Games",
+      "media_type": 1,
+      "codec_id": 69674,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "g722",
+      "description": "G.722 ADPCM",
+      "media_type": 1,
+      "codec_id": 69660,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "g726",
+      "description": "G.726 ADPCM",
+      "media_type": 1,
+      "codec_id": 69643,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "g726le",
+      "description": "G.726 little endian ADPCM (\"right-justified\")",
+      "media_type": 1,
+      "codec_id": 69667,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_amv",
+      "description": "ADPCM IMA AMV",
+      "media_type": 1,
+      "codec_id": 69651,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_alp",
+      "description": "ADPCM IMA High Voltage Software ALP",
+      "media_type": 1,
+      "codec_id": 69678,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_apm",
+      "description": "ADPCM IMA Ubisoft APM",
+      "media_type": 1,
+      "codec_id": 69677,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_qt",
+      "description": "ADPCM IMA QuickTime",
+      "media_type": 1,
+      "codec_id": 69632,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_ssi",
+      "description": "ADPCM IMA Simon & Schuster Interactive",
+      "media_type": 1,
+      "codec_id": 69675,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_wav",
+      "description": "ADPCM IMA WAV",
+      "media_type": 1,
+      "codec_id": 69633,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ima_ws",
+      "description": "ADPCM IMA Westwood",
+      "media_type": 1,
+      "codec_id": 69636,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_ms",
+      "description": "ADPCM Microsoft",
+      "media_type": 1,
+      "codec_id": 69638,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_swf",
+      "description": "ADPCM Shockwave Flash",
+      "media_type": 1,
+      "codec_id": 69645,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "adpcm_yamaha",
+      "description": "ADPCM Yamaha",
+      "media_type": 1,
+      "codec_id": 69646,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ssa",
+      "description": "ASS (Advanced SubStation Alpha) subtitle",
+      "media_type": 3,
+      "codec_id": 94230,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ass",
+      "description": "ASS (Advanced SubStation Alpha) subtitle",
+      "media_type": 3,
+      "codec_id": 94230,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dvbsub",
+      "description": "DVB subtitles",
+      "media_type": 3,
+      "codec_id": 94209,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "dvdsub",
+      "description": "DVD subtitles",
+      "media_type": 3,
+      "codec_id": 94208,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mov_text",
+      "description": "3GPP Timed Text subtitle",
+      "media_type": 3,
+      "codec_id": 94213,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "srt",
+      "description": "SubRip subtitle",
+      "media_type": 3,
+      "codec_id": 94225,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "subrip",
+      "description": "SubRip subtitle",
+      "media_type": 3,
+      "codec_id": 94225,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "text",
+      "description": "Raw text subtitle",
+      "media_type": 3,
+      "codec_id": 94210,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ttml",
+      "description": "TTML subtitle",
+      "media_type": 3,
+      "codec_id": 94232,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "webvtt",
+      "description": "WebVTT subtitle",
+      "media_type": 3,
+      "codec_id": 94226,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "xsub",
+      "description": "DivX subtitles (XSUB)",
+      "media_type": 3,
+      "codec_id": 94211,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "aac_mf",
+      "description": "AAC via MediaFoundation",
+      "media_type": 1,
+      "codec_id": 86018,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "ac3_mf",
+      "description": "AC3 via MediaFoundation",
+      "media_type": 1,
+      "codec_id": 86019,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "av1_d3d12va",
+      "description": "D3D12VA av1 encoder",
+      "media_type": 0,
+      "codec_id": 222,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "av1_mf",
+      "description": "AV1 via MediaFoundation",
+      "media_type": 0,
+      "codec_id": 222,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "h264_d3d12va",
+      "description": "D3D12VA h264 encoder",
+      "media_type": 0,
+      "codec_id": 27,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "h264_mf",
+      "description": "H264 via MediaFoundation",
+      "media_type": 0,
+      "codec_id": 27,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "hevc_d3d12va",
+      "description": "D3D12VA hevc encoder",
+      "media_type": 0,
+      "codec_id": 172,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "hevc_mf",
+      "description": "HEVC via MediaFoundation",
+      "media_type": 0,
+      "codec_id": 172,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "mp3_mf",
+      "description": "MP3 via MediaFoundation",
+      "media_type": 1,
+      "codec_id": 86017,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "vnull",
+      "description": "null video",
+      "media_type": 0,
+      "codec_id": 135170,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "anull",
+      "description": "null audio",
+      "media_type": 1,
+      "codec_id": 135171,
+      "encoder": true,
+      "decoder": false
+    },
+    {
+      "name": "aasc",
+      "description": "Autodesk RLE",
+      "media_type": 0,
+      "codec_id": 74,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aic",
+      "description": "Apple Intermediate Codec",
+      "media_type": 0,
+      "codec_id": 167,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "alias_pix",
+      "description": "Alias/Wavefront PIX image",
+      "media_type": 0,
+      "codec_id": 174,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "agm",
+      "description": "Amuse Graphics Movie",
+      "media_type": 0,
+      "codec_id": 236,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "amv",
+      "description": "AMV Video",
+      "media_type": 0,
+      "codec_id": 107,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "anm",
+      "description": "Deluxe Paint Animation",
+      "media_type": 0,
+      "codec_id": 134,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ansi",
+      "description": "ASCII/ANSI art",
+      "media_type": 0,
+      "codec_id": 141,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "apng",
+      "description": "APNG (Animated Portable Network Graphics) image",
+      "media_type": 0,
+      "codec_id": 207,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "apv",
+      "description": "Advanced Professional Video",
+      "media_type": 0,
+      "codec_id": 270,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "arbc",
+      "description": "Gryphon's Anim Compressor",
+      "media_type": 0,
+      "codec_id": 235,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "argo",
+      "description": "Argonaut Games Video",
+      "media_type": 0,
+      "codec_id": 249,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "asv1",
+      "description": "ASUS V1",
+      "media_type": 0,
+      "codec_id": 31,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "asv2",
+      "description": "ASUS V2",
+      "media_type": 0,
+      "codec_id": 32,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aura",
+      "description": "Auravision AURA",
+      "media_type": 0,
+      "codec_id": 123,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aura2",
+      "description": "Auravision Aura 2",
+      "media_type": 0,
+      "codec_id": 124,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "avrp",
+      "description": "Avid 1:1 10-bit RGB Packer",
+      "media_type": 0,
+      "codec_id": 197,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "avrn",
+      "description": "Avid AVI Codec",
+      "media_type": 0,
+      "codec_id": 202,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "avs",
+      "description": "AVS (Audio Video Standard) video",
+      "media_type": 0,
+      "codec_id": 82,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "avui",
+      "description": "Avid Meridien Uncompressed",
+      "media_type": 0,
+      "codec_id": 199,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bethsoftvid",
+      "description": "Bethesda VID video",
+      "media_type": 0,
+      "codec_id": 103,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bfi",
+      "description": "Brute Force & Ignorance",
+      "media_type": 0,
+      "codec_id": 117,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "binkvideo",
+      "description": "Bink video",
+      "media_type": 0,
+      "codec_id": 135,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bitpacked",
+      "description": "Bitpacked",
+      "media_type": 0,
+      "codec_id": 223,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bmp",
+      "description": "BMP (Windows and OS/2 bitmap)",
+      "media_type": 0,
+      "codec_id": 78,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bmv_video",
+      "description": "Discworld II BMV video",
+      "media_type": 0,
+      "codec_id": 153,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "brender_pix",
+      "description": "BRender PIX image",
+      "media_type": 0,
+      "codec_id": 175,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "c93",
+      "description": "Interplay C93",
+      "media_type": 0,
+      "codec_id": 102,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cavs",
+      "description": "Chinese AVS (Audio Video Standard) (AVS1-P2, JiZhun profile)",
+      "media_type": 0,
+      "codec_id": 87,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cdgraphics",
+      "description": "CD Graphics video",
+      "media_type": 0,
+      "codec_id": 132,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cdtoons",
+      "description": "CDToons video",
+      "media_type": 0,
+      "codec_id": 242,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cdxl",
+      "description": "Commodore CDXL video",
+      "media_type": 0,
+      "codec_id": 157,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cfhd",
+      "description": "GoPro CineForm HD",
+      "media_type": 0,
+      "codec_id": 209,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cinepak",
+      "description": "Cinepak",
+      "media_type": 0,
+      "codec_id": 43,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "clearvideo",
+      "description": "Iterated Systems ClearVideo",
+      "media_type": 0,
+      "codec_id": 220,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cljr",
+      "description": "Cirrus Logic AccuPak",
+      "media_type": 0,
+      "codec_id": 36,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cllc",
+      "description": "Canopus Lossless Codec",
+      "media_type": 0,
+      "codec_id": 164,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "comfortnoise",
+      "description": "RFC 3389 comfort noise generator",
+      "media_type": 1,
+      "codec_id": 86077,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cpia",
+      "description": "CPiA video format",
+      "media_type": 0,
+      "codec_id": 203,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cri",
+      "description": "Cintel RAW",
+      "media_type": 0,
+      "codec_id": 250,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "camstudio",
+      "description": "CamStudio",
+      "media_type": 0,
+      "codec_id": 79,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cyuv",
+      "description": "Creative YUV (CYUV)",
+      "media_type": 0,
+      "codec_id": 26,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dds",
+      "description": "DirectDraw Surface image decoder",
+      "media_type": 0,
+      "codec_id": 187,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dfa",
+      "description": "Chronomaster DFA",
+      "media_type": 0,
+      "codec_id": 149,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dirac",
+      "description": "BBC Dirac VC-2",
+      "media_type": 0,
+      "codec_id": 116,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dnxhd",
+      "description": "VC3/DNxHD",
+      "media_type": 0,
+      "codec_id": 99,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dpx",
+      "description": "DPX (Digital Picture Exchange) image",
+      "media_type": 0,
+      "codec_id": 128,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsicinvideo",
+      "description": "Delphine Software International CIN video",
+      "media_type": 0,
+      "codec_id": 94,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dvaudio",
+      "description": "Ulead DV Audio",
+      "media_type": 1,
+      "codec_id": 86022,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dvvideo",
+      "description": "DV (Digital Video)",
+      "media_type": 0,
+      "codec_id": 24,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dxa",
+      "description": "Feeble Files/ScummVM DXA",
+      "media_type": 0,
+      "codec_id": 98,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dxtory",
+      "description": "Dxtory",
+      "media_type": 0,
+      "codec_id": 155,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dxv",
+      "description": "Resolume DXV",
+      "media_type": 0,
+      "codec_id": 188,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eacmv",
+      "description": "Electronic Arts CMV video",
+      "media_type": 0,
+      "codec_id": 118,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eamad",
+      "description": "Electronic Arts Madcow Video",
+      "media_type": 0,
+      "codec_id": 129,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eatgq",
+      "description": "Electronic Arts TGQ video",
+      "media_type": 0,
+      "codec_id": 121,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eatgv",
+      "description": "Electronic Arts TGV video",
+      "media_type": 0,
+      "codec_id": 120,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eatqi",
+      "description": "Electronic Arts TQI Video",
+      "media_type": 0,
+      "codec_id": 122,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "8bps",
+      "description": "QuickTime 8BPS video",
+      "media_type": 0,
+      "codec_id": 48,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "8svx_exp",
+      "description": "8SVX exponential",
+      "media_type": 1,
+      "codec_id": 86070,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "8svx_fib",
+      "description": "8SVX fibonacci",
+      "media_type": 1,
+      "codec_id": 86071,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "escape124",
+      "description": "Escape 124",
+      "media_type": 0,
+      "codec_id": 115,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "escape130",
+      "description": "Escape 130",
+      "media_type": 0,
+      "codec_id": 168,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "exr",
+      "description": "OpenEXR image",
+      "media_type": 0,
+      "codec_id": 177,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ffv1",
+      "description": "FFmpeg video codec #1",
+      "media_type": 0,
+      "codec_id": 33,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ffvhuff",
+      "description": "Huffyuv FFmpeg variant",
+      "media_type": 0,
+      "codec_id": 67,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "fic",
+      "description": "Mirillis FIC",
+      "media_type": 0,
+      "codec_id": 173,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "fits",
+      "description": "Flexible Image Transport System",
+      "media_type": 0,
+      "codec_id": 228,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "flashsv",
+      "description": "Flash Screen Video v1",
+      "media_type": 0,
+      "codec_id": 86,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "flashsv2",
+      "description": "Flash Screen Video v2",
+      "media_type": 0,
+      "codec_id": 131,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "flic",
+      "description": "Autodesk Animator Flic video",
+      "media_type": 0,
+      "codec_id": 50,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "flv",
+      "description": "FLV / Sorenson Spark / Sorenson H.263 (Flash Video)",
+      "media_type": 0,
+      "codec_id": 21,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "fmvc",
+      "description": "FM Screen Capture Codec",
+      "media_type": 0,
+      "codec_id": 218,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "4xm",
+      "description": "4X Movie",
+      "media_type": 0,
+      "codec_id": 34,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "fraps",
+      "description": "Fraps",
+      "media_type": 0,
+      "codec_id": 76,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "frwu",
+      "description": "Forward Uncompressed",
+      "media_type": 0,
+      "codec_id": 130,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g2m",
+      "description": "Go2Meeting",
+      "media_type": 0,
+      "codec_id": 169,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gdv",
+      "description": "Gremlin Digital Video",
+      "media_type": 0,
+      "codec_id": 227,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gem",
+      "description": "GEM Raster image",
+      "media_type": 0,
+      "codec_id": 253,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gif",
+      "description": "GIF (Graphics Interchange Format)",
+      "media_type": 0,
+      "codec_id": 97,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "h261",
+      "description": "H.261",
+      "media_type": 0,
+      "codec_id": 3,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "h263",
+      "description": "H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2",
+      "media_type": 0,
+      "codec_id": 4,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "h263i",
+      "description": "Intel H.263",
+      "media_type": 0,
+      "codec_id": 20,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "h263p",
+      "description": "H.263 / H.263-1996, H.263+ / H.263-1998 / H.263 version 2",
+      "media_type": 0,
+      "codec_id": 19,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "h264",
+      "description": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "media_type": 0,
+      "codec_id": 27,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hap",
+      "description": "Vidvox Hap",
+      "media_type": 0,
+      "codec_id": 186,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hevc",
+      "description": "HEVC (High Efficiency Video Coding)",
+      "media_type": 0,
+      "codec_id": 172,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hnm4video",
+      "description": "HNM 4 video",
+      "media_type": 0,
+      "codec_id": 171,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hq_hqa",
+      "description": "Canopus HQ/HQA",
+      "media_type": 0,
+      "codec_id": 185,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hqx",
+      "description": "Canopus HQX",
+      "media_type": 0,
+      "codec_id": 183,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "huffyuv",
+      "description": "Huffyuv / HuffYUV",
+      "media_type": 0,
+      "codec_id": 25,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hymt",
+      "description": "HuffYUV MT",
+      "media_type": 0,
+      "codec_id": 234,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "idcinvideo",
+      "description": "id Quake II CIN video",
+      "media_type": 0,
+      "codec_id": 47,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "iff",
+      "description": "IFF ACBM/ANIM/DEEP/ILBM/PBM/RGB8/RGBN",
+      "media_type": 0,
+      "codec_id": 136,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "imm4",
+      "description": "Infinity IMM4",
+      "media_type": 0,
+      "codec_id": 229,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "imm5",
+      "description": "Infinity IMM5",
+      "media_type": 0,
+      "codec_id": 239,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "indeo2",
+      "description": "Intel Indeo 2",
+      "media_type": 0,
+      "codec_id": 75,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "indeo3",
+      "description": "Intel Indeo 3",
+      "media_type": 0,
+      "codec_id": 28,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "indeo4",
+      "description": "Intel Indeo Video Interactive 4",
+      "media_type": 0,
+      "codec_id": 111,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "indeo5",
+      "description": "Intel Indeo Video Interactive 5",
+      "media_type": 0,
+      "codec_id": 112,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "interplayvideo",
+      "description": "Interplay MVE video",
+      "media_type": 0,
+      "codec_id": 39,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ipu",
+      "description": "IPU Video",
+      "media_type": 0,
+      "codec_id": 248,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "jpeg2000",
+      "description": "JPEG 2000",
+      "media_type": 0,
+      "codec_id": 88,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "jpegls",
+      "description": "JPEG-LS",
+      "media_type": 0,
+      "codec_id": 11,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "jv",
+      "description": "Bitmap Brothers JV video",
+      "media_type": 0,
+      "codec_id": 148,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "kgv1",
+      "description": "Kega Game Video",
+      "media_type": 0,
+      "codec_id": 137,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "kmvc",
+      "description": "Karl Morton's video codec",
+      "media_type": 0,
+      "codec_id": 85,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "lagarith",
+      "description": "Lagarith lossless",
+      "media_type": 0,
+      "codec_id": 146,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "lead",
+      "description": "LEAD MCMP",
+      "media_type": 0,
+      "codec_id": 266,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "loco",
+      "description": "LOCO",
+      "media_type": 0,
+      "codec_id": 72,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "lscr",
+      "description": "LEAD Screen Capture",
+      "media_type": 0,
+      "codec_id": 237,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "m101",
+      "description": "Matrox Uncompressed SD",
+      "media_type": 0,
+      "codec_id": 211,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "magicyuv",
+      "description": "MagicYUV video",
+      "media_type": 0,
+      "codec_id": 212,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mdec",
+      "description": "Sony PlayStation MDEC (Motion DECoder)",
+      "media_type": 0,
+      "codec_id": 37,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "media100",
+      "description": "Media 100",
+      "media_type": 0,
+      "codec_id": 260,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mimic",
+      "description": "Mimic",
+      "media_type": 0,
+      "codec_id": 113,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mjpeg",
+      "description": "MJPEG (Motion JPEG)",
+      "media_type": 0,
+      "codec_id": 7,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mjpegb",
+      "description": "Apple MJPEG-B",
+      "media_type": 0,
+      "codec_id": 8,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mmvideo",
+      "description": "American Laser Games MM Video",
+      "media_type": 0,
+      "codec_id": 80,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mobiclip",
+      "description": "MobiClip Video",
+      "media_type": 0,
+      "codec_id": 246,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "motionpixels",
+      "description": "Motion Pixels video",
+      "media_type": 0,
+      "codec_id": 119,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpeg1video",
+      "description": "MPEG-1 video",
+      "media_type": 0,
+      "codec_id": 1,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpeg2video",
+      "description": "MPEG-2 video",
+      "media_type": 0,
+      "codec_id": 2,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpeg4",
+      "description": "MPEG-4 part 2",
+      "media_type": 0,
+      "codec_id": 12,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpegvideo",
+      "description": "MPEG-1 video",
+      "media_type": 0,
+      "codec_id": 2,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msa1",
+      "description": "MS ATC Screen",
+      "media_type": 0,
+      "codec_id": 161,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mscc",
+      "description": "Mandsoft Screen Capture Codec",
+      "media_type": 0,
+      "codec_id": 224,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msmpeg4v1",
+      "description": "MPEG-4 part 2 Microsoft variant version 1",
+      "media_type": 0,
+      "codec_id": 14,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msmpeg4v2",
+      "description": "MPEG-4 part 2 Microsoft variant version 2",
+      "media_type": 0,
+      "codec_id": 15,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msmpeg4",
+      "description": "MPEG-4 part 2 Microsoft variant version 3",
+      "media_type": 0,
+      "codec_id": 16,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msp2",
+      "description": "Microsoft Paint (MSP) version 2",
+      "media_type": 0,
+      "codec_id": 194,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msrle",
+      "description": "Microsoft RLE",
+      "media_type": 0,
+      "codec_id": 45,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mss1",
+      "description": "MS Screen 1",
+      "media_type": 0,
+      "codec_id": 160,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mss2",
+      "description": "MS Windows Media Video V9 Screen",
+      "media_type": 0,
+      "codec_id": 165,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msvideo1",
+      "description": "Microsoft Video 1",
+      "media_type": 0,
+      "codec_id": 46,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mszh",
+      "description": "LCL (LossLess Codec Library) MSZH",
+      "media_type": 0,
+      "codec_id": 53,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mts2",
+      "description": "MS Expression Encoder Screen",
+      "media_type": 0,
+      "codec_id": 163,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mv30",
+      "description": "MidiVid 3.0",
+      "media_type": 0,
+      "codec_id": 243,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mvc1",
+      "description": "Silicon Graphics Motion Video Compressor 1",
+      "media_type": 0,
+      "codec_id": 181,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mvc2",
+      "description": "Silicon Graphics Motion Video Compressor 2",
+      "media_type": 0,
+      "codec_id": 182,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mvdv",
+      "description": "MidiVid VQ",
+      "media_type": 0,
+      "codec_id": 240,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mvha",
+      "description": "MidiVid Archive Codec",
+      "media_type": 0,
+      "codec_id": 241,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mwsc",
+      "description": "MatchWare Screen Capture Codec",
+      "media_type": 0,
+      "codec_id": 231,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mxpeg",
+      "description": "Mobotix MxPEG video",
+      "media_type": 0,
+      "codec_id": 145,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "notchlc",
+      "description": "NotchLC",
+      "media_type": 0,
+      "codec_id": 244,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "nuv",
+      "description": "NuppelVideo/RTJPEG",
+      "media_type": 0,
+      "codec_id": 84,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "paf_video",
+      "description": "Amazing Studio Packed Animation File Video",
+      "media_type": 0,
+      "codec_id": 176,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pam",
+      "description": "PAM (Portable AnyMap) image",
+      "media_type": 0,
+      "codec_id": 66,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pbm",
+      "description": "PBM (Portable BitMap) image",
+      "media_type": 0,
+      "codec_id": 63,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcx",
+      "description": "PC Paintbrush PCX image",
+      "media_type": 0,
+      "codec_id": 109,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pdv",
+      "description": "PDV (PlayDate Video)",
+      "media_type": 0,
+      "codec_id": 262,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pfm",
+      "description": "PFM (Portable FloatMap) image",
+      "media_type": 0,
+      "codec_id": 245,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pgm",
+      "description": "PGM (Portable GrayMap) image",
+      "media_type": 0,
+      "codec_id": 64,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pgmyuv",
+      "description": "PGMYUV (Portable GrayMap YUV) image",
+      "media_type": 0,
+      "codec_id": 65,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pgx",
+      "description": "PGX (JPEG2000 Test Format)",
+      "media_type": 0,
+      "codec_id": 192,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "phm",
+      "description": "PHM (Portable HalfFloatMap) image",
+      "media_type": 0,
+      "codec_id": 257,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "photocd",
+      "description": "Kodak Photo CD",
+      "media_type": 0,
+      "codec_id": 247,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pictor",
+      "description": "Pictor/PC Paint",
+      "media_type": 0,
+      "codec_id": 140,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pixlet",
+      "description": "Apple Pixlet",
+      "media_type": 0,
+      "codec_id": 216,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "png",
+      "description": "PNG (Portable Network Graphics) image",
+      "media_type": 0,
+      "codec_id": 61,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ppm",
+      "description": "PPM (Portable PixelMap) image",
+      "media_type": 0,
+      "codec_id": 62,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "prores",
+      "description": "Apple ProRes (iCodec Pro)",
+      "media_type": 0,
+      "codec_id": 147,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "prores_raw",
+      "description": "Apple ProRes RAW",
+      "media_type": 0,
+      "codec_id": 271,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "prosumer",
+      "description": "Brooktree ProSumer Video",
+      "media_type": 0,
+      "codec_id": 230,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "psd",
+      "description": "Photoshop PSD file",
+      "media_type": 0,
+      "codec_id": 215,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ptx",
+      "description": "V.Flash PTX image",
+      "media_type": 0,
+      "codec_id": 104,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qdraw",
+      "description": "Apple QuickDraw",
+      "media_type": 0,
+      "codec_id": 58,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qoi",
+      "description": "QOI (Quite OK Image format) image",
+      "media_type": 0,
+      "codec_id": 256,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qpeg",
+      "description": "Q-team QPEG",
+      "media_type": 0,
+      "codec_id": 60,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qtrle",
+      "description": "QuickTime Animation (RLE) video",
+      "media_type": 0,
+      "codec_id": 55,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "r10k",
+      "description": "AJA Kona 10-bit RGB Codec",
+      "media_type": 0,
+      "codec_id": 144,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "r210",
+      "description": "Uncompressed RGB 10-bit",
+      "media_type": 0,
+      "codec_id": 133,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rasc",
+      "description": "RemotelyAnywhere Screen Capture",
+      "media_type": 0,
+      "codec_id": 233,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rawvideo",
+      "description": "raw video",
+      "media_type": 0,
+      "codec_id": 13,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rka",
+      "description": "RKA (RK Audio)",
+      "media_type": 1,
+      "codec_id": 86118,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rl2",
+      "description": "RL2 video",
+      "media_type": 0,
+      "codec_id": 114,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "roqvideo",
+      "description": "id RoQ video",
+      "media_type": 0,
+      "codec_id": 38,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rpza",
+      "description": "QuickTime video (RPZA)",
+      "media_type": 0,
+      "codec_id": 42,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rscc",
+      "description": "innoHeim/Rsupport Screen Capture Codec",
+      "media_type": 0,
+      "codec_id": 190,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rtv1",
+      "description": "RTV1 (RivaTuner Video)",
+      "media_type": 0,
+      "codec_id": 264,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rv10",
+      "description": "RealVideo 1.0",
+      "media_type": 0,
+      "codec_id": 5,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rv20",
+      "description": "RealVideo 2.0",
+      "media_type": 0,
+      "codec_id": 6,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rv30",
+      "description": "RealVideo 3.0",
+      "media_type": 0,
+      "codec_id": 68,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rv40",
+      "description": "RealVideo 4.0",
+      "media_type": 0,
+      "codec_id": 69,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "rv60",
+      "description": "RealVideo 6.0",
+      "media_type": 0,
+      "codec_id": 268,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "s302m",
+      "description": "SMPTE 302M",
+      "media_type": 1,
+      "codec_id": 65562,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sanm",
+      "description": "LucasArts SANM/Smush video",
+      "media_type": 0,
+      "codec_id": 179,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "scpr",
+      "description": "ScreenPressor",
+      "media_type": 0,
+      "codec_id": 219,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "screenpresso",
+      "description": "Screenpresso",
+      "media_type": 0,
+      "codec_id": 189,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sga",
+      "description": "Digital Pictures SGA Video",
+      "media_type": 0,
+      "codec_id": 252,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sgi",
+      "description": "SGI image",
+      "media_type": 0,
+      "codec_id": 101,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sgirle",
+      "description": "Silicon Graphics RLE 8-bit video",
+      "media_type": 0,
+      "codec_id": 180,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sheervideo",
+      "description": "BitJazz SheerVideo",
+      "media_type": 0,
+      "codec_id": 213,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "simbiosis_imx",
+      "description": "Simbiosis Interactive IMX Video",
+      "media_type": 0,
+      "codec_id": 251,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "smackvid",
+      "description": "Smacker video",
+      "media_type": 0,
+      "codec_id": 83,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "smc",
+      "description": "QuickTime Graphics (SMC)",
+      "media_type": 0,
+      "codec_id": 49,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "smvjpeg",
+      "description": "SMV JPEG",
+      "media_type": 0,
+      "codec_id": 206,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "snow",
+      "description": "Snow",
+      "media_type": 0,
+      "codec_id": 205,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sp5x",
+      "description": "Sunplus JPEG (SP5X)",
+      "media_type": 0,
+      "codec_id": 10,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "speedhq",
+      "description": "NewTek SpeedHQ",
+      "media_type": 0,
+      "codec_id": 217,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "speex",
+      "description": "Speex",
+      "media_type": 1,
+      "codec_id": 86051,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "srgc",
+      "description": "Screen Recorder Gold Codec",
+      "media_type": 0,
+      "codec_id": 225,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sunrast",
+      "description": "Sun Rasterfile image",
+      "media_type": 0,
+      "codec_id": 110,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "svq1",
+      "description": "Sorenson Vector Quantizer 1 / Sorenson Video 1 / SVQ1",
+      "media_type": 0,
+      "codec_id": 22,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "svq3",
+      "description": "Sorenson Vector Quantizer 3 / Sorenson Video 3 / SVQ3",
+      "media_type": 0,
+      "codec_id": 23,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "targa",
+      "description": "Truevision Targa image",
+      "media_type": 0,
+      "codec_id": 93,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "targa_y216",
+      "description": "Pinnacle TARGA CineWave YUV16",
+      "media_type": 0,
+      "codec_id": 200,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tdsc",
+      "description": "TDSC",
+      "media_type": 0,
+      "codec_id": 184,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "theora",
+      "description": "Theora",
+      "media_type": 0,
+      "codec_id": 30,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "thp",
+      "description": "Nintendo Gamecube THP video",
+      "media_type": 0,
+      "codec_id": 100,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tiertexseqvideo",
+      "description": "Tiertex Limited SEQ video",
+      "media_type": 0,
+      "codec_id": 95,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tiff",
+      "description": "TIFF image",
+      "media_type": 0,
+      "codec_id": 96,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tmv",
+      "description": "8088flex TMV",
+      "media_type": 0,
+      "codec_id": 126,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "truemotion2",
+      "description": "Duck TrueMotion 2.0",
+      "media_type": 0,
+      "codec_id": 77,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "truemotion2rt",
+      "description": "Duck TrueMotion 2.0 Real Time",
+      "media_type": 0,
+      "codec_id": 210,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "camtasia",
+      "description": "TechSmith Screen Capture Codec",
+      "media_type": 0,
+      "codec_id": 56,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tscc2",
+      "description": "TechSmith Screen Codec 2",
+      "media_type": 0,
+      "codec_id": 162,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "txd",
+      "description": "Renderware TXD (TeXture Dictionary) image",
+      "media_type": 0,
+      "codec_id": 105,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ultimotion",
+      "description": "IBM UltiMotion",
+      "media_type": 0,
+      "codec_id": 57,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "utvideo",
+      "description": "Ut Video",
+      "media_type": 0,
+      "codec_id": 152,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "v210",
+      "description": "Uncompressed 4:2:2 10-bit",
+      "media_type": 0,
+      "codec_id": 127,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "v210x",
+      "description": "Uncompressed 4:2:2 10-bit",
+      "media_type": 0,
+      "codec_id": 125,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vb",
+      "description": "Beam Software VB",
+      "media_type": 0,
+      "codec_id": 108,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vbn",
+      "description": "Vizrt Binary Image",
+      "media_type": 0,
+      "codec_id": 254,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vble",
+      "description": "VBLE Lossless Codec",
+      "media_type": 0,
+      "codec_id": 154,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vc1",
+      "description": "SMPTE VC-1",
+      "media_type": 0,
+      "codec_id": 70,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vc1image",
+      "description": "Windows Media Video 9 Image v2",
+      "media_type": 0,
+      "codec_id": 151,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vcr1",
+      "description": "ATI VCR1",
+      "media_type": 0,
+      "codec_id": 35,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vmdvideo",
+      "description": "Sierra VMD video",
+      "media_type": 0,
+      "codec_id": 52,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vmix",
+      "description": "vMix Video",
+      "media_type": 0,
+      "codec_id": 265,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vmnc",
+      "description": "VMware Screen Codec / VMware Video",
+      "media_type": 0,
+      "codec_id": 89,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp3",
+      "description": "On2 VP3",
+      "media_type": 0,
+      "codec_id": 29,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp4",
+      "description": "On2 VP4",
+      "media_type": 0,
+      "codec_id": 238,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp5",
+      "description": "On2 VP5",
+      "media_type": 0,
+      "codec_id": 90,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp6",
+      "description": "On2 VP6",
+      "media_type": 0,
+      "codec_id": 91,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp6a",
+      "description": "On2 VP6 (Flash version, with alpha channel)",
+      "media_type": 0,
+      "codec_id": 106,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp6f",
+      "description": "On2 VP6 (Flash version)",
+      "media_type": 0,
+      "codec_id": 92,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp7",
+      "description": "On2 VP7",
+      "media_type": 0,
+      "codec_id": 178,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp8",
+      "description": "On2 VP8",
+      "media_type": 0,
+      "codec_id": 139,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vp9",
+      "description": "Google VP9",
+      "media_type": 0,
+      "codec_id": 166,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vqavideo",
+      "description": "Westwood Studios VQA (Vector Quantized Animation) video",
+      "media_type": 0,
+      "codec_id": 44,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vqc",
+      "description": "ViewQuest VQC",
+      "media_type": 0,
+      "codec_id": 261,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vvc",
+      "description": "VVC (Versatile Video Coding)",
+      "media_type": 0,
+      "codec_id": 195,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wbmp",
+      "description": "WBMP (Wireless Application Protocol Bitmap) image",
+      "media_type": 0,
+      "codec_id": 259,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "webp_anim",
+      "description": "Animated WebP image",
+      "media_type": 0,
+      "codec_id": 273,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "webp",
+      "description": "WebP image",
+      "media_type": 0,
+      "codec_id": 170,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wcmv",
+      "description": "WinCAM Motion Video",
+      "media_type": 0,
+      "codec_id": 232,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wrapped_avframe",
+      "description": "AVPacket to AVFrame passthrough",
+      "media_type": 0,
+      "codec_id": 135169,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmv1",
+      "description": "Windows Media Video 7",
+      "media_type": 0,
+      "codec_id": 17,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmv2",
+      "description": "Windows Media Video 8",
+      "media_type": 0,
+      "codec_id": 18,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmv3",
+      "description": "Windows Media Video 9",
+      "media_type": 0,
+      "codec_id": 71,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmv3image",
+      "description": "Windows Media Video 9 Image",
+      "media_type": 0,
+      "codec_id": 150,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wnv1",
+      "description": "Winnov WNV1",
+      "media_type": 0,
+      "codec_id": 73,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xan_wc3",
+      "description": "Wing Commander III / Xan",
+      "media_type": 0,
+      "codec_id": 40,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xan_wc4",
+      "description": "Wing Commander IV / Xxan",
+      "media_type": 0,
+      "codec_id": 41,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xbm",
+      "description": "XBM (X BitMap) image",
+      "media_type": 0,
+      "codec_id": 158,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xface",
+      "description": "X-face image",
+      "media_type": 0,
+      "codec_id": 204,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xl",
+      "description": "Miro VideoXL",
+      "media_type": 0,
+      "codec_id": 59,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xpm",
+      "description": "XPM (X PixMap) image",
+      "media_type": 0,
+      "codec_id": 221,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xwd",
+      "description": "XWD (X Window Dump) image",
+      "media_type": 0,
+      "codec_id": 156,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "y41p",
+      "description": "Uncompressed YUV 4:1:1 12-bit",
+      "media_type": 0,
+      "codec_id": 196,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ylc",
+      "description": "YUY2 Lossless Codec",
+      "media_type": 0,
+      "codec_id": 214,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "yop",
+      "description": "Psygnosis YOP Video",
+      "media_type": 0,
+      "codec_id": 138,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "yuv4",
+      "description": "Uncompressed packed 4:2:0",
+      "media_type": 0,
+      "codec_id": 201,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "012v",
+      "description": "Uncompressed 4:2:2 10-bit",
+      "media_type": 0,
+      "codec_id": 198,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "zerocodec",
+      "description": "ZeroCodec Lossless Video",
+      "media_type": 0,
+      "codec_id": 159,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "zlib",
+      "description": "LCL (LossLess Codec Library) ZLIB",
+      "media_type": 0,
+      "codec_id": 54,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "zmbv",
+      "description": "Zip Motion Blocks Video",
+      "media_type": 0,
+      "codec_id": 81,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aac",
+      "description": "AAC (Advanced Audio Coding)",
+      "media_type": 1,
+      "codec_id": 86018,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aac_fixed",
+      "description": "AAC (Advanced Audio Coding)",
+      "media_type": 1,
+      "codec_id": 86018,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aac_latm",
+      "description": "AAC LATM (Advanced Audio Coding LATM syntax)",
+      "media_type": 1,
+      "codec_id": 86065,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ac3",
+      "description": "ATSC A/52A (AC-3)",
+      "media_type": 1,
+      "codec_id": 86019,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ac3_fixed",
+      "description": "ATSC A/52A (AC-3)",
+      "media_type": 1,
+      "codec_id": 86019,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "acelp.kelvin",
+      "description": "Sipro ACELP.KELVIN",
+      "media_type": 1,
+      "codec_id": 86106,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "alac",
+      "description": "ALAC (Apple Lossless Audio Codec)",
+      "media_type": 1,
+      "codec_id": 86032,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "als",
+      "description": "MPEG-4 Audio Lossless Coding (ALS)",
+      "media_type": 1,
+      "codec_id": 86061,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "amrnb",
+      "description": "AMR-NB (Adaptive Multi-Rate NarrowBand)",
+      "media_type": 1,
+      "codec_id": 73728,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "amrwb",
+      "description": "AMR-WB (Adaptive Multi-Rate WideBand)",
+      "media_type": 1,
+      "codec_id": 73729,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "apac",
+      "description": "Marian's A-pac audio",
+      "media_type": 1,
+      "codec_id": 86115,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ape",
+      "description": "Monkey's Audio",
+      "media_type": 1,
+      "codec_id": 86048,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aptx",
+      "description": "aptX (Audio Processing Technology for Bluetooth)",
+      "media_type": 1,
+      "codec_id": 86101,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "aptx_hd",
+      "description": "aptX HD (Audio Processing Technology for Bluetooth)",
+      "media_type": 1,
+      "codec_id": 86102,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac1",
+      "description": "ATRAC1 (Adaptive TRansform Acoustic Coding)",
+      "media_type": 1,
+      "codec_id": 86062,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac3",
+      "description": "ATRAC3 (Adaptive TRansform Acoustic Coding 3)",
+      "media_type": 1,
+      "codec_id": 86047,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac3al",
+      "description": "ATRAC3 AL (Adaptive TRansform Acoustic Coding 3 Advanced Lossless)",
+      "media_type": 1,
+      "codec_id": 86098,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac3plus",
+      "description": "ATRAC3+ (Adaptive TRansform Acoustic Coding 3+)",
+      "media_type": 1,
+      "codec_id": 86055,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac3plusal",
+      "description": "ATRAC3+ AL (Adaptive TRansform Acoustic Coding 3+ Advanced Lossless)",
+      "media_type": 1,
+      "codec_id": 86099,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "atrac9",
+      "description": "ATRAC9 (Adaptive TRansform Acoustic Coding 9)",
+      "media_type": 1,
+      "codec_id": 86104,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "binkaudio_dct",
+      "description": "Bink Audio (DCT)",
+      "media_type": 1,
+      "codec_id": 86064,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "binkaudio_rdft",
+      "description": "Bink Audio (RDFT)",
+      "media_type": 1,
+      "codec_id": 86063,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bmv_audio",
+      "description": "Discworld II BMV audio",
+      "media_type": 1,
+      "codec_id": 86072,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bonk",
+      "description": "Bonk audio",
+      "media_type": 1,
+      "codec_id": 86113,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cook",
+      "description": "Cook / Cooker / Gecko (RealAudio G2)",
+      "media_type": 1,
+      "codec_id": 86036,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dca",
+      "description": "DCA (DTS Coherent Acoustics)",
+      "media_type": 1,
+      "codec_id": 86020,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dfpwm",
+      "description": "DFPWM1a audio",
+      "media_type": 1,
+      "codec_id": 86112,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dolby_e",
+      "description": "Dolby E",
+      "media_type": 1,
+      "codec_id": 86100,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsd_lsbf",
+      "description": "DSD (Direct Stream Digital), least significant bit first",
+      "media_type": 1,
+      "codec_id": 86089,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsd_msbf",
+      "description": "DSD (Direct Stream Digital), most significant bit first",
+      "media_type": 1,
+      "codec_id": 86090,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsd_lsbf_planar",
+      "description": "DSD (Direct Stream Digital), least significant bit first, planar",
+      "media_type": 1,
+      "codec_id": 86091,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsd_msbf_planar",
+      "description": "DSD (Direct Stream Digital), most significant bit first, planar",
+      "media_type": 1,
+      "codec_id": 86092,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dsicinaudio",
+      "description": "Delphine Software International CIN audio",
+      "media_type": 1,
+      "codec_id": 86042,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dss_sp",
+      "description": "Digital Speech Standard - Standard Play mode (DSS SP)",
+      "media_type": 1,
+      "codec_id": 86082,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dst",
+      "description": "DST (Digital Stream Transfer)",
+      "media_type": 1,
+      "codec_id": 86097,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "eac3",
+      "description": "ATSC A/52B (AC-3, E-AC-3)",
+      "media_type": 1,
+      "codec_id": 86056,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "evrc",
+      "description": "EVRC (Enhanced Variable Rate Codec)",
+      "media_type": 1,
+      "codec_id": 86087,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "fastaudio",
+      "description": "MobiClip FastAudio",
+      "media_type": 1,
+      "codec_id": 86110,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wavesynth",
+      "description": "Wave synthesis pseudo-codec",
+      "media_type": 1,
+      "codec_id": 86084,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "flac",
+      "description": "FLAC (Free Lossless Audio Codec)",
+      "media_type": 1,
+      "codec_id": 86028,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ftr",
+      "description": "FTR Voice",
+      "media_type": 1,
+      "codec_id": 86116,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g723_1",
+      "description": "G.723.1",
+      "media_type": 1,
+      "codec_id": 86068,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g728",
+      "description": "G.728)",
+      "media_type": 1,
+      "codec_id": 86123,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g729",
+      "description": "G.729",
+      "media_type": 1,
+      "codec_id": 86069,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gsm",
+      "description": "GSM",
+      "media_type": 1,
+      "codec_id": 86034,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gsm_ms",
+      "description": "GSM Microsoft variant",
+      "media_type": 1,
+      "codec_id": 86046,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hca",
+      "description": "CRI HCA",
+      "media_type": 1,
+      "codec_id": 86109,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hcom",
+      "description": "HCOM Audio",
+      "media_type": 1,
+      "codec_id": 86105,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "hdr",
+      "description": "HDR (Radiance RGBE format) image",
+      "media_type": 0,
+      "codec_id": 258,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "iac",
+      "description": "IAC (Indeo Audio Coder)",
+      "media_type": 1,
+      "codec_id": 86074,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ilbc",
+      "description": "iLBC (Internet Low Bitrate Codec)",
+      "media_type": 1,
+      "codec_id": 86075,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "imc",
+      "description": "IMC (Intel Music Coder)",
+      "media_type": 1,
+      "codec_id": 86043,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "interplayacm",
+      "description": "Interplay ACM",
+      "media_type": 1,
+      "codec_id": 86094,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mace3",
+      "description": "MACE (Macintosh Audio Compression/Expansion) 3:1",
+      "media_type": 1,
+      "codec_id": 86025,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mace6",
+      "description": "MACE (Macintosh Audio Compression/Expansion) 6:1",
+      "media_type": 1,
+      "codec_id": 86026,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "metasound",
+      "description": "Voxware MetaSound",
+      "media_type": 1,
+      "codec_id": 86079,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "misc4",
+      "description": "Micronas SC-4 Audio",
+      "media_type": 1,
+      "codec_id": 86114,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mlp",
+      "description": "MLP (Meridian Lossless Packing)",
+      "media_type": 1,
+      "codec_id": 86045,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp1",
+      "description": "MP1 (MPEG audio layer 1)",
+      "media_type": 1,
+      "codec_id": 86058,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp1float",
+      "description": "MP1 (MPEG audio layer 1)",
+      "media_type": 1,
+      "codec_id": 86058,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp2",
+      "description": "MP2 (MPEG audio layer 2)",
+      "media_type": 1,
+      "codec_id": 86016,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp2float",
+      "description": "MP2 (MPEG audio layer 2)",
+      "media_type": 1,
+      "codec_id": 86016,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3float",
+      "description": "MP3 (MPEG audio layer 3)",
+      "media_type": 1,
+      "codec_id": 86017,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3",
+      "description": "MP3 (MPEG audio layer 3)",
+      "media_type": 1,
+      "codec_id": 86017,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3adufloat",
+      "description": "ADU (Application Data Unit) MP3 (MPEG audio layer 3)",
+      "media_type": 1,
+      "codec_id": 86029,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3adu",
+      "description": "ADU (Application Data Unit) MP3 (MPEG audio layer 3)",
+      "media_type": 1,
+      "codec_id": 86029,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3on4float",
+      "description": "MP3onMP4",
+      "media_type": 1,
+      "codec_id": 86030,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mp3on4",
+      "description": "MP3onMP4",
+      "media_type": 1,
+      "codec_id": 86030,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpc7",
+      "description": "Musepack SV7",
+      "media_type": 1,
+      "codec_id": 86044,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpc8",
+      "description": "Musepack SV8",
+      "media_type": 1,
+      "codec_id": 86050,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "msnsiren",
+      "description": "MSN Siren",
+      "media_type": 1,
+      "codec_id": 86111,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "nellymoser",
+      "description": "Nellymoser Asao",
+      "media_type": 1,
+      "codec_id": 86049,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "on2avc",
+      "description": "On2 Audio for Video Codec",
+      "media_type": 1,
+      "codec_id": 86081,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "opus",
+      "description": "Opus",
+      "media_type": 1,
+      "codec_id": 86076,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "osq",
+      "description": "OSQ (Original Sound Quality)",
+      "media_type": 1,
+      "codec_id": 86120,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "paf_audio",
+      "description": "Amazing Studio Packed Animation File Audio",
+      "media_type": 1,
+      "codec_id": 86080,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qcelp",
+      "description": "QCELP / PureVoice",
+      "media_type": 1,
+      "codec_id": 86040,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qdm2",
+      "description": "QDesign Music Codec 2",
+      "media_type": 1,
+      "codec_id": 86035,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qdmc",
+      "description": "QDesign Music Codec 1",
+      "media_type": 1,
+      "codec_id": 86066,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "qoa",
+      "description": "QOA (Quite OK Audio)",
+      "media_type": 1,
+      "codec_id": 86121,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "real_144",
+      "description": "RealAudio 1.0 (14.4K)",
+      "media_type": 1,
+      "codec_id": 77824,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "real_288",
+      "description": "RealAudio 2.0 (28.8K)",
+      "media_type": 1,
+      "codec_id": 77825,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ralf",
+      "description": "RealAudio Lossless",
+      "media_type": 1,
+      "codec_id": 86073,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sbc",
+      "description": "SBC (low-complexity subband codec)",
+      "media_type": 1,
+      "codec_id": 86103,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "shorten",
+      "description": "Shorten",
+      "media_type": 1,
+      "codec_id": 86031,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sipr",
+      "description": "RealAudio SIPR / ACELP.NET",
+      "media_type": 1,
+      "codec_id": 86057,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "siren",
+      "description": "Siren",
+      "media_type": 1,
+      "codec_id": 86108,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "smackaud",
+      "description": "Smacker audio",
+      "media_type": 1,
+      "codec_id": 86039,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tak",
+      "description": "TAK (Tom's lossless Audio Kompressor)",
+      "media_type": 1,
+      "codec_id": 86078,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "truehd",
+      "description": "TrueHD",
+      "media_type": 1,
+      "codec_id": 86060,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "truespeech",
+      "description": "DSP Group TrueSpeech",
+      "media_type": 1,
+      "codec_id": 86037,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "tta",
+      "description": "TTA (True Audio)",
+      "media_type": 1,
+      "codec_id": 86038,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "twinvq",
+      "description": "VQF TwinVQ",
+      "media_type": 1,
+      "codec_id": 86059,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vmdaudio",
+      "description": "Sierra VMD audio",
+      "media_type": 1,
+      "codec_id": 86027,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vorbis",
+      "description": "Vorbis",
+      "media_type": 1,
+      "codec_id": 86021,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wavarc",
+      "description": "Waveform Archiver",
+      "media_type": 1,
+      "codec_id": 86117,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wavpack",
+      "description": "WavPack",
+      "media_type": 1,
+      "codec_id": 86041,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmalossless",
+      "description": "Windows Media Audio Lossless",
+      "media_type": 1,
+      "codec_id": 86054,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmapro",
+      "description": "Windows Media Audio 9 Professional",
+      "media_type": 1,
+      "codec_id": 86053,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmav1",
+      "description": "Windows Media Audio 1",
+      "media_type": 1,
+      "codec_id": 86023,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmav2",
+      "description": "Windows Media Audio 2",
+      "media_type": 1,
+      "codec_id": 86024,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wmavoice",
+      "description": "Windows Media Audio Voice",
+      "media_type": 1,
+      "codec_id": 86052,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ws_snd1",
+      "description": "Westwood Audio (SND1)",
+      "media_type": 1,
+      "codec_id": 86033,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xma1",
+      "description": "Xbox Media Audio 1",
+      "media_type": 1,
+      "codec_id": 86095,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xma2",
+      "description": "Xbox Media Audio 2",
+      "media_type": 1,
+      "codec_id": 86096,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_alaw",
+      "description": "PCM A-law / G.711 A-law",
+      "media_type": 1,
+      "codec_id": 65543,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_bluray",
+      "description": "PCM signed 16|20|24-bit big-endian for Blu-ray media",
+      "media_type": 1,
+      "codec_id": 65560,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_dvd",
+      "description": "PCM signed 16|20|24-bit big-endian for DVD media",
+      "media_type": 1,
+      "codec_id": 65555,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f16le",
+      "description": "PCM 16.8 floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65569,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f24le",
+      "description": "PCM 24.0 floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65570,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f32be",
+      "description": "PCM 32-bit floating point big-endian",
+      "media_type": 1,
+      "codec_id": 65556,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f32le",
+      "description": "PCM 32-bit floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65557,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f64be",
+      "description": "PCM 64-bit floating point big-endian",
+      "media_type": 1,
+      "codec_id": 65558,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_f64le",
+      "description": "PCM 64-bit floating point little-endian",
+      "media_type": 1,
+      "codec_id": 65559,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_lxf",
+      "description": "PCM signed 20-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65561,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_mulaw",
+      "description": "PCM mu-law / G.711 mu-law",
+      "media_type": 1,
+      "codec_id": 65542,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s8",
+      "description": "PCM signed 8-bit",
+      "media_type": 1,
+      "codec_id": 65540,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s8_planar",
+      "description": "PCM signed 8-bit planar",
+      "media_type": 1,
+      "codec_id": 65563,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s16be",
+      "description": "PCM signed 16-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65537,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s16be_planar",
+      "description": "PCM signed 16-bit big-endian planar",
+      "media_type": 1,
+      "codec_id": 65566,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s16le",
+      "description": "PCM signed 16-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65536,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s16le_planar",
+      "description": "PCM signed 16-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65554,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s24be",
+      "description": "PCM signed 24-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65549,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s24daud",
+      "description": "PCM D-Cinema audio signed 24-bit",
+      "media_type": 1,
+      "codec_id": 65552,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s24le",
+      "description": "PCM signed 24-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65548,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s24le_planar",
+      "description": "PCM signed 24-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65564,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s32be",
+      "description": "PCM signed 32-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65545,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s32le",
+      "description": "PCM signed 32-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65544,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s32le_planar",
+      "description": "PCM signed 32-bit little-endian planar",
+      "media_type": 1,
+      "codec_id": 65565,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s64be",
+      "description": "PCM signed 64-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65568,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_s64le",
+      "description": "PCM signed 64-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65567,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_sga",
+      "description": "PCM SGA",
+      "media_type": 1,
+      "codec_id": 65572,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u8",
+      "description": "PCM unsigned 8-bit",
+      "media_type": 1,
+      "codec_id": 65541,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u16be",
+      "description": "PCM unsigned 16-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65539,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u16le",
+      "description": "PCM unsigned 16-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65538,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u24be",
+      "description": "PCM unsigned 24-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65551,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u24le",
+      "description": "PCM unsigned 24-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65550,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u32be",
+      "description": "PCM unsigned 32-bit big-endian",
+      "media_type": 1,
+      "codec_id": 65547,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_u32le",
+      "description": "PCM unsigned 32-bit little-endian",
+      "media_type": 1,
+      "codec_id": 65546,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pcm_vidc",
+      "description": "PCM Archimedes VIDC",
+      "media_type": 1,
+      "codec_id": 65571,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cbd2_dpcm",
+      "description": "DPCM Cuberoot-Delta-Exact",
+      "media_type": 1,
+      "codec_id": 81928,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "derf_dpcm",
+      "description": "DPCM Xilam DERF",
+      "media_type": 1,
+      "codec_id": 81926,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "gremlin_dpcm",
+      "description": "DPCM Gremlin",
+      "media_type": 1,
+      "codec_id": 81925,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "interplay_dpcm",
+      "description": "DPCM Interplay",
+      "media_type": 1,
+      "codec_id": 81921,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "roq_dpcm",
+      "description": "DPCM id RoQ",
+      "media_type": 1,
+      "codec_id": 81920,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sdx2_dpcm",
+      "description": "DPCM Squareroot-Delta-Exact",
+      "media_type": 1,
+      "codec_id": 81924,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sol_dpcm",
+      "description": "DPCM Sol",
+      "media_type": 1,
+      "codec_id": 81923,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xan_dpcm",
+      "description": "DPCM Xan",
+      "media_type": 1,
+      "codec_id": 81922,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "wady_dpcm",
+      "description": "DPCM Marble WADY",
+      "media_type": 1,
+      "codec_id": 81927,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_4xm",
+      "description": "ADPCM 4X Movie",
+      "media_type": 1,
+      "codec_id": 69639,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_adx",
+      "description": "SEGA CRI ADX ADPCM",
+      "media_type": 1,
+      "codec_id": 69641,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_afc",
+      "description": "ADPCM Nintendo Gamecube AFC",
+      "media_type": 1,
+      "codec_id": 69663,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_agm",
+      "description": "ADPCM AmuseGraphics Movie",
+      "media_type": 1,
+      "codec_id": 69673,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_aica",
+      "description": "ADPCM Yamaha AICA",
+      "media_type": 1,
+      "codec_id": 69670,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_argo",
+      "description": "ADPCM Argonaut Games",
+      "media_type": 1,
+      "codec_id": 69674,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ct",
+      "description": "ADPCM Creative Technology",
+      "media_type": 1,
+      "codec_id": 69644,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_dtk",
+      "description": "ADPCM Nintendo Gamecube DTK",
+      "media_type": 1,
+      "codec_id": 69665,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea",
+      "description": "ADPCM Electronic Arts",
+      "media_type": 1,
+      "codec_id": 69642,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea_maxis_xa",
+      "description": "ADPCM Electronic Arts Maxis CDROM XA",
+      "media_type": 1,
+      "codec_id": 69658,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea_r1",
+      "description": "ADPCM Electronic Arts R1",
+      "media_type": 1,
+      "codec_id": 69652,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea_r2",
+      "description": "ADPCM Electronic Arts R2",
+      "media_type": 1,
+      "codec_id": 69654,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea_r3",
+      "description": "ADPCM Electronic Arts R3",
+      "media_type": 1,
+      "codec_id": 69653,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ea_xas",
+      "description": "ADPCM Electronic Arts XAS",
+      "media_type": 1,
+      "codec_id": 69657,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g722",
+      "description": "G.722 ADPCM",
+      "media_type": 1,
+      "codec_id": 69660,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g726",
+      "description": "G.726 ADPCM",
+      "media_type": 1,
+      "codec_id": 69643,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "g726le",
+      "description": "G.726 ADPCM little-endian",
+      "media_type": 1,
+      "codec_id": 69667,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_acorn",
+      "description": "ADPCM IMA Acorn Replay",
+      "media_type": 1,
+      "codec_id": 69682,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_amv",
+      "description": "ADPCM IMA AMV",
+      "media_type": 1,
+      "codec_id": 69651,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_alp",
+      "description": "ADPCM IMA High Voltage Software ALP",
+      "media_type": 1,
+      "codec_id": 69678,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_apc",
+      "description": "ADPCM IMA CRYO APC",
+      "media_type": 1,
+      "codec_id": 69661,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_apm",
+      "description": "ADPCM IMA Ubisoft APM",
+      "media_type": 1,
+      "codec_id": 69677,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_cunning",
+      "description": "ADPCM IMA Cunning Developments",
+      "media_type": 1,
+      "codec_id": 69680,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_dat4",
+      "description": "ADPCM IMA Eurocom DAT4",
+      "media_type": 1,
+      "codec_id": 69671,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_dk3",
+      "description": "ADPCM IMA Duck DK3",
+      "media_type": 1,
+      "codec_id": 69634,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_dk4",
+      "description": "ADPCM IMA Duck DK4",
+      "media_type": 1,
+      "codec_id": 69635,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_ea_eacs",
+      "description": "ADPCM IMA Electronic Arts EACS",
+      "media_type": 1,
+      "codec_id": 69656,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_ea_sead",
+      "description": "ADPCM IMA Electronic Arts SEAD",
+      "media_type": 1,
+      "codec_id": 69655,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_iss",
+      "description": "ADPCM IMA Funcom ISS",
+      "media_type": 1,
+      "codec_id": 69659,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_moflex",
+      "description": "ADPCM IMA MobiClip MOFLEX",
+      "media_type": 1,
+      "codec_id": 69681,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_mtf",
+      "description": "ADPCM IMA Capcom's MT Framework",
+      "media_type": 1,
+      "codec_id": 69679,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_oki",
+      "description": "ADPCM IMA Dialogic OKI",
+      "media_type": 1,
+      "codec_id": 69664,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_qt",
+      "description": "ADPCM IMA QuickTime",
+      "media_type": 1,
+      "codec_id": 69632,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_rad",
+      "description": "ADPCM IMA Radical",
+      "media_type": 1,
+      "codec_id": 69666,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_ssi",
+      "description": "ADPCM IMA Simon & Schuster Interactive",
+      "media_type": 1,
+      "codec_id": 69675,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_smjpeg",
+      "description": "ADPCM IMA Loki SDL MJPEG",
+      "media_type": 1,
+      "codec_id": 69637,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_wav",
+      "description": "ADPCM IMA WAV",
+      "media_type": 1,
+      "codec_id": 69633,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_ws",
+      "description": "ADPCM IMA Westwood",
+      "media_type": 1,
+      "codec_id": 69636,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ima_xbox",
+      "description": "ADPCM IMA Xbox",
+      "media_type": 1,
+      "codec_id": 69684,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_ms",
+      "description": "ADPCM Microsoft",
+      "media_type": 1,
+      "codec_id": 69638,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_mtaf",
+      "description": "ADPCM MTAF",
+      "media_type": 1,
+      "codec_id": 69672,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_psx",
+      "description": "ADPCM Playstation",
+      "media_type": 1,
+      "codec_id": 69669,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_sanyo",
+      "description": "ADPCM Sanyo",
+      "media_type": 1,
+      "codec_id": 69685,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_sbpro_2",
+      "description": "ADPCM Sound Blaster Pro 2-bit",
+      "media_type": 1,
+      "codec_id": 69649,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_sbpro_3",
+      "description": "ADPCM Sound Blaster Pro 2.6-bit",
+      "media_type": 1,
+      "codec_id": 69648,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_sbpro_4",
+      "description": "ADPCM Sound Blaster Pro 4-bit",
+      "media_type": 1,
+      "codec_id": 69647,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_swf",
+      "description": "ADPCM Shockwave Flash",
+      "media_type": 1,
+      "codec_id": 69645,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_thp",
+      "description": "ADPCM Nintendo THP",
+      "media_type": 1,
+      "codec_id": 69650,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_thp_le",
+      "description": "ADPCM Nintendo THP (little-endian)",
+      "media_type": 1,
+      "codec_id": 69668,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_vima",
+      "description": "LucasArts VIMA audio",
+      "media_type": 1,
+      "codec_id": 69662,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_xa",
+      "description": "ADPCM CDROM XA",
+      "media_type": 1,
+      "codec_id": 69640,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_xmd",
+      "description": "ADPCM Konami XMD",
+      "media_type": 1,
+      "codec_id": 69683,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_yamaha",
+      "description": "ADPCM Yamaha",
+      "media_type": 1,
+      "codec_id": 69646,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "adpcm_zork",
+      "description": "ADPCM Zork",
+      "media_type": 1,
+      "codec_id": 69676,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ssa",
+      "description": "ASS (Advanced SubStation Alpha) subtitle",
+      "media_type": 3,
+      "codec_id": 94230,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "ass",
+      "description": "ASS (Advanced SubStation Alpha) subtitle",
+      "media_type": 3,
+      "codec_id": 94230,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "cc_dec",
+      "description": "Closed Captions (EIA-608 / CEA-708)",
+      "media_type": 3,
+      "codec_id": 94218,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dvbsub",
+      "description": "DVB subtitles",
+      "media_type": 3,
+      "codec_id": 94209,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "dvdsub",
+      "description": "DVD subtitles",
+      "media_type": 3,
+      "codec_id": 94208,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "jacosub",
+      "description": "JACOsub subtitle",
+      "media_type": 3,
+      "codec_id": 94219,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "microdvd",
+      "description": "MicroDVD subtitle",
+      "media_type": 3,
+      "codec_id": 94217,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mov_text",
+      "description": "3GPP Timed Text subtitle",
+      "media_type": 3,
+      "codec_id": 94213,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "mpl2",
+      "description": "MPL2 subtitle",
+      "media_type": 3,
+      "codec_id": 94227,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pgssub",
+      "description": "HDMV Presentation Graphic Stream subtitles",
+      "media_type": 3,
+      "codec_id": 94214,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "pjs",
+      "description": "PJS subtitle",
+      "media_type": 3,
+      "codec_id": 94229,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "realtext",
+      "description": "RealText subtitle",
+      "media_type": 3,
+      "codec_id": 94221,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "sami",
+      "description": "SAMI subtitle",
+      "media_type": 3,
+      "codec_id": 94220,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "srt",
+      "description": "SubRip subtitle",
+      "media_type": 3,
+      "codec_id": 94225,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "stl",
+      "description": "Spruce subtitle format",
+      "media_type": 3,
+      "codec_id": 94222,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "subrip",
+      "description": "SubRip subtitle",
+      "media_type": 3,
+      "codec_id": 94225,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "subviewer",
+      "description": "SubViewer subtitle",
+      "media_type": 3,
+      "codec_id": 94224,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "subviewer1",
+      "description": "SubViewer1 subtitle",
+      "media_type": 3,
+      "codec_id": 94223,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "text",
+      "description": "Raw text subtitle",
+      "media_type": 3,
+      "codec_id": 94210,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vplayer",
+      "description": "VPlayer subtitle",
+      "media_type": 3,
+      "codec_id": 94228,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "webvtt",
+      "description": "WebVTT subtitle",
+      "media_type": 3,
+      "codec_id": 94226,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xsub",
+      "description": "XSUB",
+      "media_type": 3,
+      "codec_id": 94211,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "bintext",
+      "description": "Binary text",
+      "media_type": 0,
+      "codec_id": 98307,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "xbin",
+      "description": "eXtended BINary text",
+      "media_type": 0,
+      "codec_id": 98308,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "idf",
+      "description": "iCEDraw text",
+      "media_type": 0,
+      "codec_id": 98309,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "av1",
+      "description": "Alliance for Open Media AV1",
+      "media_type": 0,
+      "codec_id": 222,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "vnull",
+      "description": "null video",
+      "media_type": 0,
+      "codec_id": 135170,
+      "encoder": false,
+      "decoder": true
+    },
+    {
+      "name": "anull",
+      "description": "null audio",
+      "media_type": 1,
+      "codec_id": 135171,
+      "encoder": false,
+      "decoder": true
+    }
+  ],
+  "encoding_used_by_app": false
+}

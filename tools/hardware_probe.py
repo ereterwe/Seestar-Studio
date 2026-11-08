@@ -3,7 +3,7 @@ import argparse
 import json
 import time
 from pathlib import Path
-from seestar_studio.manager import TelescopeManager
+from telescope_desk.manager import TelescopeManager
 
 
 def main():

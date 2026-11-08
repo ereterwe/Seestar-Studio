@@ -1,3 +1,5 @@
+> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/CHANGELOG.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+
 # 2.3.0b3 — lokale Compliance-Korrektur
 
 8. November 2026: Der Projektverantwortliche hat klargestellt, dass b3 neu lokal

@@ -3,16 +3,16 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from PySide6.QtCore import QCoreApplication
-from seestar_studio.settings import SettingsService
-from seestar_studio.setup_service import SetupService, SetupError
+from telescope_desk.settings import SettingsService
+from telescope_desk.setup_service import SetupService, SetupError
 
 
 def main():
     app = QCoreApplication([])
-    app.setApplicationName('Seestar Studio'); app.setOrganizationName('SeestarStudio')
+    app.setApplicationName('Telescope Desk'); app.setOrganizationName('TelescopeDesk')
     service = SetupService(SettingsService().path.parent / 'authentication')
     reference = service.configure_runtime()
-    from seestar_studio.backend import discover
+    from telescope_desk.backend import discover
     results = []
     for info in discover():
         try:

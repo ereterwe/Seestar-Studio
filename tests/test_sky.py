@@ -1,8 +1,8 @@
 from dataclasses import replace
 from datetime import date, datetime, timezone
 import pytest
-from seestar_studio.sky.catalog import Catalog, normalized
-from seestar_studio.sky.astronomy import Site, calculate, CAMERAS
+from telescope_desk.sky.catalog import Catalog, normalized
+from telescope_desk.sky.astronomy import Site, calculate, CAMERAS
 
 
 @pytest.fixture(scope='module')
@@ -59,8 +59,8 @@ def test_equator_celestial_pole_stays_on_horizon(catalog):
 
 def test_native_sky_load_and_unconfigured_site(app, tmp_path):
     import time
-    from seestar_studio.settings import SettingsService
-    from seestar_studio.sky.widget import SkyExplorerWidget
+    from telescope_desk.settings import SettingsService
+    from telescope_desk.sky.widget import SkyExplorerWidget
     w = SkyExplorerWidget(SettingsService(tmp_path / 'settings.json'))
     try:
         deadline = time.monotonic() + 5

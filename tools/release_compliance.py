@@ -327,7 +327,7 @@ def audit(target: Path, expected: str, root: Path = ROOT) -> dict:
     missing = [p for p in REQUIRED_DOCS if not (target / p).is_file()]
     check('mandatory_document_presence', 'BLOCKER' if missing else 'PASS', missing)
     check('license_and_copyright_coverage', 'OPEN', 'Presence of collected license texts does not establish all embedded component attribution.')
-    provenance = target / '_internal/seestar_studio/catalog_data/provenance.json'
+    provenance = target / '_internal/telescope_desk/catalog_data/provenance.json'
     if provenance.is_file():
         catalog = json.loads(provenance.read_text(encoding='utf-8'))
         changed = [name for name, record in catalog['files'].items()
@@ -339,7 +339,7 @@ def audit(target: Path, expected: str, root: Path = ROOT) -> dict:
     modules = []
     ambiguous_owners = set()
     from PyInstaller.archive.readers import CArchiveReader
-    exe = CArchiveReader(str(target / 'SeestarStudio.exe'))
+    exe = CArchiveReader(str(target / 'TelescopeDesk.exe'))
     module_owners = defaultdict(list)
     for dist in metadata.distributions():
         for file in dist.files or []:
@@ -402,20 +402,20 @@ def audit(target: Path, expected: str, root: Path = ROOT) -> dict:
 
 
 def source_hash_check(target, build):
-    archive_path = target / 'SeestarStudio-source.zip'
+    archive_path = target / 'TelescopeDesk-source.zip'
     if not archive_path.is_file():
         return 'BLOCKER', 'Missing application source archive'
     with zipfile.ZipFile(archive_path) as archive:
         # Match build_metadata's platform Path ordering (including Windows case
         # folding), not lexicographic archive strings. Existing build hashes use it.
         names = [p.as_posix() for p in sorted(Path(n) for n in archive.namelist()
-                 if n.startswith('seestar_studio/') and not n.endswith('/')
-                 and n != 'seestar_studio/build_info.json')]
+                 if n.startswith('telescope_desk/') and not n.endswith('/')
+                 and n != 'telescope_desk/build_info.json')]
         digest = hashlib.sha256()
         for name in names:
             digest.update(name.encode())
             digest.update(archive.read(name))
-        info = json.loads(archive.read('seestar_studio/build_info.json'))
+        info = json.loads(archive.read('telescope_desk/build_info.json'))
         valid = bool(names) and digest.hexdigest() == build.get('source_sha256') == info.get('source_sha256') and info['version'] == build['version']
         return ('PASS' if valid else 'BLOCKER'), {'files': len(names), 'computed_source_sha256': digest.hexdigest(),
                                                 'scope': 'Application source vs embedded build metadata; not a native-library rebuild proof.'}

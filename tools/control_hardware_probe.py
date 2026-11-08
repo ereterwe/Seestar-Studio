@@ -47,8 +47,8 @@ def main():
         parser.error('Explicit execution and operator-confirmed free movement space required')
     if not 5<=args.seconds<=300:parser.error('Bounded duration required')
     with contextlib.redirect_stdout(io.StringIO()):
-        from seestar_studio.backend import discover
-        from seestar_studio.control import create_transport
+        from telescope_desk.backend import discover
+        from telescope_desk.control import create_transport
         devices=[d for d in discover() if d.model==args.model]
     if len(devices)!=1:raise RuntimeError('Expected one freshly discovered matching model')
     info=devices[0];transport=create_transport(info.ip)
@@ -84,7 +84,7 @@ def main():
             if before['mount'].get('close') is not False:raise RuntimeError('Unpark explicitly first')
             params={'mode':'star','target_ra_dec':[None,None],'target_name':'Studio Indoor Test'}
             if args.action in ('observe','goto'):
-                from seestar_studio.sky.catalog import Catalog
+                from telescope_desk.sky.catalog import Catalog
                 from astropy.coordinates import SkyCoord,get_sun
                 from astropy.time import Time
                 from astropy import units as u

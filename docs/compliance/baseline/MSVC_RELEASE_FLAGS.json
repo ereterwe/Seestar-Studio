@@ -1,0 +1,50 @@
+[
+  {
+    "file": "_internal/VCRUNTIME140.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/VCRUNTIME140_1.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/PySide6/MSVCP140.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/PySide6/MSVCP140_1.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/PySide6/MSVCP140_2.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/PySide6/VCRUNTIME140.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/PySide6/VCRUNTIME140_1.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/shiboken6/MSVCP140.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/shiboken6/VCRUNTIME140.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/shiboken6/VCRUNTIME140_1.dll",
+    "prerelease_flag": false
+  },
+  {
+    "file": "_internal/winrt/MSVCP140.dll",
+    "prerelease_flag": false
+  }
+]

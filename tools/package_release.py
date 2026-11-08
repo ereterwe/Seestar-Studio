@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 import shutil
 import zipfile
-from seestar_studio import __version__
+from telescope_desk import __version__
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -33,12 +33,12 @@ def documentation_files(directory):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--target', type=Path, default=ROOT / 'dist' / __version__ / 'SeestarStudio')
+    parser.add_argument('--target', type=Path, default=ROOT / 'dist' / __version__ / 'TelescopeDesk')
     parser.add_argument('--release-dir', type=Path, default=ROOT / 'release')
     parser.add_argument('--inventory', type=Path, default=ROOT / 'reports/beta-license-inventory.json')
     args = parser.parse_args(argv)
     target = args.target.resolve()
-    if not (target / "SeestarStudio.exe").is_file():
+    if not (target / "TelescopeDesk.exe").is_file():
         raise RuntimeError("Build the EXE first")
     licenses = target / "licenses"
     licenses.mkdir(parents=True, exist_ok=True)
@@ -79,23 +79,23 @@ def main(argv=None):
     for name in ["README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSING.md", "COMPATIBILITY.md", "INSTALLATION.md", "BUILDING.md", "CHANGELOG.md", "BETA_RELEASE_CHECKLIST.md"]:
         shutil.copyfile(ROOT / name, target / name)
     readme=target/'README.md'
-    readme.write_text(readme.read_text(encoding='utf-8').replace('seestar_studio/assets/SeestarStudio.png','SeestarStudio.png'),encoding='utf-8')
+    readme.write_text(readme.read_text(encoding='utf-8').replace('telescope_desk/assets/TelescopeDesk.png','TelescopeDesk.png'),encoding='utf-8')
     # Python's runtime license is separate from its stdlib bytecode.
     import sys
     python_license = Path(sys.base_prefix) / "LICENSE.txt"
     if python_license.exists():
         shutil.copyfile(python_license, licenses / "PYTHON-LICENSE.txt")
-    for asset in (ROOT / 'seestar_studio/assets').glob('*'):
+    for asset in (ROOT / 'telescope_desk/assets').glob('*'):
         if asset.is_file():shutil.copyfile(asset, target/asset.name)
-    shutil.copyfile(ROOT/'seestar_studio/build_info.json',target/'build-info.json')
-    source_zip = target / "SeestarStudio-source.zip"
+    shutil.copyfile(ROOT/'telescope_desk/build_info.json',target/'build-info.json')
+    source_zip = target / "TelescopeDesk-source.zip"
     with zipfile.ZipFile(source_zip, "w", zipfile.ZIP_DEFLATED) as archive:
         archive.write(ROOT / 'build-installer.ps1', 'build-installer.ps1')
-        for directory in ["seestar_studio", "tools", "tests", "docs", "third_party_licenses", "installer"]:
+        for directory in ["telescope_desk", "tools", "tests", "docs", "third_party_licenses", "installer"]:
             for file in (ROOT / directory).rglob("*"):
                 if file.is_file() and not file.is_symlink() and "__pycache__" not in file.parts and (file.suffix in {".py", ".md", ".txt", ".iss", ".ps1"} or (file.parent.name in {'catalog_data','translations','docs','third_party_licenses'} and file.suffix in {'.csv', '.json'} or directory == 'docs' and file.suffix == '.json' or file.name=='build_info.json' or file.parent.name=='assets' and file.suffix in {'.ico','.svg','.png'})):
                     archive.write(file, str(file.relative_to(ROOT)))
-        for name in ["launcher.py", "pyproject.toml", "requirements.txt", "requirements-lock.txt", "start.ps1", "build.ps1", "SeestarStudio.spec", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSING.md", "COMPATIBILITY.md", "DEVELOPMENT_PLAN.md", "PROGRESS.md", "NEXT_STEPS.md", "CONTRIBUTING.md", "CHANGELOG.md", "BUILDING.md", "INSTALLATION.md", "BETA_RELEASE_CHECKLIST.md", ".gitignore", ".gitattributes", "Start Seestar Studio.bat"]:
+        for name in ["launcher.py", "pyproject.toml", "requirements.txt", "requirements-lock.txt", "start.ps1", "build.ps1", "TelescopeDesk.spec", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md", "LICENSING.md", "COMPATIBILITY.md", "DEVELOPMENT_PLAN.md", "PROGRESS.md", "NEXT_STEPS.md", "CONTRIBUTING.md", "CHANGELOG.md", "BUILDING.md", "INSTALLATION.md", "BETA_RELEASE_CHECKLIST.md", ".gitignore", ".gitattributes", "Start Telescope Desk.bat"]:
             archive.write(ROOT / name, name)
         # Include the exact reused SeestarPy source (unmodified), not auth data.
         dist = metadata.distribution("seestarpy")
@@ -106,8 +106,8 @@ def main(argv=None):
     print(f"Packaged: {target}")
     release = args.release_dir.resolve()
     release.mkdir(exist_ok=True, parents=True)
-    shutil.copyfile(source_zip, release/f"SeestarStudio-{__version__}-source.zip")
-    archive = shutil.make_archive(str(release / f"SeestarStudio-{__version__}-win64"), "zip", target.parent, target.name)
+    shutil.copyfile(source_zip, release/f"TelescopeDesk-{__version__}-source.zip")
+    archive = shutil.make_archive(str(release / f"TelescopeDesk-{__version__}-win64"), "zip", target.parent, target.name)
     print(f"Portable archive: {archive}")
 
 

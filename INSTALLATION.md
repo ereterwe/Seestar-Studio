@@ -1,3 +1,5 @@
+> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/INSTALLATION.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+
 # 2.3.0b3 — lokale Compliance-Korrektur
 
 8. November 2026: Der Projektverantwortliche hat klargestellt, dass b3 neu lokal
@@ -14,13 +16,13 @@ Neue öffentliche Binär-Releases sind nicht durch den Quellcode-Push freigegebe
 
 # Lokale Installation — 2.3.0b2
 
-Portable: release/SeestarStudio-2.3.0b2-win64.zip vollständig entpacken,
-SeestarStudio/SeestarStudio.exe starten. Den gesamten Ordner mit _internal
+Portable: release/TelescopeDesk-2.3.0b2-win64.zip vollständig entpacken,
+TelescopeDesk/TelescopeDesk.exe starten. Den gesamten Ordner mit _internal
 zusammenlassen. Keine separate Python-Installation erforderlich. Einstellungen
 liegen im Benutzerprofil, nicht auf dem USB-Stick/Programmordner.
 
-Optionaler Installer: release/SeestarStudio-2.3.0b2-setup-win64.exe.
-Installation für den aktuellen Benutzer unter LocalAppData/Programs/SeestarStudio,
+Optionaler Installer: release/TelescopeDesk-2.3.0b2-setup-win64.exe.
+Installation für den aktuellen Benutzer unter LocalAppData/Programs/TelescopeDesk,
 Startmenüeintrag, Desktopverknüpfung optional. Keine Administratorrechte nötig.
 Vor Upgrade die laufende Anwendung selbst schließen. Installer startet die App
 nicht automatisch. Deinstallation entfernt Programmdateien, erhält aber eigene

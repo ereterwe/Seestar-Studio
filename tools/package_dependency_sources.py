@@ -3,7 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import zipfile
-from seestar_studio import __version__
+from telescope_desk import __version__
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
         if hashlib.sha256(path.read_bytes()).hexdigest() != record['sha256']:
             raise ValueError('Source checksum mismatch: ' + name)
         archives.append(path)
-    output = root / 'release' / f'SeestarStudio-{__version__}-upstream-sources.zip'
+    output = root / 'release' / f'TelescopeDesk-{__version__}-upstream-sources.zip'
     with zipfile.ZipFile(output, 'w', zipfile.ZIP_STORED) as bundle:
         for path in archives:
             bundle.write(path, 'archives/' + path.name)

@@ -7,9 +7,9 @@ from unittest.mock import Mock
 import numpy as np
 import pytest
 from PIL import Image
-from seestar_studio.backend import NativeMonitor, ReadOnlySocket, READ_METHODS
-from seestar_studio.imaging import ImagePipeline
-from seestar_studio.models import DeviceInfo
+from telescope_desk.backend import NativeMonitor, ReadOnlySocket, READ_METHODS
+from telescope_desk.imaging import ImagePipeline
+from telescope_desk.models import DeviceInfo
 
 
 @pytest.fixture
@@ -128,7 +128,7 @@ def test_unknown_values_and_zero_reject_rate(monitor):
 
 
 def test_command_reconnect_is_automatic(monitor, monkeypatch):
-    import seestar_studio.backend as backend
+    import telescope_desk.backend as backend
     monkeypatch.setattr(backend, "RECONNECT_DELAY", .01)
     attempts = []
     def connect():

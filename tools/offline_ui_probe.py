@@ -5,16 +5,16 @@ import time
 from pathlib import Path
 from PySide6.QtCore import QTimer, QItemSelectionModel
 from PySide6.QtWidgets import QApplication
-from seestar_studio.window import DashboardWindow
-from seestar_studio.settings import SettingsService
-from seestar_studio.theme import STYLE
-from seestar_studio.files.browser import FileBrowserService
-from seestar_studio.files.downloads import DownloadService
+from telescope_desk.window import DashboardWindow
+from telescope_desk.settings import SettingsService
+from telescope_desk.theme import STYLE
+from telescope_desk.files.browser import FileBrowserService
+from telescope_desk.files.downloads import DownloadService
 from tests.test_ui import FakeManager
 from tests.test_control import fleet
-from seestar_studio.planner import PlanEntry
-from seestar_studio.sky.astronomy import Site
-from seestar_studio.history import HistoryStore, Sample
+from telescope_desk.planner import PlanEntry
+from telescope_desk.sky.astronomy import Site
+from telescope_desk.history import HistoryStore, Sample
 
 
 class NoNetworkClient:

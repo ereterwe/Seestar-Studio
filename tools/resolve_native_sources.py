@@ -104,7 +104,7 @@ def main():
                               'components': [{k: c.get(k) for k in ('name', 'version', 'purl', 'licenses', 'externalReferences')}
                                              for c in bom.get('components', [])],
                               'scope': 'Supplier SBOM; may include build/optional/all-target components'})
-    payload = ROOT / 'dist/2.3.0b3/SeestarStudio'
+    payload = ROOT / 'dist/2.3.0b3/TelescopeDesk'
     extensions = {'PIL.' + p.name.split('.')[0] for p in (payload / '_internal/PIL').glob('*.pyd')}
     from PIL import _avif, features
     disabled = []

@@ -10,18 +10,18 @@ from PySide6.QtWidgets import QApplication
 from PySide6.QtWidgets import QLabel, QAbstractButton
 import re
 from PySide6.QtGui import QImage, QColor
-from seestar_studio.i18n import TranslationController
-from seestar_studio.window import DashboardWindow
-from seestar_studio.settings import SettingsService
-from seestar_studio.theme import STYLE
-from seestar_studio.files.browser import FileBrowserService
-from seestar_studio.files.downloads import DownloadService
-from seestar_studio.planner import PlanEntry
-from seestar_studio.models import ImageFrame
-from seestar_studio.setup_service import SetupService
-from seestar_studio.setup_wizard import SetupWizard
-from seestar_studio.preferences import PreferencesDialog
-from seestar_studio.diagnostics import DiagnosticsDialog, diagnostic_snapshot
+from telescope_desk.i18n import TranslationController
+from telescope_desk.window import DashboardWindow
+from telescope_desk.settings import SettingsService
+from telescope_desk.theme import STYLE
+from telescope_desk.files.browser import FileBrowserService
+from telescope_desk.files.downloads import DownloadService
+from telescope_desk.planner import PlanEntry
+from telescope_desk.models import ImageFrame
+from telescope_desk.setup_service import SetupService
+from telescope_desk.setup_wizard import SetupWizard
+from telescope_desk.preferences import PreferencesDialog
+from telescope_desk.diagnostics import DiagnosticsDialog, diagnostic_snapshot
 from tests.test_ui import FakeManager
 from tests.test_control import fleet
 

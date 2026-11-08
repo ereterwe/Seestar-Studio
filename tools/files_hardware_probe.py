@@ -3,10 +3,10 @@ import json
 from pathlib import Path
 import threading
 import time
-from seestar_studio.manager import TelescopeManager
-from seestar_studio.files.smb import SeestarFileClient
-from seestar_studio.files.downloads import download_one, sha256_file
-from seestar_studio.files.models import TransferCancelled
+from telescope_desk.manager import TelescopeManager
+from telescope_desk.files.smb import SeestarFileClient
+from telescope_desk.files.downloads import download_one, sha256_file
+from telescope_desk.files.models import TransferCancelled
 
 
 def main():

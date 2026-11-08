@@ -2,9 +2,9 @@ import ast
 import re
 from pathlib import Path
 from PySide6.QtWidgets import QDialog, QVBoxLayout, QLabel, QPushButton, QComboBox
-from seestar_studio import i18n
-from seestar_studio.telemetry import number
-from seestar_studio.settings import SettingsService
+from telescope_desk import i18n
+from telescope_desk.telemetry import number
+from telescope_desk.settings import SettingsService
 
 
 def test_catalog_complete_placeholders_and_code_references():
@@ -12,7 +12,7 @@ def test_catalog_complete_placeholders_and_code_references():
         assert value['de'] and value['en']
         assert set(re.findall(r'\{p\d+\}',value['source']))==set(re.findall(r'\{p\d+\}',value['en']))
         assert set(re.findall(r'\{p\d+\}',value['source']))==set(re.findall(r'\{p\d+\}',value['de']))
-    for path in Path('seestar_studio').rglob('*.py'):
+    for path in Path('telescope_desk').rglob('*.py'):
         tree=ast.parse(path.read_text(encoding='utf-8-sig'))
         for n in ast.walk(tree):
             if isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=='ui_text':

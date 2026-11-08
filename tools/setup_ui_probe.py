@@ -11,9 +11,9 @@ from cryptography.hazmat.primitives import serialization
 from PySide6.QtCore import QTimer
 from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QFont, QFontDatabase
-from seestar_studio.setup_service import SetupService
-from seestar_studio.setup_wizard import SetupWizard
-from seestar_studio.theme import STYLE
+from telescope_desk.setup_service import SetupService
+from telescope_desk.setup_wizard import SetupWizard
+from telescope_desk.theme import STYLE
 
 
 def main():

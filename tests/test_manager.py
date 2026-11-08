@@ -1,6 +1,6 @@
 import time
-from seestar_studio.manager import TelescopeManager
-from seestar_studio.models import DeviceInfo
+from telescope_desk.manager import TelescopeManager
+from telescope_desk.models import DeviceInfo
 
 
 class FakeMonitor:

@@ -4,19 +4,19 @@ param([ValidateSet('Install','Cleanup')][string]$Stage='Install',
 $ErrorActionPreference='Stop'
 $workspace=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 Set-Location -LiteralPath $workspace
-$version=& '.\.venv\Scripts\python.exe' -c 'from seestar_studio import __version__; print(__version__)'
+$version=& '.\.venv\Scripts\python.exe' -c 'from telescope_desk import __version__; print(__version__)'
 if ($LASTEXITCODE -ne 0) { throw 'Version lookup failed' }
 $suffix=if ($CaseName) { '-'+$CaseName } else { '' }
 $testDirectory=[IO.Path]::GetFullPath((Join-Path $workspace "reports\beta-installed-$version$suffix"))
 if (-not $testDirectory.StartsWith($workspace+'\',[StringComparison]::OrdinalIgnoreCase)) { throw 'Unsafe test directory' }
 $stateFile=Join-Path $workspace "reports\beta-installer-state$suffix.json"
-$registration='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A8B6B872-6710-44A3-94A6-1C953E3B8D87}_is1'
-$shortcut=Join-Path ([Environment]::GetFolderPath('Programs')) 'Seestar Studio.lnk'
-$desktopShortcut=Join-Path ([Environment]::GetFolderPath('Desktop')) 'Seestar Studio.lnk'
+$registration='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BF344EF3-C3B3-4514-8B99-57CA7F157280}_is1'
+$shortcut=Join-Path ([Environment]::GetFolderPath('Programs')) 'Telescope Desk.lnk'
+$desktopShortcut=Join-Path ([Environment]::GetFolderPath('Desktop')) 'Telescope Desk.lnk'
 function Get-ProfileState {
     $state=@{}
     foreach ($kind in @('LocalApplicationData','ApplicationData')) {
-        $base=Join-Path ([Environment]::GetFolderPath($kind)) 'SeestarStudio\Seestar Studio'
+        $base=Join-Path ([Environment]::GetFolderPath($kind)) 'TelescopeDesk\Telescope Desk'
         foreach ($name in @('settings.json','history.sqlite3','authentication\authentication.json')) {
             $file=Join-Path $base $name
             $state["$kind/$name"]=if (Test-Path -LiteralPath $file) {(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash} else {'absent'}
@@ -26,15 +26,15 @@ function Get-ProfileState {
 }
 if ($Stage -eq 'Install') {
     if ((Test-Path -LiteralPath $registration) -or (Test-Path -LiteralPath $testDirectory) -or (Test-Path -LiteralPath $shortcut) -or (Test-Path -LiteralPath $desktopShortcut)) { throw 'Existing installation or shortcut detected; nothing changed' }
-    if (Get-Process SeestarStudio -ErrorAction SilentlyContinue) { throw 'An application instance is running; nothing changed' }
+    if (Get-Process TelescopeDesk -ErrorAction SilentlyContinue) { throw 'An application instance is running; nothing changed' }
     $before=Get-ProfileState
-    $installer=if ($InstallerPath) { [IO.Path]::GetFullPath($InstallerPath) } else { Join-Path $workspace "release\SeestarStudio-$version-setup-win64.exe" }
+    $installer=if ($InstallerPath) { [IO.Path]::GetFullPath($InstallerPath) } else { Join-Path $workspace "release\TelescopeDesk-$version-setup-win64.exe" }
     $arguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER /TASKS=desktopicon /DIR=`"$testDirectory`""
     $first=Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru
     if ($first.ExitCode -ne 0) { throw "Install exit $($first.ExitCode)" }
-    $installedExe=Join-Path $testDirectory 'SeestarStudio.exe'
-    $portableDirectory=if ($SourceDirectory) { [IO.Path]::GetFullPath($SourceDirectory) } else { Join-Path $workspace "dist\$version\SeestarStudio" }
-    $matches=(Get-FileHash -LiteralPath $installedExe).Hash -eq (Get-FileHash -LiteralPath (Join-Path $portableDirectory 'SeestarStudio.exe')).Hash
+    $installedExe=Join-Path $testDirectory 'TelescopeDesk.exe'
+    $portableDirectory=if ($SourceDirectory) { [IO.Path]::GetFullPath($SourceDirectory) } else { Join-Path $workspace "dist\$version\TelescopeDesk" }
+    $matches=(Get-FileHash -LiteralPath $installedExe).Hash -eq (Get-FileHash -LiteralPath (Join-Path $portableDirectory 'TelescopeDesk.exe')).Hash
     $second=Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru
     if ($second.ExitCode -ne 0) { throw "Reinstall exit $($second.ExitCode)" }
     $payload=Get-ChildItem -LiteralPath $portableDirectory -File -Recurse
@@ -60,14 +60,14 @@ if ($Stage -eq 'Install') {
     if ($state.directory -ne $testDirectory -or $state.version -ne $version) { throw 'QA state does not match target' }
     $record=Get-ItemProperty -LiteralPath $registration
     if ([IO.Path]::GetFullPath($record.InstallLocation).TrimEnd('\') -ne $testDirectory.TrimEnd('\')) { throw 'Different installed location; no uninstall' }
-    if (Get-Process SeestarStudio -ErrorAction SilentlyContinue | Where-Object {$_.Path -eq (Join-Path $testDirectory 'SeestarStudio.exe')}) { throw 'QA application still running' }
+    if (Get-Process TelescopeDesk -ErrorAction SilentlyContinue | Where-Object {$_.Path -eq (Join-Path $testDirectory 'TelescopeDesk.exe')}) { throw 'QA application still running' }
     $uninstaller=[IO.Path]::GetFullPath((Join-Path $testDirectory 'unins000.exe'))
     if (-not $uninstaller.StartsWith($testDirectory+'\',[StringComparison]::OrdinalIgnoreCase)) { throw 'Unsafe uninstaller target' }
     $remove=Start-Process -FilePath $uninstaller -ArgumentList '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART' -WindowStyle Hidden -Wait -PassThru
     $after=Get-ProfileState
     $state.profile_unchanged=@($state.profile_before.Keys | Where-Object {$state.profile_before[$_] -ne $after[$_]}).Count -eq 0
     $state.uninstall_exit=$remove.ExitCode
-    $state.program_removed=-not (Test-Path -LiteralPath (Join-Path $testDirectory 'SeestarStudio.exe'))
+    $state.program_removed=-not (Test-Path -LiteralPath (Join-Path $testDirectory 'TelescopeDesk.exe'))
     $state.shortcuts_removed=(-not (Test-Path -LiteralPath $shortcut)) -and (-not (Test-Path -LiteralPath $desktopShortcut))
     $state.registration_removed=-not (Test-Path -LiteralPath $registration)
     $state.Remove('profile_before');$state.Remove('directory')
