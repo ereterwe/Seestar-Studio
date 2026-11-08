@@ -1,28 +1,18 @@
-> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/CONTRIBUTING.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+# Contributing to Telescope Desk
 
-# Entwicklungsregeln
+Own code is GPL-3.0-only. Preserve upstream names, copyright and license texts.
+Use Python 3.12, the locked dependencies and pytest. App namespace: telescope_desk.
+Build with build.ps1 and build-installer.ps1; see BUILDING.md for prerequisites.
 
-Projekt noch nicht öffentlich freigegeben. Änderungen lokal prüfen und in
-PROGRESS.md/NEXT_STEPS.md dokumentieren. Python 3.12, vorhandene Versionen aus
-requirements-lock.txt, Tests mit `python -m pytest -q`.
+Use feature branches. Current cleanup branch: refactor/telescope-desk-minimal-runtime.
+No push/merge to main, repository rename or public binary upload is authorized by
+the cleanup task. Manual CI has no upload/release step.
 
-- Viewer-Allowlist erhalten; Steuerung über getrennten, ausdrücklich
-  freigeschalteten Adapter. Keine realen Steuerungstests ohne Benutzerfreigabe.
-- Keine festen IPs, Benutzerpfade, Seriennummern oder Modell-Sonderfälle im Kern.
-- Keine erfundenen Fähigkeiten/Messwerte; fehlende Daten als unbekannt anzeigen.
-- Netzwerk, Downloads, Berechnungen und Datenbankzugriffe außerhalb des GUI-Threads.
-- Geheimnisse, Standorte, APK/XAPK, Aufnahmen, DBs und Logs aus Quellen/Builds halten.
-- Hardwaretests, simulierte Tests und theoretische Kompatibilität unterscheiden.
-- Lizenz/Urheber/Quellen für neue Abhängigkeiten und Daten dokumentieren.
+Never commit user keys, APKs, locations, telescope identities, session databases,
+photos or logs. Unit tests isolate discovery. Real movement/capture commands need
+explicit permission. Label simulations separately from hardware evidence.
 
-Beiträge zum Programm müssen mit GPL-3.0-only vereinbar sein. Katalogdaten
-unterliegen ihrer eigenen CC-BY-SA-4.0-Lizenz. Rechtsfragen vor Veröffentlichung
-prüfen, nichts eigenmächtig hochladen oder weitergeben.
-
-## Beta Feature Freeze
-
-Nach Abschluss der Final Beta Preparation endet die eigenständige Featureentwicklung.
-Auch kleine Zusatzfunktionen, automatische Feedbackauswertung und Planung sind
-nicht freigegeben. Mark sammelt und priorisiert Testerfeedback persönlich.
-Änderungen, einschließlich Fehler-/Sicherheits-/Dokumentationskorrekturen, nur
-auf neuen ausdrücklichen Auftrag. Kein Push/Release/Sichtbarkeitswechsel ohne Freigabe.
+Retain unknown dynamic/firmware/graphics dependencies until removal is justified.
+Update actual payload inventory, SBOM, corresponding-source evidence and notices
+when changing runtime packaging. File coverage is not complete static-link provenance
+or legal clearance. See docs/compliance/MINIMIZATION_REPORT.md.

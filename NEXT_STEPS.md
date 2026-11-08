@@ -7,10 +7,11 @@ Legacy profiles are reused in place; no keys copied. Initial rebuilt payload has
 127 native files versus 130, removing Qt Multimedia Widgets and Pillow AVIF.
 FFmpeg remains unchanged (183 encoders / 498 decoders).
 
-Remaining validation: final clean build tied to a local commit, native UI/installer
-lifecycle and payload/SBOM checks. Renewed real-device Live View, clean external
-Windows and software-only graphics tests remain unverified. Complete embedded
-static-component SBOM/source reconstruction and legal decisions remain OPEN.
+Completed: 172 tests, final native build, portable/installed clean exit, installer
+lifecycle and 1,666-file SBOM coverage. New hardware regression, clean external PC,
+software-only graphics and workflow execution remain unverified. Exact embedded
+component/source completeness and further FFmpeg minimization remain OPEN.
+See docs/compliance/MINIMIZATION_REPORT.md for measurements and release gates.
 No main push, merge, public release, binary upload or repository rename.
 
 Current evidence: docs/compliance/MINIMIZATION_REPORT.md. Prior Seestar Studio

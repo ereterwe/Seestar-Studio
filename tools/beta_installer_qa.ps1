@@ -16,11 +16,13 @@ $desktopShortcut=Join-Path ([Environment]::GetFolderPath('Desktop')) 'Telescope 
 function Get-ProfileState {
     $state=@{}
     foreach ($kind in @('LocalApplicationData','ApplicationData')) {
-        $base=Join-Path ([Environment]::GetFolderPath($kind)) 'TelescopeDesk\Telescope Desk'
+      foreach ($profileName in @('TelescopeDesk\Telescope Desk','SeestarStudio\Seestar Studio')) {
+        $base=Join-Path ([Environment]::GetFolderPath($kind)) $profileName
         foreach ($name in @('settings.json','history.sqlite3','authentication\authentication.json')) {
             $file=Join-Path $base $name
-            $state["$kind/$name"]=if (Test-Path -LiteralPath $file) {(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash} else {'absent'}
+            $state["$kind/$profileName/$name"]=if (Test-Path -LiteralPath $file) {(Get-FileHash -LiteralPath $file -Algorithm SHA256).Hash} else {'absent'}
         }
+      }
     }
     return $state
 }

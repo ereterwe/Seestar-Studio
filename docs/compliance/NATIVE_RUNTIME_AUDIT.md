@@ -131,4 +131,4 @@ A = core, D = optional implemented feature, F = unresolved. Microsoft rights rem
 | _internal/winrt/_winrt_windows_foundation_collections.cp312-win_amd64.pyd | not declared | F | Retained: ownership/import evidence in selected release audit | c3ab35abf3d7b9807cf29ecc018667b01026621da587bb9a476f8c309adda01f |
 | _internal/winrt/MSVCP140.dll | 14.29.30157.0 built by: cloudtest | A | Compiler ABI runtime; different paths/versions preserved | 75872c426555ac8af55b5a7f6d4aea8831af74353b22612850a2bfc40e3b67e1 |
 | _internal/yaml/_yaml.cp312-win_amd64.pyd | not declared | F | Retained: ownership/import evidence in selected release audit | 4fd0e84f50261ed0886cffcdd8008b055af3352546e649c3d741b50eae1f9b5f |
-| TelescopeDesk.exe | 2.3.0b3 | F | Retained: ownership/import evidence in selected release audit | 833502cdde597360b3489afce3d4b12a9eb2dd80401aad84c193a1a331879938 |
+| TelescopeDesk.exe | 2.3.0b3 | F | Retained: ownership/import evidence in selected release audit | 2eac7e4994230a37165631628323e8560dbc2041d2b74bd663e6ca07f8ac3a1f |

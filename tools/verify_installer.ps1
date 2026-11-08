@@ -1,9 +1,13 @@
-param([string]$Version = '2.2.0.dev1')
+param([string]$Version = '')
 $ErrorActionPreference = 'Stop'
 $workspace = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
+if (-not $Version) {
+    $Version = & (Join-Path $workspace '.venv\Scripts\python.exe') -c 'from telescope_desk import __version__; print(__version__)'
+    if ($LASTEXITCODE -ne 0) { throw 'Version lookup failed' }
+}
 $testDirectory = [IO.Path]::GetFullPath((Join-Path $workspace "reports\installer-qa-$Version"))
 if (-not $testDirectory.StartsWith($workspace + '\', [StringComparison]::OrdinalIgnoreCase)) { throw 'Unsafe QA target' }
-$registration = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A8B6B872-6710-44A3-94A6-1C953E3B8D87}_is1'
+$registration = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BF344EF3-C3B3-4514-8B99-57CA7F157280}_is1'
 $shortcut = Join-Path ([Environment]::GetFolderPath('Programs')) 'Telescope Desk.lnk'
 if ((Test-Path -LiteralPath $registration) -or (Test-Path -LiteralPath $testDirectory) -or (Test-Path -LiteralPath $shortcut)) {
     throw 'Existing installation, shortcut or QA folder detected; nothing changed'

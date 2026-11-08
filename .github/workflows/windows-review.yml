@@ -35,9 +35,9 @@ jobs:
           if (-not (Test-Path reports/ci-compliance/compliance.json)) { throw 'Audit missing' }
           .\.venv\Scripts\python.exe -m tools.runtime_sbom --target $target --audit reports/ci-compliance/compliance.json --output "release/TelescopeDesk-$version-SBOM.json"
           if ($LASTEXITCODE -ne 0) { throw 'SBOM coverage failed' }
-          .\.venv\Scripts\python.exe -m tools.source_candidate --target $target --output "release/TelescopeDesk-$version-corresponding-source.zip"
+          .\.venv\Scripts\python.exe -m tools.source_candidate --target $target --output "release/ci-$env:GITHUB_RUN_ID/TelescopeDesk-$version-corresponding-source.zip"
           if ($LASTEXITCODE -ne 0) { throw 'Source candidate incomplete or already exists' }
           .\.venv\Scripts\python.exe -m tools.security_audit
           if ($LASTEXITCODE -ne 0) { throw 'Sensitive source patterns found' }
-          Get-ChildItem release -File | Where-Object { $_.Extension -in '.exe','.zip','.json' } | Get-FileHash -Algorithm SHA256 | Format-Table -AutoSize
+          Get-ChildItem release -File -Recurse | Where-Object { $_.Extension -in '.exe','.zip','.json' } | ForEach-Object { (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash + '  ' + $_.FullName.Substring((Resolve-Path release).Path.Length + 1) } | Set-Content release/SHA256SUMS.txt
     # Intentionally no artifact upload, release action or write token.

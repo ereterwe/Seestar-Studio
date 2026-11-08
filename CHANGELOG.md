@@ -1,4 +1,9 @@
-> Current Telescope Desk working documentation. Earlier release facts are preserved unchanged in [the Seestar Studio archive](docs/history/seestar-studio-b3/CHANGELOG.md). New build status: [minimization report](docs/compliance/MINIMIZATION_REPORT.md).
+# Telescope Desk 2.3.0b3 — local refactor
+
+Product/package/EXE renamed; legacy profiles reused without copying keys.
+Unused Qt Multimedia Widgets and Pillow AVIF excluded. FFmpeg retained unchanged.
+172 tests passed; see the minimization report for final build and installer results.
+No new public release or version increment. Below are unchanged historical records.
 
 # 2.3.0b3 — lokale Compliance-Korrektur
 

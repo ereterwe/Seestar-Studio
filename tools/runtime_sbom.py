@@ -16,6 +16,7 @@ def digest(path):
 
 def create(target, audit):
     components = []
+    root = Path(__file__).resolve().parents[1]
     native = {x['file']: x for x in audit['native_files']}
     runtime = {name: data for name, data in audit['installed_packages'].items()
                if data['scope'].startswith(('runtime presence', 'ambiguous'))}
@@ -25,6 +26,25 @@ def create(target, audit):
             'properties': [{'name': 'telescope-desk:evidence', 'value': data['scope']},
                 {'name': 'telescope-desk:declared-license', 'value': data['license']},
                 {'name': 'telescope-desk:legal-clearance', 'value': 'not established'}]})
+    # Include supplier-declared embedded Pillow components only for extensions
+    # actually shipped. This intentionally excludes the removed AVIF/font roots.
+    from tools.resolve_native_sources import pillow_components
+    extensions = {'PIL.' + p.name.split('.')[0] for p in (target / '_internal/PIL').glob('*.pyd')}
+    if extensions:
+        supplier = json.loads((root / 'docs/provenance/Pillow/pillow-13.0.0.cdx.json').read_text(encoding='utf-8'))
+        for c in pillow_components(supplier, extensions, ['pkg:generic/libimagequant', 'pkg:generic/libxcb']):
+            row = {k: c[k] for k in ('name', 'version', 'licenses', 'purl', 'externalReferences') if k in c}
+            row.update({'type': 'library', 'bom-ref': 'embedded:Pillow:' + c['bom-ref'],
+                'properties': [{'name': 'telescope-desk:evidence', 'value':
+                    'Publisher SBOM dependency closure scoped to shipped extension roots; disabled libimagequant/xcb excluded based on matched publisher binaries. Exact platform-static linkage remains OPEN.'}]})
+            components.append(row)
+    if any('cryptography' in n and n.endswith('_rust.pyd') for n in native):
+        supplier = json.loads((root / 'docs/provenance/cryptography/sbom.json').read_text(encoding='utf-8'))
+        for c in supplier['components']:
+            row = {k: c[k] for k in ('name', 'version', 'licenses', 'purl', 'externalReferences') if k in c}
+            row.update({'type': 'library', 'bom-ref': 'embedded:cryptography:' + c['name'],
+                'properties': [{'name': 'telescope-desk:evidence', 'value': 'Publisher OpenSSL SBOM, runtime version corroborated in retained baseline.'}]})
+            components.append(row)
     for path in sorted(target.rglob('*')):
         if not path.is_file():
             continue
@@ -43,7 +63,8 @@ def create(target, audit):
         'metadata': {'component': {'type': 'application', 'bom-ref': 'application',
             'name': 'Telescope Desk', 'version': audit['artifact_version'],
             'licenses': [{'license': {'id': 'GPL-3.0-only'}}]},
-            'properties': [{'name': 'telescope-desk:scope', 'value':
+            'properties': [{'name': 'telescope-desk:build-source', 'value': json.dumps(audit.get('build_info', {}))},
+                {'name': 'telescope-desk:scope', 'value':
                 'Complete selected payload file inventory; package runtime presence inferred from native hashes and frozen Python ownership. Exact embedded static linkage and ambiguous Python ownership remain OPEN. Supplier evidence is in docs/provenance.'}]},
         'components': components,
         'compositions': [{'aggregate': 'incomplete', 'assemblies': ['application']}],
@@ -57,8 +78,12 @@ def verify(target, bom):
     extra = sorted(files.keys() - actual.keys())
     changed = sorted(n for n in actual.keys() & files.keys()
                      if files[n]['hashes'][0]['content'] != digest(actual[n]))
+    build = target / 'build-info.json'
+    version_mismatch = (build.is_file() and json.loads(build.read_text(encoding='utf-8'))['version']
+                        != bom['metadata']['component']['version'])
     return {'files': len(actual), 'undocumented': missing, 'absent': extra,
-            'hash_mismatches': changed, 'payload_coverage_pass': not (missing or extra or changed),
+            'hash_mismatches': changed, 'version_mismatch': version_mismatch,
+            'payload_coverage_pass': not (missing or extra or changed or version_mismatch),
             'embedded_component_completeness': 'OPEN', 'legal_clearance': False}
 
 

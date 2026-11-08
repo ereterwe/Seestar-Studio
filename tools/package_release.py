@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import shutil
 import zipfile
+import subprocess
 from telescope_desk import __version__
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -88,6 +89,10 @@ def main(argv=None):
     for asset in (ROOT / 'telescope_desk/assets').glob('*'):
         if asset.is_file():shutil.copyfile(asset, target/asset.name)
     shutil.copyfile(ROOT/'telescope_desk/build_info.json',target/'build-info.json')
+    packaging = {'git_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
+                 'git_worktree_dirty': bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True).strip()),
+                 'scope': 'Packaging/tools/documentation revision; application build revision is in build-info.json'}
+    (target/'packaging-info.json').write_text(json.dumps(packaging, indent=2), encoding='utf-8')
     source_zip = target / "TelescopeDesk-source.zip"
     with zipfile.ZipFile(source_zip, "w", zipfile.ZIP_DEFLATED) as archive:
         archive.write(ROOT / 'build-installer.ps1', 'build-installer.ps1')

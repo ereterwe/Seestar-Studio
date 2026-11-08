@@ -59,6 +59,6 @@ App-Icon: eigene SVG-Geometrie, GPL-3.0-only; assets/ICON-LICENSE.txt.
 
 ## Native Dateien im aktuellen Build
 
-Vollständige technische Liste: dependency-inventory.json im Paket. 130 PE-Dateien erkannt.
+Vollständige technische Liste: dependency-inventory.json im Paket. 127 PE-Dateien erkannt.
 Keine Herkunftsgarantie allein aus Dateinamen/Versionsressourcen. Statisch eingebettete Bibliotheken zusätzlich prüfen.
 Native Quellen-/Build- und Rechtsfragen bleiben offen. Dieses Inventar ist keine Release-Freigabe; GPL-Rechte bleiben unberührt.

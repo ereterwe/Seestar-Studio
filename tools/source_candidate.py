@@ -24,6 +24,8 @@ def main():
     with zipfile.ZipFile(a.output, 'x', zipfile.ZIP_STORED) as archive:
         archive.write(a.target / 'TelescopeDesk-source.zip', 'TelescopeDesk-source.zip')
         archive.write(a.target / 'build-info.json', 'build-info.json')
+        if (a.target / 'packaging-info.json').is_file():
+            archive.write(a.target / 'packaging-info.json', 'packaging-info.json')
         archive.write(root / 'docs/DEPENDENCY_SOURCES.json', 'DEPENDENCY_SOURCES.json')
         for name in sorted(inputs):
             archive.write(root / 'third_party_sources' / name, 'upstream/' + name)
