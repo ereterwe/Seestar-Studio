@@ -4,6 +4,12 @@ Seestar Studio is licensed under **GPL-3.0-only**, without warranty.
 The full license is in LICENSE. The corresponding application source and build
 scripts are in SeestarStudio-source.zip in the Windows folder distribution.
 
+Audit status, 8 November 2026: the source repository is public. Version 2.3.0b3 is newly built locally from the audited b2 baseline;
+the source update to GitHub is authorized. New public binary uploads remain
+outside the scope of that source update. See docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md and
+docs/NATIVE_COMPONENT_REVIEW.md for unresolved native source/build obligations.
+Project publication approval is separate from recipients' rights under the GPL.
+
 SeestarPy 0.8.0, copyright its contributors including Kieran Leschinski, is
 GPLv3. Its installed Python sources are included unchanged in the source archive.
 The adapter in seestar_studio/backend.py extends ScopeMonitor; it does not change
@@ -19,8 +25,8 @@ check or technical restriction prevents replacement.
 
 Dependency licenses are collected under licenses/ in the folder distribution.
 Exact versions are recorded in dependency-versions.json and requirements-lock.txt.
-Other runtime dependencies include CPython (PSF), NumPy (BSD), Pillow (HPND and
-bundled third-party notices), cryptography (Apache/BSD), cffi (MIT), requests
+Other runtime dependencies include CPython (PSF), NumPy (BSD), Pillow (MIT-CMU and
+bundled third-party notices), cryptography (Apache/BSD), cffi (see original license), requests
 (Apache-2.0), pysmb (zlib/libpng), and their transitive dependencies. Their own
 license texts, rather than this summary, govern their use.
 
@@ -28,7 +34,7 @@ When redistributing binaries, preserve license/copyright notices and provide
 the complete corresponding source under the applicable licenses, including
 build scripts and any modifications. Publish source alongside downloadable
 binaries (GPLv3 section 6), or use another compliant source-delivery method.
-Do not present this private development build as a completed public distribution
+Do not present an incompletely audited build as a completed compliant distribution
 without preparing the corresponding sources for its bundled third-party binary
 libraries as well. The application archive alone is not that complete set.
 
@@ -40,8 +46,17 @@ Source and licensing references:
 - PySide source archives: https://download.qt.io/official_releases/QtForPython/
 - Python source: https://www.python.org/downloads/source/
 
-The Seestar authentication key is never included in builds, archives, source,
-logs, or notices. SeestarPy continues to discover it locally at runtime.
+Authentication keys must not be included in builds, archives, source, logs or
+notices. The audited b2 inputs contained no key material; this is not a guarantee
+for uninspected releases. SeestarPy discovers users' keys locally at runtime.
+
+Colorama 0.4.6 (BSD-3-Clause), copyright Jonathan Hartley and contributors, is a
+frozen runtime dependency. Its original license and source are now collected for
+future packaging; this does not retroactively change previously built archives.
+Qt Virtual Keyboard in the b2 baseline uses the GPLv3 option. The new packaging
+excludes it, QML/Quick and the unused PDF plugin chain; the original build remains
+documented. CPython OpenSSL 3.0.16 and cryptography's embedded OpenSSL 4.0.3 require
+separate consideration. Source/notice presence is not an exact native build proof.
 # Sky Explorer additions
 
 OpenNGC © Mattia Verga and contributors, CC BY-SA 4.0. Bundled catalog files,

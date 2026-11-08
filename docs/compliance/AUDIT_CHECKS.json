@@ -1,0 +1,395 @@
+{
+  "checked_utc": "2026-11-08T16:20:23.863026+00:00",
+  "artifact_version": "2.3.0b3",
+  "status": "BLOCKER",
+  "checks": [
+    {
+      "check": "selected_release_version",
+      "status": "PASS",
+      "evidence": {
+        "expected": "2.3.0b3",
+        "actual": "2.3.0b3"
+      }
+    },
+    {
+      "check": "available_source_archive_hashes",
+      "status": "PASS",
+      "evidence": {
+        "verified": 40,
+        "mismatches": [],
+        "note": "Missing archives and binary correspondence are separate OPEN checks."
+      }
+    },
+    {
+      "check": "payload_inventory",
+      "status": "PASS",
+      "evidence": {
+        "files": 1443,
+        "native_files": 130,
+        "hash": "SHA256 of actual file bytes"
+      }
+    },
+    {
+      "check": "native_binary_origin",
+      "status": "OPEN",
+      "evidence": {
+        "unmatched": [
+          "SeestarStudio.exe"
+        ],
+        "limitation": "RECORD correspondence is local installation provenance, not proof of publisher signing or source build."
+      }
+    },
+    {
+      "check": "native_corresponding_source",
+      "status": "BLOCKER",
+      "evidence": "Native source/patch/build/static dependency chain has not been independently reconstructed; source archives alone are insufficient."
+    },
+    {
+      "check": "mandatory_document_presence",
+      "status": "PASS",
+      "evidence": []
+    },
+    {
+      "check": "license_and_copyright_coverage",
+      "status": "OPEN",
+      "evidence": "Presence of collected license texts does not establish all embedded component attribution."
+    },
+    {
+      "check": "catalog_snapshot_integrity",
+      "status": "PASS",
+      "evidence": {
+        "changed_or_missing": [],
+        "revision": "be3cd6c5498806a2fbb2f7e0452ef802dbb02be0",
+        "license": "CC-BY-SA-4.0"
+      }
+    },
+    {
+      "check": "runtime_package_notice_directories",
+      "status": "PASS",
+      "evidence": {
+        "missing": [],
+        "scope": "Expected package notice directories for packages declaring license files; content and static-library coverage remain separate OPEN checks."
+      }
+    },
+    {
+      "check": "payload_secret_patterns",
+      "status": "OPEN",
+      "evidence": {
+        "findings": [
+          {
+            "file": "_internal/PySide6/plugins/generic/qtuiotouchplugin.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/iconengines/qsvgicon.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qgif.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qicns.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qico.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qjpeg.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qsvg.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qtga.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qtiff.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qwbmp.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/imageformats/qwebp.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/multimedia/ffmpegmediaplugin.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/multimedia/windowsmediaplugin.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/platforms/qdirect2d.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/platforms/qminimal.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/platforms/qoffscreen.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/platforms/qwindows.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/tls/qcertonlybackend.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/tls/qopensslbackend.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/plugins/tls/qschannelbackend.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Core.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Gui.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Multimedia.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6MultimediaWidgets.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Network.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6OpenGL.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Svg.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "_internal/PySide6/Qt6Widgets.dll",
+            "blockers": [],
+            "review": [
+              "personal_path"
+            ]
+          },
+          {
+            "file": "PYZ:seestarpy.connection",
+            "blockers": [],
+            "review": [
+              "device_identifier"
+            ]
+          },
+          {
+            "file": "PYZ:seestarpy.dashboard.monitor",
+            "blockers": [],
+            "review": [
+              "device_identifier"
+            ]
+          },
+          {
+            "container": "SeestarStudio-source.zip",
+            "member": "vendor/seestarpy/connection.py",
+            "blockers": [],
+            "review": [
+              "device_identifier"
+            ]
+          },
+          {
+            "container": "SeestarStudio-source.zip",
+            "member": "vendor/seestarpy/dashboard/monitor.py",
+            "blockers": [],
+            "review": [
+              "device_identifier"
+            ]
+          }
+        ],
+        "skipped_raw_files": [],
+        "scope": "File names, raw bytes, ZIPs and decompressed CArchive/PYZ entries; heuristic, not a complete secret guarantee."
+      }
+    },
+    {
+      "check": "archive_scan_completeness",
+      "status": "PASS",
+      "evidence": [
+        {
+          "file": "_internal/base_library.zip",
+          "members": 155,
+          "incomplete": []
+        },
+        {
+          "file": "SeestarStudio-source.zip",
+          "members": 423,
+          "incomplete": []
+        }
+      ]
+    },
+    {
+      "check": "reachable_git_secret_patterns",
+      "status": "PASS",
+      "evidence": {
+        "counts": {
+          "blob": 394,
+          "tree": 27,
+          "commit": 1,
+          "tag": 1
+        },
+        "findings": [],
+        "forbidden_path_fingerprints": [],
+        "scope": "All locally reachable refs, including fetched tags; unreachable objects, remote PR refs and Git LFS payloads not covered."
+      }
+    },
+    {
+      "check": "current_source_secret_patterns",
+      "status": "PASS",
+      "evidence": {
+        "files_scanned": 395,
+        "findings": [],
+        "skipped": [],
+        "scope": "Tracked and nonignored working files. Ignored personal files and reports are not publication inputs."
+      }
+    },
+    {
+      "check": "source_zip_application_hash",
+      "status": "PASS",
+      "evidence": {
+        "files": 61,
+        "computed_source_sha256": "e01692137fa9ad916c46304e5e390d177923e00db20486d21aac281ff115014a",
+        "scope": "Application source vs embedded build metadata; not a native-library rebuild proof."
+      }
+    },
+    {
+      "check": "public_release_identity",
+      "status": "OPEN",
+      "evidence": "This offline check does not establish remote release visibility, asset hashes, tester copies or authorization."
+    },
+    {
+      "check": "installer_payload",
+      "status": "OPEN",
+      "evidence": "An onedir audit does not prove identity of an installer payload; retain separate extraction/install evidence."
+    },
+    {
+      "check": "legal_review",
+      "status": "OPEN",
+      "evidence": "ZWO interoperability, Microsoft redistribution, applicable codec patents and source obligations need documented review."
+    }
+  ],
+  "tests": {
+    "passed": 166,
+    "seconds": 23.54,
+    "hardware_test": false
+  }
+}

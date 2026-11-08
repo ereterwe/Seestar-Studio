@@ -1,3 +1,17 @@
+# 2.3.0b3 — lokale Compliance-Korrektur
+
+8. November 2026: Der Projektverantwortliche hat klargestellt, dass b3 neu lokal
+zu erstellen und der Quellcode auf GitHub zu aktualisieren ist. Kein b3-Link wird
+benötigt. B2 bleibt als Vergleichsbasis unverändert. Keine neuen Funktionen.
+
+Korrekturen: Colorama-Quellen/Lizenz, kollisionsfreie Vendor-Notices, neun unbenutzte
+Qt-Dateien ausgeschlossen, öffentliche Projektangaben berichtigt, vollständiger
+PASS/OPEN/BLOCKER-Prüfer und dokumentierte native/rechtliche Quellenlücken.
+166 automatisierte Tests bestanden; b3-Build und Prüfstatus siehe
+[Compliance-Bericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md).
+Native Quellen-/Buildnachweise und Rechtsfragen sind keine geschlossenen Punkte.
+Neue öffentliche Binär-Releases sind nicht durch den Quellcode-Push freigegeben.
+
 # Kompatibilität — 7. November 2026
 
 Historischer Stand vor dem Steuerungs-Bugfix, Beta 2.3.0b1: 95 automatisierte Tests, portable und installierte EXE lokal

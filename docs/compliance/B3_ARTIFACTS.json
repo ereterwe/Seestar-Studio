@@ -1,0 +1,26 @@
+{
+  "version": "2.3.0b3",
+  "public_binary_release_created": false,
+  "artifacts": [
+    {
+      "file": "SeestarStudio-2.3.0b3-setup-win64.exe",
+      "bytes": 62384712,
+      "sha256": "d7ff8bb0fe038222cd7a7551466841eb3da51d29dd56538113c48b7f4cb38174"
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-source.zip",
+      "bytes": 2416145,
+      "sha256": "45b2930c0f6cda75a692997fc76a255775a4582b04d0ff318d088d203bc50da1"
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-upstream-sources.zip",
+      "bytes": 248723125,
+      "sha256": "33090ea1c729e3f73d23dd44a99cc045d9c2484ec9d4f133bde8991b9ee82036"
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-win64.zip",
+      "bytes": 87401035,
+      "sha256": "5a09312faa5a262aa49d333b73a2ed15855a55f95add02756eaa8c7d9f82f159"
+    }
+  ]
+}

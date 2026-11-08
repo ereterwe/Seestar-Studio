@@ -409,6 +409,16 @@
       "sha256": "195d54bebe1a27f84d77f4b989d193466f305b355da92292766a69f16880b18a",
       "bytes": 17306989,
       "publisher_digest_verified": false
+    },
+    {
+      "component": "colorama",
+      "version": "0.4.6",
+      "status": "downloaded",
+      "file": "colorama-0.4.6.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz",
+      "sha256": "08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
+      "bytes": 27697,
+      "publisher_digest_verified": true
     }
   ],
   "source_build_correspondence_verified": false,

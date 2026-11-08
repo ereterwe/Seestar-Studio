@@ -53,6 +53,8 @@ def main():
         'Automatisch aus der installierten Umgebung; enthält auch Entwicklungswerkzeuge.',
         'Lizenzangaben stammen aus Paketmetadaten, keine abschließende Rechtsprüfung.',
         'Gebündelte native Dateien werden separat mit Hash/PE-Abhängigkeiten erfasst.',
+        'Dies ist keine vollständige Laufzeitliste. Für konkrete Pakete tools.release_compliance verwenden.',
+        'Aktuelle Quellen-/Lizenzprüfung: NATIVE_COMPONENT_REVIEW.md und COMPLIANCE_WORKFLOW.md.',
         '', '| Paket | Version | Deklarierte Lizenz | Lizenzdateien |','|---|---|---|---|']
     for p in packages:lines.append('| '+p['name']+' | '+p['version']+' | '+p['declared_license'].replace('|','/')+' | '+str(len(p['license_files']))+' |')
     lines+=['','Python '+platform.python_version()+': PSF-Lizenz; SQLite: public domain.',
@@ -61,7 +63,7 @@ def main():
         '', '## Native Dateien im aktuellen Build', '',
         'Vollständige technische Liste: dependency-inventory.json im Paket. ' +str(len(natives))+' PE-Dateien erkannt.',
         'Keine Herkunftsgarantie allein aus Dateinamen/Versionsressourcen. Statisch eingebettete Bibliotheken zusätzlich prüfen.',
-        'Öffentliche oder externe Weitergabe bleibt bis zur Quellen-/Lizenzklärung gesperrt.']
+        'Native Quellen-/Build- und Rechtsfragen bleiben offen. Dieses Inventar ist keine Release-Freigabe; GPL-Rechte bleiben unberührt.']
     (root/'docs/DEPENDENCIES.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print('Inventoried packages:',len(packages),'native files:',len(natives))
 

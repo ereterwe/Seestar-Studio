@@ -1,0 +1,55 @@
+{
+  "checked_utc": "2026-11-08T14:04:48.327180+00:00",
+  "repository": {
+    "url": "https://github.com/ereterwe/Seestar-Studio",
+    "private": false
+  },
+  "main_sha": "34415f5809f6d66ca89c3c5eeb88ff1946b54b85",
+  "tags": [
+    {
+      "name": "v2.3.0b2",
+      "sha": "34415f5809f6d66ca89c3c5eeb88ff1946b54b85"
+    }
+  ],
+  "releases": [
+    {
+      "id": 437899425,
+      "name": "Seestar Studio 2.3.0b2 \u2014 private Beta",
+      "tag_name": "untagged-8f2b22672c45aa0b2641",
+      "draft": true,
+      "prerelease": true,
+      "published_at": null,
+      "html_url": "https://github.com/ereterwe/Seestar-Studio/releases/tag/untagged-8f2b22672c45aa0b2641",
+      "assets": [
+        {
+          "name": "SeestarStudio-2.3.0b2-setup-win64.exe",
+          "size": 67762915,
+          "digest": "sha256:c34775f88b84803a2e805d26da5d29f545603dc1122ae4ce954aadf2eb1943d2"
+        },
+        {
+          "name": "SeestarStudio-2.3.0b2-SHA256SUMS.txt",
+          "size": 414,
+          "digest": "sha256:97a010876a5db0851070e195a02e8ea695bafd574150806e3a929e40d7aaf899"
+        },
+        {
+          "name": "SeestarStudio-2.3.0b2-source.zip",
+          "size": 1977485,
+          "digest": "sha256:8b6eea5e7d8d264d869c65fcccd70813d6b436940edd29160dd8612c261abe37"
+        },
+        {
+          "name": "SeestarStudio-2.3.0b2-upstream-sources.zip",
+          "size": 248689965,
+          "digest": "sha256:95d2e4764d64d3fbd3cb57d6014273e2aca1aa694a3f2c365e4b81cd09be9101"
+        },
+        {
+          "name": "SeestarStudio-2.3.0b2-win64.zip",
+          "size": 94993266,
+          "digest": "sha256:92c994a6640d1a40bb2f6f06b406185875fb88d28e6b9c68c75f6c77361e7387"
+        }
+      ]
+    }
+  ],
+  "user_reported_b3_exists": true,
+  "b3_url_received": false,
+  "tester_files_verified": false
+}

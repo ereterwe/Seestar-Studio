@@ -1,19 +1,31 @@
-# Seestar Studio — Beta-Kandidat
+# Seestar Studio — native Windows observatory
 
 ![Seestar Studio](seestar_studio/assets/SeestarStudio.png)
 
+Native Windows application for multiple Seestar telescopes, with live images,
+telemetry and local observatory tools. **Read-only by default**, with no accounts
+or mandatory cloud. This is an independent project, not an official ZWO product.
+
 Native Windows-Anwendung für mehrere Seestar-Teleskope. **READ ONLY als Standard**,
-keine Benutzerkonten, keine verpflichtende Cloud. Version **2.3.0b2** ist ein
-lokaler Beta-Kandidat. **Noch keine Weitergabe oder Veröffentlichung freigegeben.**
-Freigabestatus und Blocker: [BETA_RELEASE_CHECKLIST.md](BETA_RELEASE_CHECKLIST.md).
-Offizielles Repository: https://github.com/ereterwe/Seestar-Studio — derzeit privat.
+keine Benutzerkonten, keine verpflichtende Cloud. Unabhängiges Projekt, kein
+offizielles ZWO-Produkt.
+
+Das [Projekt-Repository](https://github.com/ereterwe/Seestar-Studio) ist öffentlich.
+Version **2.3.0b3** wird als lokaler Windows-Kandidat mit Lizenz- und
+Paketierungskorrekturen gebaut. Das Quellcode-Update nach GitHub ist beauftragt.
+Die bisherige b2-Version bleibt als unveränderte Vergleichsbasis erhalten.
+Neue öffentliche Binärdownloads werden erst nach Klärung der dokumentierten
+Weitergabepunkte vorbereitet.
+Aktueller [Compliance-Bericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md) und
+[Checkliste](BETA_RELEASE_CHECKLIST.md). Die öffentliche Quellcode-Sichtbarkeit
+ist keine automatische Freigabe neuer Projekt-Releases. GPL-Rechte bleiben unberührt.
 
 ## Start und Installation
 
-Portable ZIP `release/SeestarStudio-2.3.0b2-win64.zip` vollständig entpacken,
+Portable ZIP `release/SeestarStudio-2.3.0b3-win64.zip` vollständig entpacken,
 `SeestarStudio.exe` starten. Den gesamten Ordner mit `_internal` erhalten.
 Keine separate Python-Installation erforderlich. Alternativ Benutzer-Installer
-`release/SeestarStudio-2.3.0b2-setup-win64.exe`. Kein Administrator erforderlich;
+`release/SeestarStudio-2.3.0b3-setup-win64.exe`. Kein Administrator erforderlich;
 Startmenüeintrag, optionale Desktopverknüpfung. Builds sind nicht digital signiert.
 Eigene Einstellungen bleiben bei Deinstallation erhalten. [INSTALLATION.md](INSTALLATION.md).
 

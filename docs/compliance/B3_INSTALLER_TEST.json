@@ -1,0 +1,19 @@
+{
+  "uninstall_icon_matches": true,
+  "reinstall_exit": 0,
+  "version": "2.3.0b3",
+  "test_type": "real local production installer; no clean external PC",
+  "start_menu_created": true,
+  "payload_files_checked": 1443,
+  "installed_exe_matches": true,
+  "desktop_icon_matches": true,
+  "start_menu_icon_matches": true,
+  "desktop_created": true,
+  "install_exit": 0,
+  "payload_mismatches": 0,
+  "profile_unchanged": true,
+  "uninstall_exit": 0,
+  "program_removed": true,
+  "shortcuts_removed": true,
+  "registration_removed": true
+}

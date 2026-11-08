@@ -1,10 +1,26 @@
-# Lizenzprüfung — vorläufig, 6. November 2026
+# Lizenzprüfung — Stand 8. November 2026
 
-Projektlizenz: **GPL-3.0-only** (`LICENSE`). Lokaler Entwicklungsstand; keine
-öffentliche Veröffentlichung freigegeben. Dies ist ein technisches Inventar,
-keine Zusicherung rechtlicher Zulässigkeit.
+Projektlizenz: **GPL-3.0-only** (`LICENSE`). Das Quellcode-Repository ist öffentlich.
+Die tatsächlichen b3-Binärdateien sind noch nicht identifiziert (Link angekündigt).
+Die technische Prüfung verwendet ausdrücklich die unveränderte lokale b2-Basis.
+Keine neue Veröffentlichung ist durch diesen Auditauftrag freigegeben; dies
+schränkt die Rechte aus der GPL nicht ein. Keine Zusicherung rechtlicher Zulässigkeit.
 
-## Erster Check der tatsächlich installierten Komponenten
+Aktueller [Auditbericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md),
+[native Komponenten](docs/NATIVE_COMPONENT_REVIEW.md),
+[Quellen-/Austauschprüfung](docs/COMPLIANCE_WORKFLOW.md) und
+[ZWO-Interoperabilitätsprüfung](docs/ZWO_INTEROPERABILITY_REVIEW.md).
+138 Drittanbieter-PE-Dateien der b2-Basis sind ihrer lokalen Installation per
+SHA256 zugeordnet; vollständige native Quellen-/Patch-/Buildketten sind weiterhin
+BLOCKER. OpenSSL-Versionen 3.0.16 und 4.0.3 sind getrennt erfasst. Der lokale
+Packager ergänzt die bislang fehlende Colorama-Quelle/Lizenz; bestehende Archive
+werden dadurch nicht geändert. Das künftige Paket schließt unbenutzte Qt-PDF-
+und Virtual-Keyboard-Zweige aus. Begrenzter DLL-Austausch-/Decodertest bestanden.
+
+Die folgenden datierten Abschnitte dokumentieren frühere Prüfschritte. Aussagen
+über damals private/lokale Zustände gelten nicht als heutiger Veröffentlichungsstand.
+
+## Historischer Erstcheck der tatsächlich installierten Komponenten
 
 | Komponente | Version | Lizenz / Prüfstand |
 |---|---|---|

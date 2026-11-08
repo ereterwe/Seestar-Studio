@@ -1,3 +1,7 @@
+> Historischer Auftrag vom 7. November 2026. Seit dem aktuellen Audit ist das
+> Repository öffentlich. Die damalige Upload-Freigabe gilt nicht als Auftrag
+> für neue Veröffentlichungen im Compliance-Audit.
+
 # Private GitHub-Übertragung — 7. November 2026
 
 Der Benutzer hat nach Abschluss von 2.3.0b2 ausdrücklich die Übertragung nach

@@ -15,7 +15,7 @@ def main():
     for path in files:
         digest.update(path.relative_to(root).as_posix().encode());digest.update(path.read_bytes())
     info={'version':__version__,'build_utc':datetime.now(timezone.utc).isoformat(),
-          'source_sha256':digest.hexdigest(),'channel':'beta','repository_visibility':'private',
+          'source_sha256':digest.hexdigest(),'channel':'beta','repository_visibility':'public',
           'release_authorized':False}
     (root/'seestar_studio/build_info.json').write_text(json.dumps(info,indent=2),encoding='utf-8')
     numbers=[int(x) for x in re.findall(r'\d+',__version__)][:4]

@@ -1,0 +1,57 @@
+{
+  "package": "setuptools",
+  "version": "84.2.1",
+  "old_collisions": {
+    "licenses/LICENSE": [
+      "setuptools-84.2.1.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/packaging-26.3.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+      "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE"
+    ],
+    "LICENSE": [
+      "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+      "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+      "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE"
+    ]
+  },
+  "new_collisions": {},
+  "embedded_vendor_modules": [
+    "setuptools._vendor.backports",
+    "setuptools._vendor.backports.tarfile",
+    "setuptools._vendor.backports.tarfile.compat",
+    "setuptools._vendor.backports.tarfile.compat.py38",
+    "setuptools._vendor.jaraco",
+    "setuptools._vendor.jaraco.context",
+    "setuptools._vendor.jaraco.functools",
+    "setuptools._vendor.jaraco.text",
+    "setuptools._vendor.more_itertools",
+    "setuptools._vendor.more_itertools.more",
+    "setuptools._vendor.more_itertools.recipes",
+    "setuptools._vendor.packaging",
+    "setuptools._vendor.packaging._elffile",
+    "setuptools._vendor.packaging._manylinux",
+    "setuptools._vendor.packaging._musllinux",
+    "setuptools._vendor.packaging._parser",
+    "setuptools._vendor.packaging._ranges",
+    "setuptools._vendor.packaging._tokenizer",
+    "setuptools._vendor.packaging.markers",
+    "setuptools._vendor.packaging.ranges",
+    "setuptools._vendor.packaging.requirements",
+    "setuptools._vendor.packaging.specifiers",
+    "setuptools._vendor.packaging.tags",
+    "setuptools._vendor.packaging.utils",
+    "setuptools._vendor.packaging.version",
+    "setuptools._vendor.tomli",
+    "setuptools._vendor.tomli._parser",
+    "setuptools._vendor.tomli._re",
+    "setuptools._vendor.tomli._types",
+    "setuptools._vendor.wheel",
+    "setuptools._vendor.wheel.macosx_libfile",
+    "setuptools._vendor.wheel.wheelfile"
+  ]
+}

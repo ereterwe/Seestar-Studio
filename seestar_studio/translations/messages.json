@@ -2495,14 +2495,14 @@
     "en": "Independent open-source project. No official affiliation with ZWO; neither developed nor officially supported by ZWO."
   },
   "about.private": {
-    "source": "Offizielles Repository (derzeit privat):",
-    "de": "Offizielles Repository (derzeit privat):",
-    "en": "Official repository (currently private):"
+    "source": "Öffentliches Projekt-Repository:",
+    "de": "Öffentliches Projekt-Repository:",
+    "en": "Public project repository:"
   },
   "about.private_note": {
-    "source": "Der Quellcode ist dort noch nicht öffentlich freigegeben. Keine Veröffentlichung oder Weitergabe dieses Builds ohne manuelle Freigabe.",
-    "de": "Der Quellcode ist dort noch nicht öffentlich freigegeben. Keine Veröffentlichung oder Weitergabe dieses Builds ohne manuelle Freigabe.",
-    "en": "Source code has not been publicly released there. Do not publish or redistribute this build without manual approval."
+    "source": "Der Projektquellcode ist öffentlich. Veröffentlichte Binärversionen und offene Lizenzprüfungen sind getrennt dokumentiert. Die Rechte aus der GPL bleiben unberührt.",
+    "de": "Der Projektquellcode ist öffentlich. Veröffentlichte Binärversionen und offene Lizenzprüfungen sind getrennt dokumentiert. Die Rechte aus der GPL bleiben unberührt.",
+    "en": "Project source code is public. Published binary versions and outstanding licensing reviews are documented separately. Rights under the GPL remain unaffected."
   },
   "about.local": {
     "source": "Vorhandene lokale Dateien:",
@@ -2530,9 +2530,9 @@
     "en": "Open source directory"
   },
   "about.repository": {
-    "source": "Privates GitHub-Repository öffnen",
-    "de": "Privates GitHub-Repository öffnen",
-    "en": "Open private GitHub repository"
+    "source": "GitHub-Projekt öffnen",
+    "de": "GitHub-Projekt öffnen",
+    "en": "Open GitHub project"
   },
   "about.copy": {
     "source": "Versionsinformationen kopieren",

@@ -66,6 +66,12 @@
     "sha256": "0cb3efcfd8f7a02a337e98dc3de4b0b57424d7208a332b26e7deb8cb94c13922"
   },
   {
+    "archive": "colorama-0.4.6.tar.gz",
+    "original_member": "colorama-0.4.6/LICENSE.txt",
+    "notice_file": "upstream/colorama-0.4.6.tar.gz-5881cd3b6a74.txt",
+    "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
+  },
+  {
     "archive": "cryptography-50.0.2.tar.gz",
     "original_member": "cryptography-50.0.2/LICENSE",
     "notice_file": "upstream/cryptography-50.0.2.tar.gz-19a7a778f2c7.txt",

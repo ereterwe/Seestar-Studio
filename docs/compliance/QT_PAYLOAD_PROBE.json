@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "scope": "Packaged Qt/FFmpeg DLLs with matching installed Python helpers; no Seestar application executed",
+  "removed": [
+    "_internal/PySide6/Qt6Pdf.dll",
+    "_internal/PySide6/Qt6Qml.dll",
+    "_internal/PySide6/Qt6QmlMeta.dll",
+    "_internal/PySide6/Qt6QmlModels.dll",
+    "_internal/PySide6/Qt6QmlWorkerScript.dll",
+    "_internal/PySide6/Qt6Quick.dll",
+    "_internal/PySide6/Qt6VirtualKeyboard.dll",
+    "_internal/PySide6/plugins/imageformats/qpdf.dll",
+    "_internal/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll"
+  ],
+  "retained_native_count": 130,
+  "replacement": {
+    "original_sha256": "f57ed38afd95d0306cca9d88d997f639f70c7628a4f1f064eae291d579487121",
+    "modified_sha256": "fc269fe010525425a54a8a00c95a07e0d94a8354c6ff09398aa861c428ded70f",
+    "method": "Appended overlay, executable code unchanged; not an independent Qt rebuild"
+  },
+  "exit_code": 0,
+  "probe": {
+    "qt_version": "6.12.0",
+    "widget_rendered": true,
+    "video_frames": 20,
+    "video_size": [
+      96,
+      64
+    ],
+    "image_formats": [
+      "bmp",
+      "cur",
+      "gif",
+      "icns",
+      "ico",
+      "jfif",
+      "jpeg",
+      "jpg",
+      "pbm",
+      "pgm",
+      "png",
+      "ppm",
+      "svg",
+      "svgz",
+      "tga",
+      "tif",
+      "tiff",
+      "wbmp",
+      "webp",
+      "xbm",
+      "xpm"
+    ],
+    "loaded_dlls": [
+      {
+        "file": "PySide6/Qt6Core.dll",
+        "sha256": "fc269fe010525425a54a8a00c95a07e0d94a8354c6ff09398aa861c428ded70f"
+      },
+      {
+        "file": "PySide6/Qt6Gui.dll",
+        "sha256": "abd20026e190e8cc69667d1bea042db05cd353cc05e7da74b063c20b7da3f6cd"
+      },
+      {
+        "file": "PySide6/Qt6Widgets.dll",
+        "sha256": "2f62cbe2869fff4e20df7369c2786e1ec7ec290d5a63d1371b7f70cf06909c3f"
+      },
+      {
+        "file": "PySide6/Qt6Multimedia.dll",
+        "sha256": "7629a499b204fcc71a96e12c7180b0a8a920d05ee2f2b20bbec1a819610a69b0"
+      },
+      {
+        "file": "PySide6/avcodec-63.dll",
+        "sha256": "fd6b08a07310d34a6be4349172557f5a234bd66420e28934b625b669a763ba2f"
+      }
+    ],
+    "network_or_telescope_code_used": false
+  }
+}

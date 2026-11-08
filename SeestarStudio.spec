@@ -3,6 +3,7 @@ from PyInstaller.utils.hooks import copy_metadata
 import os
 import sys
 from pathlib import Path
+from tools.qt_packaging import filter_binaries
 
 # The host PATH may contain unrelated imaging-tool runtimes (e.g. Poppler's
 # ICU). Qt uses the Windows ICU ABI; bundling a foreign icuuc.dll breaks startup.
@@ -25,6 +26,10 @@ a = Analysis(
               'astropy.visualization', 'astropy.conftest', 'astropy.samp'],
     noarchive=False,
 )
+# QtGui's automatic plugin collection otherwise pulls in unused VirtualKeyboard
+# (and QML/Quick) plus the separate QtPdf wheel. The UI uses Qt Widgets only.
+# Fail closed if a future dependency begins importing one of these libraries.
+a.binaries = filter_binaries(a.binaries)
 pyz = PYZ(a.pure)
 exe = EXE(pyz, a.scripts, [], exclude_binaries=True, name='SeestarStudio',
           icon='seestar_studio/assets/SeestarStudio.ico', version='build/version_info.txt',

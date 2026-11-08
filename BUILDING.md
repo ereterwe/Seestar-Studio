@@ -1,5 +1,10 @@
 # Windows-Build
 
+B3 wird lokal neu gebaut; der Quellcode-Push ist beauftragt. Bestehende b2-Dateien
+bleiben erhalten. Neue Pakete liegen unter `dist/2.3.0b3` und `release/*2.3.0b3*`.
+Quellen-/Austauschprüfung: [COMPLIANCE_WORKFLOW.md](docs/COMPLIANCE_WORKFLOW.md).
+Die Spec entfernt neun unbenutzte Qt-Dateien mit Importprüfung.
+
 Lokaler Entwicklungsbuild, keine Veröffentlichungsfreigabe. Windows x64,
 Python 3.12 x64. Im Projektordner:
 
@@ -23,7 +28,7 @@ eine explizite Pfad-/Dateityp-Liste. Bibliotheksversionen und Lizenzdateien
 werden mitgeliefert; vollständiges öffentliches Corresponding-Source-Kit ist
 vor einer Veröffentlichung noch zu vervollständigen (siehe LICENSING.md).
 
-Offline-Startprüfung der EXE:
+Zeitlich begrenzte Startprüfung der EXE (kann lesende LAN-Verbindungen aufbauen):
 
 ```powershell
 .\dist\2.3.0b2\SeestarStudio\SeestarStudio.exe --smoke-seconds 35 --qa-sky --capture-after 25 --capture reports/exe.png
