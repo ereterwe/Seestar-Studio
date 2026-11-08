@@ -1,3 +1,8 @@
+> Aktueller Ergänzungsstand nach weiterer Quellenklärung:
+> [Technische Ergebnisse](TECHNICAL_LICENSE_RESOLUTION.md),
+> [Codec-Fakten](CODEC_LEGAL_REVIEW.md), [Microsoft](MICROSOFT_RUNTIME_REVIEW.md).
+> Der folgende Bericht bleibt die Abnahme des ursprünglichen b3-Kandidaten.
+
 # Seestar Studio 2.3.0b3 — compliance report
 
 8 November 2026. **Local candidate; native source/build and legal questions remain

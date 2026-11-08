@@ -1,3 +1,17 @@
+# Lizenzklärung — aktueller Ergänzungsstand
+
+Native Originalherkunft und Lieferanten-SBOMs geprüft; Originalquellen/Patches/
+Buildrezepte ergänzt. Kontrollierter zlib-Neuaufbau mit Test erfolgreich.
+APK-Eigenbeschaffung und Verantwortungsabgrenzung auf Deutsch/Englisch ergänzt.
+Codec- und Microsoft-Bedingungen für die rechtliche Prüfung zusammengestellt.
+Aktueller Status: [TECHNICAL_LICENSE_RESOLUTION.md](docs/TECHNICAL_LICENSE_RESOLUTION.md).
+Ergänzter Prüfstand: 169 Tests bestanden; portable/installierte EXE sauber beendet;
+Installation/Neuinstallation/Deinstallation erfolgreich, 1.642 Dateien ohne Abweichung.
+Keine neuen Hardwaretests. Original-b3-Pakete anhand ihrer Hashes unverändert geprüft.
+Noch offen bleiben die dort konkret bezeichneten Hersteller-Buildnachweise und
+rechtlichen Entscheidungen. Neue öffentliche Binärdateien bleiben bis zur Klärung
+zurückgestellt; alte b3-Dateien und ihre Hashes bleiben unverändert.
+
 # 2.3.0b3 — lokale Compliance-Korrektur
 
 8. November 2026: Der Projektverantwortliche hat klargestellt, dass b3 neu lokal

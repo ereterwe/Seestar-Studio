@@ -3,6 +3,7 @@
 Never walk the user's home, key directories, or the entire virtualenv.
 """
 import importlib.metadata as metadata
+import argparse
 import json
 from pathlib import Path
 import shutil
@@ -30,8 +31,13 @@ def documentation_files(directory):
             and p.suffix.lower() in {'.md', '.json'})
 
 
-def main():
-    target = ROOT / "dist" / __version__ / "SeestarStudio"
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--target', type=Path, default=ROOT / 'dist' / __version__ / 'SeestarStudio')
+    parser.add_argument('--release-dir', type=Path, default=ROOT / 'release')
+    parser.add_argument('--inventory', type=Path, default=ROOT / 'reports/beta-license-inventory.json')
+    args = parser.parse_args(argv)
+    target = args.target.resolve()
     if not (target / "SeestarStudio.exe").is_file():
         raise RuntimeError("Build the EXE first")
     licenses = target / "licenses"
@@ -62,8 +68,8 @@ def main():
                 destination = licenses / source.relative_to(extra)
                 destination.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(source, destination)
-    if (ROOT/'reports/beta-license-inventory.json').is_file():
-        shutil.copyfile(ROOT/'reports/beta-license-inventory.json',target/'dependency-inventory.json')
+    if args.inventory.is_file():
+        shutil.copyfile(args.inventory,target/'dependency-inventory.json')
     documentation=target/'docs';documentation.mkdir(exist_ok=True)
     for source in documentation_files(ROOT/'docs'):
         destination = documentation / source.relative_to(ROOT/'docs')
@@ -98,8 +104,8 @@ def main():
             if (path.parts[0] == "seestarpy" and path.suffix in {".py", ".html", ".css", ".js"}) or (".dist-info" in str(path) and path.name in {"LICENSE", "METADATA"}):
                 archive.write(dist.locate_file(file), "vendor/" + str(path).replace('\\', '/'))
     print(f"Packaged: {target}")
-    release = ROOT / "release"
-    release.mkdir(exist_ok=True)
+    release = args.release_dir.resolve()
+    release.mkdir(exist_ok=True, parents=True)
     shutil.copyfile(source_zip, release/f"SeestarStudio-{__version__}-source.zip")
     archive = shutil.make_archive(str(release / f"SeestarStudio-{__version__}-win64"), "zip", target.parent, target.name)
     print(f"Portable archive: {archive}")

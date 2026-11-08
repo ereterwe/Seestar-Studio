@@ -1,0 +1,29 @@
+[
+  {
+    "package": "cryptography",
+    "version": "50.0.2",
+    "original_metadata_path": "cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json",
+    "file": "docs/provenance/cryptography/cryptography-rust.cyclonedx.json",
+    "sha256": "246af194b4c524807c5aaffd2b7ff86c2c9bee3eb3fceeac987709ad76e4e7ef",
+    "modifications": "none",
+    "scope": "Supplier metadata; optional/build/all-target entries require scoping"
+  },
+  {
+    "package": "cryptography",
+    "version": "50.0.2",
+    "original_metadata_path": "cryptography-50.0.2.dist-info/sboms/sbom.json",
+    "file": "docs/provenance/cryptography/sbom.json",
+    "sha256": "5b5eea08dd952a16eef188f7a85ad439a4409efa0e2bce9ca339a4de9c8db3f0",
+    "modifications": "none",
+    "scope": "Supplier metadata; optional/build/all-target entries require scoping"
+  },
+  {
+    "package": "Pillow",
+    "version": "13.0.0",
+    "original_metadata_path": "pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json",
+    "file": "docs/provenance/Pillow/pillow-13.0.0.cdx.json",
+    "sha256": "fe1ca6e3a4f73e7018a3805a75a19377453f342d203712f37387ad6ee853fd44",
+    "modifications": "none",
+    "scope": "Supplier metadata; optional/build/all-target entries require scoping"
+  }
+]

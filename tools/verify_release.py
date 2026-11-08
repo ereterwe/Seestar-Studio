@@ -1,5 +1,6 @@
 """Local artifact audit; reports counts/paths, never secret contents."""
 import io
+import argparse
 import hashlib
 import json
 from pathlib import Path
@@ -8,8 +9,12 @@ import zipfile
 from seestar_studio import __version__
 
 
-def main():
-    path = Path('release') / f'SeestarStudio-{__version__}-win64.zip'
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--portable',type=Path,default=Path('release') / f'SeestarStudio-{__version__}-win64.zip')
+    parser.add_argument('--output',type=Path,default=Path('reports/release-audit.json'))
+    args=parser.parse_args(argv)
+    path = args.portable
     with zipfile.ZipFile(path) as archive:
         names = archive.namelist()
         assert archive.testzip() is None, 'Damaged release ZIP'
@@ -53,7 +58,8 @@ def main():
                   'license_files': sum('/licenses/' in n for n in names),
                   'forbidden_files': len(forbidden), 'zip_integrity': 'passed',
                   'scope': 'current local artifacts only; not a full legal/security/history audit'}
-    Path('reports/release-audit.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
+    args.output.parent.mkdir(exist_ok=True,parents=True)
+    args.output.write_text(json.dumps(report, indent=2), encoding='utf-8')
     print(json.dumps(report, indent=2))
 
 

@@ -1,0 +1,859 @@
+[
+  {
+    "package": "PySide6_Addons",
+    "version": "6.12.0",
+    "wheel_tags": [
+      "cp310-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "PySide6_Addons",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/02/41/ba3d52fe2acd942ebf71eb02b3bdf0897f7f6f4ce8f52289cb50228e48d3/pyside6_addons-6.12.0-cp310-abi3-win_amd64.whl",
+      "file": "pyside6_addons-6.12.0-cp310-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "98d8d62010da6605344cee83e5c96fb846170a1f2d924523f10f5d92078b02b0",
+      "bytes": 40522402,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/PySide6/avcodec-63.dll",
+        "member": "PySide6/avcodec-63.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/avformat-63.dll",
+        "member": "PySide6/avformat-63.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/avutil-61.dll",
+        "member": "PySide6/avutil-61.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/multimedia/ffmpegmediaplugin.dll",
+        "member": "PySide6/plugins/multimedia/ffmpegmediaplugin.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/multimedia/windowsmediaplugin.dll",
+        "member": "PySide6/plugins/multimedia/windowsmediaplugin.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Multimedia.dll",
+        "member": "PySide6/Qt6Multimedia.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6MultimediaWidgets.dll",
+        "member": "PySide6/Qt6MultimediaWidgets.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtMultimedia.pyd",
+        "member": "PySide6/QtMultimedia.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtMultimediaWidgets.pyd",
+        "member": "PySide6/QtMultimediaWidgets.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/swresample-7.dll",
+        "member": "PySide6/swresample-7.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/swscale-10.dll",
+        "member": "PySide6/swscale-10.dll",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "PySide6_Essentials",
+    "version": "6.12.0",
+    "wheel_tags": [
+      "cp310-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "PySide6_Essentials",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/03/61/9a7e32a37b224f68506785bfb0f288d516098ec71681782d72b695a6c95d/pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+      "file": "pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "c9a95102aa23c1f86516a30d5a9be37552d324eee7e567eb7508973f1218cb42",
+      "bytes": 82153795,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/PySide6/MSVCP140.dll",
+        "member": "PySide6/msvcp140.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/MSVCP140_1.dll",
+        "member": "PySide6/msvcp140_1.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/MSVCP140_2.dll",
+        "member": "PySide6/msvcp140_2.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/opengl32sw.dll",
+        "member": "PySide6/opengl32sw.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/generic/qtuiotouchplugin.dll",
+        "member": "PySide6/plugins/generic/qtuiotouchplugin.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/iconengines/qsvgicon.dll",
+        "member": "PySide6/plugins/iconengines/qsvgicon.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qgif.dll",
+        "member": "PySide6/plugins/imageformats/qgif.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qicns.dll",
+        "member": "PySide6/plugins/imageformats/qicns.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qico.dll",
+        "member": "PySide6/plugins/imageformats/qico.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qjpeg.dll",
+        "member": "PySide6/plugins/imageformats/qjpeg.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qsvg.dll",
+        "member": "PySide6/plugins/imageformats/qsvg.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qtga.dll",
+        "member": "PySide6/plugins/imageformats/qtga.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qtiff.dll",
+        "member": "PySide6/plugins/imageformats/qtiff.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qwbmp.dll",
+        "member": "PySide6/plugins/imageformats/qwbmp.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/imageformats/qwebp.dll",
+        "member": "PySide6/plugins/imageformats/qwebp.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+        "member": "PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/platforms/qdirect2d.dll",
+        "member": "PySide6/plugins/platforms/qdirect2d.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/platforms/qminimal.dll",
+        "member": "PySide6/plugins/platforms/qminimal.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/platforms/qoffscreen.dll",
+        "member": "PySide6/plugins/platforms/qoffscreen.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/platforms/qwindows.dll",
+        "member": "PySide6/plugins/platforms/qwindows.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll",
+        "member": "PySide6/plugins/styles/qmodernwindowsstyle.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/tls/qcertonlybackend.dll",
+        "member": "PySide6/plugins/tls/qcertonlybackend.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/tls/qopensslbackend.dll",
+        "member": "PySide6/plugins/tls/qopensslbackend.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/plugins/tls/qschannelbackend.dll",
+        "member": "PySide6/plugins/tls/qschannelbackend.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/pyside6.abi3.dll",
+        "member": "PySide6/pyside6.abi3.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Core.dll",
+        "member": "PySide6/Qt6Core.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Gui.dll",
+        "member": "PySide6/Qt6Gui.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Network.dll",
+        "member": "PySide6/Qt6Network.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6OpenGL.dll",
+        "member": "PySide6/Qt6OpenGL.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Svg.dll",
+        "member": "PySide6/Qt6Svg.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/Qt6Widgets.dll",
+        "member": "PySide6/Qt6Widgets.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtCore.pyd",
+        "member": "PySide6/QtCore.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtGui.pyd",
+        "member": "PySide6/QtGui.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtNetwork.pyd",
+        "member": "PySide6/QtNetwork.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/QtWidgets.pyd",
+        "member": "PySide6/QtWidgets.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/VCRUNTIME140.dll",
+        "member": "PySide6/vcruntime140.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PySide6/VCRUNTIME140_1.dll",
+        "member": "PySide6/vcruntime140_1.dll",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "PyYAML",
+    "version": "6.0.3",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "PyYAML",
+      "version": "6.0.3",
+      "url": "https://files.pythonhosted.org/packages/86/bf/899e81e4cce32febab4fb42bb97dcdf66bc135272882d1987881a4b519e9/pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "file": "pyyaml-6.0.3-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "5fcd34e47f6e0b794d17de1b4ff496c00986e1c83f7ab2fb8fcfe9616ff7477b",
+      "bytes": 154003,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/yaml/_yaml.cp312-win_amd64.pyd",
+        "member": "yaml/_yaml.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "astropy",
+    "version": "8.0.2",
+    "wheel_tags": [
+      "cp311-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "astropy",
+      "version": "8.0.2",
+      "url": "https://files.pythonhosted.org/packages/f4/ec/bfb4be449c689a0d80aa1b02cfa7c34e709556c9b58d8022366d67017d4a/astropy-8.0.2-cp311-abi3-win_amd64.whl",
+      "file": "astropy-8.0.2-cp311-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "8baaf4451dc4fdbdf635e033378cbb626a9fd4755803c8fdc30ef520fb1688ba",
+      "bytes": 6547000,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/astropy/compiler_version.pyd",
+        "member": "astropy/compiler_version.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/convolution/_convolve.pyd",
+        "member": "astropy/convolution/_convolve.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/cosmology/_src/flrw/scalar_inv_efuncs.pyd",
+        "member": "astropy/cosmology/_src/flrw/scalar_inv_efuncs.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/cosmology/_src/signature_deprecations.pyd",
+        "member": "astropy/cosmology/_src/signature_deprecations.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/io/ascii/cparser.pyd",
+        "member": "astropy/io/ascii/cparser.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/io/fits/_utils.pyd",
+        "member": "astropy/io/fits/_utils.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/io/fits/hdu/compressed/_compression.pyd",
+        "member": "astropy/io/fits/hdu/compressed/_compression.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/io/votable/fast_converters.pyd",
+        "member": "astropy/io/votable/fast_converters.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/io/votable/tablewriter.pyd",
+        "member": "astropy/io/votable/tablewriter.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/stats/_fast_sigma_clip.pyd",
+        "member": "astropy/stats/_fast_sigma_clip.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/stats/_stats.pyd",
+        "member": "astropy/stats/_stats.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/table/_column_mixins.pyd",
+        "member": "astropy/table/_column_mixins.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/table/_np_utils.pyd",
+        "member": "astropy/table/_np_utils.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/time/_parse_times.pyd",
+        "member": "astropy/time/_parse_times.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/timeseries/periodograms/bls/_impl.pyd",
+        "member": "astropy/timeseries/periodograms/bls/_impl.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/timeseries/periodograms/lombscargle/implementations/cython_impl.pyd",
+        "member": "astropy/timeseries/periodograms/lombscargle/implementations/cython_impl.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/utils/xml/_iterparser.pyd",
+        "member": "astropy/utils/xml/_iterparser.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/astropy/wcs/_wcs.pyd",
+        "member": "astropy/wcs/_wcs.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "cffi",
+    "version": "2.1.1",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "cffi",
+      "version": "2.1.1",
+      "url": "https://files.pythonhosted.org/packages/d9/79/615cc094e2fb508cade7de88d3b4f6c4ec2bab695c97bce9153dc65aadf5/cffi-2.1.1-cp312-cp312-win_amd64.whl",
+      "file": "cffi-2.1.1-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "f53e442b08449d42821fa4a4fba000095af9f62742a500f978a9f557ec44339a",
+      "bytes": 185919,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/_cffi_backend.cp312-win_amd64.pyd",
+        "member": "_cffi_backend.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "charset-normalizer",
+    "version": "3.5.2",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "charset-normalizer",
+      "version": "3.5.2",
+      "url": "https://files.pythonhosted.org/packages/eb/e6/e6e083884cbcfd49c64865af05027fe7011be7b2d9179524f099a1b611f3/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "file": "charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc",
+      "bytes": 207486,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/charset_normalizer/cd.cp312-win_amd64.pyd",
+        "member": "charset_normalizer/cd.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/charset_normalizer/md.cp312-win_amd64.pyd",
+        "member": "charset_normalizer/md.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "cryptography",
+    "version": "50.0.2",
+    "wheel_tags": [
+      "cp311-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "cryptography",
+      "version": "50.0.2",
+      "url": "https://files.pythonhosted.org/packages/9a/4f/adfc442765721292fff86d314ce385d3249d22db42295c0dd057727b60f3/cryptography-50.0.2-cp311-abi3-win_amd64.whl",
+      "file": "cryptography-50.0.2-cp311-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "7afa5a6602a9f29af1f3a2965f831bae7c9d5d597b7cbb716d41ab3b7d89879c",
+      "bytes": 3824692,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/cryptography/hazmat/bindings/_rust.pyd",
+        "member": "cryptography/hazmat/bindings/_rust.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": [
+      {
+        "file": "cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json",
+        "sha256": "246af194b4c524807c5aaffd2b7ff86c2c9bee3eb3fceeac987709ad76e4e7ef",
+        "status": "PASS"
+      },
+      {
+        "file": "cryptography-50.0.2.dist-info/sboms/sbom.json",
+        "sha256": "5b5eea08dd952a16eef188f7a85ad439a4409efa0e2bce9ca339a4de9c8db3f0",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "package": "numpy",
+    "version": "2.5.4",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "numpy",
+      "version": "2.5.4",
+      "url": "https://files.pythonhosted.org/packages/12/33/fefe62073dc8acfd0f2b9ed7c003af2f50aa61555e113e6db02b8f79f145/numpy-2.5.4-cp312-cp312-win_amd64.whl",
+      "file": "numpy-2.5.4-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "a7b1b6353e36a7e50de2973a38d705c88ee93adcf120673cee7f45a4a3fa223a",
+      "bytes": 12573091,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+        "member": "numpy/_core/_multiarray_tests.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+        "member": "numpy/_core/_multiarray_umath.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+        "member": "numpy/fft/_pocketfft_umath.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+        "member": "numpy/linalg/_umath_linalg.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+        "member": "numpy/random/_bounded_integers.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_common.cp312-win_amd64.pyd",
+        "member": "numpy/random/_common.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_generator.cp312-win_amd64.pyd",
+        "member": "numpy/random/_generator.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_mt19937.cp312-win_amd64.pyd",
+        "member": "numpy/random/_mt19937.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_pcg64.cp312-win_amd64.pyd",
+        "member": "numpy/random/_pcg64.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_philox.cp312-win_amd64.pyd",
+        "member": "numpy/random/_philox.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/_sfc64.cp312-win_amd64.pyd",
+        "member": "numpy/random/_sfc64.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/bit_generator.cp312-win_amd64.pyd",
+        "member": "numpy/random/bit_generator.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy/random/mtrand.cp312-win_amd64.pyd",
+        "member": "numpy/random/mtrand.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "member": "numpy.libs/libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "member": "numpy.libs/msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "pillow",
+    "version": "13.0.0",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "pillow",
+      "version": "13.0.0",
+      "url": "https://files.pythonhosted.org/packages/ff/cd/73a79ecdc822076002eb24b5e1e4a530b0bb5310fcb6d239abbec877110b/pillow-13.0.0-cp312-cp312-win_amd64.whl",
+      "file": "pillow-13.0.0-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "ff3fe9eb621fbb9db4c4be33ab946f6bac5f98ab50ca8d3260503653656c961b",
+      "bytes": 7272166,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/PIL/_avif.cp312-win_amd64.pyd",
+        "member": "PIL/_avif.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PIL/_imaging.cp312-win_amd64.pyd",
+        "member": "PIL/_imaging.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PIL/_imagingcms.cp312-win_amd64.pyd",
+        "member": "PIL/_imagingcms.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PIL/_imagingtk.cp312-win_amd64.pyd",
+        "member": "PIL/_imagingtk.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/PIL/_webp.cp312-win_amd64.pyd",
+        "member": "PIL/_webp.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": [
+      {
+        "file": "pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json",
+        "sha256": "fe1ca6e3a4f73e7018a3805a75a19377453f342d203712f37387ad6ee853fd44",
+        "status": "PASS"
+      }
+    ]
+  },
+  {
+    "package": "pyerfa",
+    "version": "2.0.1.5",
+    "wheel_tags": [
+      "cp39-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "pyerfa",
+      "version": "2.0.1.5",
+      "url": "https://files.pythonhosted.org/packages/b4/11/97233cf23ad5411ac6f13b1d6ee3888f90ace4f974d9bf9db887aa428912/pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl",
+      "file": "pyerfa-2.0.1.5-cp39-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "66292d437dcf75925b694977aa06eb697126e7b86553e620371ed3e48b5e0ad0",
+      "bytes": 349410,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/erfa/ufunc.pyd",
+        "member": "erfa/ufunc.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "shiboken6",
+    "version": "6.12.0",
+    "wheel_tags": [
+      "cp310-abi3-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "shiboken6",
+      "version": "6.12.0",
+      "url": "https://files.pythonhosted.org/packages/2a/b6/bee97e7a2edeab72aafabb46ee5adc939790a638d107860b4cad7a20e407/shiboken6-6.12.0-cp310-abi3-win_amd64.whl",
+      "file": "shiboken6-6.12.0-cp310-abi3-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "a1906cb8116869178c64b6bab52623bbc8b4ceed7b30bfc3c9aa0f6e67f6438e",
+      "bytes": 1265476,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/shiboken6/MSVCP140.dll",
+        "member": "shiboken6/msvcp140.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/shiboken6/Shiboken.pyd",
+        "member": "shiboken6/Shiboken.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/shiboken6/shiboken6.abi3.dll",
+        "member": "shiboken6/shiboken6.abi3.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/shiboken6/VCRUNTIME140.dll",
+        "member": "shiboken6/vcruntime140.dll",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/shiboken6/VCRUNTIME140_1.dll",
+        "member": "shiboken6/vcruntime140_1.dll",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "winrt-Windows.Devices.Geolocation",
+    "version": "3.2.1",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "winrt-Windows.Devices.Geolocation",
+      "version": "3.2.1",
+      "url": "https://files.pythonhosted.org/packages/a2/b6/43d7e1665f4ad88659738390380af22308061490ea77992929164df1ca08/winrt_windows_devices_geolocation-3.2.1-cp312-cp312-win_amd64.whl",
+      "file": "winrt_windows_devices_geolocation-3.2.1-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "1e4def973d95d5fec397fc0518d3c99453fe4b3262dbdc439f05ed92cae24e35",
+      "bytes": 97871,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/winrt/_winrt_windows_devices_geolocation.cp312-win_amd64.pyd",
+        "member": "winrt/_winrt_windows_devices_geolocation.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "winrt-Windows.Foundation",
+    "version": "3.2.1",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "winrt-Windows.Foundation",
+      "version": "3.2.1",
+      "url": "https://files.pythonhosted.org/packages/9b/5e/b5059e4ece095351c496c9499783130c302d25e353c18031d5231b1b3b3c/winrt_windows_foundation-3.2.1-cp312-cp312-win_amd64.whl",
+      "file": "winrt_windows_foundation-3.2.1-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "45550c5b6c2125cde495c409633e6b1ea5aa1677724e3b95eb8140bfccbe30c9",
+      "bytes": 118668,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/winrt/_winrt_windows_foundation.cp312-win_amd64.pyd",
+        "member": "winrt/_winrt_windows_foundation.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "winrt-Windows.Foundation.Collections",
+    "version": "3.2.1",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "winrt-Windows.Foundation.Collections",
+      "version": "3.2.1",
+      "url": "https://files.pythonhosted.org/packages/37/94/5b888713e472746635a382e523513ab1b8200af55c5b56bc70e1e4369115/winrt_windows_foundation_collections-3.2.1-cp312-cp312-win_amd64.whl",
+      "file": "winrt_windows_foundation_collections-3.2.1-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "550dfb8c82fe74d9e0728a2a16a9175cc9e34ca2b8ef758d69b2a398894b698b",
+      "bytes": 69058,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/winrt/_winrt_windows_foundation_collections.cp312-win_amd64.pyd",
+        "member": "winrt/_winrt_windows_foundation_collections.cp312-win_amd64.pyd",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  },
+  {
+    "package": "winrt-runtime",
+    "version": "3.2.1",
+    "wheel_tags": [
+      "cp312-cp312-win_amd64"
+    ],
+    "status": "PASS",
+    "reference": {
+      "component": "winrt-runtime",
+      "version": "3.2.1",
+      "url": "https://files.pythonhosted.org/packages/ca/a1/1d7248d5c62ccbea5f3e0da64ca4529ce99c639c3be2485b6ed709f5c740/winrt_runtime-3.2.1-cp312-cp312-win_amd64.whl",
+      "file": "winrt_runtime-3.2.1-cp312-cp312-win_amd64.whl",
+      "kind": "binary-reference",
+      "sha256": "06510db215d4f0dc45c00fbb1251c6544e91742a0ad928011db33b30677e1576",
+      "bytes": 241391,
+      "publisher_digest_verified": true,
+      "status": "downloaded"
+    },
+    "native_files": [
+      {
+        "file": "_internal/winrt/_winrt.cp312-win_amd64.pyd",
+        "member": "winrt/_winrt.cp312-win_amd64.pyd",
+        "status": "PASS"
+      },
+      {
+        "file": "_internal/winrt/MSVCP140.dll",
+        "member": "winrt/msvcp140.dll",
+        "status": "PASS"
+      }
+    ],
+    "supplier_sboms": []
+  }
+]

@@ -1,0 +1,20 @@
+Microsoft Visual C++ runtime components
+
+Copyright Microsoft Corporation. All rights reserved.
+
+The application includes unmodified Microsoft C/C++ runtime components obtained
+with its Python/Qt/native dependencies. These components retain Microsoft's
+applicable terms; Seestar Studio does not purport to relicense them under the GPL.
+The project's GPL applies to its own code. Rights for Qt and other open-source
+components remain governed by their own licences, including applicable rights to
+modify/replace LGPL libraries and debug those modifications.
+
+Official terms and redistribution references:
+https://visualstudio.microsoft.com/license-terms/
+https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+https://learn.microsoft.com/en-us/visualstudio/releases/2026/redistribution
+
+This notice identifies the component boundary. It is not a substitute for a valid
+redistribution entitlement, required downstream terms, or the applicable licence.
+The actual versions/origins and remaining review points are documented in
+docs/MICROSOFT_RUNTIME_REVIEW.md and the version-specific native inventory.

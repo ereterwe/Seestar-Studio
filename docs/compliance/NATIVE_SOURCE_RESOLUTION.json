@@ -1,0 +1,2362 @@
+{
+  "scope": "Unmodified b3 binaries and local supplementary sources; no release approval",
+  "verified_source_archive_count": 105,
+  "source_archives": [
+    {
+      "component": "seestarpy",
+      "version": "0.8.0",
+      "file": "seestarpy-0.8.0.tar.gz",
+      "sha256": "7857a1b95d6b9fea775c8fb59018f0f1523e698004652bdc42a566add672a968",
+      "url": "https://files.pythonhosted.org/packages/51/ac/29b9d22e0dbf417f9ae0bc841dce5e42e6dbd97ac7063c75fab5c95c73b9/seestarpy-0.8.0.tar.gz"
+    },
+    {
+      "component": "numpy",
+      "version": "2.5.4",
+      "file": "numpy-2.5.4.tar.gz",
+      "sha256": "9a94cf751c9ad8ebaa835bcd3d40dacf8534ad086b88c38029b65123c7999d2a",
+      "url": "https://files.pythonhosted.org/packages/95/b0/c7453d0b6e2073c3264468b106ee1563750cecc910965e67357e3698c83e/numpy-2.5.4.tar.gz"
+    },
+    {
+      "component": "Pillow",
+      "version": "13.0.0",
+      "file": "pillow-13.0.0.tar.gz",
+      "sha256": "cdcd1ba258178f7356d74170c9a81ba4eab6a5d55748bc402a5a2a6fe6be3510",
+      "url": "https://files.pythonhosted.org/packages/ce/a4/9cc30690a394a8305e8be4c9036aa16d0dfddadd09079860b582f562496d/pillow-13.0.0.tar.gz"
+    },
+    {
+      "component": "cryptography",
+      "version": "50.0.2",
+      "file": "cryptography-50.0.2.tar.gz",
+      "sha256": "7b46165bb56eb4704e2eaaf86f3c940d19154535d9b0ca7d6d590b04060e00d5",
+      "url": "https://files.pythonhosted.org/packages/9d/af/182eb91b0df3fe75c4d9f26fe70684569566745f6ba7e5c9c73a862c5252/cryptography-50.0.2.tar.gz"
+    },
+    {
+      "component": "cffi",
+      "version": "2.1.1",
+      "file": "cffi-2.1.1.tar.gz",
+      "sha256": "dd31f52ea1086513bb9df30f8fcee9b8918323ae067a3d5b78bc826a000712be",
+      "url": "https://files.pythonhosted.org/packages/9e/ef/008a1939e372c06329a3fce4279c02f328488f3526744906eeec3da7ad5f/cffi-2.1.1.tar.gz"
+    },
+    {
+      "component": "pysmb",
+      "version": "1.2.15",
+      "file": "pysmb-1.2.15.tar.gz",
+      "sha256": "1c12eb0e251152e80b4bde5d816b33cab14d04b261b5f790cb4a5d9fd9653881",
+      "url": "https://files.pythonhosted.org/packages/9d/84/f5158ec04fdd813aa4f8df229a5f6319f20c6a555adb3967a33d69e24347/pysmb-1.2.15.tar.gz"
+    },
+    {
+      "component": "pyasn1",
+      "version": "0.6.5",
+      "file": "pyasn1-0.6.5.tar.gz",
+      "sha256": "6b11616a6bcf3a40e635f082bb232fa57b5e0dd7f517bd7ddd69ec3794508a47",
+      "url": "https://files.pythonhosted.org/packages/88/7e/3c0da41061a2021cac7cd524fd57092adbe5b515e8bf9005702e366802e2/pyasn1-0.6.5.tar.gz"
+    },
+    {
+      "component": "requests",
+      "version": "2.34.2",
+      "file": "requests-2.34.2.tar.gz",
+      "sha256": "f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed",
+      "url": "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz"
+    },
+    {
+      "component": "charset-normalizer",
+      "version": "3.5.2",
+      "file": "charset_normalizer-3.5.2.tar.gz",
+      "sha256": "39de2a259fc954455c57274dc94c79d5842774e1247a016aff30bc0efed0f4ef",
+      "url": "https://files.pythonhosted.org/packages/33/1c/f41d4e74c28ab327ff3acd36053f7ea506c55872d7a90b0fa71aa3ab0c89/charset_normalizer-3.5.2.tar.gz"
+    },
+    {
+      "component": "idna",
+      "version": "3.20",
+      "file": "idna-3.20.tar.gz",
+      "sha256": "a7db850025b95ded1eae8a46181a1a6c56c92c96f0e2b005d9ff8dc0210cab44",
+      "url": "https://files.pythonhosted.org/packages/f5/08/8eea9d4b8302028f3abb2c0813953f7aec26d33b7a8960ed760e65ff29fa/idna-3.20.tar.gz"
+    },
+    {
+      "component": "urllib3",
+      "version": "2.8.0",
+      "file": "urllib3-2.8.0.tar.gz",
+      "sha256": "63bf2ead4c879426ebf22ef2a781eeb4aa3b4ae798a0435506f8687fd5bb9b63",
+      "url": "https://files.pythonhosted.org/packages/e3/05/b17359e1cefb4f909b5e40b1b90a496d987258916dbbf88e842c729f510e/urllib3-2.8.0.tar.gz"
+    },
+    {
+      "component": "certifi",
+      "version": "2026.10.23",
+      "file": "certifi-2026.10.23.tar.gz",
+      "sha256": "a9895e6e2758b371e0545e321a3a8fd1fcfd9829ada8824a936dfb16aaaf36cd",
+      "url": "https://files.pythonhosted.org/packages/fd/11/b524cbd9bbdaca58608e4cf4053fd463417549e1959fa8d3aa18319f9555/certifi-2026.10.23.tar.gz"
+    },
+    {
+      "component": "tzlocal",
+      "version": "5.4.5",
+      "file": "tzlocal-5.4.5.tar.gz",
+      "sha256": "ba976898bad27945178c9ca25c222c19e322b30c10342b9f40b46714f70d2d5f",
+      "url": "https://files.pythonhosted.org/packages/d8/89/2bd035df331499589fc92e59375c17c6cea6a500453b2c5f6a6ec9572825/tzlocal-5.4.5.tar.gz"
+    },
+    {
+      "component": "tzdata",
+      "version": "2026.6",
+      "file": "tzdata-2026.6.tar.gz",
+      "sha256": "85d2cd9c09f81f0bb29db27759fc83af4f1e620efb814f8c5bf8b4cc4feece6d",
+      "url": "https://files.pythonhosted.org/packages/7a/29/6a1391d31cd00ff9e927215a224a880e1e84e826b64ba80a499e51c074d8/tzdata-2026.6.tar.gz"
+    },
+    {
+      "component": "tqdm",
+      "version": "4.70.1",
+      "file": "tqdm-4.70.1.tar.gz",
+      "sha256": "cefd0eca11b2a37a3aee776544d4f4ae913f02688135b5556b8788dfa474afc4",
+      "url": "https://files.pythonhosted.org/packages/0d/ea/b2a5bd54b28a324dae8211928b2d730b6547500342c7e6c6dea08bd0a485/tqdm-4.70.1.tar.gz"
+    },
+    {
+      "component": "pycparser",
+      "version": "3.12",
+      "file": "pycparser-3.12.tar.gz",
+      "sha256": "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6",
+      "url": "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+    },
+    {
+      "component": "setuptools",
+      "version": "84.2.1",
+      "file": "setuptools-84.2.1.tar.gz",
+      "sha256": "3ff8b3b5492a0aa66960f4419365a86b84e013070d4313e4d4a6894f5d64d6bc",
+      "url": "https://files.pythonhosted.org/packages/70/b3/c19426f783614d625699a4b247faf628ea9ab1db228674491767b417f9e1/setuptools-84.2.1.tar.gz"
+    },
+    {
+      "component": "packaging",
+      "version": "26.3",
+      "file": "packaging-26.3.tar.gz",
+      "sha256": "94edc256424af38762eb31306eed28beb9f0efc50a8837492c9d6fd6004aed79",
+      "url": "https://files.pythonhosted.org/packages/7d/fa/3944b40b07da9ce895c0e6303a5ab7d53da063554f534556b134a54d6093/packaging-26.3.tar.gz"
+    },
+    {
+      "component": "pyinstaller",
+      "version": "6.22.3",
+      "file": "pyinstaller-6.22.3.tar.gz",
+      "sha256": "05eb2f5615503e72939a7224d68b4aff572c6b0438ee4a17d0a4b481f399362d",
+      "url": "https://files.pythonhosted.org/packages/63/41/f90302845945abd4ed647933ff5ee7c6ac93983187be67f897b6cb613331/pyinstaller-6.22.3.tar.gz"
+    },
+    {
+      "component": "astropy",
+      "version": "8.0.2",
+      "file": "astropy-8.0.2.tar.gz",
+      "sha256": "e6af35823099ad6a40b57dbe5ff845f577374ea131925c9fa4b49eeab06c5310",
+      "url": "https://files.pythonhosted.org/packages/95/57/02089e6da0fc00846d309034ad74e13ebcadc67b1c5cef397ae0597473fa/astropy-8.0.2.tar.gz"
+    },
+    {
+      "component": "astropy-iers-data",
+      "version": "0.2026.11.2.0.34.55",
+      "file": "astropy_iers_data-0.2026.11.2.0.34.55.tar.gz",
+      "sha256": "20827b7431096723bbfac3f42eddc45df1bf35ea9bc6f3978837f65d8443cf6b",
+      "url": "https://files.pythonhosted.org/packages/c3/e6/0f9740a39dbae6614444f4f29f71aa5fb977a75368e7bc74f998037fc496/astropy_iers_data-0.2026.11.2.0.34.55.tar.gz"
+    },
+    {
+      "component": "pyerfa",
+      "version": "2.0.1.5",
+      "file": "pyerfa-2.0.1.5.tar.gz",
+      "sha256": "17d6b24fe4846c65d5e7d8c362dcb08199dc63b30a236aedd73875cc83e1f6c0",
+      "url": "https://files.pythonhosted.org/packages/71/39/63cc8291b0cf324ae710df41527faf7d331bce573899199d926b3e492260/pyerfa-2.0.1.5.tar.gz"
+    },
+    {
+      "component": "PyYAML",
+      "version": "6.0.3",
+      "file": "pyyaml-6.0.3.tar.gz",
+      "sha256": "d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f",
+      "url": "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz"
+    },
+    {
+      "component": "winrt-runtime",
+      "version": "3.2.1",
+      "file": "winrt_runtime-3.2.1.tar.gz",
+      "sha256": "c8dca19e12b234ae6c3dadf1a4d0761b51e708457492c13beb666556958801ea",
+      "url": "https://files.pythonhosted.org/packages/16/dd/acdd527c1d890c8f852cc2af644aa6c160974e66631289420aa871b05e65/winrt_runtime-3.2.1.tar.gz"
+    },
+    {
+      "component": "winrt-Windows.Devices.Geolocation",
+      "version": "3.2.1",
+      "file": "winrt_windows_devices_geolocation-3.2.1.tar.gz",
+      "sha256": "3a15d8b0007a8192cc45dc1e1e71032b0d2b1186ac42bfa26a8dc1f3070c39e1",
+      "url": "https://files.pythonhosted.org/packages/1b/cf/57b6b42d3feb8f7942ea976610c92088d1582e39e5bf360ce6ae9b8f4972/winrt_windows_devices_geolocation-3.2.1.tar.gz"
+    },
+    {
+      "component": "winrt-Windows.Foundation",
+      "version": "3.2.1",
+      "file": "winrt_windows_foundation-3.2.1.tar.gz",
+      "sha256": "ad2f1fcaa6c34672df45527d7c533731fdf65b67c4638c2b4aca949f6eec0656",
+      "url": "https://files.pythonhosted.org/packages/0c/55/098ce7ea0679efcc1298b269c48768f010b6c68f90c588f654ec874c8a74/winrt_windows_foundation-3.2.1.tar.gz"
+    },
+    {
+      "component": "winrt-Windows.Foundation.Collections",
+      "version": "3.2.1",
+      "file": "winrt_windows_foundation_collections-3.2.1.tar.gz",
+      "sha256": "0eff1ad0d8d763ad17e9e7bbd0c26a62b27215016393c05b09b046d6503ae6d5",
+      "url": "https://files.pythonhosted.org/packages/ef/62/d21e3f1eeb8d47077887bbf0c3882c49277a84d8f98f7c12bda64d498a07/winrt_windows_foundation_collections-3.2.1.tar.gz"
+    },
+    {
+      "component": "typing_extensions",
+      "version": "4.16.0",
+      "file": "typing_extensions-4.16.0.tar.gz",
+      "sha256": "dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5",
+      "url": "https://files.pythonhosted.org/packages/f6/cc/6253133b5bb138fc3306cebfbda2c520f545d36b5be2c7255cc528bb45d6/typing_extensions-4.16.0.tar.gz"
+    },
+    {
+      "component": "pyside-setup",
+      "version": "6.12.0",
+      "file": "pyside-setup-everywhere-src-6.12.0.tar.xz",
+      "sha256": "099c1a597cf33c1b000e11cf68a0b82d216fb802bf81726efc720394f10c7751",
+      "url": "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.12.0-src/pyside-setup-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtbase",
+      "version": "6.12.0",
+      "file": "qtbase-everywhere-src-6.12.0.tar.xz",
+      "sha256": "a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtdeclarative",
+      "version": "6.12.0",
+      "file": "qtdeclarative-everywhere-src-6.12.0.tar.xz",
+      "sha256": "311f3a2603e1973bb59baef9dfa740a376de713157d4782ee043681e889c9260",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtdeclarative-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtmultimedia",
+      "version": "6.12.0",
+      "file": "qtmultimedia-everywhere-src-6.12.0.tar.xz",
+      "sha256": "3143f53b64257ba2a0685c940f5dce476c75871ff86b516de45cfd54ea93a62d",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtmultimedia-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtsvg",
+      "version": "6.12.0",
+      "file": "qtsvg-everywhere-src-6.12.0.tar.xz",
+      "sha256": "e4ab39534ec97987b1b9b60ef7f4d3253d5912a69f8c713a01753174a4029331",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtsvg-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtvirtualkeyboard",
+      "version": "6.12.0",
+      "file": "qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz",
+      "sha256": "2aae3628f4648f86959d7853e7e1f50ee96a7f1bb5497afb62b7deff6c350170",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtvirtualkeyboard-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtshadertools",
+      "version": "6.12.0",
+      "file": "qtshadertools-everywhere-src-6.12.0.tar.xz",
+      "sha256": "c7d84f436e1aaef39fdcadebf2bd71bdf24dc69497e13f2e0198873cbbfea2ab",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtshadertools-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qtimageformats",
+      "version": "6.12.0",
+      "file": "qtimageformats-everywhere-src-6.12.0.tar.xz",
+      "sha256": "0943132b5db8de6b6a7f1d162682173e8763c7ed94e80fd39113292845f67762",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtimageformats-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qttranslations",
+      "version": "6.12.0",
+      "file": "qttranslations-everywhere-src-6.12.0.tar.xz",
+      "sha256": "85929c0c30d6f273f23bd879bb69803ea17b010ab73cab2f8abf95357f6f6bbb",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttranslations-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "qttools",
+      "version": "6.12.0",
+      "file": "qttools-everywhere-src-6.12.0.tar.xz",
+      "sha256": "8dab8f3611496486a470ad5f115ceea584f36bc22a2b8b6f6ebdbafbb8160693",
+      "url": "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qttools-everywhere-src-6.12.0.tar.xz"
+    },
+    {
+      "component": "FFmpeg",
+      "version": "9.0.1",
+      "file": "FFmpeg-n9.0.1.tar.gz",
+      "sha256": "195d54bebe1a27f84d77f4b989d193466f305b355da92292766a69f16880b18a",
+      "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/refs/tags/n9.0.1"
+    },
+    {
+      "component": "colorama",
+      "version": "0.4.6",
+      "file": "colorama-0.4.6.tar.gz",
+      "sha256": "08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44",
+      "url": "https://files.pythonhosted.org/packages/d8/53/6f443c9a4a8358a93a6792e2acffb9d9d5cb0a5cfd8802644b7b1c9a02e4/colorama-0.4.6.tar.gz"
+    },
+    {
+      "component": "CPython",
+      "version": "3.12.10",
+      "file": "Python-3.12.10.tar.xz",
+      "sha256": "07ab697474595e06f06647417d3c7fa97ded07afc1a7e4454c5639919b46eaea",
+      "url": "https://www.python.org/ftp/python/3.12.10/Python-3.12.10.tar.xz"
+    },
+    {
+      "component": "zlib",
+      "version": "1.3.1",
+      "file": "zlib-1.3.1.tar.gz",
+      "sha256": "9a93b2b7dfdac77ceba5a558a580e74667dd6fede4585b91eefb60f03b72df23",
+      "url": "https://zlib.net/fossils/zlib-1.3.1.tar.gz"
+    },
+    {
+      "component": "Mesa",
+      "version": "11.2.2",
+      "file": "mesa-11.2.2.tar.gz",
+      "sha256": "e2453014cd2cc5337a5180cdeffe8cf24fffbb83e20a96888e2b01df868eaae6",
+      "url": "https://archive.mesa3d.org/older-versions/11.x/11.2.2/mesa-11.2.2.tar.gz"
+    },
+    {
+      "component": "OpenSSL",
+      "version": "3.0.16",
+      "file": "openssl-3.0.16.tar.gz",
+      "sha256": "57e03c50feab5d31b152af2b764f10379aecd8ee92f16c985983ce4a99f7ef86",
+      "url": "https://github.com/openssl/openssl/releases/download/openssl-3.0.16/openssl-3.0.16.tar.gz"
+    },
+    {
+      "component": "OpenSSL",
+      "version": "4.0.3",
+      "file": "openssl-4.0.3.tar.gz",
+      "sha256": "325b5c806167c13b40b1ffeadfe0248197c00eccc4cf123ec1e28d2d2fd216d9",
+      "url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz"
+    },
+    {
+      "component": "SQLite",
+      "version": "3.49.1",
+      "file": "sqlite-src-3490100.zip",
+      "sha256": "4404d93cbce818b1b98ca7259d0ba9b45db76f2fdd9373e56f2d29b519f4d43b",
+      "url": "https://www.sqlite.org/2025/sqlite-src-3490100.zip"
+    },
+    {
+      "component": "Qt-supermodule",
+      "version": "6.12.0",
+      "file": "qt-supermodule-6.12.0.tar.gz",
+      "sha256": "167449f1963e899ef6502330b8791f0e971fb81fdeb560b15af19abd53c15552",
+      "url": "https://codeload.github.com/qt/qt5/tar.gz/refs/tags/v6.12.0"
+    },
+    {
+      "component": "Pillow-build-repository",
+      "version": "13.0.0",
+      "file": "Pillow-git-13.0.0.tar.gz",
+      "sha256": "edf59ba26a21ea6d7e6a3755fe139a57297704591c4113ad470dac9ac2ccaf5e",
+      "url": "https://codeload.github.com/python-pillow/Pillow/tar.gz/refs/tags/13.0.0"
+    },
+    {
+      "component": "cryptography-build-repository",
+      "version": "50.0.2",
+      "file": "cryptography-git-50.0.2.tar.gz",
+      "sha256": "dea608ac97229edf31dcf976e158182a4aa4f76dda40b4a9ffca84bdcb98d173",
+      "url": "https://codeload.github.com/pyca/cryptography/tar.gz/refs/tags/50.0.2"
+    },
+    {
+      "component": "scipy-openblas-build",
+      "version": "0.3.34.106.0",
+      "file": "openblas-libs-0.3.34.106.0.tar.gz",
+      "sha256": "7f24a96042d650fdbdec7de83e761d2eb234fdbcd5a0ebac0018850f133770ce",
+      "url": "https://codeload.github.com/MacPython/openblas-libs/tar.gz/refs/tags/v0.3.34.106.0"
+    },
+    {
+      "component": "Inno-Setup",
+      "version": "7.1.1",
+      "file": "innosetup-7.1.1-src.tar.gz",
+      "sha256": "7184159a0df81dc8870c1175494ff959ca74136d703f1bd530a96cede5a2146a",
+      "url": "https://codeload.github.com/jrsoftware/issrc/tar.gz/refs/tags/is-7_1_1"
+    },
+    {
+      "component": "FFmpeg-official-release",
+      "version": "9.0.1",
+      "file": "ffmpeg-9.0.1-official.tar.gz",
+      "sha256": "657dbf258cce6c0681714b6e40b8ca69e988c67ecfc2f7aab47574e6ebaceb38",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.gz"
+    },
+    {
+      "component": "libjpeg-turbo",
+      "version": "3.2.0",
+      "file": "libjpeg-turbo-3.2.0.tar.gz",
+      "sha256": "6f30092cef9fb839779646608f4ee14ae3cbac989c47fa05e841b0841f09878e",
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.2.0/libjpeg-turbo-3.2.0.tar.gz"
+    },
+    {
+      "component": "zlib-ng",
+      "version": "2.3.3",
+      "file": "zlib-ng-2.3.3.tar.gz",
+      "sha256": "f9c65aa9c852eb8255b636fd9f07ce1c406f061ec19a2e7d508b318ca0c907d1",
+      "url": "https://codeload.github.com/zlib-ng/zlib-ng/tar.gz/refs/tags/2.3.3"
+    },
+    {
+      "component": "libwebp",
+      "version": "1.6.0",
+      "file": "libwebp-1.6.0.tar.gz",
+      "sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+      "url": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz"
+    },
+    {
+      "component": "libtiff",
+      "version": "4.7.2",
+      "file": "tiff-4.7.2.tar.gz",
+      "sha256": "672bd7d10aee4606171afb864f3570b83340f6a33e2c186dc0512f7145ffdf6a",
+      "url": "https://download.osgeo.org/libtiff/tiff-4.7.2.tar.gz"
+    },
+    {
+      "component": "Little-CMS",
+      "version": "2.19.1",
+      "file": "lcms2-2.19.1.tar.gz",
+      "sha256": "267705e278e2f7c2fb886c259dadcbaeb2be52748bcbc71c79f08aacacb7a709",
+      "url": "https://codeload.github.com/mm2/Little-CMS/tar.gz/refs/tags/lcms2.19.1"
+    },
+    {
+      "component": "OpenJPEG",
+      "version": "2.5.4",
+      "file": "openjpeg-2.5.4.tar.gz",
+      "sha256": "a695fbe19c0165f295a8531b1e4e855cd94d0875d2f88ec4b61080677e27188a",
+      "url": "https://codeload.github.com/uclouvain/openjpeg/tar.gz/refs/tags/v2.5.4"
+    },
+    {
+      "component": "libavif",
+      "version": "1.4.2",
+      "file": "libavif-1.4.2.tar.gz",
+      "sha256": "2b645287340ba5a631d268b551dc2d72bd73ac33335962dd36dcdb6d8366921d",
+      "url": "https://codeload.github.com/AOMediaCodec/libavif/tar.gz/refs/tags/v1.4.2"
+    },
+    {
+      "component": "CPython-source-deps/bzip2",
+      "version": "1.0.8",
+      "file": "cpython-source-deps-bzip2-1.0.8.tar.gz",
+      "sha256": "ab8d1b0cc087c20d4c32c0e4fcf7d0c733a95da12cedc6d63b3f0a9af07427e2",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/bzip2-1.0.8"
+    },
+    {
+      "component": "CPython-source-deps/xz",
+      "version": "5.2.5",
+      "file": "cpython-source-deps-xz-5.2.5.tar.gz",
+      "sha256": "a15c168e39e87d750c3dc766edc7f19bdda57dacf01e509678467eace91ad282",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/xz-5.2.5"
+    },
+    {
+      "component": "CPython-source-deps/libffi",
+      "version": "3.4.4",
+      "file": "cpython-source-deps-libffi-3.4.4.tar.gz",
+      "sha256": "9d802681adfea27d84cae0487a785fb9caa925bdad44c401b364c59ab2b8edda",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/libffi-3.4.4"
+    },
+    {
+      "component": "CPython-source-deps/sqlite",
+      "version": "3.49.1.0",
+      "file": "cpython-source-deps-sqlite-3.49.1.0.tar.gz",
+      "sha256": "e335aeb44fa36cde60ecbb6a9f8be6f5d449d645ce9b0199ee53a7e6728d19d2",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/sqlite-3.49.1.0"
+    },
+    {
+      "component": "CPython-source-deps/openssl",
+      "version": "3.0.16",
+      "file": "cpython-source-deps-openssl-3.0.16.tar.gz",
+      "sha256": "6bb739ecddbd2cfb6d255eb5898437a9b5739277dee931338d3275bac5d96ba2",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/openssl-3.0.16"
+    },
+    {
+      "component": "CPython-source-deps/zlib",
+      "version": "1.3.1",
+      "file": "cpython-source-deps-zlib-1.3.1.tar.gz",
+      "sha256": "e3f3fb32564952006eb18b091ca8464740e5eca29d328cfb0b2da22768e0b638",
+      "url": "https://codeload.github.com/python/cpython-source-deps/tar.gz/refs/tags/zlib-1.3.1"
+    },
+    {
+      "component": "Rust/asn1",
+      "version": "0.24.1",
+      "file": "asn1-0.24.1.crate",
+      "sha256": "c9795210620c0cb3f9a7ce4f882808c38e1ef7b347c90591dceae0886e031fb1",
+      "url": "https://static.crates.io/crates/asn1/asn1-0.24.1.crate"
+    },
+    {
+      "component": "Rust/asn1_derive",
+      "version": "0.24.1",
+      "file": "asn1_derive-0.24.1.crate",
+      "sha256": "909e307f1cc32bb8bccbd98f446e6d1bf03fa30f7b53a4337da7181ad30fa11a",
+      "url": "https://static.crates.io/crates/asn1_derive/asn1_derive-0.24.1.crate"
+    },
+    {
+      "component": "Rust/base64",
+      "version": "0.23.0",
+      "file": "base64-0.23.0.crate",
+      "sha256": "b25655df2c3cdd83c5e5b293b88acd880332b2ddadd7c30ac43144fdc0033da9",
+      "url": "https://static.crates.io/crates/base64/base64-0.23.0.crate"
+    },
+    {
+      "component": "Rust/bitflags",
+      "version": "2.13.1",
+      "file": "bitflags-2.13.1.crate",
+      "sha256": "b588b76d00fde79687d7646a9b5bdf3cc0f655e0bbd080335a95d7e96f3587da",
+      "url": "https://static.crates.io/crates/bitflags/bitflags-2.13.1.crate"
+    },
+    {
+      "component": "Rust/cc",
+      "version": "1.4.0",
+      "file": "cc-1.4.0.crate",
+      "sha256": "5add81bb678e6cb321aff7fa0dc7689ad82b112dbc032cea19f91d6b8e3582b9",
+      "url": "https://static.crates.io/crates/cc/cc-1.4.0.crate"
+    },
+    {
+      "component": "Rust/cfg-if",
+      "version": "1.0.4",
+      "file": "cfg-if-1.0.4.crate",
+      "sha256": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "url": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate"
+    },
+    {
+      "component": "Rust/find-msvc-tools",
+      "version": "0.1.9",
+      "file": "find-msvc-tools-0.1.9.crate",
+      "sha256": "5baebc0774151f905a1a2cc41989300b1e6fbb29aff0ceffa1064fdd3088d582",
+      "url": "https://static.crates.io/crates/find-msvc-tools/find-msvc-tools-0.1.9.crate"
+    },
+    {
+      "component": "Rust/foreign-types",
+      "version": "0.3.2",
+      "file": "foreign-types-0.3.2.crate",
+      "sha256": "f6f339eb8adc052cd2ca78910fda869aefa38d22d5cb648e6485e4d3fc06f3b1",
+      "url": "https://static.crates.io/crates/foreign-types/foreign-types-0.3.2.crate"
+    },
+    {
+      "component": "Rust/foreign-types-shared",
+      "version": "0.1.1",
+      "file": "foreign-types-shared-0.1.1.crate",
+      "sha256": "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b",
+      "url": "https://static.crates.io/crates/foreign-types-shared/foreign-types-shared-0.1.1.crate"
+    },
+    {
+      "component": "Rust/heck",
+      "version": "0.5.0",
+      "file": "heck-0.5.0.crate",
+      "sha256": "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea",
+      "url": "https://static.crates.io/crates/heck/heck-0.5.0.crate"
+    },
+    {
+      "component": "Rust/itoa",
+      "version": "1.0.18",
+      "file": "itoa-1.0.18.crate",
+      "sha256": "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682",
+      "url": "https://static.crates.io/crates/itoa/itoa-1.0.18.crate"
+    },
+    {
+      "component": "Rust/libc",
+      "version": "0.2.189",
+      "file": "libc-0.2.189.crate",
+      "sha256": "3eaf3ede3fee6db1a4c2ee091bf8a8b4dccdc6d17f656fb07896ee72867612f2",
+      "url": "https://static.crates.io/crates/libc/libc-0.2.189.crate"
+    },
+    {
+      "component": "Rust/once_cell",
+      "version": "1.21.4",
+      "file": "once_cell-1.21.4.crate",
+      "sha256": "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50",
+      "url": "https://static.crates.io/crates/once_cell/once_cell-1.21.4.crate"
+    },
+    {
+      "component": "Rust/openssl",
+      "version": "0.10.81",
+      "file": "openssl-0.10.81.crate",
+      "sha256": "77823a27f0babb03091cb9ed9ef80af3b39dbc82f97e8fa530374b7dafd87a45",
+      "url": "https://static.crates.io/crates/openssl/openssl-0.10.81.crate"
+    },
+    {
+      "component": "Rust/openssl-macros",
+      "version": "0.1.1",
+      "file": "openssl-macros-0.1.1.crate",
+      "sha256": "a948666b637a0f465e8564c73e89d4dde00d72d4d473cc972f390fc3dcee7d9c",
+      "url": "https://static.crates.io/crates/openssl-macros/openssl-macros-0.1.1.crate"
+    },
+    {
+      "component": "Rust/openssl-sys",
+      "version": "0.9.117",
+      "file": "openssl-sys-0.9.117.crate",
+      "sha256": "b47e7e6bb2c38cd930d25a23b40fa52e068c10e85f3e03a7f5ba5aaca5713695",
+      "url": "https://static.crates.io/crates/openssl-sys/openssl-sys-0.9.117.crate"
+    },
+    {
+      "component": "Rust/pem",
+      "version": "4.0.0",
+      "file": "pem-4.0.0.crate",
+      "sha256": "d354a98a3d1251555de99e8fdd8afda05573c31b82f59063a7b0a29b5527f120",
+      "url": "https://static.crates.io/crates/pem/pem-4.0.0.crate"
+    },
+    {
+      "component": "Rust/pkg-config",
+      "version": "0.3.33",
+      "file": "pkg-config-0.3.33.crate",
+      "sha256": "19f132c84eca552bf34cab8ec81f1c1dcc229b811638f9d283dceabe58c5569e",
+      "url": "https://static.crates.io/crates/pkg-config/pkg-config-0.3.33.crate"
+    },
+    {
+      "component": "Rust/portable-atomic",
+      "version": "1.14.0",
+      "file": "portable-atomic-1.14.0.crate",
+      "sha256": "3d20d5497ef88037a52ff98267d066e7f11fcc5e99bbfbd58a42336193aacec3",
+      "url": "https://static.crates.io/crates/portable-atomic/portable-atomic-1.14.0.crate"
+    },
+    {
+      "component": "Rust/proc-macro2",
+      "version": "1.0.107",
+      "file": "proc-macro2-1.0.107.crate",
+      "sha256": "985e7ec9bb745e6ce6535b544d84d6cd6f7ad8bd711c398938ae983b91a766d9",
+      "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.107.crate"
+    },
+    {
+      "component": "Rust/pyo3",
+      "version": "0.29.2",
+      "file": "pyo3-0.29.2.crate",
+      "sha256": "4688ddedf473e32662b9b067670129a8afb8c18e351482c70d62ba4a88171e8b",
+      "url": "https://static.crates.io/crates/pyo3/pyo3-0.29.2.crate"
+    },
+    {
+      "component": "Rust/pyo3-build-config",
+      "version": "0.29.2",
+      "file": "pyo3-build-config-0.29.2.crate",
+      "sha256": "f41027e41b4bd03f6e60f9f417fe24a6341a6bb744edd62b6f709f2a52ea30e9",
+      "url": "https://static.crates.io/crates/pyo3-build-config/pyo3-build-config-0.29.2.crate"
+    },
+    {
+      "component": "Rust/pyo3-ffi",
+      "version": "0.29.2",
+      "file": "pyo3-ffi-0.29.2.crate",
+      "sha256": "e591a95526fead067432c3b3a33fc74770b87b1e04e73671090d9c2055a2b327",
+      "url": "https://static.crates.io/crates/pyo3-ffi/pyo3-ffi-0.29.2.crate"
+    },
+    {
+      "component": "Rust/pyo3-macros",
+      "version": "0.29.2",
+      "file": "pyo3-macros-0.29.2.crate",
+      "sha256": "73225868fc1cd84eef2c3c230ddb91273bf1de46aeb8a4248da76d32a0924a1c",
+      "url": "https://static.crates.io/crates/pyo3-macros/pyo3-macros-0.29.2.crate"
+    },
+    {
+      "component": "Rust/pyo3-macros-backend",
+      "version": "0.29.2",
+      "file": "pyo3-macros-backend-0.29.2.crate",
+      "sha256": "571575aa3749fa6216757dd47d2a3e7ef360f329a40f0666a9fbd14889024952",
+      "url": "https://static.crates.io/crates/pyo3-macros-backend/pyo3-macros-backend-0.29.2.crate"
+    },
+    {
+      "component": "Rust/quote",
+      "version": "1.0.47",
+      "file": "quote-1.0.47.crate",
+      "sha256": "1fbf4db142a473a8d80c26bbf18454ed458bf8d26c8219c331daecfdbd079001",
+      "url": "https://static.crates.io/crates/quote/quote-1.0.47.crate"
+    },
+    {
+      "component": "Rust/self_cell",
+      "version": "1.3.0",
+      "file": "self_cell-1.3.0.crate",
+      "sha256": "2ab42ca02749e120097e328d91d415325bdf43b1c72c4c8badf37375fe40a813",
+      "url": "https://static.crates.io/crates/self_cell/self_cell-1.3.0.crate"
+    },
+    {
+      "component": "Rust/shlex",
+      "version": "2.0.1",
+      "file": "shlex-2.0.1.crate",
+      "sha256": "f8fadd59c855ef2080decdef8ff161eb6661b86933c9d82e5ba29dc602a55aba",
+      "url": "https://static.crates.io/crates/shlex/shlex-2.0.1.crate"
+    },
+    {
+      "component": "Rust/syn",
+      "version": "2.0.119",
+      "file": "syn-2.0.119.crate",
+      "sha256": "872831b642d1a07999a962a351ed35b955ea2cfc8f3862091e2a240a84f17297",
+      "url": "https://static.crates.io/crates/syn/syn-2.0.119.crate"
+    },
+    {
+      "component": "Rust/target-lexicon",
+      "version": "0.13.5",
+      "file": "target-lexicon-0.13.5.crate",
+      "sha256": "adb6935a6f5c20170eeceb1a3835a49e12e19d792f6dd344ccc76a985ca5a6ca",
+      "url": "https://static.crates.io/crates/target-lexicon/target-lexicon-0.13.5.crate"
+    },
+    {
+      "component": "Rust/unicode-ident",
+      "version": "1.0.24",
+      "file": "unicode-ident-1.0.24.crate",
+      "sha256": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75",
+      "url": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate"
+    },
+    {
+      "component": "Rust/vcpkg",
+      "version": "0.2.15",
+      "file": "vcpkg-0.2.15.crate",
+      "sha256": "accd4ea62f7bb7a82fe23066fb0957d48ef677f6eeb8215f372f52e48bb32426",
+      "url": "https://static.crates.io/crates/vcpkg/vcpkg-0.2.15.crate"
+    },
+    {
+      "component": "OpenBLAS",
+      "version": "446c436e",
+      "file": "OpenBLAS-446c436e.tar.gz",
+      "sha256": "1440ff20f973d0795aeca8c52047d6f31acfcceb2584a69686007741f2299608",
+      "url": "https://codeload.github.com/OpenMathLib/OpenBLAS/tar.gz/446c436e"
+    },
+    {
+      "component": "LLVM",
+      "version": "3.6.2",
+      "file": "llvm-3.6.2.src.tar.xz",
+      "sha256": "f60dc158bfda6822de167e87275848969f0558b3134892ff54fced87e4667b94",
+      "url": "https://releases.llvm.org/3.6.2/llvm-3.6.2.src.tar.xz"
+    },
+    {
+      "component": "AOM",
+      "version": "3.14.1",
+      "file": "aom-3.14.1.tar.gz",
+      "sha256": "ff3de32febd67bca2aa234b9714447fe1cc4901b26f77c192fb7fbbad61f2730",
+      "url": "https://aomedia.googlesource.com/aom/+archive/v3.14.1.tar.gz"
+    },
+    {
+      "component": "dav1d",
+      "version": "1.5.3",
+      "file": "dav1d-1.5.3.tar.gz",
+      "sha256": "cbe212b02faf8c6eed5b6d55ef8a6e363aaab83f15112e960701a9c3df813686",
+      "url": "https://code.videolan.org/videolan/dav1d/-/archive/1.5.3/dav1d-1.5.3.tar.gz"
+    },
+    {
+      "component": "libyuv",
+      "version": "644251f252a84bf8ce91ff0aca86a9b16b069ab8",
+      "file": "libyuv-644251f252a84bf8ce91ff0aca86a9b16b069ab8.tar.gz",
+      "sha256": "851709acc045828081bad5e4d246ed2332b0592aa72e4c8b282c0697dddd7302",
+      "url": "https://chromium.googlesource.com/libyuv/libyuv/+archive/644251f252a84bf8ce91ff0aca86a9b16b069ab8.tar.gz"
+    },
+    {
+      "component": "XZ-Pillow",
+      "version": "5.8.4",
+      "file": "xz-5.8.4.tar.gz",
+      "sha256": "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9",
+      "url": "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz"
+    },
+    {
+      "component": "zstd",
+      "version": "1.5.7",
+      "file": "zstd-1.5.7.tar.gz",
+      "sha256": "37d7284556b20954e56e1ca85b80226768902e2edabd3b649e9e72c0c9012ee3",
+      "url": "https://codeload.github.com/facebook/zstd/tar.gz/refs/tags/v1.5.7"
+    },
+    {
+      "component": "pyca-infra-build-reference",
+      "version": "126ff15e5a9e431b2ee1cdf011c762a1f67fd69b",
+      "file": "pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz",
+      "sha256": "5041d9b7324162480f06f81a8ea942518a9350df8f56247cfce578df5b217ad2",
+      "url": "https://codeload.github.com/pyca/infra/tar.gz/126ff15e5a9e431b2ee1cdf011c762a1f67fd69b"
+    }
+  ],
+  "recipes": [
+    {
+      "archive": "qt-supermodule-6.12.0.tar.gz",
+      "member": "qt5-6.12.0/coin/provisioning/common/windows/install-ffmpeg.ps1",
+      "sha256": "ff062a53615b800df09c43aaa5789f93f0a7ae5afbaf7bc1c35d6ff9e82ba811",
+      "git_commit": "ef25002ed292b132d1ed3246bfcee1d24a9cd966",
+      "local_evidence": "recipes/qt5-6.12.0_coin_provisioning_common_windows_install-ffmpeg.ps1"
+    },
+    {
+      "archive": "qt-supermodule-6.12.0.tar.gz",
+      "member": "qt5-6.12.0/coin/provisioning/common/windows/mesa_llvmpipe.ps1",
+      "sha256": "cd9cf880cbb7d8d749ff743f4237458db25293d6f9a1f1f345a8f6feb651794c",
+      "git_commit": "ef25002ed292b132d1ed3246bfcee1d24a9cd966",
+      "local_evidence": "recipes/qt5-6.12.0_coin_provisioning_common_windows_mesa_llvmpipe.ps1"
+    },
+    {
+      "archive": "qt-supermodule-6.12.0.tar.gz",
+      "member": "qt5-6.12.0/coin/provisioning/common/windows/zlib-helpers.ps1",
+      "sha256": "b7c7b3003da4e5eecfe4dbbb200e6f6bad82ac7b8fb5fff2043401c7eda57414",
+      "git_commit": "ef25002ed292b132d1ed3246bfcee1d24a9cd966",
+      "local_evidence": "recipes/qt5-6.12.0_coin_provisioning_common_windows_zlib-helpers.ps1"
+    },
+    {
+      "archive": "qt-supermodule-6.12.0.tar.gz",
+      "member": "qt5-6.12.0/coin/provisioning/common/windows/zlib.ps1",
+      "sha256": "250ff79dcaffa87b692f34a4536f7aee3bad2c624d1d8a3b926d6067df346e51",
+      "git_commit": "ef25002ed292b132d1ed3246bfcee1d24a9cd966",
+      "local_evidence": "recipes/qt5-6.12.0_coin_provisioning_common_windows_zlib.ps1"
+    },
+    {
+      "archive": "qt-supermodule-6.12.0.tar.gz",
+      "member": "qt5-6.12.0/coin/provisioning/common/shared/ffmpeg_config_options.txt",
+      "sha256": "5331acdc4bb8689719d6319e3ede3babd46793320d5305128224b4ac19bb810c",
+      "git_commit": "ef25002ed292b132d1ed3246bfcee1d24a9cd966",
+      "local_evidence": "recipes/qt5-6.12.0_coin_provisioning_common_shared_ffmpeg_config_options.txt"
+    },
+    {
+      "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+      "member": "openblas-libs-0.3.34.106.0/openblas_commit.txt",
+      "sha256": "a5377571f2180894f34f420543843936db89ae666b41b4fc23d2d4dd8fd42081",
+      "git_commit": "78fc0eaf6de71d92fd98f74f7e5bfa356a2f83e3",
+      "local_evidence": "recipes/openblas-libs-0.3.34.106.0_openblas_commit.txt"
+    },
+    {
+      "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+      "member": "openblas-libs-0.3.34.106.0/tools/build_steps_windows.sh",
+      "sha256": "4a6220eaf499d5b401c0d6bd9d881b7566cbf81c3d2903e247daff6db97f454f",
+      "git_commit": "78fc0eaf6de71d92fd98f74f7e5bfa356a2f83e3",
+      "local_evidence": "recipes/openblas-libs-0.3.34.106.0_tools_build_steps_windows.sh"
+    },
+    {
+      "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+      "member": "openblas-libs-0.3.34.106.0/patches-windows/openblas-make-libs.patch",
+      "sha256": "d77d006b8f58267c2b416738fbd31e1a9e4ff629e82cccf8ca8565de182ecc17",
+      "git_commit": "78fc0eaf6de71d92fd98f74f7e5bfa356a2f83e3",
+      "local_evidence": "recipes/openblas-libs-0.3.34.106.0_patches-windows_openblas-make-libs.patch"
+    },
+    {
+      "archive": "Pillow-git-13.0.0.tar.gz",
+      "member": "Pillow-13.0.0/winbuild/build_prepare.py",
+      "sha256": "cfb3dd98c881cf2aea051e9d57e751d8d9613d7c9a48dd1b71ae68d2de69e570",
+      "git_commit": "293218ad059d994baf1777d882911bed6a49704a",
+      "local_evidence": "recipes/Pillow-13.0.0_winbuild_build_prepare.py"
+    },
+    {
+      "archive": "Pillow-git-13.0.0.tar.gz",
+      "member": "Pillow-13.0.0/.github/dependencies.json",
+      "sha256": "63413d6dccf72367fc4c04c2560999e7a40ea14cf226dcc995d238cf3d25533b",
+      "git_commit": "293218ad059d994baf1777d882911bed6a49704a",
+      "local_evidence": "recipes/Pillow-13.0.0_.github_dependencies.json"
+    },
+    {
+      "archive": "Python-3.12.10.tar.xz",
+      "member": "Python-3.12.10/PCbuild/python.props",
+      "sha256": "04c4301fe9e6f96ed9ca6e856b8c55c3b89d2295ed3a11cc2081553ce71779ac",
+      "git_commit": null,
+      "local_evidence": "recipes/Python-3.12.10_PCbuild_python.props"
+    },
+    {
+      "archive": "Python-3.12.10.tar.xz",
+      "member": "Python-3.12.10/PCbuild/get_externals.bat",
+      "sha256": "3c3c58ecb0e0fceb0b3755b2be47dec1a4d3602194ff600e9699daa349757c60",
+      "git_commit": null,
+      "local_evidence": "recipes/Python-3.12.10_PCbuild_get_externals.bat"
+    },
+    {
+      "archive": "cryptography-git-50.0.2.tar.gz",
+      "member": "cryptography-50.0.2/.github/actions/windows-wheel/action.yml",
+      "sha256": "028b55370e5a76709c44a401be421a310a02552a10d59d5bf49d46b591be6315",
+      "git_commit": "4dda5c7fe4ae71b8925f2551910a0ef959df9c7a",
+      "local_evidence": "recipes/cryptography-50.0.2_.github_actions_windows-wheel_action.yml"
+    }
+  ],
+  "supplier_sboms": [
+    {
+      "package": "cryptography",
+      "version": "50.0.2",
+      "file": "cryptography-50.0.2.dist-info/sboms/cryptography-rust.cyclonedx.json",
+      "sha256": "246af194b4c524807c5aaffd2b7ff86c2c9bee3eb3fceeac987709ad76e4e7ef",
+      "components": [
+        {
+          "name": "cryptography-cffi",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-cffi@0.50.2?download_url=file://cryptography-cffi",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-crypto",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-crypto@0.50.2?download_url=file://cryptography-crypto",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-keepalive",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-keepalive@0.50.2?download_url=file://cryptography-keepalive",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-key-parsing",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-key-parsing@0.50.2?download_url=file://cryptography-key-parsing",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-openssl",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-openssl@0.50.2?download_url=file://cryptography-openssl",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-x509",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-x509@0.50.2?download_url=file://cryptography-x509",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "cryptography-x509-verification",
+          "version": "0.50.2",
+          "purl": "pkg:cargo/cryptography-x509-verification@0.50.2?download_url=file://cryptography-x509-verification",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR BSD-3-Clause"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "asn1",
+          "version": "0.24.1",
+          "purl": "pkg:cargo/asn1@0.24.1",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/alex/rust-asn1"
+            }
+          ]
+        },
+        {
+          "name": "asn1_derive",
+          "version": "0.24.1",
+          "purl": "pkg:cargo/asn1_derive@0.24.1",
+          "licenses": [
+            {
+              "expression": "BSD-3-Clause"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/alex/rust-asn1"
+            }
+          ]
+        },
+        {
+          "name": "base64",
+          "version": "0.23.0",
+          "purl": "pkg:cargo/base64@0.23.0",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/base64"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/marshallpierce/rust-base64"
+            }
+          ]
+        },
+        {
+          "name": "bitflags",
+          "version": "2.13.1",
+          "purl": "pkg:cargo/bitflags@2.13.1",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/bitflags"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/bitflags/bitflags"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/bitflags/bitflags"
+            }
+          ]
+        },
+        {
+          "name": "cc",
+          "version": "1.4.0",
+          "purl": "pkg:cargo/cc@1.4.0",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/cc"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/rust-lang/cc-rs"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-lang/cc-rs"
+            }
+          ]
+        },
+        {
+          "name": "cfg-if",
+          "version": "1.0.4",
+          "purl": "pkg:cargo/cfg-if@1.0.4",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-lang/cfg-if"
+            }
+          ]
+        },
+        {
+          "name": "find-msvc-tools",
+          "version": "0.1.9",
+          "purl": "pkg:cargo/find-msvc-tools@0.1.9",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/find-msvc-tools"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-lang/cc-rs"
+            }
+          ]
+        },
+        {
+          "name": "foreign-types-shared",
+          "version": "0.1.1",
+          "purl": "pkg:cargo/foreign-types-shared@0.1.1",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/sfackler/foreign-types"
+            }
+          ]
+        },
+        {
+          "name": "foreign-types",
+          "version": "0.3.2",
+          "purl": "pkg:cargo/foreign-types@0.3.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/sfackler/foreign-types"
+            }
+          ]
+        },
+        {
+          "name": "heck",
+          "version": "0.5.0",
+          "purl": "pkg:cargo/heck@0.5.0",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/withoutboats/heck"
+            }
+          ]
+        },
+        {
+          "name": "itoa",
+          "version": "1.0.18",
+          "purl": "pkg:cargo/itoa@1.0.18",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/itoa"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/dtolnay/itoa"
+            }
+          ]
+        },
+        {
+          "name": "libc",
+          "version": "0.2.189",
+          "purl": "pkg:cargo/libc@0.2.189",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-lang/libc"
+            }
+          ]
+        },
+        {
+          "name": "once_cell",
+          "version": "1.21.4",
+          "purl": "pkg:cargo/once_cell@1.21.4",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/once_cell"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/matklad/once_cell"
+            }
+          ]
+        },
+        {
+          "name": "openssl-macros",
+          "version": "0.1.1",
+          "purl": "pkg:cargo/openssl-macros@0.1.1",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "openssl-sys",
+          "version": "0.9.117",
+          "purl": "pkg:cargo/openssl-sys@0.9.117",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "other",
+              "url": "openssl"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-openssl/rust-openssl"
+            }
+          ]
+        },
+        {
+          "name": "openssl",
+          "version": "0.10.81",
+          "purl": "pkg:cargo/openssl@0.10.81",
+          "licenses": [
+            {
+              "expression": "Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-openssl/rust-openssl"
+            }
+          ]
+        },
+        {
+          "name": "pem",
+          "version": "4.0.0",
+          "purl": "pkg:cargo/pem@4.0.0",
+          "licenses": [
+            {
+              "expression": "MIT"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/pem/"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/jcreekmore/pem-rs.git"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/jcreekmore/pem-rs.git"
+            }
+          ]
+        },
+        {
+          "name": "pkg-config",
+          "version": "0.3.33",
+          "purl": "pkg:cargo/pkg-config@0.3.33",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/pkg-config"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/rust-lang/pkg-config-rs"
+            }
+          ]
+        },
+        {
+          "name": "portable-atomic",
+          "version": "1.14.0",
+          "purl": "pkg:cargo/portable-atomic@1.14.0",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR MIT"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/taiki-e/portable-atomic"
+            }
+          ]
+        },
+        {
+          "name": "proc-macro2",
+          "version": "1.0.107",
+          "purl": "pkg:cargo/proc-macro2@1.0.107",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/proc-macro2"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/dtolnay/proc-macro2"
+            }
+          ]
+        },
+        {
+          "name": "pyo3-build-config",
+          "version": "0.29.2",
+          "purl": "pkg:cargo/pyo3-build-config@0.29.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/pyo3/pyo3"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/pyo3/pyo3"
+            }
+          ]
+        },
+        {
+          "name": "pyo3-ffi",
+          "version": "0.29.2",
+          "purl": "pkg:cargo/pyo3-ffi@0.29.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/pyo3/pyo3"
+            },
+            {
+              "type": "other",
+              "url": "python"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/pyo3/pyo3"
+            }
+          ]
+        },
+        {
+          "name": "pyo3-macros-backend",
+          "version": "0.29.2",
+          "purl": "pkg:cargo/pyo3-macros-backend@0.29.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/pyo3/pyo3"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/pyo3/pyo3"
+            }
+          ]
+        },
+        {
+          "name": "pyo3-macros",
+          "version": "0.29.2",
+          "purl": "pkg:cargo/pyo3-macros@0.29.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/pyo3/pyo3"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/pyo3/pyo3"
+            }
+          ]
+        },
+        {
+          "name": "pyo3",
+          "version": "0.29.2",
+          "purl": "pkg:cargo/pyo3@0.29.2",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/crate/pyo3/"
+            },
+            {
+              "type": "website",
+              "url": "https://github.com/pyo3/pyo3"
+            },
+            {
+              "type": "other",
+              "url": "pyo3-python"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/pyo3/pyo3"
+            }
+          ]
+        },
+        {
+          "name": "quote",
+          "version": "1.0.47",
+          "purl": "pkg:cargo/quote@1.0.47",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/quote/"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/dtolnay/quote"
+            }
+          ]
+        },
+        {
+          "name": "self_cell",
+          "version": "1.3.0",
+          "purl": "pkg:cargo/self_cell@1.3.0",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 OR GPL-2.0-only"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/self_cell"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/Voultapher/self_cell"
+            }
+          ]
+        },
+        {
+          "name": "shlex",
+          "version": "2.0.1",
+          "purl": "pkg:cargo/shlex@2.0.1",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/comex/rust-shlex"
+            }
+          ]
+        },
+        {
+          "name": "syn",
+          "version": "2.0.119",
+          "purl": "pkg:cargo/syn@2.0.119",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/syn"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/dtolnay/syn"
+            }
+          ]
+        },
+        {
+          "name": "target-lexicon",
+          "version": "0.13.5",
+          "purl": "pkg:cargo/target-lexicon@0.13.5",
+          "licenses": [
+            {
+              "expression": "Apache-2.0 WITH LLVM-exception"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/target-lexicon/"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/bytecodealliance/target-lexicon"
+            }
+          ]
+        },
+        {
+          "name": "unicode-ident",
+          "version": "1.0.24",
+          "purl": "pkg:cargo/unicode-ident@1.0.24",
+          "licenses": [
+            {
+              "expression": "(MIT OR Apache-2.0) AND Unicode-3.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/unicode-ident"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/dtolnay/unicode-ident"
+            }
+          ]
+        },
+        {
+          "name": "vcpkg",
+          "version": "0.2.15",
+          "purl": "pkg:cargo/vcpkg@0.2.15",
+          "licenses": [
+            {
+              "expression": "MIT OR Apache-2.0"
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "documentation",
+              "url": "https://docs.rs/vcpkg"
+            },
+            {
+              "type": "vcs",
+              "url": "https://github.com/mcgoo/vcpkg-rs"
+            }
+          ]
+        }
+      ],
+      "scope": "Supplier SBOM; may include build/optional/all-target components"
+    },
+    {
+      "package": "cryptography",
+      "version": "50.0.2",
+      "file": "cryptography-50.0.2.dist-info/sboms/sbom.json",
+      "sha256": "5b5eea08dd952a16eef188f7a85ad439a4409efa0e2bce9ca339a4de9c8db3f0",
+      "components": [
+        {
+          "name": "openssl",
+          "version": "4.0.3",
+          "purl": "pkg:generic/openssl@4.0.3?download_url=https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz",
+          "licenses": null,
+          "externalReferences": [
+            {
+              "type": "distribution",
+              "url": "https://github.com/openssl/openssl/releases/download/openssl-4.0.3/openssl-4.0.3.tar.gz"
+            }
+          ]
+        }
+      ],
+      "scope": "Supplier SBOM; may include build/optional/all-target components"
+    },
+    {
+      "package": "Pillow",
+      "version": "13.0.0",
+      "file": "pillow-13.0.0.dist-info/sboms/pillow-13.0.0.cdx.json",
+      "sha256": "fe1ca6e3a4f73e7018a3805a75a19377453f342d203712f37387ad6ee853fd44",
+      "components": [
+        {
+          "name": "PIL._avif",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._avif",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imaging",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imaging",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imagingcms",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingcms",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imagingft",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingft",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imagingmath",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingmath",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imagingmorph",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingmorph",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._imagingtk",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingtk",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "PIL._webp",
+          "version": "13.0.0",
+          "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._webp",
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": null
+        },
+        {
+          "name": "fribidi-shim",
+          "version": "1.x",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT-CMU"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/fribidi/fribidi"
+            }
+          ]
+        },
+        {
+          "name": "pythoncapi_compat",
+          "version": null,
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "0BSD"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/python/pythoncapi-compat"
+            }
+          ]
+        },
+        {
+          "name": "raqm",
+          "version": "0.11.0",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "vcs",
+              "url": "https://github.com/python-pillow/Pillow/tree/main/src/thirdparty/raqm"
+            }
+          ]
+        },
+        {
+          "name": "FreeType",
+          "version": "2.14.3",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "FTL"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://freetype.org"
+            },
+            {
+              "type": "distribution",
+              "url": "https://download.savannah.gnu.org/releases/freetype/"
+            }
+          ]
+        },
+        {
+          "name": "FriBiDi",
+          "version": "1.0.17",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "LGPL-2.1-or-later"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/fribidi/fribidi"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/fribidi/fribidi/releases"
+            }
+          ]
+        },
+        {
+          "name": "HarfBuzz",
+          "version": "14.5.0",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://harfbuzz.github.io"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/harfbuzz/harfbuzz/releases"
+            }
+          ]
+        },
+        {
+          "name": "libavif",
+          "version": "1.4.2",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-2-Clause"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://github.com/AOMediaCodec/libavif"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/AOMediaCodec/libavif/releases"
+            }
+          ]
+        },
+        {
+          "name": "libimagequant",
+          "version": "4.4.1",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "GPL-3.0-or-later"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://pngquant.org/lib/"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/ImageOptim/libimagequant/tags"
+            }
+          ]
+        },
+        {
+          "name": "libjpeg / libjpeg-turbo",
+          "version": "3.2.0",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "IJG"
+              }
+            },
+            {
+              "license": {
+                "id": "BSD-3-Clause"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://ijg.org"
+            },
+            {
+              "type": "website",
+              "url": "https://libjpeg-turbo.org"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases"
+            }
+          ]
+        },
+        {
+          "name": "libtiff",
+          "version": "4.7.2",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "libtiff"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://libtiff.gitlab.io/libtiff/"
+            },
+            {
+              "type": "distribution",
+              "url": "https://download.osgeo.org/libtiff/"
+            }
+          ]
+        },
+        {
+          "name": "libwebp",
+          "version": "1.6.0",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-3-Clause"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://chromium.googlesource.com/webm/libwebp"
+            },
+            {
+              "type": "distribution",
+              "url": "https://chromium.googlesource.com/webm/libwebp"
+            }
+          ]
+        },
+        {
+          "name": "libxcb",
+          "version": "1.17.0",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "X11"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://xcb.freedesktop.org"
+            },
+            {
+              "type": "distribution",
+              "url": "https://xcb.freedesktop.org/dist/"
+            }
+          ]
+        },
+        {
+          "name": "Little CMS 2",
+          "version": "2.19.1",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "MIT"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://www.littlecms.com"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/mm2/Little-CMS/releases"
+            }
+          ]
+        },
+        {
+          "name": "OpenJPEG",
+          "version": "2.5.4",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-2-Clause"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://www.openjpeg.org"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/uclouvain/openjpeg/releases"
+            }
+          ]
+        },
+        {
+          "name": "pybind11",
+          "version": null,
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "BSD-3-Clause"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://pybind11.readthedocs.io"
+            },
+            {
+              "type": "distribution",
+              "url": "https://github.com/pybind/pybind11/releases"
+            }
+          ]
+        },
+        {
+          "name": "zlib",
+          "version": "2.3.3",
+          "purl": null,
+          "licenses": [
+            {
+              "license": {
+                "id": "Zlib"
+              }
+            }
+          ],
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://zlib.net"
+            },
+            {
+              "type": "distribution",
+              "url": "https://zlib.net"
+            }
+          ]
+        }
+      ],
+      "scope": "Supplier SBOM; may include build/optional/all-target components"
+    }
+  ],
+  "pillow": {
+    "shipped_extensions": [
+      "PIL._avif",
+      "PIL._imaging",
+      "PIL._imagingcms",
+      "PIL._imagingtk",
+      "PIL._webp"
+    ],
+    "disabled_feature_dependencies": [
+      "pkg:generic/libimagequant",
+      "pkg:generic/libxcb"
+    ],
+    "scoped_supplier_components": [
+      {
+        "bom-ref": "pkg:generic/libavif",
+        "type": "library",
+        "name": "libavif",
+        "version": "1.4.2",
+        "scope": "optional",
+        "description": "AVIF codec (optional, used by PIL._avif).",
+        "licenses": [
+          {
+            "license": {
+              "id": "BSD-2-Clause"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://github.com/AOMediaCodec/libavif"
+          },
+          {
+            "type": "distribution",
+            "url": "https://github.com/AOMediaCodec/libavif/releases"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/libjpeg",
+        "type": "library",
+        "name": "libjpeg / libjpeg-turbo",
+        "version": "3.2.0",
+        "description": "JPEG codec (required by default; disable with -C jpeg=disable).",
+        "licenses": [
+          {
+            "license": {
+              "id": "IJG"
+            }
+          },
+          {
+            "license": {
+              "id": "BSD-3-Clause"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://ijg.org"
+          },
+          {
+            "type": "website",
+            "url": "https://libjpeg-turbo.org"
+          },
+          {
+            "type": "distribution",
+            "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/libtiff",
+        "type": "library",
+        "name": "libtiff",
+        "version": "4.7.2",
+        "scope": "optional",
+        "description": "TIFF codec (optional).",
+        "licenses": [
+          {
+            "license": {
+              "id": "libtiff"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://libtiff.gitlab.io/libtiff/"
+          },
+          {
+            "type": "distribution",
+            "url": "https://download.osgeo.org/libtiff/"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/libwebp",
+        "type": "library",
+        "name": "libwebp",
+        "version": "1.6.0",
+        "scope": "optional",
+        "description": "WebP codec (optional, used by PIL._webp).",
+        "licenses": [
+          {
+            "license": {
+              "id": "BSD-3-Clause"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://chromium.googlesource.com/webm/libwebp"
+          },
+          {
+            "type": "distribution",
+            "url": "https://chromium.googlesource.com/webm/libwebp"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/littlecms2",
+        "type": "library",
+        "name": "Little CMS 2",
+        "version": "2.19.1",
+        "scope": "optional",
+        "description": "Colour management (optional, used by PIL._imagingcms).",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://www.littlecms.com"
+          },
+          {
+            "type": "distribution",
+            "url": "https://github.com/mm2/Little-CMS/releases"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/openjpeg",
+        "type": "library",
+        "name": "OpenJPEG",
+        "version": "2.5.4",
+        "scope": "optional",
+        "description": "JPEG 2000 codec (optional).",
+        "licenses": [
+          {
+            "license": {
+              "id": "BSD-2-Clause"
+            }
+          }
+        ],
+        "pedigree": {
+          "ancestors": [
+            {
+              "bom-ref": "pkg:generic/openjpeg@2.5.4#upstream",
+              "type": "library",
+              "name": "libtiff",
+              "version": "2.5.4",
+              "purl": "pkg:generic/openjpeg@2.5.4",
+              "externalReferences": [
+                {
+                  "type": "distribution",
+                  "url": "https://github.com/uclouvain/openjpeg/releases/tag/v2.5.4"
+                }
+              ]
+            }
+          ],
+          "patches": [
+            {
+              "type": "cherry-pick",
+              "diff": {
+                "text": {
+                  "content": "Y29tbWl0IDkxZDA4YjExYTcyNzY0ZjZkMTk5ZjMyZmEwYzFiMWFiZDRlZGMyYWQKQXV0aG9yOiBQR1pYQiA8cGd6eGJAcXEuY29tPgpEYXRlOiAgIFR1ZSBGZWIgMTAgMTc6MDk6MzAgMjAyNiArMDAwMAoKICAgIEZpeCBoZWFwIGJ1ZmZlciBvdmVybGZvdyBpbiBvcGpfajJrX3JlYWRfc29kCgpkaWZmIC0tZ2l0IGEvc3JjL2xpYi9vcGVuanAyL2oyay5jIGIvc3JjL2xpYi9vcGVuanAyL2oyay5jCmluZGV4IGEyMDE0Yzg5Li5hZDc2YWNhNyAxMDA2NDQKLS0tIHNyYy9saWIvb3BlbmpwMi9qMmsuYworKysgc3JjL2xpYi9vcGVuanAyL2oyay5jCkBAIC01MDgyLDEyICs1MDgyLDE0IEBAIHN0YXRpYyBPUEpfQk9PTCBvcGpfajJrX3JlYWRfc29kKG9wal9qMmtfdCAqcF9qMmssCgogICAgICAgICBPUEpfVUlOVDMyIGxfY3VycmVudF90aWxlX3BhcnQgPQogICAgICAgICAgICAgbF9jc3RyX2luZGV4LT50aWxlX2luZGV4W3BfajJrLT5tX2N1cnJlbnRfdGlsZV9udW1iZXJdLmN1cnJlbnRfdHBzbm87Ci0gICAgICAgIGxfY3N0cl9pbmRleC0+dGlsZV9pbmRleFtwX2oyay0+bV9jdXJyZW50X3RpbGVfbnVtYmVyXS50cF9pbmRleFtsX2N1cnJlbnRfdGlsZV9wYXJ0XS5lbmRfaGVhZGVyCi0gICAgICAgICAgICA9Ci0gICAgICAgICAgICAgICAgbF9jdXJyZW50X3BvczsKLSAgICAgICAgbF9jc3RyX2luZGV4LT50aWxlX2luZGV4W3BfajJrLT5tX2N1cnJlbnRfdGlsZV9udW1iZXJdLnRwX2luZGV4W2xfY3VycmVudF90aWxlX3BhcnRdLmVuZF9wb3MKLSAgICAgICAgICAgID0KLSAgICAgICAgICAgICAgICBsX2N1cnJlbnRfcG9zICsgcF9qMmstPm1fc3BlY2lmaWNfcGFyYW0ubV9kZWNvZGVyLm1fc290X2xlbmd0aCArIDI7CisgICAgICAgIGlmIChsX2NzdHJfaW5kZXgtPnRpbGVfaW5kZXhbcF9qMmstPm1fY3VycmVudF90aWxlX251bWJlcl0udHBfaW5kZXggJiYKKyAgICAgICAgICAgICAgICBsX2N1cnJlbnRfdGlsZV9wYXJ0IDwKKyAgICAgICAgICAgICAgICBsX2NzdHJfaW5kZXgtPnRpbGVfaW5kZXhbcF9qMmstPm1fY3VycmVudF90aWxlX251bWJlcl0ubmJfdHBzKSB7CisgICAgICAgICAgICBsX2NzdHJfaW5kZXgtPnRpbGVfaW5kZXhbcF9qMmstPm1fY3VycmVudF90aWxlX251bWJlcl0udHBfaW5kZXhbbF9jdXJyZW50X3RpbGVfcGFydF0uZW5kX2hlYWRlcgorICAgICAgICAgICAgICAgID0gbF9jdXJyZW50X3BvczsKKyAgICAgICAgICAgIGxfY3N0cl9pbmRleC0+dGlsZV9pbmRleFtwX2oyay0+bV9jdXJyZW50X3RpbGVfbnVtYmVyXS50cF9pbmRleFtsX2N1cnJlbnRfdGlsZV9wYXJ0XS5lbmRfcG9zCisgICAgICAgICAgICAgICAgPSBsX2N1cnJlbnRfcG9zICsgcF9qMmstPm1fc3BlY2lmaWNfcGFyYW0ubV9kZWNvZGVyLm1fc290X2xlbmd0aCArIDI7CisgICAgICAgIH0KCiAgICAgICAgIGlmIChPUEpfRkFMU0UgPT0gb3BqX2oya19hZGRfdGxtYXJrZXIocF9qMmstPm1fY3VycmVudF90aWxlX251bWJlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsX2NzdHJfaW5kZXgsCg==",
+                  "encoding": "base64"
+                }
+              }
+            }
+          ],
+          "notes": "Vendored from upstream openjpeg 2.5.4 with a commit from master cherry-picked to fix OSV-2025-219."
+        },
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://www.openjpeg.org"
+          },
+          {
+            "type": "distribution",
+            "url": "https://github.com/uclouvain/openjpeg/releases"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:generic/zlib",
+        "type": "library",
+        "name": "zlib",
+        "version": "2.3.3",
+        "description": "Deflate/PNG compression (required by default; disable with -C zlib=disable).",
+        "licenses": [
+          {
+            "license": {
+              "id": "Zlib"
+            }
+          }
+        ],
+        "externalReferences": [
+          {
+            "type": "website",
+            "url": "https://zlib.net"
+          },
+          {
+            "type": "distribution",
+            "url": "https://zlib.net"
+          }
+        ]
+      },
+      {
+        "bom-ref": "pkg:pypi/pillow@13.0.0#c-ext/PIL._avif",
+        "type": "library",
+        "name": "PIL._avif",
+        "version": "13.0.0",
+        "description": "AVIF image format extension",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT-CMU"
+            }
+          }
+        ],
+        "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._avif"
+      },
+      {
+        "bom-ref": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imaging",
+        "type": "library",
+        "name": "PIL._imaging",
+        "version": "13.0.0",
+        "description": "Core image processing extension (decode, encode, map, display, outline, path, libImaging)",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT-CMU"
+            }
+          }
+        ],
+        "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imaging"
+      },
+      {
+        "bom-ref": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingcms",
+        "type": "library",
+        "name": "PIL._imagingcms",
+        "version": "13.0.0",
+        "description": "LittleCMS2 colour management extension",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT-CMU"
+            }
+          }
+        ],
+        "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingcms"
+      },
+      {
+        "bom-ref": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingtk",
+        "type": "library",
+        "name": "PIL._imagingtk",
+        "version": "13.0.0",
+        "description": "Tk/Tcl display extension",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT-CMU"
+            }
+          }
+        ],
+        "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._imagingtk"
+      },
+      {
+        "bom-ref": "pkg:pypi/pillow@13.0.0#c-ext/PIL._webp",
+        "type": "library",
+        "name": "PIL._webp",
+        "version": "13.0.0",
+        "description": "WebP image format extension",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT-CMU"
+            }
+          }
+        ],
+        "purl": "pkg:pypi/pillow@13.0.0#c-ext/PIL._webp"
+      }
+    ],
+    "avif_codecs": "dav1d [dec]:1.5.3-0-gb546257, aom [enc]:3.14.1",
+    "note": "Runtime feature probes use installed extensions already hash-matched to b3. Generic SBOM edges are not exact per-platform linkage proof."
+  },
+  "mesa": {
+    "same_file": false,
+    "same_pe_sections": true,
+    "one_sha256": "b04de4541863bc7d8879040a78889c4849c1b1da2784c4630f734c146c2998ce",
+    "two_sha256": "18aedc7a4b610f53bcc7b7a5c5ed9293c7e86f030e3273ad54ed3bb1ebd36702",
+    "section_count": 8,
+    "note": "Matching sections do not prove identical certificates or publisher source patches.",
+    "reference_archive": "qt-mesa-11.2.2-x64.7z",
+    "qt_recipe_sha1_matches": true,
+    "identified_sources": [
+      "Mesa 11.2.2",
+      "LLVM 3.6.2"
+    ],
+    "source_patch_correspondence": "OPEN; do not infer exact Qt patches from matching version/sections"
+  },
+  "ffmpeg": {
+    "release": "9.0.1",
+    "recipe_located": true,
+    "qt_source_sha1_matches": true,
+    "source_record": {
+      "component": "FFmpeg-official-release",
+      "version": "9.0.1",
+      "url": "https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.gz",
+      "file": "ffmpeg-9.0.1-official.tar.gz",
+      "kind": "source",
+      "sha256": "657dbf258cce6c0681714b6e40b8ca69e988c67ecfc2f7aab47574e6ebaceb38",
+      "bytes": 18122748,
+      "publisher_digest_verified": false,
+      "status": "downloaded",
+      "binary_correspondence": "OPEN; source availability does not prove wheel build patches/features"
+    }
+  },
+  "complete_native_source_build_correspondence": false,
+  "open_items": [
+    "Exact Qt wheel build/patch confirmation",
+    "Mesa/LLVM publisher patch/build correspondence",
+    "Native rebuild verification and static compiler-runtime closure",
+    "Microsoft redistribution conditions and applicable legal patent/ZWO review"
+  ]
+}

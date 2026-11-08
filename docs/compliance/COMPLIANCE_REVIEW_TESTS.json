@@ -1,0 +1,105 @@
+{
+  "version": "2.3.0b3",
+  "scope": "Separate local compliance-review candidate; not a public release or a clean external-PC/hardware test",
+  "automated_tests": {
+    "passed": 169,
+    "seconds": 23.1,
+    "repeat_full_suite": true
+  },
+  "installer": {
+    "payload_files_checked": 1642,
+    "start_menu_created": true,
+    "test_type": "real local production installer; no clean external PC",
+    "uninstall_icon_matches": true,
+    "payload_mismatches": 0,
+    "reinstall_exit": 0,
+    "desktop_icon_matches": true,
+    "version": "2.3.0b3",
+    "desktop_created": true,
+    "install_exit": 0,
+    "start_menu_icon_matches": true,
+    "installed_exe_matches": true,
+    "profile_unchanged": true,
+    "uninstall_exit": 0,
+    "program_removed": true,
+    "shortcuts_removed": true,
+    "registration_removed": true
+  },
+  "portable_smoke": {
+    "frozen_executable": true,
+    "clean_shutdown": true,
+    "application_exit_code": 0,
+    "catalog_count": 14034,
+    "sky_calculated": true,
+    "control_enabled": false
+  },
+  "installed_smoke": {
+    "frozen_executable": true,
+    "clean_shutdown": true,
+    "application_exit_code": 0,
+    "catalog_count": 14034,
+    "sky_calculated": true,
+    "control_enabled": false
+  },
+  "original_b3_artifacts_unchanged": [
+    {
+      "file": "SeestarStudio-2.3.0b3-setup-win64.exe",
+      "sha256": "d7ff8bb0fe038222cd7a7551466841eb3da51d29dd56538113c48b7f4cb38174",
+      "verified": true
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-source.zip",
+      "sha256": "45b2930c0f6cda75a692997fc76a255775a4582b04d0ff318d088d203bc50da1",
+      "verified": true
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-upstream-sources.zip",
+      "sha256": "33090ea1c729e3f73d23dd44a99cc045d9c2484ec9d4f133bde8991b9ee82036",
+      "verified": true
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-win64.zip",
+      "sha256": "5a09312faa5a262aa49d333b73a2ed15855a55f95add02756eaa8c7d9f82f159",
+      "verified": true
+    }
+  ],
+  "public_binary_release_created": false,
+  "new_hardware_tests_performed": false,
+  "review_application_source_sha256": "e3ebb992d631eafd4899e3db316de7a989c308101aaed31e54424d94a00a87ea",
+  "third_party_native_files_unchanged": 129,
+  "package_validation": {
+    "version": "2.3.0b3",
+    "zip_bytes": 88442773,
+    "runtime_files": 1910,
+    "source_files": 629,
+    "license_files": 654,
+    "forbidden_files": 0,
+    "zip_integrity": "passed",
+    "scope": "current local artifacts only; not a full legal/security/history audit"
+  },
+  "source_safety": {
+    "current_files_scanned": 603,
+    "current_findings": 0,
+    "history_findings": 0,
+    "forbidden_history_paths": 0,
+    "scope": "All locally reachable refs, including fetched tags; unreachable objects, remote PR refs and Git LFS payloads not covered.",
+    "heuristic_not_guarantee": true
+  },
+  "artifacts": [
+    {
+      "file": "SeestarStudio-2.3.0b3-setup-win64.exe",
+      "bytes": 62775719,
+      "sha256": "f6ea4d81de744f19d741c54afc7d835feb612de843e58cbf6aad81449495d1e8"
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-source.zip",
+      "bytes": 3017093,
+      "sha256": "ea36faa809074f295dd968d6d0db25938b9a1cacfae4d0a7ab1de03379ef89fc"
+    },
+    {
+      "file": "SeestarStudio-2.3.0b3-win64.zip",
+      "bytes": 88442773,
+      "sha256": "5678bf78cf703728ff703d172ab35f436db8ef13a27e3d3d35281b49f7690129"
+    }
+  ]
+}

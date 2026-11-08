@@ -1,5 +1,65 @@
 [
   {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-c693279643b8.txt",
+    "sha256": "4764a286d8b2faeaf42f4418e7d7a28d58fc8fd4d00a3d0a7f44b0a4099de7f2"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/fastfeat/LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-63bac9a337ea.txt",
+    "sha256": "499041ddee5227b6f29ca06c17803e5fe24d60f243c69635cd76b7ba08d0ddd5"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/googletest/src/LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-aa1554d24196.txt",
+    "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/highway/LICENSE-BSD3",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-ddfacaa94f9d.txt",
+    "sha256": "d25e82e26acd42ca3ccc9993622631163425b869b9e16284226d534cff6470f2"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/libwebm/LICENSE.TXT",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-b59b5ef16308.txt",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/libyuv/LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-fb99dad6dd89.txt",
+    "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/vector/LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-1e89d0adc700.txt",
+    "sha256": "ff6c857ce2708e87701323078aef115c1872a1f80a9649f86dc899b48083bc60"
+  },
+  {
+    "archive": "aom-3.14.1.tar.gz",
+    "original_member": "third_party/x86inc/LICENSE",
+    "notice_file": "upstream/aom-3.14.1.tar.gz-23c6a4e21bc9.txt",
+    "sha256": "719d8fa235f2068e0ae6d6a7dceb0a7720d7840f0f0ebed29957989e6ded3cd8"
+  },
+  {
+    "archive": "asn1-0.24.1.crate",
+    "original_member": "asn1-0.24.1/LICENSE",
+    "notice_file": "upstream/asn1-0.24.1.crate-b48cd5f28c23.txt",
+    "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+  },
+  {
+    "archive": "asn1_derive-0.24.1.crate",
+    "original_member": "asn1_derive-0.24.1/LICENSE",
+    "notice_file": "upstream/asn1_derive-0.24.1.crate-0c1e29b96d89.txt",
+    "sha256": "c6deb2d156619439e147f8b62e1b3928598c8e3652ec8b56cc039490696b3985"
+  },
+  {
     "archive": "astropy-8.0.2.tar.gz",
     "original_member": "astropy-8.0.2/LICENSE.rst",
     "notice_file": "upstream/astropy-8.0.2.tar.gz-f526da1f84b1.txt",
@@ -42,6 +102,42 @@
     "sha256": "05d8ec3643773431cb5447b10711f119d79955470cdfbb8ca2e670a4432a153c"
   },
   {
+    "archive": "base64-0.23.0.crate",
+    "original_member": "base64-0.23.0/LICENSE-APACHE",
+    "notice_file": "upstream/base64-0.23.0.crate-a0f37a8477de.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "base64-0.23.0.crate",
+    "original_member": "base64-0.23.0/LICENSE-MIT",
+    "notice_file": "upstream/base64-0.23.0.crate-6b4ae7b33855.txt",
+    "sha256": "ab499c75a0f0da8e0fe83bf9ba3a27e5c39705310f07107c6c66b69958d2401c"
+  },
+  {
+    "archive": "bitflags-2.13.1.crate",
+    "original_member": "bitflags-2.13.1/LICENSE-APACHE",
+    "notice_file": "upstream/bitflags-2.13.1.crate-454e615c7dfc.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "bitflags-2.13.1.crate",
+    "original_member": "bitflags-2.13.1/LICENSE-MIT",
+    "notice_file": "upstream/bitflags-2.13.1.crate-8a1f1a956765.txt",
+    "sha256": "6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb"
+  },
+  {
+    "archive": "cc-1.4.0.crate",
+    "original_member": "cc-1.4.0/LICENSE-APACHE",
+    "notice_file": "upstream/cc-1.4.0.crate-a3a75c1016d8.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "cc-1.4.0.crate",
+    "original_member": "cc-1.4.0/LICENSE-MIT",
+    "notice_file": "upstream/cc-1.4.0.crate-d70c2fb8dd08.txt",
+    "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+  },
+  {
     "archive": "certifi-2026.10.23.tar.gz",
     "original_member": "certifi-2026.10.23/LICENSE",
     "notice_file": "upstream/certifi-2026.10.23.tar.gz-1a3107da3819.txt",
@@ -52,6 +148,18 @@
     "original_member": "cffi-2.1.1/LICENSE",
     "notice_file": "upstream/cffi-2.1.1.tar.gz-fd7990a26178.txt",
     "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "archive": "cfg-if-1.0.4.crate",
+    "original_member": "cfg-if-1.0.4/LICENSE-APACHE",
+    "notice_file": "upstream/cfg-if-1.0.4.crate-300d5d7a5a0c.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "cfg-if-1.0.4.crate",
+    "original_member": "cfg-if-1.0.4/LICENSE-MIT",
+    "notice_file": "upstream/cfg-if-1.0.4.crate-f4cfebd23d19.txt",
+    "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
   },
   {
     "archive": "charset_normalizer-3.5.2.tar.gz",
@@ -72,6 +180,78 @@
     "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318"
   },
   {
+    "archive": "cpython-source-deps-bzip2-1.0.8.tar.gz",
+    "original_member": "cpython-source-deps-bzip2-1.0.8/LICENSE",
+    "notice_file": "upstream/cpython-source-deps-bzip2-1.0.8.tar.gz-fac89e17ed86.txt",
+    "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3"
+  },
+  {
+    "archive": "cpython-source-deps-libffi-3.4.4.tar.gz",
+    "original_member": "cpython-source-deps-libffi-3.4.4/LICENSE",
+    "notice_file": "upstream/cpython-source-deps-libffi-3.4.4.tar.gz-a048eb8ae4fd.txt",
+    "sha256": "2c9c2acb9743e6b007b91350475308aee44691d96aa20eacef8e199988c8c388"
+  },
+  {
+    "archive": "cpython-source-deps-libffi-3.4.4.tar.gz",
+    "original_member": "cpython-source-deps-libffi-3.4.4/LICENSE-BUILDTOOLS",
+    "notice_file": "upstream/cpython-source-deps-libffi-3.4.4.tar.gz-1f618318f750.txt",
+    "sha256": "e67978cd18816c0cb7d29aaaacde7b7447402c2fb321a051698890a8eaedda94"
+  },
+  {
+    "archive": "cpython-source-deps-openssl-3.0.16.tar.gz",
+    "original_member": "cpython-source-deps-openssl-3.0.16/LICENSE.txt",
+    "notice_file": "upstream/cpython-source-deps-openssl-3.0.16.tar.gz-083fec4174b3.txt",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "archive": "cpython-source-deps-openssl-3.0.16.tar.gz",
+    "original_member": "cpython-source-deps-openssl-3.0.16/external/perl/Text-Template-1.56/LICENSE",
+    "notice_file": "upstream/cpython-source-deps-openssl-3.0.16.tar.gz-01e46d244d62.txt",
+    "sha256": "9837f05336ef3cbacb6a96e1672a0426d81ad01191f214b8d48e22ca62338181"
+  },
+  {
+    "archive": "cpython-source-deps-openssl-3.0.16.tar.gz",
+    "original_member": "cpython-source-deps-openssl-3.0.16/util/perl/OpenSSL/copyright.pm",
+    "notice_file": "upstream/cpython-source-deps-openssl-3.0.16.tar.gz-2892c29c9579.txt",
+    "sha256": "04213b69dbebc8ba0dd8a6216af1d9422f9b63619c1cf2f1d8aa107b83bbb608"
+  },
+  {
+    "archive": "cpython-source-deps-xz-5.2.5.tar.gz",
+    "original_member": "cpython-source-deps-xz-5.2.5/COPYING",
+    "notice_file": "upstream/cpython-source-deps-xz-5.2.5.tar.gz-5758cd742ae9.txt",
+    "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+  },
+  {
+    "archive": "cpython-source-deps-xz-5.2.5.tar.gz",
+    "original_member": "cpython-source-deps-xz-5.2.5/COPYING.GPLv2",
+    "notice_file": "upstream/cpython-source-deps-xz-5.2.5.tar.gz-b329e9394403.txt",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "archive": "cpython-source-deps-xz-5.2.5.tar.gz",
+    "original_member": "cpython-source-deps-xz-5.2.5/COPYING.GPLv3",
+    "notice_file": "upstream/cpython-source-deps-xz-5.2.5.tar.gz-dbb564f87ae2.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "archive": "cpython-source-deps-xz-5.2.5.tar.gz",
+    "original_member": "cpython-source-deps-xz-5.2.5/COPYING.LGPLv2.1",
+    "notice_file": "upstream/cpython-source-deps-xz-5.2.5.tar.gz-75ec91b9e64e.txt",
+    "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+  },
+  {
+    "archive": "cpython-source-deps-zlib-1.3.1.tar.gz",
+    "original_member": "cpython-source-deps-zlib-1.3.1/LICENSE",
+    "notice_file": "upstream/cpython-source-deps-zlib-1.3.1.tar.gz-9ade41153a70.txt",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+  },
+  {
+    "archive": "cpython-source-deps-zlib-1.3.1.tar.gz",
+    "original_member": "cpython-source-deps-zlib-1.3.1/contrib/dotzlib/LICENSE_1_0.txt",
+    "notice_file": "upstream/cpython-source-deps-zlib-1.3.1.tar.gz-39d38a43d9ca.txt",
+    "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+  },
+  {
     "archive": "cryptography-50.0.2.tar.gz",
     "original_member": "cryptography-50.0.2/LICENSE",
     "notice_file": "upstream/cryptography-50.0.2.tar.gz-19a7a778f2c7.txt",
@@ -88,6 +268,90 @@
     "original_member": "cryptography-50.0.2/LICENSE.BSD",
     "notice_file": "upstream/cryptography-50.0.2.tar.gz-c3ba3d0f9ea9.txt",
     "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-19a7a778f2c7.txt",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE.APACHE",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-462a325afa8b.txt",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/LICENSE.BSD",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-c3ba3d0f9ea9.txt",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/vectors/LICENSE",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-f5b5d3d3f061.txt",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/vectors/LICENSE.APACHE",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-6c8e0cb3564b.txt",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "archive": "cryptography-git-50.0.2.tar.gz",
+    "original_member": "cryptography-50.0.2/vectors/LICENSE.BSD",
+    "notice_file": "upstream/cryptography-git-50.0.2.tar.gz-1ddfd2d5b445.txt",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "archive": "dav1d-1.5.3.tar.gz",
+    "original_member": "dav1d-1.5.3/COPYING",
+    "notice_file": "upstream/dav1d-1.5.3.tar.gz-9df879565930.txt",
+    "sha256": "dd92c3c2247c5651606fc23a5e2d6a1ebc5ace9a3e49cbde0e12f05ad1cb1ee5"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/COPYING.LGPLv2.1",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-28e1dd4ebcae.txt",
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/COPYING.GPLv2",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-256fedbfcd34.txt",
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/COPYING.LGPLv3",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-320d63c64b49.txt",
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/COPYING.GPLv3",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-8b87165b1c58.txt",
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/tests/checkasm/ext/src/html_data/LICENSE",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-2b7390979b26.txt",
+    "sha256": "0fd2c601fb2ead2add56807b7e32664da8d973b9835a422464f210bfea997a52"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/tests/checkasm/ext/LICENSE",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-d5aa5c09f98b.txt",
+    "sha256": "a2dc8194271e5989c0622531c645a7b41af5da92eeb2531e4f2a3ec31023bc52"
+  },
+  {
+    "archive": "ffmpeg-9.0.1-official.tar.gz",
+    "original_member": "ffmpeg-9.0.1/LICENSE.md",
+    "notice_file": "upstream/ffmpeg-9.0.1-official.tar.gz-ba7efd6407a7.txt",
+    "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
   },
   {
     "archive": "FFmpeg-n9.0.1.tar.gz",
@@ -132,10 +396,250 @@
     "sha256": "0fd2c601fb2ead2add56807b7e32664da8d973b9835a422464f210bfea997a52"
   },
   {
+    "archive": "find-msvc-tools-0.1.9.crate",
+    "original_member": "find-msvc-tools-0.1.9/LICENSE-APACHE",
+    "notice_file": "upstream/find-msvc-tools-0.1.9.crate-b0359b9c7195.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "find-msvc-tools-0.1.9.crate",
+    "original_member": "find-msvc-tools-0.1.9/LICENSE-MIT",
+    "notice_file": "upstream/find-msvc-tools-0.1.9.crate-7b9c29682e05.txt",
+    "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+  },
+  {
+    "archive": "foreign-types-0.3.2.crate",
+    "original_member": "foreign-types-0.3.2/LICENSE-APACHE",
+    "notice_file": "upstream/foreign-types-0.3.2.crate-bd150992a2b0.txt",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "archive": "foreign-types-0.3.2.crate",
+    "original_member": "foreign-types-0.3.2/LICENSE-MIT",
+    "notice_file": "upstream/foreign-types-0.3.2.crate-a7f9963c66b6.txt",
+    "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+  },
+  {
+    "archive": "foreign-types-shared-0.1.1.crate",
+    "original_member": "foreign-types-shared-0.1.1/LICENSE-APACHE",
+    "notice_file": "upstream/foreign-types-shared-0.1.1.crate-4281beee81f6.txt",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "archive": "foreign-types-shared-0.1.1.crate",
+    "original_member": "foreign-types-shared-0.1.1/LICENSE-MIT",
+    "notice_file": "upstream/foreign-types-shared-0.1.1.crate-244ee9812ddc.txt",
+    "sha256": "333ea3aaa3cadb819f4acd9f9153f9feee060a995ca8710f32bc5bd9a4b91734"
+  },
+  {
+    "archive": "heck-0.5.0.crate",
+    "original_member": "heck-0.5.0/LICENSE-APACHE",
+    "notice_file": "upstream/heck-0.5.0.crate-7cfab77a22fd.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "heck-0.5.0.crate",
+    "original_member": "heck-0.5.0/LICENSE-MIT",
+    "notice_file": "upstream/heck-0.5.0.crate-c42c70f71d9a.txt",
+    "sha256": "7b63ecd5f1902af1b63729947373683c32745c16a10e8e6292e2e2dcd7e90ae0"
+  },
+  {
     "archive": "idna-3.20.tar.gz",
     "original_member": "idna-3.20/LICENSE.md",
     "notice_file": "upstream/idna-3.20.tar.gz-d3f3407ca52b.txt",
     "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "archive": "innosetup-7.1.1-src.tar.gz",
+    "original_member": "issrc-is-7_1_1/Components/UniPs/LICENSE.md",
+    "notice_file": "upstream/innosetup-7.1.1-src.tar.gz-002452267081.txt",
+    "sha256": "a08799bb2385a3af99a9bbb7c746d0ad9ac7dd07be0fb1473f2f4d1dc3e11bd1"
+  },
+  {
+    "archive": "innosetup-7.1.1-src.tar.gz",
+    "original_member": "issrc-is-7_1_1/Examples/License.txt",
+    "notice_file": "upstream/innosetup-7.1.1-src.tar.gz-5c4fb44bd142.txt",
+    "sha256": "603cac0aa33f63b50d12fa7a071a3376499498b9929c1dab2f2d5daff4903313"
+  },
+  {
+    "archive": "innosetup-7.1.1-src.tar.gz",
+    "original_member": "issrc-is-7_1_1/license.txt",
+    "notice_file": "upstream/innosetup-7.1.1-src.tar.gz-721a0da07a72.txt",
+    "sha256": "2e5346868c2a18434489824e11d65c3031620f792fefc415d05f19cd441abf5c"
+  },
+  {
+    "archive": "itoa-1.0.18.crate",
+    "original_member": "itoa-1.0.18/LICENSE-APACHE",
+    "notice_file": "upstream/itoa-1.0.18.crate-044d2628db1f.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "itoa-1.0.18.crate",
+    "original_member": "itoa-1.0.18/LICENSE-MIT",
+    "notice_file": "upstream/itoa-1.0.18.crate-d22d278d085a.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive": "lcms2-2.19.1.tar.gz",
+    "original_member": "Little-CMS-lcms2.19.1/LICENSE",
+    "notice_file": "upstream/lcms2-2.19.1.tar.gz-c8c099761af3.txt",
+    "sha256": "6dbd60437f8ef91d8de1f08ad75882547fd4931bfcc3566a0735f28db1484d31"
+  },
+  {
+    "archive": "lcms2-2.19.1.tar.gz",
+    "original_member": "Little-CMS-lcms2.19.1/plugins/fast_float/COPYING.GPL3",
+    "notice_file": "upstream/lcms2-2.19.1.tar.gz-1a2478ecaf93.txt",
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+  },
+  {
+    "archive": "lcms2-2.19.1.tar.gz",
+    "original_member": "Little-CMS-lcms2.19.1/plugins/threaded/COPYING.GPL3",
+    "notice_file": "upstream/lcms2-2.19.1.tar.gz-c21db627d28b.txt",
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271"
+  },
+  {
+    "archive": "lcms2-2.19.1.tar.gz",
+    "original_member": "Little-CMS-lcms2.19.1/utils/jpgicc/LICENSE_iccjpeg",
+    "notice_file": "upstream/lcms2-2.19.1.tar.gz-d60d369783d1.txt",
+    "sha256": "8baac37d14eed89b82ffcb041677dd701164eb5cc0f26e165fe47eb11afa0dca"
+  },
+  {
+    "archive": "libavif-1.4.2.tar.gz",
+    "original_member": "libavif-1.4.2/LICENSE",
+    "notice_file": "upstream/libavif-1.4.2.tar.gz-32ab201edd42.txt",
+    "sha256": "165abf92cc04b39e80d29cadea7a6a7e8fddf59407d4ad2616507a7ebe8216f9"
+  },
+  {
+    "archive": "libc-0.2.189.crate",
+    "original_member": "libc-0.2.189/LICENSE-APACHE",
+    "notice_file": "upstream/libc-0.2.189.crate-29a4f0c1033b.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "libc-0.2.189.crate",
+    "original_member": "libc-0.2.189/LICENSE-MIT",
+    "notice_file": "upstream/libc-0.2.189.crate-6761d85699a6.txt",
+    "sha256": "123a331b5dbf04c30097fa43b8f858bc85df671fe776de498d01f3d6b7c1f69e"
+  },
+  {
+    "archive": "libjpeg-turbo-3.2.0.tar.gz",
+    "original_member": "libjpeg-turbo-3.2.0/LICENSE.md",
+    "notice_file": "upstream/libjpeg-turbo-3.2.0.tar.gz-2e0bdba4fae1.txt",
+    "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579"
+  },
+  {
+    "archive": "libjpeg-turbo-3.2.0.tar.gz",
+    "original_member": "libjpeg-turbo-3.2.0/release/License.rtf",
+    "notice_file": "upstream/libjpeg-turbo-3.2.0.tar.gz-99c364f16c9b.txt",
+    "sha256": "d26120ab237f87dea10aa4fa7fd4243cadffd26e54eb2f3903d5fb0f8ed336b2"
+  },
+  {
+    "archive": "libjpeg-turbo-3.2.0.tar.gz",
+    "original_member": "libjpeg-turbo-3.2.0/src/spng/LICENSE",
+    "notice_file": "upstream/libjpeg-turbo-3.2.0.tar.gz-32198dbe8856.txt",
+    "sha256": "0622b0794d0fecde47d743f1bb70a03e6fdf082be8e71f39de672ed995d96ff9"
+  },
+  {
+    "archive": "libjpeg-turbo-3.2.0.tar.gz",
+    "original_member": "libjpeg-turbo-3.2.0/src/spng/zlib/LICENSE",
+    "notice_file": "upstream/libjpeg-turbo-3.2.0.tar.gz-6febe12bd531.txt",
+    "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+  },
+  {
+    "archive": "libjpeg-turbo-3.2.0.tar.gz",
+    "original_member": "libjpeg-turbo-3.2.0/testimages/LICENSE.txt",
+    "notice_file": "upstream/libjpeg-turbo-3.2.0.tar.gz-cd8e01ecd22a.txt",
+    "sha256": "1c4d5dfc985d5061ba11180a8ffb541cc1778bccf87fd9f0fb92cbae69d8a9cc"
+  },
+  {
+    "archive": "libwebp-1.6.0.tar.gz",
+    "original_member": "libwebp-1.6.0/COPYING",
+    "notice_file": "upstream/libwebp-1.6.0.tar.gz-deff4ccb527d.txt",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "archive": "libyuv-644251f252a84bf8ce91ff0aca86a9b16b069ab8.tar.gz",
+    "original_member": "LICENSE",
+    "notice_file": "upstream/libyuv-644251f252a84bf8ce91ff0aca86a9b16b069ab8.tar.gz-c693279643b8.txt",
+    "sha256": "2b2cc1180c7e6988328ad2033b04b80117419db9c4c584918bbb3cfec7e9364f"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/LICENSE.TXT",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-b28ad56a9bdf.txt",
+    "sha256": "e3bc36440fc927c62d5cc24efeefe225a14d4e34ffeb0c92e430625cce9ee444"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/utils/unittest/googletest/LICENSE.TXT",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-bc34586fea29.txt",
+    "sha256": "9702de7e4117a8e2b20dafab11ffda58c198aede066406496bef670d40a22138"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/include/llvm/Support/LICENSE.TXT",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-a4c1c01f655f.txt",
+    "sha256": "a012d664e4e01df52a65b2eeafdfb8aeb856fec0e6c372265d01b0109c3f5e2a"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/lib/Target/ARM/LICENSE.TXT",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-ca3c9d572dab.txt",
+    "sha256": "28cbd5f6dac844fc3d94e879dba83c3ca87328ece8e0d388284f8cec6a042a97"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/lib/Support/COPYRIGHT.regex",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-1213b9b1898f.txt",
+    "sha256": "0424e57d4303164dc59a8509c20dae0518b853692e5c2b0e98b11816fdbc97c7"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/test/YAMLParser/LICENSE.txt",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-436426ea683f.txt",
+    "sha256": "d0d8b09800a45cd982e9568fc7669d9c1a4c330e275a821bbe24d54366d16fe9"
+  },
+  {
+    "archive": "llvm-3.6.2.src.tar.xz",
+    "original_member": "llvm-3.6.2.src/autoconf/LICENSE.TXT",
+    "notice_file": "upstream/llvm-3.6.2.src.tar.xz-a3e4560f7992.txt",
+    "sha256": "a63ee63574ed21e930765c4418a4fa2fa571b72c47cd023ee588dbf8b21fb4ee"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.gz",
+    "original_member": "mesa-11.2.2/docs/COPYING",
+    "notice_file": "upstream/mesa-11.2.2.tar.gz-65fa9ba6c238.txt",
+    "sha256": "e8800bd573e8f844a5b87cf43cc4d55767314b4e95a6092cf26ce9c6ed00b877"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.gz",
+    "original_member": "mesa-11.2.2/docs/license.html",
+    "notice_file": "upstream/mesa-11.2.2.tar.gz-f4b4a42e7c9e.txt",
+    "sha256": "288ddfae338be168ef2492c21de42ee2f5c8ebc5a734b4e58b37007141bc2d6d"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.gz",
+    "original_member": "mesa-11.2.2/src/mapi/glapi/gen/license.py",
+    "notice_file": "upstream/mesa-11.2.2.tar.gz-0bc3efe0a14d.txt",
+    "sha256": "9f11bc368fa08ad8a0fed990e5d54235425e4d1908625a4b06e860bb9aa1352a"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.xz",
+    "original_member": "mesa-11.2.2/docs/COPYING",
+    "notice_file": "upstream/mesa-11.2.2.tar.xz-65fa9ba6c238.txt",
+    "sha256": "e8800bd573e8f844a5b87cf43cc4d55767314b4e95a6092cf26ce9c6ed00b877"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.xz",
+    "original_member": "mesa-11.2.2/docs/license.html",
+    "notice_file": "upstream/mesa-11.2.2.tar.xz-f4b4a42e7c9e.txt",
+    "sha256": "288ddfae338be168ef2492c21de42ee2f5c8ebc5a734b4e58b37007141bc2d6d"
+  },
+  {
+    "archive": "mesa-11.2.2.tar.xz",
+    "original_member": "mesa-11.2.2/src/mapi/glapi/gen/license.py",
+    "notice_file": "upstream/mesa-11.2.2.tar.xz-0bc3efe0a14d.txt",
+    "sha256": "9f11bc368fa08ad8a0fed990e5d54235425e4d1908625a4b06e860bb9aa1352a"
   },
   {
     "archive": "numpy-2.5.4.tar.gz",
@@ -288,6 +792,180 @@
     "sha256": "bca11d525505d21cdfb021e634b0f1d48ece827f9bedcf8cd41356c48a09be24"
   },
   {
+    "archive": "once_cell-1.21.4.crate",
+    "original_member": "once_cell-1.21.4/LICENSE-APACHE",
+    "notice_file": "upstream/once_cell-1.21.4.crate-5d26acda4ade.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "once_cell-1.21.4.crate",
+    "original_member": "once_cell-1.21.4/LICENSE-MIT",
+    "notice_file": "upstream/once_cell-1.21.4.crate-1e1f458b45ec.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-1126c05faffa.txt",
+    "sha256": "190b5a9c8d9723fe958ad33916bd7346d96fab3c5ea90832bb02d854f620fcff"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/ctest/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-6b5bb9900321.txt",
+    "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/lapack-netlib/LAPACKE/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-339c8ef2b7ac.txt",
+    "sha256": "871f415ebd2fd06c7ab8cc3c0016aa2d26b918622345116e2d0c740b688d4843"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/lapack-netlib/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-db4e1b7f55b2.txt",
+    "sha256": "978539245c405775bf347b1256c36df4daf8b69a64b099e94b1d53742201621e"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/reference/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-57e5253d94c5.txt",
+    "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/relapack/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-d059b01774a4.txt",
+    "sha256": "abd17b9664b38cfab093e7cca625ac08d3a686fc63142ea58c27bae15969dd3a"
+  },
+  {
+    "archive": "OpenBLAS-446c436e.tar.gz",
+    "original_member": "OpenBLAS-446c436e/test/LICENSE",
+    "notice_file": "upstream/OpenBLAS-446c436e.tar.gz-596e223529dd.txt",
+    "sha256": "c1ceeff23f242ddac805ba9d332f58b559454ec00447e65540c0e818f7de69da"
+  },
+  {
+    "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+    "original_member": "openblas-libs-0.3.34.106.0/LICENSE.txt",
+    "notice_file": "upstream/openblas-libs-0.3.34.106.0.tar.gz-2cdecbbc9220.txt",
+    "sha256": "8bcce7698314809161cc3c9a1bcad21af2c754f4219f269bbd0056b3a6e1f4a8"
+  },
+  {
+    "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+    "original_member": "openblas-libs-0.3.34.106.0/objconv/LICENSE.txt",
+    "notice_file": "upstream/openblas-libs-0.3.34.106.0.tar.gz-c5c5fd436ea9.txt",
+    "sha256": "5ae05de7f12a45d8df1234b954cc8923bc9befbd1ae4d2a48eecbc2e1f152011"
+  },
+  {
+    "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+    "original_member": "openblas-libs-0.3.34.106.0/tools/LICENSE_linux.txt",
+    "notice_file": "upstream/openblas-libs-0.3.34.106.0.tar.gz-33cd9d8e4d8f.txt",
+    "sha256": "d853154e6fe80fc7c8c6f50f25fa187935ca9498c3104c78db6fd0d3c1afd35a"
+  },
+  {
+    "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+    "original_member": "openblas-libs-0.3.34.106.0/tools/LICENSE_osx.txt",
+    "notice_file": "upstream/openblas-libs-0.3.34.106.0.tar.gz-8c4f57a1f5d7.txt",
+    "sha256": "a902b8556094fde8b8c882c4bd11ce533c1ddb7ac925e98c7e4628a100eed877"
+  },
+  {
+    "archive": "openblas-libs-0.3.34.106.0.tar.gz",
+    "original_member": "openblas-libs-0.3.34.106.0/tools/LICENSE_win32.txt",
+    "notice_file": "upstream/openblas-libs-0.3.34.106.0.tar.gz-dc9136f4d3ac.txt",
+    "sha256": "1ce4c83d89bc30a0a97d4bc18d72ccaa9d3cb7c90ba1408c6b3e29ebf0c5a71c"
+  },
+  {
+    "archive": "openjpeg-2.5.4.tar.gz",
+    "original_member": "openjpeg-2.5.4/LICENSE",
+    "notice_file": "upstream/openjpeg-2.5.4.tar.gz-a342e269ddab.txt",
+    "sha256": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+  },
+  {
+    "archive": "openjpeg-2.5.4.tar.gz",
+    "original_member": "openjpeg-2.5.4/thirdparty/astyle/LICENSE.md",
+    "notice_file": "upstream/openjpeg-2.5.4.tar.gz-b1213451c2bb.txt",
+    "sha256": "2e8480e753b7a1d100c80920f4250b1bc9f93a18c6a5953c42b11445218cd0fb"
+  },
+  {
+    "archive": "openjpeg-2.5.4.tar.gz",
+    "original_member": "openjpeg-2.5.4/thirdparty/liblcms2/COPYING",
+    "notice_file": "upstream/openjpeg-2.5.4.tar.gz-f0e5fc020bdb.txt",
+    "sha256": "c725daac91a9259ce5e195683c0eeb797d345035c36ac5ba114c9fa80e11639a"
+  },
+  {
+    "archive": "openjpeg-2.5.4.tar.gz",
+    "original_member": "openjpeg-2.5.4/thirdparty/libpng/LICENSE",
+    "notice_file": "upstream/openjpeg-2.5.4.tar.gz-4930273c82c4.txt",
+    "sha256": "7317e078e2d3b5d7ba5a6159e650945153262b44b76f6700f8e9edb261c5143e"
+  },
+  {
+    "archive": "openssl-0.10.81.crate",
+    "original_member": "openssl-0.10.81/LICENSE",
+    "notice_file": "upstream/openssl-0.10.81.crate-7aa3d0c456b2.txt",
+    "sha256": "f3d4287b4a21c5176fea2f9bd4ae800696004e2fb8e05cbc818be513f188a941"
+  },
+  {
+    "archive": "openssl-0.10.81.crate",
+    "original_member": "openssl-0.10.81/LICENSE-APACHE",
+    "notice_file": "upstream/openssl-0.10.81.crate-671af71196f3.txt",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "archive": "openssl-3.0.16.tar.gz",
+    "original_member": "openssl-3.0.16/LICENSE.txt",
+    "notice_file": "upstream/openssl-3.0.16.tar.gz-16462c9eb27a.txt",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "archive": "openssl-3.0.16.tar.gz",
+    "original_member": "openssl-3.0.16/external/perl/Text-Template-1.56/LICENSE",
+    "notice_file": "upstream/openssl-3.0.16.tar.gz-1a51026e2c10.txt",
+    "sha256": "9837f05336ef3cbacb6a96e1672a0426d81ad01191f214b8d48e22ca62338181"
+  },
+  {
+    "archive": "openssl-3.0.16.tar.gz",
+    "original_member": "openssl-3.0.16/util/perl/OpenSSL/copyright.pm",
+    "notice_file": "upstream/openssl-3.0.16.tar.gz-8262e6a66c33.txt",
+    "sha256": "04213b69dbebc8ba0dd8a6216af1d9422f9b63619c1cf2f1d8aa107b83bbb608"
+  },
+  {
+    "archive": "openssl-4.0.3.tar.gz",
+    "original_member": "openssl-4.0.3/LICENSE.txt",
+    "notice_file": "upstream/openssl-4.0.3.tar.gz-f88262d0bcaa.txt",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "archive": "openssl-4.0.3.tar.gz",
+    "original_member": "openssl-4.0.3/external/perl/Text-Template-1.56/LICENSE",
+    "notice_file": "upstream/openssl-4.0.3.tar.gz-01202d5e18f1.txt",
+    "sha256": "9837f05336ef3cbacb6a96e1672a0426d81ad01191f214b8d48e22ca62338181"
+  },
+  {
+    "archive": "openssl-4.0.3.tar.gz",
+    "original_member": "openssl-4.0.3/util/perl/OpenSSL/copyright.pm",
+    "notice_file": "upstream/openssl-4.0.3.tar.gz-a8a420300e63.txt",
+    "sha256": "04213b69dbebc8ba0dd8a6216af1d9422f9b63619c1cf2f1d8aa107b83bbb608"
+  },
+  {
+    "archive": "openssl-macros-0.1.1.crate",
+    "original_member": "openssl-macros-0.1.1/LICENSE-APACHE",
+    "notice_file": "upstream/openssl-macros-0.1.1.crate-5a7a3d8a7c76.txt",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "archive": "openssl-macros-0.1.1.crate",
+    "original_member": "openssl-macros-0.1.1/LICENSE-MIT",
+    "notice_file": "upstream/openssl-macros-0.1.1.crate-a6f4c4a3762a.txt",
+    "sha256": "ea5ab440900ab271811d5c2dc02a9de6e03a6956ac5727e85c11d76df5883d30"
+  },
+  {
+    "archive": "openssl-sys-0.9.117.crate",
+    "original_member": "openssl-sys-0.9.117/LICENSE-MIT",
+    "notice_file": "upstream/openssl-sys-0.9.117.crate-379f7e44efe4.txt",
+    "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+  },
+  {
     "archive": "packaging-26.3.tar.gz",
     "original_member": "packaging-26.3/LICENSE",
     "notice_file": "upstream/packaging-26.3.tar.gz-663c5c12aafa.txt",
@@ -304,6 +982,12 @@
     "original_member": "packaging-26.3/LICENSE.BSD",
     "notice_file": "upstream/packaging-26.3.tar.gz-92bfecfbb02b.txt",
     "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "archive": "pem-4.0.0.crate",
+    "original_member": "pem-4.0.0/LICENSE.md",
+    "notice_file": "upstream/pem-4.0.0.crate-f3b36b38ec12.txt",
+    "sha256": "b7c76ff4466a3aeb6a7d903e81b651335e97d64ecb857e2ee9812a36c6fd1acf"
   },
   {
     "archive": "pillow-13.0.0.tar.gz",
@@ -342,6 +1026,78 @@
     "sha256": "f6baa5c872ed0c35cde377735f930d97a23e08065d87cf34d766b3aad5beed1e"
   },
   {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/LICENSE",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-00d7c5717bae.txt",
+    "sha256": "15181e7363dca9aed78b79bebebc7fde7f1814b8bd311ea3b87ae8ccadfc185b"
+  },
+  {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/Tests/fonts/DejaVuSans/LICENSE.txt",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-ac181716456e.txt",
+    "sha256": "ba4aee7ef5b2ebc285e76df2497953d8a6e7480bc249f4e0a55f1199a3396622"
+  },
+  {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/Tests/fonts/LICENSE.txt",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-2a639b727cf8.txt",
+    "sha256": "b79f6f6a2fc060b2e0a6e7a6946c446ae199bec07b92a3df1295975e25c4d96b"
+  },
+  {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/Tests/icc/LICENSE.txt",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-e939e557d1a9.txt",
+    "sha256": "09e62757edb34e284bc11c54e3429b438d9db37f46c9cb36bd57b1b25ae36184"
+  },
+  {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/docs/COPYING",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-ca30ed809668.txt",
+    "sha256": "d44ce2bbf81806be0eb34ec0ecb0cb013ccd56a94057daf214fb7381adde8f0c"
+  },
+  {
+    "archive": "Pillow-git-13.0.0.tar.gz",
+    "original_member": "Pillow-13.0.0/src/thirdparty/raqm/COPYING",
+    "notice_file": "upstream/Pillow-git-13.0.0.tar.gz-67a77c3f5cbc.txt",
+    "sha256": "f6baa5c872ed0c35cde377735f930d97a23e08065d87cf34d766b3aad5beed1e"
+  },
+  {
+    "archive": "pkg-config-0.3.33.crate",
+    "original_member": "pkg-config-0.3.33/LICENSE-APACHE",
+    "notice_file": "upstream/pkg-config-0.3.33.crate-21ae58a57b35.txt",
+    "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+  },
+  {
+    "archive": "pkg-config-0.3.33.crate",
+    "original_member": "pkg-config-0.3.33/LICENSE-MIT",
+    "notice_file": "upstream/pkg-config-0.3.33.crate-629d4741f23c.txt",
+    "sha256": "378f5840b258e2779c39418f3f2d7b2ba96f1c7917dd6be0713f88305dbda397"
+  },
+  {
+    "archive": "portable-atomic-1.14.0.crate",
+    "original_member": "portable-atomic-1.14.0/LICENSE-APACHE",
+    "notice_file": "upstream/portable-atomic-1.14.0.crate-4500ab518668.txt",
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "archive": "portable-atomic-1.14.0.crate",
+    "original_member": "portable-atomic-1.14.0/LICENSE-MIT",
+    "notice_file": "upstream/portable-atomic-1.14.0.crate-7c0d180e95c6.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive": "proc-macro2-1.0.107.crate",
+    "original_member": "proc-macro2-1.0.107/LICENSE-APACHE",
+    "notice_file": "upstream/proc-macro2-1.0.107.crate-4e5de5fc5846.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "proc-macro2-1.0.107.crate",
+    "original_member": "proc-macro2-1.0.107/LICENSE-MIT",
+    "notice_file": "upstream/proc-macro2-1.0.107.crate-63f48ea43a79.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
     "archive": "pyasn1-0.6.5.tar.gz",
     "original_member": "pyasn1-0.6.5/LICENSE.rst",
     "notice_file": "upstream/pyasn1-0.6.5.tar.gz-fb4489420679.txt",
@@ -352,6 +1108,24 @@
     "original_member": "pyasn1-0.6.5/docs/source/license.rst",
     "notice_file": "upstream/pyasn1-0.6.5.tar.gz-1102b32b23f5.txt",
     "sha256": "2fd7257410c4d7d9c8d8d85cb7f9f4ef9eee34126a96a993245c71577997c345"
+  },
+  {
+    "archive": "pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz",
+    "original_member": "infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b/LICENSE",
+    "notice_file": "upstream/pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz-173a4b033ed4.txt",
+    "sha256": "f95a3f18039ff360566a1c51274651c3211c2454079493da374b3f974b69fdcd"
+  },
+  {
+    "archive": "pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz",
+    "original_member": "infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b/LICENSE.APACHE",
+    "notice_file": "upstream/pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz-498c00fb685b.txt",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "archive": "pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz",
+    "original_member": "infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b/LICENSE.BSD",
+    "notice_file": "upstream/pyca-infra-126ff15e5a9e431b2ee1cdf011c762a1f67fd69b.tar.gz-bc6a9825ada9.txt",
+    "sha256": "955aa2e9fe896001d20730e4b46fe5e14167e18820f931dc83ff1698e8287d8d"
   },
   {
     "archive": "pycparser-3.12.tar.gz",
@@ -400,6 +1174,78 @@
     "original_member": "pyinstaller-6.22.3/COPYING.txt",
     "notice_file": "upstream/pyinstaller-6.22.3.tar.gz-87df3e7f0183.txt",
     "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "archive": "pyo3-0.29.2.crate",
+    "original_member": "pyo3-0.29.2/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-0.29.2.crate-bd4bb6fd65e4.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-0.29.2.crate",
+    "original_member": "pyo3-0.29.2/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-0.29.2.crate-63bfa81a8c01.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+  },
+  {
+    "archive": "pyo3-0.29.2.crate",
+    "original_member": "pyo3-0.29.2/pyo3-runtime/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-0.29.2.crate-75c2a4aa3b8e.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-0.29.2.crate",
+    "original_member": "pyo3-0.29.2/pyo3-runtime/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-0.29.2.crate-5d2f62a6be24.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+  },
+  {
+    "archive": "pyo3-build-config-0.29.2.crate",
+    "original_member": "pyo3-build-config-0.29.2/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-build-config-0.29.2.crate-41a92219de35.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-build-config-0.29.2.crate",
+    "original_member": "pyo3-build-config-0.29.2/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-build-config-0.29.2.crate-11894450acea.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+  },
+  {
+    "archive": "pyo3-ffi-0.29.2.crate",
+    "original_member": "pyo3-ffi-0.29.2/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-ffi-0.29.2.crate-1584548046b9.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-ffi-0.29.2.crate",
+    "original_member": "pyo3-ffi-0.29.2/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-ffi-0.29.2.crate-30c123c0f743.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+  },
+  {
+    "archive": "pyo3-macros-0.29.2.crate",
+    "original_member": "pyo3-macros-0.29.2/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-macros-0.29.2.crate-112ec14aa9cd.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-macros-0.29.2.crate",
+    "original_member": "pyo3-macros-0.29.2/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-macros-0.29.2.crate-476c034daf74.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
+  },
+  {
+    "archive": "pyo3-macros-backend-0.29.2.crate",
+    "original_member": "pyo3-macros-backend-0.29.2/LICENSE-APACHE",
+    "notice_file": "upstream/pyo3-macros-backend-0.29.2.crate-be5cbd2500ad.txt",
+    "sha256": "32c76dbe0e73d79100d5ece77c158399f2e2541bc5c78548a4ba45c1cb53c5c9"
+  },
+  {
+    "archive": "pyo3-macros-backend-0.29.2.crate",
+    "original_member": "pyo3-macros-backend-0.29.2/LICENSE-MIT",
+    "notice_file": "upstream/pyo3-macros-backend-0.29.2.crate-d2f4bd33bda0.txt",
+    "sha256": "afcbe3b2e6b37172b5a9ca869ee4c0b8cdc09316e5d4384864154482c33e5af6"
   },
   {
     "archive": "pyside-setup-everywhere-src-6.12.0.tar.xz",
@@ -468,10 +1314,52 @@
     "sha256": "d2ffe0ee7a0160534d80e21a8e531d78e67d9c29ca83b0c41ded5f7f6b50b551"
   },
   {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/Doc/copyright.rst",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-971fb10e66b7.txt",
+    "sha256": "9e5e6634a7f5444dd83da55ccb265bac825abf72ecddccf7e394f284636bd9df"
+  },
+  {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/Doc/license.rst",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-6989677108d4.txt",
+    "sha256": "341832873fd316a37927e79385093fbbfd40a467428480835fe435a80cadf4e5"
+  },
+  {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/LICENSE",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-9d728e7eae85.txt",
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/Mac/BuildScript/resources/License.rtf",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-1d544d81bb85.txt",
+    "sha256": "ab6df6040a4e24babad38f98454eb3263722fa6a1c441bfaa271798efbe55f27"
+  },
+  {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/Modules/expat/COPYING",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-2cbbb1d7fa87.txt",
+    "sha256": "122f2c27000472a201d337b9b31f7eb2b52d091b02857061a8880371612d9534"
+  },
+  {
+    "archive": "Python-3.12.10.tar.xz",
+    "original_member": "Python-3.12.10/Tools/msi/bundle/bootstrap/LICENSE.txt",
+    "notice_file": "upstream/Python-3.12.10.tar.xz-0c6e6bc4afea.txt",
+    "sha256": "cb95daf98edda8e08a242e1060691b6941f0911692bf468a3f9c5e4b58c09b8f"
+  },
+  {
     "archive": "pyyaml-6.0.3.tar.gz",
     "original_member": "pyyaml-6.0.3/LICENSE",
     "notice_file": "upstream/pyyaml-6.0.3.tar.gz-20bf988f8434.txt",
     "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+  },
+  {
+    "archive": "qt-supermodule-6.12.0.tar.gz",
+    "original_member": "qt5-6.12.0/LICENSE.md",
+    "notice_file": "upstream/qt-supermodule-6.12.0.tar.gz-6280f8acaa73.txt",
+    "sha256": "e325c484ce3a12c3475247dc3000ac7bfcd350b0744a98979055bb4eb5070931"
   },
   {
     "archive": "qtbase-everywhere-src-6.12.0.tar.xz",
@@ -1074,6 +1962,18 @@
     "sha256": "9400a6128693d2f25653698e695f554660c71efccc8c21af28bf143e35199db6"
   },
   {
+    "archive": "quote-1.0.47.crate",
+    "original_member": "quote-1.0.47/LICENSE-APACHE",
+    "notice_file": "upstream/quote-1.0.47.crate-02f2b26cbe8a.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "quote-1.0.47.crate",
+    "original_member": "quote-1.0.47/LICENSE-MIT",
+    "notice_file": "upstream/quote-1.0.47.crate-445e95cc621f.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
     "archive": "requests-2.34.2.tar.gz",
     "original_member": "requests-2.34.2/LICENSE",
     "notice_file": "upstream/requests-2.34.2.tar.gz-85803e3ee969.txt",
@@ -1090,6 +1990,18 @@
     "original_member": "seestarpy-0.8.0/LICENSE",
     "notice_file": "upstream/seestarpy-0.8.0.tar.gz-440628291a33.txt",
     "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+  },
+  {
+    "archive": "self_cell-1.3.0.crate",
+    "original_member": "self_cell-1.3.0/LICENSE-APACHE",
+    "notice_file": "upstream/self_cell-1.3.0.crate-bf9b849f4316.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "archive": "self_cell-1.3.0.crate",
+    "original_member": "self_cell-1.3.0/LICENSE-GPLv2",
+    "notice_file": "upstream/self_cell-1.3.0.crate-5b07bfff0a72.txt",
+    "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
   },
   {
     "archive": "setuptools-84.2.1.tar.gz",
@@ -1200,6 +2112,78 @@
     "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
   },
   {
+    "archive": "shlex-2.0.1.crate",
+    "original_member": "shlex-2.0.1/LICENSE-APACHE",
+    "notice_file": "upstream/shlex-2.0.1.crate-daeaaa5a0c3e.txt",
+    "sha256": "553fffcd9b1cb158bc3e9edc35da85ca5c3b3d7d2e61c883ebcfa8a65814b583"
+  },
+  {
+    "archive": "shlex-2.0.1.crate",
+    "original_member": "shlex-2.0.1/LICENSE-MIT",
+    "notice_file": "upstream/shlex-2.0.1.crate-8cb12d5f5acb.txt",
+    "sha256": "4455bf75a91154108304cb283e0fea9948c14f13e20d60887cf2552449dea3b1"
+  },
+  {
+    "archive": "sqlite-src-3490100.zip",
+    "original_member": "sqlite-src-3490100/LICENSE.md",
+    "notice_file": "upstream/sqlite-src-3490100.zip-66ac3236b066.txt",
+    "sha256": "a7a58d6022c090c528e3167026167b3141d682efc6a3c188b473ba59f1788fc7"
+  },
+  {
+    "archive": "sqlite-src-3490100.zip",
+    "original_member": "sqlite-src-3490100/autosetup/LICENSE",
+    "notice_file": "upstream/sqlite-src-3490100.zip-4b5c674eb0e0.txt",
+    "sha256": "679b9208e67df09977456d1d2ae4d885b9badf02c47b45a28cf95ee27c14cb18"
+  },
+  {
+    "archive": "sqlite-src-3490100.zip",
+    "original_member": "sqlite-src-3490100/autoconf/tea/license.terms",
+    "notice_file": "upstream/sqlite-src-3490100.zip-f811b2f5b866.txt",
+    "sha256": "66e056b6e8687f32af30d5187611b98b12a8f46f07aaf62f43585f276e8f0ac9"
+  },
+  {
+    "archive": "syn-2.0.119.crate",
+    "original_member": "syn-2.0.119/LICENSE-APACHE",
+    "notice_file": "upstream/syn-2.0.119.crate-c22b0827c85a.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "syn-2.0.119.crate",
+    "original_member": "syn-2.0.119/LICENSE-MIT",
+    "notice_file": "upstream/syn-2.0.119.crate-5dced5cadd25.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive": "target-lexicon-0.13.5.crate",
+    "original_member": "target-lexicon-0.13.5/LICENSE",
+    "notice_file": "upstream/target-lexicon-0.13.5.crate-cc31f235a8b6.txt",
+    "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+  },
+  {
+    "archive": "tiff-4.7.2.tar.gz",
+    "original_member": "tiff-4.7.2/doc/html-prebuilt/_sources/project/license.rst.txt",
+    "notice_file": "upstream/tiff-4.7.2.tar.gz-3dd9271074d4.txt",
+    "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+  },
+  {
+    "archive": "tiff-4.7.2.tar.gz",
+    "original_member": "tiff-4.7.2/doc/html-prebuilt/project/license.html",
+    "notice_file": "upstream/tiff-4.7.2.tar.gz-0e1134708bb3.txt",
+    "sha256": "6c9436f8e9f58a79e044949e360291b9c910715fad31cdaed66bc61b0dcf33e6"
+  },
+  {
+    "archive": "tiff-4.7.2.tar.gz",
+    "original_member": "tiff-4.7.2/doc/project/license.rst",
+    "notice_file": "upstream/tiff-4.7.2.tar.gz-330a431ab86c.txt",
+    "sha256": "02e86af3b805e0f2075ebb5ac512831f6ab2a97ddeb186de076c418956418ba1"
+  },
+  {
+    "archive": "tiff-4.7.2.tar.gz",
+    "original_member": "tiff-4.7.2/LICENSE.md",
+    "notice_file": "upstream/tiff-4.7.2.tar.gz-f7b9e319fe04.txt",
+    "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade"
+  },
+  {
     "archive": "typing_extensions-4.16.0.tar.gz",
     "original_member": "typing_extensions-4.16.0/LICENSE",
     "notice_file": "upstream/typing_extensions-4.16.0.tar.gz-e27db418628a.txt",
@@ -1224,9 +2208,111 @@
     "sha256": "d99ab209aeb16aad2c25c90ffd83c1a981e290ffff76a420a2ab03e03f041b8c"
   },
   {
+    "archive": "unicode-ident-1.0.24.crate",
+    "original_member": "unicode-ident-1.0.24/LICENSE-APACHE",
+    "notice_file": "upstream/unicode-ident-1.0.24.crate-35d731ecd476.txt",
+    "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a"
+  },
+  {
+    "archive": "unicode-ident-1.0.24.crate",
+    "original_member": "unicode-ident-1.0.24/LICENSE-MIT",
+    "notice_file": "upstream/unicode-ident-1.0.24.crate-9b239d3f0ded.txt",
+    "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+  },
+  {
+    "archive": "unicode-ident-1.0.24.crate",
+    "original_member": "unicode-ident-1.0.24/LICENSE-UNICODE",
+    "notice_file": "upstream/unicode-ident-1.0.24.crate-2480ddfbb87b.txt",
+    "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+  },
+  {
     "archive": "urllib3-2.8.0.tar.gz",
     "original_member": "urllib3-2.8.0/LICENSE.txt",
     "notice_file": "upstream/urllib3-2.8.0.tar.gz-eba3292f3e86.txt",
     "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686"
+  },
+  {
+    "archive": "vcpkg-0.2.15.crate",
+    "original_member": "vcpkg-0.2.15/LICENSE-APACHE",
+    "notice_file": "upstream/vcpkg-0.2.15.crate-1ec096cdae13.txt",
+    "sha256": "60c93a31f490375aadf64098b75f10715010379541021e00261045d7800611d3"
+  },
+  {
+    "archive": "vcpkg-0.2.15.crate",
+    "original_member": "vcpkg-0.2.15/LICENSE-MIT",
+    "notice_file": "upstream/vcpkg-0.2.15.crate-c98cb346c9c3.txt",
+    "sha256": "016d20f335060a70e79d9fcf8dfaa6201114d65d592211f4bdfb8ae9ca2bc1dc"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/COPYING",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-b216ff4c5c97.txt",
+    "sha256": "616a3ad264ce29b8f1cb97e53037b139d406899ca8d1f799651e17bfa09830b8"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/COPYING.0BSD",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-386599468d6c.txt",
+    "sha256": "0b01625d853911cd0e2e088dcfb743261034a091bb379246cb25a14cc4c74bf1"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/COPYING.GPLv2",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-038caafa5089.txt",
+    "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/COPYING.GPLv3",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-c03d10935f66.txt",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/COPYING.LGPLv2.1",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-9eea6783bed7.txt",
+    "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+  },
+  {
+    "archive": "xz-5.8.4.tar.gz",
+    "original_member": "xz-5.8.4/build-aux/license-check.sh",
+    "notice_file": "upstream/xz-5.8.4.tar.gz-1c3245d96cec.txt",
+    "sha256": "2b3fa1d23cb2ab084f3d919908159473cc0e1eed059d106e2a2857c0ec8af98a"
+  },
+  {
+    "archive": "zlib-1.3.1.tar.gz",
+    "original_member": "zlib-1.3.1/LICENSE",
+    "notice_file": "upstream/zlib-1.3.1.tar.gz-dc143a123c98.txt",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+  },
+  {
+    "archive": "zlib-1.3.1.tar.gz",
+    "original_member": "zlib-1.3.1/contrib/dotzlib/LICENSE_1_0.txt",
+    "notice_file": "upstream/zlib-1.3.1.tar.gz-bb8b03cf6193.txt",
+    "sha256": "36266a8fd073568394cb81cdb2b124f7fdae2c64c1a7ed09db34b4d22efa2951"
+  },
+  {
+    "archive": "zlib-ng-2.3.3.tar.gz",
+    "original_member": "zlib-ng-2.3.3/LICENSE.md",
+    "notice_file": "upstream/zlib-ng-2.3.3.tar.gz-17970c5894ba.txt",
+    "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee"
+  },
+  {
+    "archive": "zstd-1.5.7.tar.gz",
+    "original_member": "zstd-1.5.7/COPYING",
+    "notice_file": "upstream/zstd-1.5.7.tar.gz-d2be5713409b.txt",
+    "sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+  },
+  {
+    "archive": "zstd-1.5.7.tar.gz",
+    "original_member": "zstd-1.5.7/LICENSE",
+    "notice_file": "upstream/zstd-1.5.7.tar.gz-23173bc660cc.txt",
+    "sha256": "7055266497633c9025b777c78eb7235af13922117480ed5c674677adc381c9d8"
+  },
+  {
+    "archive": "zstd-1.5.7.tar.gz",
+    "original_member": "zstd-1.5.7/build/LICENSE",
+    "notice_file": "upstream/zstd-1.5.7.tar.gz-d2f8b8eba7cc.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   }
 ]

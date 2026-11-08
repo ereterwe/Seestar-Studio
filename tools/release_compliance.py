@@ -149,9 +149,20 @@ def inspect_pe(path: Path) -> dict:
 
 def source_candidates(owners, sources, name):
     names = {normalize(o['package']) for o in owners}
+    if 'cpython distribution' in names:
+        names.add('cpython')
+    if 'cryptography' in names:
+        names.add('cryptography-build-repository')
+        names.update(normalize(s['component']) for s in sources if s['component'].startswith('Rust/'))
+    if 'pillow' in names:
+        names.add('pillow-build-repository')
     low = name.lower().replace('\\', '/')
     if low.startswith(('avcodec-', 'avformat-', 'avutil-', 'swresample-', 'swscale-')):
-        names = {'ffmpeg'}
+        names = {'ffmpeg', 'ffmpeg-official-release'}
+    elif 'openblas' in low:
+        names = {'openblas', 'scipy-openblas-build'}
+    elif low == 'opengl32sw.dll':
+        names = {'mesa', 'llvm'}
     elif low.startswith(('pyside', 'shiboken')):
         names = {'pyside-setup'}
     elif low.endswith(('qt6pdf.dll', '/qpdf.dll')):

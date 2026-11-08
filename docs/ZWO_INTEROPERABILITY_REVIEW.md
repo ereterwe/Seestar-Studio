@@ -10,6 +10,31 @@ comes from [SeestarPy](https://github.com/astronomyk/seestarpy), its installed
 source and documentation, and the previously documented S50/S50 Pro tests.
 No proprietary ZWO application code is incorporated into Seestar Studio.
 
+## APK provenance and SeestarPy's own position
+
+The owner specifies user-supplied original ZWO APKs or files obtained from an
+Internet mirror. The application supplies neither APK/XAPK, firmware nor private
+ZWO key and does not automatically obtain one. The user must establish entitlement
+to the particular file; a source category is not proof for a specific copy.
+
+[SeestarPy's authentication documentation](https://seestarpy.readthedocs.io/en/latest/info/authentication.html)
+also instructs users to obtain their own APK, mentions a mirror as an example,
+describes local extraction and says it distributes neither proprietary ZWO files
+nor the private key. It argues for interoperability protection under US/EU rules,
+while stating that its discussion is not legal advice. This is the upstream
+author's published position, not independent clearance of our implementation or
+every mirror copy. Its text mentions a separate extractor repository while the
+installed 0.8.0 package actually includes the module; code was inspected directly.
+
+The setup notice now states in German and English that users are responsible
+for selecting an authentic, safe and lawfully obtained file they are entitled to
+analyze. The author disclaims warranty/liability for that supplied file **to the
+extent permitted by law**, preserving mandatory statutory liability. This states
+the intended responsibility boundary; it does not guarantee effectiveness or
+grant permission for extraction. See [§ 309 BGB](https://www.gesetze-im-internet.de/bgb/__309.html)
+for relevant limits on preformulated exclusions, alongside the applicable facts
+and law. A blanket promise of no liability regardless of circumstances is not made.
+
 The user supplies an existing local PEM, or selects an APK/XAPK obtained by the
 user. `setup_service.py` calls SeestarPy's `extract_pem_from_apk`, rather than its
 command-line entry point. The library scans printable ASCII strings in exactly
@@ -40,8 +65,9 @@ The application does not invoke SeestarPy's `--stdout` extraction option.
 Import errors are sanitized; keys and APKs are excluded from Git and explicit
 packaging inputs. Source and packaged-code scans found no real key material in
 the audited b2 scope. This does not justify logging protocol secrets or sharing
-private profile directories. No real PEM/APK was opened or extracted for this
-audit; setup tests generate disposable synthetic keys.
+private profile directories. No user authentication key or APK was manually opened, copied or extracted for
+the source audit; the app may use existing authentication normally during
+read-only smoke tests. Setup tests generate disposable synthetic keys.
 
 ## Questions requiring legal review
 

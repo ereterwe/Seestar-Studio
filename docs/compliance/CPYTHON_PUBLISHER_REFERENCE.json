@@ -1,0 +1,151 @@
+{
+  "reference": {
+    "component": "CPython-embeddable-reference",
+    "version": "3.12.10",
+    "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip",
+    "file": "python-3.12.10-embed-amd64.zip",
+    "kind": "binary-reference",
+    "sha256": "4acbed6dd1c744b0376e3b1cf57ce906f9dc9e95e68824584c8099a63025a3c3",
+    "bytes": 11133606,
+    "publisher_digest_verified": false,
+    "status": "downloaded"
+  },
+  "checks": [
+    {
+      "file": "_internal/_asyncio.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_bz2.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_ctypes.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_decimal.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_elementtree.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_hashlib.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_lzma.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_multiprocessing.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_overlapped.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_queue.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_socket.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_sqlite3.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_ssl.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_uuid.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_wmi.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/_zoneinfo.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/libcrypto-3.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/libffi-8.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/libssl-3.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/pyexpat.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/python3.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/python312.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/select.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/sqlite3.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/unicodedata.pyd",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/VCRUNTIME140.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    },
+    {
+      "file": "_internal/VCRUNTIME140_1.dll",
+      "in_official_reference": true,
+      "same_sha256": true
+    }
+  ],
+  "note": "Publisher reference bytes vs frozen b3 files; redistribution entitlement and patches remain separate evidence."
+}

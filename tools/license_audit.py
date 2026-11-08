@@ -1,5 +1,6 @@
 """Technical installed-package and bundled-native inventory, no legal clearance."""
 import hashlib
+import argparse
 from importlib import metadata
 import json
 from pathlib import Path
@@ -8,8 +9,13 @@ import sys
 from seestar_studio import __version__
 
 
-def main():
+def main(argv=None):
     root=Path(__file__).resolve().parents[1]
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--target',type=Path,default=root/'dist'/__version__/'SeestarStudio')
+    parser.add_argument('--output',type=Path,default=root/'reports/beta-license-inventory.json')
+    parser.add_argument('--docs-output',type=Path,default=root/'docs/DEPENDENCIES.md')
+    args=parser.parse_args(argv)
     packages=[]
     for dist in sorted(metadata.distributions(),key=lambda d:d.metadata['Name'].lower()):
         info=dist.metadata
@@ -19,7 +25,7 @@ def main():
         packages.append({'name':info['Name'],'version':dist.version,'declared_license':license[:600],
             'license_files':files,'project_urls':info.get_all('Project-URL',[]),
             'scope':'installed environment; bundled subset identified separately'})
-    target=root/'dist'/__version__/'SeestarStudio'
+    target=args.target
     natives=[]
     if target.exists():
         import pefile
@@ -48,7 +54,8 @@ def main():
         'open_items':['Exact Qt/FFmpeg/native source-build correspondence and transitive notices',
                       'Rights and conditions of local APK/XAPK extraction',
                       'Codec patent and Microsoft runtime redistribution terms']}
-    (root/'reports/beta-license-inventory.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+    args.output.parent.mkdir(parents=True,exist_ok=True)
+    args.output.write_text(json.dumps(report,indent=2),encoding='utf-8')
     lines=['# Technisches Abhängigkeitsinventar — '+__version__,'',
         'Automatisch aus der installierten Umgebung; enthält auch Entwicklungswerkzeuge.',
         'Lizenzangaben stammen aus Paketmetadaten, keine abschließende Rechtsprüfung.',
@@ -64,7 +71,8 @@ def main():
         'Vollständige technische Liste: dependency-inventory.json im Paket. ' +str(len(natives))+' PE-Dateien erkannt.',
         'Keine Herkunftsgarantie allein aus Dateinamen/Versionsressourcen. Statisch eingebettete Bibliotheken zusätzlich prüfen.',
         'Native Quellen-/Build- und Rechtsfragen bleiben offen. Dieses Inventar ist keine Release-Freigabe; GPL-Rechte bleiben unberührt.']
-    (root/'docs/DEPENDENCIES.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+    args.docs_output.parent.mkdir(parents=True,exist_ok=True)
+    args.docs_output.write_text('\n'.join(lines)+'\n',encoding='utf-8')
     print('Inventoried packages:',len(packages),'native files:',len(natives))
 
 

@@ -11,12 +11,13 @@ keine Benutzerkonten, keine verpflichtende Cloud. Unabhängiges Projekt, kein
 offizielles ZWO-Produkt.
 
 Das [Projekt-Repository](https://github.com/ereterwe/Seestar-Studio) ist öffentlich.
-Version **2.3.0b3** wird als lokaler Windows-Kandidat mit Lizenz- und
-Paketierungskorrekturen gebaut. Das Quellcode-Update nach GitHub ist beauftragt.
+Version **2.3.0b3** liegt als geprüfter lokaler Windows-Kandidat mit Lizenz- und
+Paketierungskorrekturen vor. Das Quellcode-Update nach GitHub ist beauftragt.
 Die bisherige b2-Version bleibt als unveränderte Vergleichsbasis erhalten.
 Neue öffentliche Binärdownloads werden erst nach Klärung der dokumentierten
 Weitergabepunkte vorbereitet.
-Aktueller [Compliance-Bericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md) und
+[Erweiterte technische Lizenzklärung](docs/TECHNICAL_LICENSE_RESOLUTION.md),
+[Codec-Unterlagen](docs/CODEC_LEGAL_REVIEW.md) und aktueller [Compliance-Bericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md) und
 [Checkliste](BETA_RELEASE_CHECKLIST.md). Die öffentliche Quellcode-Sichtbarkeit
 ist keine automatische Freigabe neuer Projekt-Releases. GPL-Rechte bleiben unberührt.
 

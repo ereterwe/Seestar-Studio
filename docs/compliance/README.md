@@ -1,5 +1,26 @@
 # Compliance evidence for local 2.3.0b3
 
+## Supplemental review, 8 November 2026
+
+The additional candidate is isolated from the preserved initial b3 packages.
+COMPLIANCE_REVIEW_TESTS.json records 169 passing tests, successful native starts
+and installer lifecycle, 1,642 matching installed files, unchanged personal
+settings, and all 129 unchanged third-party native files. These are local software
+checks, not additional telescope tests or a clean external-PC certification.
+COMPLIANCE_REVIEW_ARTIFACTS.json records its separate local archive hashes.
+
+NATIVE_SOURCE_RESOLUTION.json covers 105 selected source archives and recipe
+references. PUBLISHER_WHEEL_VERIFICATION.json and CPYTHON_PUBLISHER_REFERENCE.json
+establish byte correspondence to original publisher packages. CONTROLLED_ZLIB_BUILD.json
+records the isolated successful source/patch build. CODEC_REGISTRY.json records
+compiled implementations, not demonstrated device codec compatibility.
+Supplier SBOM originals are under ../provenance. Current conclusions and precise
+remaining gaps: [TECHNICAL_LICENSE_RESOLUTION.md](../TECHNICAL_LICENSE_RESOLUTION.md).
+No public binary release or legal clearance results from these technical tests.
+Final evidence outside the built payload does not retroactively modify its snapshot.
+
+## Preserved initial b3 review
+
 B3 is newly built from the b2 baseline after the owner's clarification. B2-prefixed
 files retain the earlier immutable comparison evidence. B3_BINARY_SOURCE_MAP.json
 contains the new complete payload/native/PYZ mapping; AUDIT_CHECKS.json contains

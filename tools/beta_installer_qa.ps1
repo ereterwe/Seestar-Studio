@@ -1,12 +1,15 @@
-param([ValidateSet('Install','Cleanup')][string]$Stage='Install')
+param([ValidateSet('Install','Cleanup')][string]$Stage='Install',
+      [string]$SourceDirectory='', [string]$InstallerPath='',
+      [ValidatePattern('^[a-z0-9-]{0,50}$')][string]$CaseName='')
 $ErrorActionPreference='Stop'
 $workspace=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 Set-Location -LiteralPath $workspace
 $version=& '.\.venv\Scripts\python.exe' -c 'from seestar_studio import __version__; print(__version__)'
 if ($LASTEXITCODE -ne 0) { throw 'Version lookup failed' }
-$testDirectory=[IO.Path]::GetFullPath((Join-Path $workspace "reports\beta-installed-$version"))
+$suffix=if ($CaseName) { '-'+$CaseName } else { '' }
+$testDirectory=[IO.Path]::GetFullPath((Join-Path $workspace "reports\beta-installed-$version$suffix"))
 if (-not $testDirectory.StartsWith($workspace+'\',[StringComparison]::OrdinalIgnoreCase)) { throw 'Unsafe test directory' }
-$stateFile=Join-Path $workspace 'reports\beta-installer-state.json'
+$stateFile=Join-Path $workspace "reports\beta-installer-state$suffix.json"
 $registration='HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A8B6B872-6710-44A3-94A6-1C953E3B8D87}_is1'
 $shortcut=Join-Path ([Environment]::GetFolderPath('Programs')) 'Seestar Studio.lnk'
 $desktopShortcut=Join-Path ([Environment]::GetFolderPath('Desktop')) 'Seestar Studio.lnk'
@@ -25,15 +28,15 @@ if ($Stage -eq 'Install') {
     if ((Test-Path -LiteralPath $registration) -or (Test-Path -LiteralPath $testDirectory) -or (Test-Path -LiteralPath $shortcut) -or (Test-Path -LiteralPath $desktopShortcut)) { throw 'Existing installation or shortcut detected; nothing changed' }
     if (Get-Process SeestarStudio -ErrorAction SilentlyContinue) { throw 'An application instance is running; nothing changed' }
     $before=Get-ProfileState
-    $installer=Join-Path $workspace "release\SeestarStudio-$version-setup-win64.exe"
+    $installer=if ($InstallerPath) { [IO.Path]::GetFullPath($InstallerPath) } else { Join-Path $workspace "release\SeestarStudio-$version-setup-win64.exe" }
     $arguments="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /CURRENTUSER /TASKS=desktopicon /DIR=`"$testDirectory`""
     $first=Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru
     if ($first.ExitCode -ne 0) { throw "Install exit $($first.ExitCode)" }
     $installedExe=Join-Path $testDirectory 'SeestarStudio.exe'
-    $matches=(Get-FileHash -LiteralPath $installedExe).Hash -eq (Get-FileHash -LiteralPath (Join-Path $workspace "dist\$version\SeestarStudio\SeestarStudio.exe")).Hash
+    $portableDirectory=if ($SourceDirectory) { [IO.Path]::GetFullPath($SourceDirectory) } else { Join-Path $workspace "dist\$version\SeestarStudio" }
+    $matches=(Get-FileHash -LiteralPath $installedExe).Hash -eq (Get-FileHash -LiteralPath (Join-Path $portableDirectory 'SeestarStudio.exe')).Hash
     $second=Start-Process -FilePath $installer -ArgumentList $arguments -WindowStyle Hidden -Wait -PassThru
     if ($second.ExitCode -ne 0) { throw "Reinstall exit $($second.ExitCode)" }
-    $portableDirectory=Join-Path $workspace "dist\$version\SeestarStudio"
     $payload=Get-ChildItem -LiteralPath $portableDirectory -File -Recurse
     $mismatches=@(foreach ($file in $payload) {
         $relative=$file.FullName.Substring($portableDirectory.Length).TrimStart('\')
@@ -68,7 +71,7 @@ if ($Stage -eq 'Install') {
     $state.shortcuts_removed=(-not (Test-Path -LiteralPath $shortcut)) -and (-not (Test-Path -LiteralPath $desktopShortcut))
     $state.registration_removed=-not (Test-Path -LiteralPath $registration)
     $state.Remove('profile_before');$state.Remove('directory')
-    $state | ConvertTo-Json -Depth 5 | Set-Content reports/beta-installer-result.json -Encoding utf8
+    $state | ConvertTo-Json -Depth 5 | Set-Content (Join-Path $workspace "reports\beta-installer-result$suffix.json") -Encoding utf8
     $state | ConvertTo-Json -Depth 5
     if ($remove.ExitCode -ne 0 -or -not $state.profile_unchanged -or -not $state.program_removed -or -not $state.shortcuts_removed -or -not $state.registration_removed) {exit 1}
 }

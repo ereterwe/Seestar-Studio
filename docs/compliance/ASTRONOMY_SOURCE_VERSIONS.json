@@ -1,0 +1,19 @@
+{
+  "python_expat_runtime": "expat_2.7.1",
+  "erfa_runtime": "2.0.1",
+  "sofa_runtime": "20231011",
+  "compression_version_attributes": {},
+  "source_headers": [
+    {
+      "archive": "astropy-8.0.2.tar.gz",
+      "member": "astropy-8.0.2/cextern/expat/lib/expat.h",
+      "declared_defines": [
+        "#  define XML_MAJOR_VERSION 2",
+        "#  define XML_MINOR_VERSION 7",
+        "#  define XML_MICRO_VERSION 3"
+      ],
+      "scope": "Declared vendored source version, not independent build flag proof"
+    }
+  ],
+  "cfitsio": "Astropy source contains only its required CFITSIO compression subset, not a separate full CFITSIO distribution; exact subset and its licence are supplied in the Astropy archive."
+}

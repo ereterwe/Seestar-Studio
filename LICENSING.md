@@ -1,24 +1,30 @@
 # Lizenzprüfung — Stand 8. November 2026
 
-Projektlizenz: **GPL-3.0-only** (`LICENSE`). Das Quellcode-Repository ist öffentlich.
-Die tatsächlichen b3-Binärdateien sind noch nicht identifiziert (Link angekündigt).
-Die technische Prüfung verwendet ausdrücklich die unveränderte lokale b2-Basis.
-Keine neue Veröffentlichung ist durch diesen Auditauftrag freigegeben; dies
-schränkt die Rechte aus der GPL nicht ein. Keine Zusicherung rechtlicher Zulässigkeit.
+Projektlizenz: **GPL-3.0-only** (`LICENSE`). Das Repository ist öffentlich;
+b3 wurde lokal gebaut, geprüft und sein Quellcode veröffentlicht. Die ursprünglichen
+b3-Binärdateien bleiben erhalten. Aktuell werden technische Nachweise und eine
+überarbeitete APK-Benutzerinformation als getrennter Prüfstand vorbereitet.
 
-Aktueller [Auditbericht](docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md),
-[native Komponenten](docs/NATIVE_COMPONENT_REVIEW.md),
-[Quellen-/Austauschprüfung](docs/COMPLIANCE_WORKFLOW.md) und
-[ZWO-Interoperabilitätsprüfung](docs/ZWO_INTEROPERABILITY_REVIEW.md).
-138 Drittanbieter-PE-Dateien der b2-Basis sind ihrer lokalen Installation per
-SHA256 zugeordnet; vollständige native Quellen-/Patch-/Buildketten sind weiterhin
-BLOCKER. OpenSSL-Versionen 3.0.16 und 4.0.3 sind getrennt erfasst. Der lokale
-Packager ergänzt die bislang fehlende Colorama-Quelle/Lizenz; bestehende Archive
-werden dadurch nicht geändert. Das künftige Paket schließt unbenutzte Qt-PDF-
-und Virtual-Keyboard-Zweige aus. Begrenzter DLL-Austausch-/Decodertest bestanden.
+[Technische Klärung](docs/TECHNICAL_LICENSE_RESOLUTION.md),
+[Codec-Fakten](docs/CODEC_LEGAL_REVIEW.md),
+[Microsoft-Prüfung](docs/MICROSOFT_RUNTIME_REVIEW.md),
+[ZWO/SeestarPy-Position](docs/ZWO_INTEROPERABILITY_REVIEW.md) und
+[gezielte Rechtsfragen](docs/LEGAL_REVIEW_QUESTIONS.md) bilden den aktuellen Stand.
 
-Die folgenden datierten Abschnitte dokumentieren frühere Prüfschritte. Aussagen
-über damals private/lokale Zustände gelten nicht als heutiger Veröffentlichungsstand.
+Die Originalherkunft aller 129 übernommenen nativen b3-Dateien wurde gegen die
+Herstellerpakete geprüft. Erweiterte Quellarchive, Cargo-Abhängigkeiten, originale
+Buildrezepte/Patches und Lieferanten-SBOMs wurden beschafft. Ein kontrollierter
+zlib-Neuaufbau mit Funktionstest besteht. Die Zuordnung bestimmter ursprünglicher
+Qt/Mesa/CI-Builddetails und rechtliche Freigaben bleiben offen; Quellenbeschaffung
+allein ist keine vollständige Freigabe der Binärweitergabe. Keine kostenpflichtige
+Microsoft-Entwicklerlizenz ist für dieses öffentliche GPL-Projekt als zwingende
+Voraussetzung nachgewiesen; die Bedingungen der vorhandenen kostenlosen Community-
+Route und konkreter Runtime-Weitergabe sind dennoch zu beachten.
+
+Öffentliche neue Binärdownloads erfolgen entsprechend dem Auftrag erst nach
+Klärung der dokumentierten Punkte. GPL-Rechte bleiben unberührt. Die folgenden
+Abschnitte sind historische Prüfschritte; ältere Checklisten zeigen nicht den
+heutigen Erledigungsstand.
 
 ## Historischer Erstcheck der tatsächlich installierten Komponenten
 
@@ -75,7 +81,7 @@ Zulässigkeit von APK/XAPK-Extraktion, Reverse Engineering, Nutzungsbedingungen,
 Weitergabe und Markenverwendung bleibt **rechtlich offen** und ist vor einer
 öffentlichen Freigabe zu prüfen. Keine definitive Rechtssicherheit behaupten.
 
-## Offene Release-Prüfpunkte
+## Historische offene Release-Prüfpunkte
 - [ ] Vollständige direkte/transitive/native Dependency- und Lizenzliste.
 - [ ] Katalogdaten und astronomische Berechnungsbibliotheken lizenzieren/zuordnen.
 - [ ] Vollständiges versionsgenaues Source-Kit und reproduzierbarer Fremd-PC-Build.

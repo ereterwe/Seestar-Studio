@@ -91,3 +91,20 @@ UPSTREAM_INDEX.json identifies source archives and original paths. Qt attributio
 manifests: docs/QT_ATTRIBUTIONS.json. Native imports/versions: dependency-inventory.json.
 Qt Virtual Keyboard uses its GPLv3 open-source option. See LICENSING.md for unresolved
 binary-source correspondence and redistribution questions. No legal clearance implied.
+
+## Additional provenance review — 8 November 2026
+
+The supplemental local review collects 105 source archives and 386 indexed original
+upstream notice files, plus the separately identified Microsoft runtime notice.
+These counts describe evidence collection, not a certification of completeness.
+Unmodified publisher SBOMs for cryptography/OpenSSL/Rust and Pillow are preserved
+in docs/provenance with archive membership and hash checks. Generic SBOM entries
+are scoped against actual shipped extensions before being called runtime components.
+
+The shipped Microsoft runtime remains under Microsoft's terms; the project's GPL
+does not relicense it. See licenses/MSVC-RUNTIME-NOTICE.txt in the supplemental
+candidate and docs/MICROSOFT_RUNTIME_REVIEW.md. Copyright permissions, codec patents,
+and ZWO interoperability are separate questions. The current evidence and remaining
+items are in docs/TECHNICAL_LICENSE_RESOLUTION.md and docs/CODEC_LEGAL_REVIEW.md.
+The preserved original b3 packages have their original notices and hashes; these
+additional documents do not silently modify previously built archives.

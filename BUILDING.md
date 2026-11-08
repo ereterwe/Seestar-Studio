@@ -31,7 +31,7 @@ vor einer Veröffentlichung noch zu vervollständigen (siehe LICENSING.md).
 Zeitlich begrenzte Startprüfung der EXE (kann lesende LAN-Verbindungen aufbauen):
 
 ```powershell
-.\dist\2.3.0b2\SeestarStudio\SeestarStudio.exe --smoke-seconds 35 --qa-sky --capture-after 25 --capture reports/exe.png
+.\dist\2.3.0b3\SeestarStudio\SeestarStudio.exe --smoke-seconds 35 --qa-sky --capture-after 25 --capture reports/exe.png
 ```
 
 `--qa-sky` verwendet einen ausdrücklich synthetischen Standort in einem isolierten QA-Profil unter reports,
@@ -93,3 +93,34 @@ Lokale finale Testnachweise: docs/BETA_TEST_REPORT.md. Die ausgelieferte ZIP
 enthält die zum Build passenden App-Quellen. Reproduzierbar sind die dokumentierten
 Bauschritte; byteidentische Ergebnisse über andere Maschinen/Zeitpunkte hinweg
 sind wegen Zeitstempeln und Toolchain noch nicht nachgewiesen.
+
+## Getrennter Compliance-Prüfstand vom 8. November 2026
+
+Die ursprünglichen b3-Pakete werden für Vergleiche aufbewahrt. Der ergänzende
+Prüfstand mit dem erweiterten APK-Hinweis liegt ausschließlich lokal unter
+`dist/compliance-review-2.3.0b3/SeestarStudio` und
+`release/compliance-review-2.3.0b3`. Er ist kein freigegebener öffentlicher Release.
+Die folgenden Befehle zeigen den tatsächlich verwendeten getrennten Ausgabeweg;
+für einen weiteren Lauf neue Verzeichnisnamen wählen, um Belege zu erhalten.
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest -q
+.\.venv\Scripts\python.exe -m tools.build_metadata
+.\.venv\Scripts\python.exe -m PyInstaller --noconfirm --distpath dist/compliance-review-2.3.0b3 --workpath build/compliance-review-2.3.0b3 SeestarStudio.spec
+.\.venv\Scripts\python.exe -m tools.license_audit --target dist/compliance-review-2.3.0b3/SeestarStudio --output reports/compliance-followup/review-inventory.json --docs-output reports/compliance-followup/review-dependencies.md
+.\.venv\Scripts\python.exe -m tools.package_release --target dist/compliance-review-2.3.0b3/SeestarStudio --release-dir release/compliance-review-2.3.0b3 --inventory reports/compliance-followup/review-inventory.json
+.\build-installer.ps1 -SourceRoot dist/compliance-review-2.3.0b3/SeestarStudio -OutputDirectory release/compliance-review-2.3.0b3
+.\.venv\Scripts\python.exe -m tools.verify_release --portable release/compliance-review-2.3.0b3/SeestarStudio-2.3.0b3-win64.zip --output reports/compliance-followup/review-package-check.json
+```
+
+`tools.package_source_supplement` archiviert die zusätzlich beschafften
+Originalquellen, Rezepte, Lieferanten-SBOMs und Notices separat. Es prüft lokale
+Hashes und überschreibt kein vorhandenes Archiv. Keine SDK-/Compilerdateien,
+Referenz-Wheels oder Nutzer-APK werden darin mitgeliefert. Öffentliche Testschlüssel
+in unveränderten Upstream-Quellarchiven sind keine privaten Nutzer-/ZWO-Schlüssel.
+
+Der kontrollierte zlib-Neuaufbau ist ein gesonderter Funktionstest mit Community-
+Compiler und offiziellen, nur lokal bereitgestellten SDK-Dateien; er ersetzt keine
+Laufzeit-DLL und beweist keinen vollständigen Neuaufbau von Qt/FFmpeg.
+Aktuelle Ergebnisse und Grenzen: [TECHNICAL_LICENSE_RESOLUTION.md](docs/TECHNICAL_LICENSE_RESOLUTION.md)
+und [COMPLIANCE_REVIEW_TESTS.json](docs/compliance/COMPLIANCE_REVIEW_TESTS.json).

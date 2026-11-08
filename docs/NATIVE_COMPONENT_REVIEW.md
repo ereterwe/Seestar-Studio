@@ -1,10 +1,11 @@
 # Native component review — b2 baseline, 8 November 2026
 
-This is evidence for the locally available **2.3.0b2**, not an assertion about
-the b3 files whose link is pending. Machine mapping is in
-`compliance/B2_BINARY_SOURCE_MAP.json`. No third-party native file was modified
-in the original payload. A local RECORD hash match establishes installation
-origin; upstream patches/build recipes remain independently subject to review.
+The following sections retain the initial b2 baseline findings. B3 was subsequently
+built and verified locally; no external b3 link is pending. Current closure and
+remaining evidence gaps are recorded in [TECHNICAL_LICENSE_RESOLUTION.md](TECHNICAL_LICENSE_RESOLUTION.md).
+Publisher-wheel/CPython comparisons, supplier SBOMs and original Qt/BLAS/CPython
+build recipes supersede the earlier origin-only assessment. Old PDF/Virtual
+Keyboard findings concern the preserved baseline, not the current b3 payload.
 
 ## Qt, PySide6 and Shiboken
 
@@ -23,7 +24,7 @@ The baseline's `Qt6Pdf.dll` matches **PySide6_Pdf 6.12.0.140**, with PE resource
 chain is missing. The new local spec excludes this unused plugin chain and the
 Virtual Keyboard chain (nine files). This changes future packages only. The old
 payload and its audit obligations remain intact. A Widgets/codec/replacement probe
-passed; full rebuilt b3 application validation is still pending.
+passed; the rebuilt b3 application and installer passed their documented checks.
 
 The 98 collected Qt attribution manifests also include examples and tools. Their
 presence does not prove that every listed third-party component is linked. Module
