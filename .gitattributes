@@ -1,3 +1,4 @@
-# Preserve original supplier evidence and notices byte for byte on Windows.
-docs/provenance/** -text
-third_party_licenses/upstream/** -text
+# Preserve tested source and upstream notices byte-for-byte on every platform.
+# Build metadata hashes file contents; do not apply automatic CRLF conversion.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
