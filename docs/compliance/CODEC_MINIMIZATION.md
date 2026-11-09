@@ -15,8 +15,9 @@ excludes that Python module and a PE import/delay-import guard excludes its DLL.
 JPEG/raw stacks come from SeestarPy. Thumbnail allowlist is jpg/jpeg/png;
 image export uses Qt. Exclude PIL.AvifImagePlugin and PIL._avif at module analysis,
 removing the independent AVIF/libaom/dav1d encoder/decoder branch from Pillow.
-This does not remove FFmpeg AV1. Other Pillow/Qt image codecs remain conservatively
-retained pending static-link and firmware compatibility evidence.
+This does not remove FFmpeg AV1. The subsequent Pillow review also removes its
+Tk/CMS/WebP branches (PILLOW_SOURCE_REVIEW.md). Qt image codecs and the remaining
+Pillow core static codecs stay retained pending separate build/link validation.
 
 A smaller FFmpeg requires a compatible shared build and Qt integration testing;
 removing exported encode APIs can break Qt even if the app never records. Do not

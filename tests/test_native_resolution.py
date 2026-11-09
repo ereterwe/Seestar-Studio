@@ -31,3 +31,16 @@ def test_sources_identify_actual_native_family_instead_of_owner_wrapper():
     result = source_candidates([{'package': 'PySide6_Essentials'}], sources, 'opengl32sw.dll')
     assert {s['component'] for s in result} == {'Mesa', 'LLVM'}
     assert source_candidates([{'package': 'CPython distribution'}], sources, 'python312.dll')[0]['component'] == 'CPython'
+
+
+def test_qt_python_bindings_are_distinct_from_underlying_qt_libraries():
+    sources = [{'component': n, 'file': n + '.tar.xz'}
+               for n in ('pyside-setup', 'qtbase', 'qtmultimedia', 'qtsvg')]
+    for name in ('QtCore.pyd', 'QtGui.pyd', 'QtNetwork.pyd', 'QtWidgets.pyd',
+                 'QtMultimedia.pyd', 'QtSvg.pyd'):
+        result = source_candidates([{'package': 'PySide6_Essentials'}], sources, name)
+        assert [s['component'] for s in result] == ['pyside-setup']
+    for name, component in [('Qt6Core.dll', 'qtbase'), ('Qt6Multimedia.dll', 'qtmultimedia'),
+                            ('Qt6Svg.dll', 'qtsvg')]:
+        result = source_candidates([{'package': 'PySide6_Essentials'}], sources, name)
+        assert [s['component'] for s in result] == [component]

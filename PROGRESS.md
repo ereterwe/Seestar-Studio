@@ -1,5 +1,15 @@
 # Telescope Desk: current work state
 
+2026-11-09 follow-up: Pillow ImageTk/ImageCms/WebP branches excluded and rebuilt.
+124 native files (three fewer; 705,536 additional bytes removed). 174 tests pass;
+actual packaged Pillow core passes JPEG/PNG/RAW/encoding checks. All native files
+are categorized, 105 source archives hash-checked, OpenJPEG supplier patch applies
+to its source and is preserved in generated SBOMs. Full static/build correspondence
+is still OPEN. See docs/compliance/PILLOW_SOURCE_REVIEW.md and its source map.
+New artifacts use separate pillow-review directories; older artifacts remain intact.
+
+Previous candidate record:
+
 Branch: refactor/telescope-desk-minimal-runtime. Version remains 2.3.0b3.
 Baseline preserved at b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59.
 Native namespace, executable, UI, installer and developer tools renamed.

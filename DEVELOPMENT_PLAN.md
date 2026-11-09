@@ -1,5 +1,12 @@
 # Telescope Desk: current work state
 
+2026-11-09: additional Pillow exclusions and source mapping are implemented.
+See docs/compliance/PILLOW_SOURCE_REVIEW.md for scope, evidence and remaining gaps.
+All 124 native files have a source-family/proprietary-runtime classification;
+this does not close exact embedded linkage or legal clearance requirements.
+
+Previous candidate record:
+
 Branch: refactor/telescope-desk-minimal-runtime. Version remains 2.3.0b3.
 Baseline preserved at b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59.
 Native namespace, executable, UI, installer and developer tools renamed.

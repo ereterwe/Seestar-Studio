@@ -33,7 +33,7 @@ def create(target, audit):
     if extensions:
         supplier = json.loads((root / 'docs/provenance/Pillow/pillow-13.0.0.cdx.json').read_text(encoding='utf-8'))
         for c in pillow_components(supplier, extensions, ['pkg:generic/libimagequant', 'pkg:generic/libxcb']):
-            row = {k: c[k] for k in ('name', 'version', 'licenses', 'purl', 'externalReferences') if k in c}
+            row = {k: c[k] for k in ('name', 'version', 'licenses', 'purl', 'externalReferences', 'pedigree', 'hashes') if k in c}
             row.update({'type': 'library', 'bom-ref': 'embedded:Pillow:' + c['bom-ref'],
                 'properties': [{'name': 'telescope-desk:evidence', 'value':
                     'Publisher SBOM dependency closure scoped to shipped extension roots; disabled libimagequant/xcb excluded based on matched publisher binaries. Exact platform-static linkage remains OPEN.'}]})

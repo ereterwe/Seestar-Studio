@@ -1,5 +1,15 @@
 # Telescope Desk: current work state
 
+2026-11-09: Pillow branch pruning and native source-candidate assignment completed;
+see docs/compliance/PILLOW_SOURCE_REVIEW.md. Next unresolved technical work:
+exact remaining static-component/build provenance (especially Qt/Mesa), then a
+compatible FFmpeg reduction with actual RTSP/Live View regression evidence.
+Custom Pillow core removal of TIFF/OpenJPEG would require its own verified build.
+New candidate still needs real-hardware and external clean-PC regression tests.
+No public release until remaining release gates and explicit authorization.
+
+Previous candidate record:
+
 Branch: refactor/telescope-desk-minimal-runtime. Version remains 2.3.0b3.
 Baseline preserved at b69a0b28bb78d9b4450d99eb2d5e10e33acfcd59.
 Native namespace, executable, UI, installer and developer tools renamed.

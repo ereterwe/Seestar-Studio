@@ -24,7 +24,10 @@ a = Analysis(
     excludes=['matplotlib', 'tkinter', 'PySide6.QtWebEngineCore', 'PySide6.QtWebEngineWidgets',
               'PySide6.QtQml', 'PySide6.QtQuick', 'PySide6.QtPdf', 'pytest',
               'astropy.visualization', 'astropy.conftest', 'astropy.samp',
-              'PySide6.QtMultimediaWidgets', 'PIL.AvifImagePlugin', 'PIL._avif'],
+              'PySide6.QtMultimediaWidgets', 'PIL.AvifImagePlugin', 'PIL._avif',
+              # Qt owns preview/export. SeestarPy consumes JPEG or numeric RAW.
+              'PIL.ImageTk', 'PIL._imagingtk', 'PIL.ImageCms', 'PIL._imagingcms',
+              'PIL.WebPImagePlugin', 'PIL._webp'],
     noarchive=False,
 )
 # QtGui's automatic plugin collection otherwise pulls in unused VirtualKeyboard

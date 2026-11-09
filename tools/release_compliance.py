@@ -157,7 +157,9 @@ def source_candidates(owners, sources, name):
     if 'pillow' in names:
         names.add('pillow-build-repository')
     low = name.lower().replace('\\', '/')
-    if low.startswith(('avcodec-', 'avformat-', 'avutil-', 'swresample-', 'swscale-')):
+    if low.endswith('.pyd') and names & {'pyside6', 'pyside6-essentials', 'pyside6-addons', 'shiboken6'}:
+        names = {'pyside-setup'}  # Python bindings, including QtMultimedia/QtSvg.
+    elif low.startswith(('avcodec-', 'avformat-', 'avutil-', 'swresample-', 'swscale-')):
         names = {'ffmpeg', 'ffmpeg-official-release'}
     elif 'openblas' in low:
         names = {'openblas', 'scipy-openblas-build'}

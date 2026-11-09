@@ -53,6 +53,7 @@ Installed packages are distinguished from proven bundled runtime presence. A cor
 
 - E: QtMultimediaWidgets module/DLL, added by PyInstaller hook; no QVideoWidget or QGraphicsVideoItem use. QVideoSink remains. PE regular/delay-import exclusion guard runs every build.
 - E: Pillow AvifImagePlugin/_avif, outside JPEG/raw stack and jpg/jpeg/png thumbnail/export paths. Removed by module analysis, not DLL deletion.
+- E: Later Pillow review also excludes ImageTk/_imagingtk, ImageCms/_imagingcms and WebPImagePlugin/_webp; see PILLOW_SOURCE_REVIEW.md for call-path and payload test evidence. Qt WebP remains separate.
 - Historical nine Qt exclusions predate this baseline and are not counted as new removals.
 
 Direct/transitive origin and native imports are retained in the audit JSON; dynamic plugin ownership and embedded static versions are not fully resolved. This is not a complete legal classification.

@@ -115,5 +115,6 @@ Final packaging revision: caee8335bc25d4a5e875ffa009c91e8f38b1bf24 (clean tree).
 The application build revision remains e02ceeb; runtime source hash is unchanged.
 Final post-build reports/checksums are external evidence; documentation inside the
 immutable ZIP is a packaging-time snapshot and can refer to the preceding local QA.
-Further optional Pillow plugin/native pruning (including Tk-related helpers) is not
-claimed completed; these remain conservatively retained pending targeted graph/tests.
+The later local Pillow candidate removes Tk/CMS/WebP helpers after targeted tests;
+see PILLOW_SOURCE_REVIEW.md. Above measurements describe the preserved earlier
+candidate, not the later build. Further static core and FFmpeg reduction remains open.
