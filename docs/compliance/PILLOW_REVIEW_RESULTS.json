@@ -1,0 +1,353 @@
+{
+  "date": "2026-11-09",
+  "public_release": false,
+  "hardware_test": false,
+  "packaging": {
+    "git_commit": "2048f54d4dd64f58aa11e57c2cffa57a389684a6",
+    "git_worktree_dirty": false,
+    "scope": "Packaging/tools/documentation revision; application build revision is in build-info.json"
+  },
+  "pytest": {
+    "passed": 174,
+    "seconds": 23.06,
+    "scope": "automated local suite"
+  },
+  "pillow_payload": {
+    "jpeg_cases": [
+      {
+        "size": [
+          32,
+          24
+        ],
+        "progressive": false
+      },
+      {
+        "size": [
+          32,
+          24
+        ],
+        "progressive": true
+      },
+      {
+        "size": [
+          101,
+          67
+        ],
+        "progressive": false
+      },
+      {
+        "size": [
+          101,
+          67
+        ],
+        "progressive": true
+      },
+      {
+        "size": [
+          1920,
+          1080
+        ],
+        "progressive": false
+      },
+      {
+        "size": [
+          1920,
+          1080
+        ],
+        "progressive": true
+      }
+    ],
+    "png_roundtrip": true,
+    "raw_rgb": true,
+    "raw_bayer": true,
+    "dashboard_jpeg_encode": true,
+    "corrupt_jpeg_rejected": true,
+    "core_reported_versions": {
+      "jpeglib_version": "8.0",
+      "libjpeg_turbo_version": "3.2.0",
+      "libtiff_version": "LIBTIFF, Version 4.7.2\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.",
+      "jp2klib_version": "2.5.4",
+      "zlib_version": "1.3.1.zlib-ng",
+      "zlib_ng_version": "2.3.3"
+    },
+    "excluded_frozen_modules": [
+      "PIL.ImageTk",
+      "PIL._imagingtk",
+      "PIL.ImageCms",
+      "PIL._imagingcms",
+      "PIL.WebPImagePlugin",
+      "PIL._webp",
+      "PIL.AvifImagePlugin",
+      "PIL._avif"
+    ],
+    "hardware_test": false,
+    "pillow_binary_sha256": "7140f56d38dd6cd51512f8122386bcb914c5df2a82eb5f719c973527d9213cee",
+    "scope": "Actual packaged Pillow extension, matching installed Python helpers, current application pipeline; Qt/NumPy from development environment"
+  },
+  "portable_smoke": {
+    "label": "portable",
+    "hardware_test": false,
+    "capture_created": true,
+    "exit_code": 0
+  },
+  "portable_app": {
+    "frozen_executable": true,
+    "window_size": [
+      1600,
+      960
+    ],
+    "devices": {},
+    "catalog_count": 14034,
+    "sky_calculated": true,
+    "synthetic_site_qa": true,
+    "tabs": [
+      "Live-Dashboard",
+      "Dateimanager",
+      "Himmelsatlas",
+      "Teleskopsteuerung",
+      "Beobachtungsplaner",
+      "Session-Analyse"
+    ],
+    "control_enabled": false,
+    "solar_background_ready": true,
+    "solar_event_count": 8,
+    "versions": {
+      "Telescope Desk": "2.3.0b3",
+      "SeestarPy": "0.8.0",
+      "PySide6": "6.12.0",
+      "Qt": "6.12.0",
+      "build_utc": "2026-11-08T21:55:20.643132+00:00",
+      "source_sha256": "cda4f38164fcc6387485ea8fa9589fabd3d2ba6fffbc0734d6a8c15b0a06f68a"
+    },
+    "icon_available": true,
+    "local_reference_names": [],
+    "windows_location_module_available": true,
+    "windows_location_requested": false,
+    "clean_shutdown": true,
+    "application_exit_code": 0
+  },
+  "installed_smoke": {
+    "capture_created": true,
+    "exit_code": 0,
+    "hardware_test": false,
+    "label": "installed"
+  },
+  "installed_app": {
+    "frozen_executable": true,
+    "window_size": [
+      1600,
+      960
+    ],
+    "devices": {},
+    "catalog_count": 14034,
+    "sky_calculated": true,
+    "synthetic_site_qa": true,
+    "tabs": [
+      "Live-Dashboard",
+      "Dateimanager",
+      "Himmelsatlas",
+      "Teleskopsteuerung",
+      "Beobachtungsplaner",
+      "Session-Analyse"
+    ],
+    "control_enabled": false,
+    "solar_background_ready": true,
+    "solar_event_count": 8,
+    "versions": {
+      "Telescope Desk": "2.3.0b3",
+      "SeestarPy": "0.8.0",
+      "PySide6": "6.12.0",
+      "Qt": "6.12.0",
+      "build_utc": "2026-11-08T21:55:20.643132+00:00",
+      "source_sha256": "cda4f38164fcc6387485ea8fa9589fabd3d2ba6fffbc0734d6a8c15b0a06f68a"
+    },
+    "icon_available": true,
+    "local_reference_names": [
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md",
+      "LICENSING.md",
+      "TelescopeDesk-source.zip"
+    ],
+    "windows_location_module_available": true,
+    "windows_location_requested": false,
+    "clean_shutdown": true,
+    "application_exit_code": 0
+  },
+  "installer_lifecycle": {
+    "test_type": "real local production installer; no clean external PC",
+    "install_exit": 0,
+    "start_menu_icon_matches": true,
+    "desktop_created": true,
+    "installed_exe_matches": true,
+    "payload_files_checked": 1670,
+    "start_menu_created": true,
+    "payload_mismatches": 0,
+    "desktop_icon_matches": true,
+    "uninstall_icon_matches": true,
+    "version": "2.3.0b3",
+    "reinstall_exit": 0,
+    "profile_unchanged": true,
+    "uninstall_exit": 0,
+    "program_removed": true,
+    "shortcuts_removed": true,
+    "registration_removed": true
+  },
+  "archive_audit": {
+    "version": "2.3.0b3",
+    "zip_bytes": 84404436,
+    "runtime_files": 1941,
+    "source_files": 671,
+    "license_files": 654,
+    "forbidden_files": 0,
+    "zip_integrity": "passed",
+    "scope": "current local artifacts only; not a full legal/security/history audit"
+  },
+  "sbom_coverage": {
+    "files": 1670,
+    "undocumented": [],
+    "absent": [],
+    "hash_mismatches": [],
+    "version_mismatch": false,
+    "payload_coverage_pass": true,
+    "embedded_component_completeness": "OPEN",
+    "legal_clearance": false
+  },
+  "removed_native_files": [
+    {
+      "file": "_internal/PIL/_imagingcms.cp312-win_amd64.pyd",
+      "bytes": 275456
+    },
+    {
+      "file": "_internal/PIL/_imagingtk.cp312-win_amd64.pyd",
+      "bytes": 14336
+    },
+    {
+      "file": "_internal/PIL/_webp.cp312-win_amd64.pyd",
+      "bytes": 415744
+    }
+  ],
+  "removed_bytes": 705536,
+  "retained_dll_pyd_identical": 123,
+  "previous_release_artifact_hashes_preserved": true,
+  "native_file_count": 124,
+  "source_archives_verified": 105,
+  "openjpeg_patch_check": {
+    "status": "PASS",
+    "source_archive": "openjpeg-2.5.4.tar.gz",
+    "source_member": "openjpeg-2.5.4/src/lib/openjp2/j2k.c",
+    "patch_sha256": "6b0a9250ec038826a811a7eb6ea1aa59abf42d6d562042cdfddb29c7ad98ef4e",
+    "original_sha256": "a6ad86347e52b0108f4a3dedf5f844f274c35a61a08dafc4d15af0b4413f3194",
+    "patched_sha256": "12b1eab5d6374161001042f8bdaea3b858c0f10d596e2aa9308474cc085bc19e",
+    "scope": "Patch applies to upstream source; not a rebuild or proof of binary linkage."
+  },
+  "artifacts_directory": "release/pillow-review-2.3.0b3",
+  "artifacts": [
+    {
+      "file": "TelescopeDesk-2.3.0b3-corresponding-source.zip",
+      "bytes": 619694878,
+      "sha256": "980411cc0a5e8d15e3a1099367ffa3361ba6dcf7e7fe0e4981bbf514b59f89ec"
+    },
+    {
+      "file": "TelescopeDesk-2.3.0b3-SBOM.json",
+      "bytes": 1048449,
+      "sha256": "e5eba43f18c0d32a0cc89fc9bf0c98b2aafd3e16824ba2e5a7fd3e0b2dc8dfea"
+    },
+    {
+      "file": "TelescopeDesk-2.3.0b3-SBOM.verification.json",
+      "bytes": 226,
+      "sha256": "a3a6f207f13acece8bb1e5b8eca92aad2c767dc7987d0d181579957f13557f9e"
+    },
+    {
+      "file": "TelescopeDesk-2.3.0b3-setup-win64.exe",
+      "bytes": 60969510,
+      "sha256": "e905ba808ded328f365a22a3b07c7c314514a24563b0a739649c0ce1625df3da"
+    },
+    {
+      "file": "TelescopeDesk-2.3.0b3-source.zip",
+      "bytes": 3394147,
+      "sha256": "3bdb76356b367bbf8c3a5d11e656daa22a11d1e68a2e75a38a30e993afb3d3ae"
+    },
+    {
+      "file": "TelescopeDesk-2.3.0b3-win64.zip",
+      "bytes": 84404436,
+      "sha256": "43ba58d39e0bdaf11509be335b678a3fe7df739ca45fcdf7d94ef93245334e1d"
+    }
+  ],
+  "release_audit_checks": [
+    {
+      "check": "selected_release_version",
+      "status": "PASS"
+    },
+    {
+      "check": "available_source_archive_hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "payload_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "native_binary_origin",
+      "status": "OPEN"
+    },
+    {
+      "check": "native_corresponding_source",
+      "status": "BLOCKER"
+    },
+    {
+      "check": "mandatory_document_presence",
+      "status": "PASS"
+    },
+    {
+      "check": "license_and_copyright_coverage",
+      "status": "OPEN"
+    },
+    {
+      "check": "catalog_snapshot_integrity",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_package_notice_directories",
+      "status": "PASS"
+    },
+    {
+      "check": "payload_secret_patterns",
+      "status": "OPEN"
+    },
+    {
+      "check": "archive_scan_completeness",
+      "status": "PASS"
+    },
+    {
+      "check": "reachable_git_secret_patterns",
+      "status": "PASS"
+    },
+    {
+      "check": "current_source_secret_patterns",
+      "status": "PASS"
+    },
+    {
+      "check": "source_zip_application_hash",
+      "status": "PASS"
+    },
+    {
+      "check": "public_release_identity",
+      "status": "OPEN"
+    },
+    {
+      "check": "installer_payload",
+      "status": "OPEN"
+    },
+    {
+      "check": "legal_review",
+      "status": "OPEN"
+    }
+  ],
+  "limitations": [
+    "No real telescope or clean external PC test.",
+    "Exact embedded static component and producing-build correspondence remains OPEN.",
+    "Native corresponding-source release gate remains BLOCKER; this is a candidate, not clearance.",
+    "Reports are post-packaging evidence; documentation inside ZIPs is a packaging-time snapshot.",
+    "Source map was produced before packaging commit; EXE hashes identify its actual input."
+  ]
+}

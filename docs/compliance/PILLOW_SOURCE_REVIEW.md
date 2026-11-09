@@ -81,8 +81,26 @@ rewritten. Purl/version/diff identify OpenJPEG.
   and rejection of corrupt JPEG input.
 * This payload probe uses matching installed Pillow Python helpers and development
   Qt/NumPy. Its scope is explicit; it is not a clean-PC or complete frozen-app test.
-* Post-packaging application/installer results and hashes are recorded separately
-  in `PILLOW_REVIEW_RESULTS.json` when available.
+* Portable and installed native EXEs start, calculate the local sky/catalog and
+  close with exit code 0. No telescope is connected during these checks.
+* Installation, reinstallation and uninstallation pass. All 1,670 installed payload
+  files match; existing user profiles remain unchanged; QA registration and shortcuts
+  are removed. This is a test on the development PC, not a clean external PC.
+* The new SBOM covers all 1,670 payload files without hash/version discrepancies.
+  Three extra documentation files offset the three removed native files in this total.
+* Previous release artifact hashes are unchanged. 123 retained DLL/PYD files
+  match the prior candidate byte-for-byte. Source/payload/archive scans found no
+  new secret-pattern blocker; remaining compliance review states are preserved.
+* Post-packaging application/installer results and artifact hashes are recorded in
+  `PILLOW_REVIEW_RESULTS.json`. This external evidence postdates the immutable
+  documentation snapshot inside the packaged ZIPs.
+
+Local output directory: `release/pillow-review-2.3.0b3/`.
+Portable ZIP: 84,404,436 bytes; installer: 60,969,510 bytes.
+The corresponding-source candidate includes the application source and 105 original
+archives. Its filename does not certify completeness: the native corresponding-source
+release gate remains BLOCKER pending the outstanding source/build evidence.
+Packaging revision: `2048f54d4dd64f58aa11e57c2cffa57a389684a6` (clean tree).
 
 Reproduce with the commands below (PowerShell, repository root):
 

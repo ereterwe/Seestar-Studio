@@ -7,6 +7,12 @@ are categorized, 105 source archives hash-checked, OpenJPEG supplier patch appli
 to its source and is preserved in generated SBOMs. Full static/build correspondence
 is still OPEN. See docs/compliance/PILLOW_SOURCE_REVIEW.md and its source map.
 New artifacts use separate pillow-review directories; older artifacts remain intact.
+Final native portable/installed smoke and install/reinstall/uninstall checks pass.
+All 1,670 payload hashes match; existing profiles and previous release artifacts are
+unchanged. Local ZIP, installer, SBOM and source candidate are ready for review in
+release/pillow-review-2.3.0b3. Evidence: docs/compliance/PILLOW_REVIEW_RESULTS.json.
+Native corresponding-source completeness remains a publication BLOCKER, despite
+complete source-family assignment. No new hardware test or public upload.
 
 Previous candidate record:
 
