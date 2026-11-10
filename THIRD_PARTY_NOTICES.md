@@ -1,20 +1,21 @@
-> Telescope Desk 2.3.0b3: current runtime changes are recorded in docs/compliance/MINIMIZATION_REPORT.md. The following Seestar Studio baseline notices are retained, including components now excluded; inclusion here does not imply current runtime presence. No legal clearance.
+> Telescope Desk 2.3.0b3: current runtime changes are recorded in docs/compliance/MINIMIZATION_REPORT.md and docs/compliance/PILLOW_SOURCE_REVIEW.md. Notices from the preceding baseline are retained, including components now excluded; inclusion here does not imply current runtime presence. No legal clearance.
 
 # Licenses and redistribution
 
-Seestar Studio is licensed under **GPL-3.0-only**, without warranty.
+Telescope Desk is licensed under **GPL-3.0-only**, without warranty.
 The full license is in LICENSE. The corresponding application source and build
-scripts are in SeestarStudio-source.zip in the Windows folder distribution.
+scripts are in TelescopeDesk-source.zip in the Windows folder distribution.
 
-Audit status, 8 November 2026: the source repository is public. Version 2.3.0b3 is newly built locally from the audited b2 baseline;
-the source update to GitHub is authorized. New public binary uploads remain
-outside the scope of that source update. See docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md and
+Historical audit status, 8 November 2026: the source repository was public and
+the preceding b3 source update was authorized. That authorization does not extend
+to publishing the renamed local candidate or new binary packages.
+See docs/RELEASE_COMPLIANCE_REPORT_2.3.0b3.md and
 docs/NATIVE_COMPONENT_REVIEW.md for unresolved native source/build obligations.
 Project publication approval is separate from recipients' rights under the GPL.
 
 SeestarPy 0.8.0, copyright its contributors including Kieran Leschinski, is
 GPLv3. Its installed Python sources are included unchanged in the source archive.
-The adapter in seestar_studio/backend.py extends ScopeMonitor; it does not change
+The adapter in telescope_desk/backend.py extends ScopeMonitor; it does not change
 the installed library. Upstream: https://github.com/astronomyk/seestarpy
 
 This software uses Qt / PySide6 / Shiboken 6.12.0, copyright The Qt Company and
@@ -63,7 +64,7 @@ separate consideration. Source/notice presence is not an exact native build proo
 
 OpenNGC © Mattia Verga and contributors, CC BY-SA 4.0. Bundled catalog files,
 original acknowledgements, license and immutable source provenance are in
-`seestar_studio/catalog_data` (inside `_internal` in the Windows package).
+`telescope_desk/catalog_data` (inside `_internal` in the Windows package).
 Astropy and astropy-iers-data: BSD-3-Clause. PyERFA: BSD-3-Clause, with ERFA/SOFA
 notices. PyYAML: MIT. Their distribution license files are in `licenses/`.
 
@@ -85,13 +86,16 @@ Windows.Foundation.Collections): MIT, original notices included. typing_extensio
 PSF-2.0. Windows Location is an optional operating-system service, used only after
 explicit consent; Microsoft services may be involved by Windows itself.
 
-Seestar Studio's observatory icon is an original project graphic under GPL-3.0-only;
-see assets/ICON-LICENSE.txt and docs/ICON.md. No ZWO/OpenAI/third-party logo included.
+Telescope Desk's observatory icon is an original project graphic under GPL-3.0-only;
+see telescope_desk/assets/ICON-LICENSE.txt in the source archive (or
+_internal/telescope_desk/assets/ICON-LICENSE.txt in the Windows package) and
+docs/ICON.md. No ZWO/OpenAI/third-party logo included.
 
 Additional unchanged upstream notices are retained under licenses/upstream.
 UPSTREAM_INDEX.json identifies source archives and original paths. Qt attribution
 manifests: docs/QT_ATTRIBUTIONS.json. Native imports/versions: dependency-inventory.json.
-Qt Virtual Keyboard uses its GPLv3 open-source option. See LICENSING.md for unresolved
+The excluded baseline Qt Virtual Keyboard used its GPLv3 open-source option.
+See LICENSING.md for unresolved
 binary-source correspondence and redistribution questions. No legal clearance implied.
 
 ## Additional provenance review — 8 November 2026
