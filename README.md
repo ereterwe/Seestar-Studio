@@ -38,11 +38,12 @@ color-management and Tk helper branches are excluded; the working Qt/FFmpeg
 Live View backend is retained. Third-party notices now use the correct product
 name and source paths.
 
-174 automated tests passed in the latest completed review. Local portable and
+174 automated tests passed again for the 11 November replacement build. Local portable and
 installed starts, installation/reinstallation/uninstallation, JPEG/PNG/RAW image
 paths and payload hashes were checked. These are development-PC tests, not a
 new telescope or external clean-PC certification. Details:
-[Pillow and source review](docs/compliance/PILLOW_SOURCE_REVIEW.md).
+[Pillow and source review](docs/compliance/PILLOW_SOURCE_REVIEW.md) and
+[replacement-build verification](docs/compliance/GITHUB_UPDATE_2026-11-11.json).
 
 ## Run and build
 

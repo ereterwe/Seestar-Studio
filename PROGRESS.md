@@ -1,11 +1,15 @@
 # Telescope Desk: current work state
 
-2026-11-11: user requested replacement of the old GitHub version and updated
-English information text. Existing remote release is a b2 draft (no public releases).
-Prepare current b3 artifacts including corrected notices, push source normally,
-replace the obsolete draft only after the new assets are hash-verified. Preserve
-Git history and local originals. Public binary promotion remains pending the
-documented source/legal checks. Prior no-push restriction is superseded for this update.
+2026-11-11 completed: updated source pushed to GitHub main, English README/About
+and release notes updated. Obsolete b2 draft removed after all six replacement
+b3 assets were uploaded and their server-side SHA256 digests verified. Original
+five b2 assets remain locally with matching hashes. Git history/source tags retained.
+New draft release ID: 441158144. Public binary promotion remains pending the
+documented source/legal checks. Prior no-push restriction was superseded for this update.
+Fresh verification: 174 tests, Pillow payload checks, portable/installed native
+starts, install/reinstall/uninstall, all 1,672 payload hashes, unchanged profiles.
+Corrected notices verified in both packaged locations. No new hardware test.
+Evidence: docs/compliance/GITHUB_UPDATE_2026-11-11.json.
 
 2026-11-09 follow-up: Pillow ImageTk/ImageCms/WebP branches excluded and rebuilt.
 124 native files (three fewer; 705,536 additional bytes removed). 174 tests pass;

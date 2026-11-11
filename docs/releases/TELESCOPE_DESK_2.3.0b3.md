@@ -36,8 +36,10 @@ display reputation prompts. See INSTALLATION.md and BUILDING.md in the package.
 
 ## Validation and limitations
 
-The completed Pillow review passed 174 automated tests, targeted JPEG/PNG/RAW
-checks and local portable/installed application and installer lifecycle checks.
+The replacement build was revalidated on 11 November 2026: 174 automated tests,
+targeted JPEG/PNG/RAW checks, portable/installed starts, and installation,
+reinstallation and removal passed. All 1,672 payload file hashes match; existing
+user profiles remain unchanged. GitHub SHA-256 digests match all six uploaded assets.
 S50/S50 Pro have historical hardware evidence; this replacement build has not
 received a new real-telescope or clean external-PC regression test. No hardware
 support claim is made for untested models.

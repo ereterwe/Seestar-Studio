@@ -1,9 +1,10 @@
 # Telescope Desk: current work state
 
-2026-11-11: source/draft replacement is authorized by the latest user request.
-Use docs/releases/TELESCOPE_DESK_2.3.0b3.md as the English GitHub release text.
-Keep the replacement release in draft status; resolve the outstanding native
-source and legal gates before a separate public binary promotion.
+2026-11-11: source/draft replacement completed. GitHub main and English information
+text updated; obsolete b2 draft deleted; all six b3 assets uploaded/hash-verified.
+See docs/compliance/GITHUB_UPDATE_2026-11-11.json. Next: resolve the outstanding
+native source and legal gates before public binary promotion, and perform new
+hardware/external-PC regression tests. The replacement remains a draft.
 
 2026-11-09: Pillow branch pruning and native source-candidate assignment completed;
 see docs/compliance/PILLOW_SOURCE_REVIEW.md. Next unresolved technical work:
