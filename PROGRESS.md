@@ -1,5 +1,12 @@
 # Telescope Desk: current work state
 
+2026-11-11: user requested replacement of the old GitHub version and updated
+English information text. Existing remote release is a b2 draft (no public releases).
+Prepare current b3 artifacts including corrected notices, push source normally,
+replace the obsolete draft only after the new assets are hash-verified. Preserve
+Git history and local originals. Public binary promotion remains pending the
+documented source/legal checks. Prior no-push restriction is superseded for this update.
+
 2026-11-09 follow-up: Pillow ImageTk/ImageCms/WebP branches excluded and rebuilt.
 124 native files (three fewer; 705,536 additional bytes removed). 174 tests pass;
 actual packaged Pillow core passes JPEG/PNG/RAW/encoding checks. All native files

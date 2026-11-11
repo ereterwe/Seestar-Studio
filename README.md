@@ -7,9 +7,42 @@ Native Qt dashboard with multiple telescope views, live stacks and live video,
 telemetry, file downloads, Sky Explorer, observation planning and session analysis.
 German/English interface. Local-first; read-only by default. GPL-3.0-only.
 
-Version 2.3.0b3, renamed local candidate. Telescope Desk is a provisional name;
-trademark review is pending. Repository URL remains https://github.com/ereterwe/Seestar-Studio.
-No public binary release is authorized by this refactor.
+Version **2.3.0b3 — draft beta**, formerly Seestar Studio. The source repository
+uses the Telescope Desk name; its existing URL remains
+https://github.com/ereterwe/Seestar-Studio. Telescope Desk is a provisional name;
+trademark review is pending.
+
+The current Windows beta is maintained as a GitHub draft, replacing the obsolete
+2.3.0b2 draft. Draft assets are visible only to repository collaborators with access;
+there is no public binary download yet. Remaining source-completeness and legal
+review items are documented in [LICENSING.md](LICENSING.md).
+
+## Features
+
+- Independent live-stack viewers and telemetry for multiple telescopes.
+- Live video, image zoom/pan, image export and full-screen display.
+- Telescope file browser and downloads to local storage.
+- Offline Sky Explorer, observation planning and session statistics.
+- Explicitly enabled telescope controls with confirmation prompts.
+- Local authentication setup and a German/English native Windows interface.
+
+The application supplies no ZWO APK, firmware or authentication key and requires
+no application account or cloud login. Optional online features are identified
+separately. Existing third-party rights and license requirements still apply.
+
+## Changes in this beta
+
+The product, EXE, installer and Python package now use Telescope Desk. Existing
+profiles remain usable. Unused Qt Multimedia Widgets and Pillow AVIF, WebP,
+color-management and Tk helper branches are excluded; the working Qt/FFmpeg
+Live View backend is retained. Third-party notices now use the correct product
+name and source paths.
+
+174 automated tests passed in the latest completed review. Local portable and
+installed starts, installation/reinstallation/uninstallation, JPEG/PNG/RAW image
+paths and payload hashes were checked. These are development-PC tests, not a
+new telescope or external clean-PC certification. Details:
+[Pillow and source review](docs/compliance/PILLOW_SOURCE_REVIEW.md).
 
 ## Run and build
 

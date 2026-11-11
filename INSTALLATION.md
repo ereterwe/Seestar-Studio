@@ -1,6 +1,8 @@
 # Telescope Desk installation
 
-This is a local beta candidate; public release authorization is still pending.
+This is a draft beta candidate. GitHub source and draft-package replacement were
+requested on 11 November 2026; public binary availability remains pending the
+documented release checks. Draft assets require repository collaborator access.
 Windows x64. End users need no Python or Visual Studio installation.
 
 Portable: extract the complete TelescopeDesk-2.3.0b3-win64.zip and run

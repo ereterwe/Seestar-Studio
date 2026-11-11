@@ -1,4 +1,17 @@
-# Telescope Desk 2.3.0b3 — local refactor
+# Telescope Desk 2.3.0b3 — GitHub draft beta update
+
+11 November 2026: replace the obsolete b2 GitHub release draft with the current
+Telescope Desk beta and update the English README/repository description.
+The user authorized the source update and release replacement. Preserve source
+history and local historical artifacts. Keep binary release visibility as draft
+while native corresponding-source and legal review gates remain unresolved.
+
+Includes the additional Pillow Tk/CMS/WebP exclusions, source-family mapping of
+124 native files, 105 hash-checked source archives and corrected third-party
+notices. 174 automated tests passed in the completed Pillow review. No new
+hardware-test claim. See docs/releases/TELESCOPE_DESK_2.3.0b3.md.
+
+## Earlier local refactor record
 
 Product/package/EXE renamed; legacy profiles reused without copying keys.
 Unused Qt Multimedia Widgets and Pillow AVIF excluded. FFmpeg retained unchanged.
